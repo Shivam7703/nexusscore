@@ -54,23 +54,23 @@ export default function Sustainsec3() {
         <Sustain
           img={sus1}
           title="MORE YIELDS, LESS IMPACT"
-          text="Wembley International has established its mission to boost crop yield production by reducing environmental damage. The company delivers new farming solutions that enable sustainable crop growth to produce healthier yields for the next generation of planet stewardship. Through the use of modern technology, the company enables farmers to tackle problems that stem from climate fluctuations and limited resource availability. Wembley International applies these methods to enhance crop expansion while maintaining sustainable agricultural practices into the future. Wembley International believes farmers must unite their operations with environmental protection to form a sustainable farming system of the future."
+          text="nexus International has established its mission to boost crop yield production by reducing environmental damage. The company delivers new farming solutions that enable sustainable crop growth to produce healthier yields for the next generation of planet stewardship. Through the use of modern technology, the company enables farmers to tackle problems that stem from climate fluctuations and limited resource availability. nexus International applies these methods to enhance crop expansion while maintaining sustainable agricultural practices into the future. nexus International believes farmers must unite their operations with environmental protection to form a sustainable farming system of the future."
           cls="md:!flex-row-reverse md:mb-9 mb-5"
         />
 
         <Sustain
           img={sus2}
           title="COMMITMENT TO SUSTAINABLE PRACTICES"
-          text="Wembley International dedicates itself to environmental conservation efforts combined with operations and sustainability development. With a focus on diversity, inclusion, and responsible practices, the company champions environmental and social responsibility. The organization works with its international partners to embrace the best sustainability practices. Wembley International offers training initiatives that assist staff members in developing innovative solutions and implementing eco-conscious practices. Wembley International recognizes that community success depends directly on ecosystem success."
+          text="nexus International dedicates itself to environmental conservation efforts combined with operations and sustainability development. With a focus on diversity, inclusion, and responsible practices, the company champions environmental and social responsibility. The organization works with its international partners to embrace the best sustainability practices. nexus International offers training initiatives that assist staff members in developing innovative solutions and implementing eco-conscious practices. nexus International recognizes that community success depends directly on ecosystem success."
           cls=""
         />
 
-         <Sustain
+        <Sustain
           img={sus3}
           title="Smart Farming for a Greener Tomorrow
 "
-          text="Wembley International is focused on implementing state-of-the-art farming technology that would maximize crop output without the negative consequences on nature. Precision farming techniques can help farmers save resources, which can help control water wastage and degradation in the soil; hence, high production can be achieved, and the use of pesticides can be minimized. Wembley concentrates on the data-driven solutions that would increase productivity without affecting the natural ecosystem.
-With AI-driven monitoring systems, drought-resistant crop development, and eco-friendly fertilizers, Wembley promotes sustainable ways of farming for long-term food security. We aim to support farmers in producing maximum yield with the least, which ensures a greener future for the coming generations.
+          text="nexus International is focused on implementing state-of-the-art farming technology that would maximize crop output without the negative consequences on nature. Precision farming techniques can help farmers save resources, which can help control water wastage and degradation in the soil; hence, high production can be achieved, and the use of pesticides can be minimized. nexus concentrates on the data-driven solutions that would increase productivity without affecting the natural ecosystem.
+With AI-driven monitoring systems, drought-resistant crop development, and eco-friendly fertilizers, nexus promotes sustainable ways of farming for long-term food security. We aim to support farmers in producing maximum yield with the least, which ensures a greener future for the coming generations.
 "
           cls="md:!flex-row-reverse md:mb-9 mb-5"
         />
@@ -78,8 +78,8 @@ With AI-driven monitoring systems, drought-resistant crop development, and eco-f
         <Sustain
           img={sus4}
           title="Sustainable Agriculture for Future Generations"
-          text="Wembley International believes that there is no way farming and sustainability can be separated. Our mission is to get into the business of developing farming solutions that would enhance soil health, biodiversity, and climate resilience. Through cutting carbon emissions and introducing environmentally friendly methods of crop protection, we help the farmers grow healthy crops without destroying the planet.
-Our dedication to renewable energy-driven farming, biodegradable crop protection efforts, and measures of restoring soil guarantees that agriculture will continue to be economically viable and environmentally sustainable. Wembley equips farmers with affordable, science-based solutions that ensure the sustainability of the best farmlands for future generations while maximizing high-quality, nutritious produce."
+          text="nexus International believes that there is no way farming and sustainability can be separated. Our mission is to get into the business of developing farming solutions that would enhance soil health, biodiversity, and climate resilience. Through cutting carbon emissions and introducing environmentally friendly methods of crop protection, we help the farmers grow healthy crops without destroying the planet.
+Our dedication to renewable energy-driven farming, biodegradable crop protection efforts, and measures of restoring soil guarantees that agriculture will continue to be economically viable and environmentally sustainable. nexus equips farmers with affordable, science-based solutions that ensure the sustainability of the best farmlands for future generations while maximizing high-quality, nutritious produce."
           cls=""
         />
       </div>

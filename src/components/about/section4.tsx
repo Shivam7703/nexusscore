@@ -3,13 +3,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
 import { IoShieldCheckmarkSharp } from "react-icons/io5";
-import { com} from "@/assets";
+import { com } from "@/assets";
 
 export default function Section4() {
-
   return (
     <section className=" text-zinc-900 flex flex-wrap justify-between items-stretch overflow-hidden">
-   
       <div className="lg:w-[48%] group w-full min-h-52  relative  ">
         <Image
           src={com}
@@ -29,18 +27,17 @@ export default function Section4() {
           variants={fadeIn("right", "tween", 0.3, 1)}
           className="space-y-7 "
         >
-        
-          <h2 className="sm:text-4xl font-bold text-2xl">
-Life at Wembley
-          </h2>
+          <h2 className="sm:text-4xl font-bold text-2xl">Life at nexus</h2>
 
           <p className="text-zinc-200 ">
-         At Wembley, we combine science with passion. Our culture is built around teamwork, trust, and transformation—where your ideas can take root and grow.
- Whether you’re in R&D, sales, marketing, or field operations, you’ll be part of a community that values integrity, innovation, and impact.
-</p>          
+            At nexus, we combine science with passion. Our culture is built
+            around teamwork, trust, and transformation—where your ideas can take
+            root and grow. Whether you’re in R&D, sales, marketing, or field
+            operations, you’ll be part of a community that values integrity,
+            innovation, and impact.
+          </p>
         </motion.div>
       </motion.div>
-
     </section>
   );
 }

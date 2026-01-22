@@ -2,7 +2,6 @@ import {
   about,
   about2,
   aboutb,
-  
   banner,
   banner2,
   banner3,
@@ -23,12 +22,9 @@ import {
   cl8,
   cl9,
   contactb,
- 
   logo2,
- 
   prob,
   process1,
- 
   ukflag,
   usflag,
   visa1,
@@ -38,11 +34,7 @@ import { FaGlobeAmericas } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { GiCompass } from "react-icons/gi";
 import { HiOutlineFlag, HiOutlineLightBulb } from "react-icons/hi";
-import {
-  MdAttachEmail,
-  MdLocationCity,
-  MdWifiCalling3,
-} from "react-icons/md";
+import { MdAttachEmail, MdLocationCity, MdWifiCalling3 } from "react-icons/md";
 
 // homepage
 export const navigationMenu = {
@@ -172,7 +164,7 @@ export const navigationMenu = {
               label: "Australia Subclass 491",
               href: "/visa/subclass-491",
             },
-               {
+            {
               id: 7,
               label: "Australia Subclass 600",
               href: "/visa/subclass-600",
@@ -187,11 +179,12 @@ export const navigationMenu = {
               label: "Australia Spouse Visa",
               href: "/visa/australia-spouse-visa",
             },
-             {
+            {
               id: 8,
               label: "Skill Occupation List",
               href: "/visa/skill-occupation-list",
-            }, {
+            },
+            {
               id: 9,
               label: "Point System",
               href: "/visa/point-system",
@@ -204,14 +197,42 @@ export const navigationMenu = {
           label: "Europe",
           href: "#",
           subNav: [
-            { id: 1, label: "Germany Job Seeker Visa", href: "/visa/germany-job-seeker-visa" },
+            {
+              id: 1,
+              label: "Germany Job Seeker Visa",
+              href: "/visa/germany-job-seeker-visa",
+            },
             { id: 2, label: "UK Work Permit", href: "/visa/uk-work-permit" },
-            { id: 3, label: "Ireland Work Permit", href: "/visa/ireland-work-permit" },
-            { id: 4, label: "Serbia Work Permit", href: "/visa/serbia-work-visa" },
-            { id: 5, label: "Poland Work Permit", href: "/visa/poland-work-visa" },
-            { id: 6, label: "Sweden Work Permit Visa", href: "/visa/sweden-work-visa" },
-            { id: 7, label: "Norway Work Permit", href: "/visa/norway-work-visa" },
-            { id: 8, label: "Malta Work Permit", href: "/visa/malta-work-permit" },
+            {
+              id: 3,
+              label: "Ireland Work Permit",
+              href: "/visa/ireland-work-permit",
+            },
+            {
+              id: 4,
+              label: "Serbia Work Permit",
+              href: "/visa/serbia-work-visa",
+            },
+            {
+              id: 5,
+              label: "Poland Work Permit",
+              href: "/visa/poland-work-visa",
+            },
+            {
+              id: 6,
+              label: "Sweden Work Permit Visa",
+              href: "/visa/sweden-work-visa",
+            },
+            {
+              id: 7,
+              label: "Norway Work Permit",
+              href: "/visa/norway-work-visa",
+            },
+            {
+              id: 8,
+              label: "Malta Work Permit",
+              href: "/visa/malta-work-permit",
+            },
           ],
         },
 
@@ -220,10 +241,14 @@ export const navigationMenu = {
           label: "GCC",
           href: "#",
           subNav: [
-              { id: 1, label: "Qatar", href: "/visa/qatar-work-visa" },
-              { id: 2, label: "Saudi Arabia", href: "/visa/saudi-arabia-work-visa" },
-              { id: 3, label: "Oman", href: "/visa/oman-work-visa" },
-              { id: 4, label: "UAE", href: "/visa/uae-work-visa" },
+            { id: 1, label: "Qatar", href: "/visa/qatar-work-visa" },
+            {
+              id: 2,
+              label: "Saudi Arabia",
+              href: "/visa/saudi-arabia-work-visa",
+            },
+            { id: 3, label: "Oman", href: "/visa/oman-work-visa" },
+            { id: 4, label: "UAE", href: "/visa/uae-work-visa" },
           ],
         },
       ],
@@ -240,10 +265,22 @@ export const navigationMenu = {
         { id: 4, label: "Nova Scotia PNP", href: "/visa/nova-scotia-pnp" },
         { id: 5, label: "Alberta PNP", href: "/visa/alberta-pnp" },
         { id: 6, label: "Saskatchewan PNP", href: "/visa/saskatchewan-pnp" },
-        { id: 7, label: "Quebec Skilled Worker Program", href: "/visa/quebec-skilled-worker-program" },
+        {
+          id: 7,
+          label: "Quebec Skilled Worker Program",
+          href: "/visa/quebec-skilled-worker-program",
+        },
         { id: 8, label: "Manitoba PNP", href: "/visa/manitoba-pnp" },
-        { id: 9, label: "New Brunswick PNP Program", href: "/visa/new-brunswick-pnp" },
-        { id: 10, label: "Atlantic Immigration Program", href: "/visa/atlantic-immigration-program" },
+        {
+          id: 9,
+          label: "New Brunswick PNP Program",
+          href: "/visa/new-brunswick-pnp",
+        },
+        {
+          id: 10,
+          label: "Atlantic Immigration Program",
+          href: "/visa/atlantic-immigration-program",
+        },
         { id: 11, label: "PEI PNP Program", href: "/visa/pei-pnp" },
         { id: 12, label: "BC PNP Program", href: "/visa/bc-pnp" },
       ],
@@ -255,12 +292,32 @@ export const navigationMenu = {
       href: "#",
       subNav: [
         { id: 1, label: "CRS Points Calculator", href: "/calculator/crs" },
-        { id: 2, label: "Quebec Points Calculator", href: "/calculator/quebec" },
-        { id: 3, label: "Nova Scotia Points Calculator", href: "/calculator/nova-scotia" },
-        { id: 4, label: "Manitoba Points Calculator", href: "/calculator/manitoba" },
+        {
+          id: 2,
+          label: "Quebec Points Calculator",
+          href: "/calculator/quebec",
+        },
+        {
+          id: 3,
+          label: "Nova Scotia Points Calculator",
+          href: "/calculator/nova-scotia",
+        },
+        {
+          id: 4,
+          label: "Manitoba Points Calculator",
+          href: "/calculator/manitoba",
+        },
         { id: 5, label: "SINP Points Calculator", href: "/calculator/sinp" },
-        { id: 6, label: "Alberta Points Calculator", href: "/calculator/alberta" },
-        { id: 7, label: "Ontario Points Calculator", href: "/calculator/ontario" },
+        {
+          id: 6,
+          label: "Alberta Points Calculator",
+          href: "/calculator/alberta",
+        },
+        {
+          id: 7,
+          label: "Ontario Points Calculator",
+          href: "/calculator/ontario",
+        },
         { id: 8, label: "BC Points Calculator", href: "/calculator/bc" },
       ],
     },
@@ -280,24 +337,39 @@ export const navigationMenu = {
       label: "Work Visa",
       href: "#",
       subNav: [
-        { id: 1, label: "Germany Job Seeker Visa", href: "/visa/germany-job-seeker-visa" },
+        {
+          id: 1,
+          label: "Germany Job Seeker Visa",
+          href: "/visa/germany-job-seeker-visa",
+        },
         { id: 2, label: "UK Work Permit", href: "/visa/uk-work-permit" },
-        { id: 3, label: "Ireland Work Permit", href: "/visa/ireland-work-permit" },
+        {
+          id: 3,
+          label: "Ireland Work Permit",
+          href: "/visa/ireland-work-permit",
+        },
         { id: 4, label: "Serbia Work Permit", href: "/visa/serbia-work-visa" },
         { id: 5, label: "Poland Work Permit", href: "/visa/poland-work-visa" },
-        { id: 6, label: "Sweden Work Permit Visa", href: "/visa/sweden-work-visa" },
+        {
+          id: 6,
+          label: "Sweden Work Permit Visa",
+          href: "/visa/sweden-work-visa",
+        },
         { id: 7, label: "Norway Work Permit", href: "/visa/norway-work-visa" },
         { id: 8, label: "Malta Work Permit", href: "/visa/malta-work-permit" },
-        { id: 9, label: "Germany oportunity card", href: "/visa/malta-work-permit" },
+        {
+          id: 9,
+          label: "Germany oportunity card",
+          href: "/visa/malta-work-permit",
+        },
         { id: 10, label: "Hong Kong", href: "/visa/malta-work-permit" },
         { id: 11, label: "Russia", href: "/visa/malta-work-permit" },
         { id: 12, label: "Singapore ", href: "/visa/malta-work-permit" },
         { id: 13, label: "Macau", href: "/visa/malta-work-permit" },
         { id: 14, label: "Taiwan", href: "/visa/malta-work-permit" },
-                { id: 14, label: "Austria ", href: "/visa/malta-work-permit" },
+        { id: 14, label: "Austria ", href: "/visa/malta-work-permit" },
         { id: 14, label: "Sweden", href: "/visa/malta-work-permit" },
         { id: 14, label: "Portugal", href: "/visa/malta-work-permit" },
-
       ],
     },
 
@@ -306,11 +378,31 @@ export const navigationMenu = {
       label: "Visitor Visa",
       href: "#",
       subNav: [
-        { id: 1, label: "Canada Tourist Visa", href: "/visa/canada-tourist-visa" },
-        { id: 2, label: "Australia Tourist Visa", href: "/visa/australia-tourist-visa" },
-        { id: 3, label: "Germany Tourist Visa", href: "/visa/germany-tourist-visa" },
-        { id: 4, label: "Dubai Tourist Visa", href: "/visa/dubai-tourist-visa" },
-        { id: 5, label: "Singapore Tourist Visa", href: "/visa/singapore-tourist-visa" },
+        {
+          id: 1,
+          label: "Canada Tourist Visa",
+          href: "/visa/canada-tourist-visa",
+        },
+        {
+          id: 2,
+          label: "Australia Tourist Visa",
+          href: "/visa/australia-tourist-visa",
+        },
+        {
+          id: 3,
+          label: "Germany Tourist Visa",
+          href: "/visa/germany-tourist-visa",
+        },
+        {
+          id: 4,
+          label: "Dubai Tourist Visa",
+          href: "/visa/dubai-tourist-visa",
+        },
+        {
+          id: 5,
+          label: "Singapore Tourist Visa",
+          href: "/visa/singapore-tourist-visa",
+        },
         { id: 6, label: "UK Tourist Visa", href: "/visa/uk-tourist-visa" },
       ],
     },
@@ -337,7 +429,7 @@ export const sliderContent = [
   {
     id: 1,
     img: banner,
-    welcome: "Welcome To Wembley International",
+    welcome: "Welcome To nexus International",
     title1: "Better care for crops, stronger yields with our ",
     title2: "trusted solutions",
     para:
@@ -373,34 +465,67 @@ export const aboutdata = {
   img1: about2,
   title1: "About our company",
   title2: "Thrusted visa & immig ration solutions",
-    title3: " in Delhi",
+  title3: " in Delhi",
   para:
     "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of.",
   pointer: [
-    { id: 1, heading: "Best consultancy agency", text: "Almost do am or limits hearts. Resolve parties but why she shewing.", icon:<GiCompass />
- },
-  { id: 2, heading: "Best consultancy agency", text: "Almost do am or limits hearts. Resolve parties but why she shewing.", icon:<GiCompass />
- },
-   
+    {
+      id: 1,
+      heading: "Best consultancy agency",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+      icon: <GiCompass />,
+    },
+    {
+      id: 2,
+      heading: "Best consultancy agency",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+      icon: <GiCompass />,
+    },
   ],
 };
 
 export const visaSliderdata = {
   title1: "Varieties of visa",
   title2: "Immigration Systems Are Dream Of Citizenship.",
- 
-  cards: [
-    { id: 1, img:visa1, heading: "Tourist Visa", text: "Almost do am or limits hearts. Resolve parties but why she shewing."
- },
-   { id: 2, img:visa1, heading: "Tourist Visa", text: "Almost do am or limits hearts. Resolve parties but why she shewing."
- },
-    { id: 3, img:visa1, heading: "Tourist Visa", text: "Almost do am or limits hearts. Resolve parties but why she shewing."
- },
-  { id: 4, img:visa1, heading: "Tourist Visa", text: "Almost do am or limits hearts. Resolve parties but why she shewing."
- },
-  { id: 5, img:visa1, heading: "Tourist Visa", text: "Almost do am or limits hearts. Resolve parties but why she shewing."
- },
 
+  cards: [
+    {
+      id: 1,
+      img: visa1,
+      heading: "Tourist Visa",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+    },
+    {
+      id: 2,
+      img: visa1,
+      heading: "Tourist Visa",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+    },
+    {
+      id: 3,
+      img: visa1,
+      heading: "Tourist Visa",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+    },
+    {
+      id: 4,
+      img: visa1,
+      heading: "Tourist Visa",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+    },
+    {
+      id: 5,
+      img: visa1,
+      heading: "Tourist Visa",
+      text:
+        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+    },
   ],
 };
 
@@ -438,12 +563,7 @@ export const countrytomigrate = {
       img: usflag,
       heading: "Canada",
       link: "country/canada",
-      points: [
-        "PR Pathways",
-        "Express Entry",
-        "Student Visa",
-        "24/7 Support",
-      ],
+      points: ["PR Pathways", "Express Entry", "Student Visa", "24/7 Support"],
     },
     {
       id: 4,
@@ -481,31 +601,36 @@ export const workingprocess = {
       id: 1,
       img: process1,
       heading: "Fill Application Form",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution."
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
     },
-     {
+    {
       id: 2,
       img: process1,
       heading: "Fill Application Form",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution."
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
     },
-     {
+    {
       id: 3,
       img: process1,
       heading: "Fill Application Form",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution."
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
     },
-     {
+    {
       id: 4,
       img: process1,
       heading: "Fill Application Form",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution."
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
     },
-     {
+    {
       id: 5,
       img: process1,
       heading: "Fill Application Form",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution."
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
     },
   ],
 };
@@ -520,52 +645,61 @@ export const canadapnp = {
       img: box1,
       flag: usflag,
       heading: "Canada PNP Programs",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-link:"/canada-pnp"
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+      link: "/canada-pnp",
     },
-      {
+    {
       id: 2,
       img: box2,
       flag: usflag,
       heading: "Canada PNP Programs",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-link:"/canada-pnp"
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+      link: "/canada-pnp",
     },
-     {
+    {
       id: 3,
       img: box3,
       flag: usflag,
       heading: "Canada PNP Programs",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-link:"/canada-pnp"
-    },  {
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+      link: "/canada-pnp",
+    },
+    {
       id: 4,
       img: box1,
       flag: ukflag,
       heading: "Canada PNP Programs",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-link:"/canada-pnp"
-    },  {
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+      link: "/canada-pnp",
+    },
+    {
       id: 5,
       img: box2,
       flag: usflag,
       heading: "Canada PNP Programs",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-link:"/canada-pnp"
-    },  {
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+      link: "/canada-pnp",
+    },
+    {
       id: 6,
       img: box3,
       flag: usflag,
       heading: "Canada PNP Programs",
-text:"Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-link:"/canada-pnp"
+      text:
+        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+      link: "/canada-pnp",
     },
   ],
 };
 
 export const Whychoose = {
   img: box1,
- 
+
   title1: "Why Choose Us",
   title2: "Best immigration consultants",
   title3: " in Delhi",
@@ -605,29 +739,33 @@ export const testimonialData = {
       text:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       img: cl1,
-    }, 
-   
+    },
   ],
 };
 
 export const HomefaqData = {
   title1: "FAQs",
   title2: "Frequently Asked ",
-    title3: " Questions",
+  title3: " Questions",
 
   para1:
     "Immigration visa tailored design, management & support services building in some we form, by injected humour solution.",
-    Counts:[{
-      value:"70",
-      title:"Immigration",
-    },{
-      value:"85",
-      title:"Immigration",
-    },{
-      value:"90",
-      title:"Immigration",
-    },],
-    para2:"We strongly support best practice sharing across our A visa is temporary permission to enter a country for a specific purpose operations around the world visa.",
+  Counts: [
+    {
+      value: "70",
+      title: "Immigration",
+    },
+    {
+      value: "85",
+      title: "Immigration",
+    },
+    {
+      value: "90",
+      title: "Immigration",
+    },
+  ],
+  para2:
+    "We strongly support best practice sharing across our A visa is temporary permission to enter a country for a specific purpose operations around the world visa.",
   faqs: [
     {
       que: "Can I Edit Every Section Easily?",
@@ -638,17 +776,17 @@ export const HomefaqData = {
       que: "Can I Edit Every Section Easily?",
       ans:
         "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    }, 
+    },
     {
       que: "Can I Edit Every Section Easily?",
       ans:
         "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    }, 
+    },
     {
       que: "Can I Edit Every Section Easily?",
       ans:
         "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    }, 
+    },
     {
       que: "Can I Edit Every Section Easily?",
       ans:
@@ -660,7 +798,7 @@ export const HomefaqData = {
 export const footer = {
   logo: logo2,
   text:
-    "Wembley delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Tanzanian farmers and boost yields.",
+    "nexus delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Tanzanian farmers and boost yields.",
 
   socials: {
     facebook: "https://www.facebook.com/",
@@ -698,48 +836,54 @@ export const footer = {
 };
 
 export let blogData = {
-  title1:"Latest Blogs",
-  title2:"Get Updated With Our Recent Articles",
-  blog:[{
-    img: box3,
-    date: "20th June 2024",
-    tag:"immigration", 
-    heading: "Top 10 Tips for a Successful Visa Application",
-    para:
-      "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
-  },
-{
-    img: box3,
-    date: "20th June 2024",
-    tag:"immigration", 
-    heading: "Top 10 Tips for a Successful Visa Application",
-    para:
-      "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
-  },{
-    img: box3,
-    date: "20th June 2024",
-    tag:"immigration", 
-    heading: "Top 10 Tips for a Successful Visa Application",
-    para:
-      "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
-  },{
-    img: box3,
-    date: "20th June 2024",
-    tag:"immigration", 
-    heading: "Top 10 Tips for a Successful Visa Application",
-    para:
-      "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
-  },{
-    img: box3,
-    date: "20th June 2024",
-    tag:"immigration", 
-    heading: "Top 10 Tips for a Successful Visa Application",
-    para:
-      "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
-  },]};
+  title1: "Latest Blogs",
+  title2: "Get Updated With Our Recent Articles",
+  blog: [
+    {
+      img: box3,
+      date: "20th June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Application",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: box3,
+      date: "20th June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Application",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: box3,
+      date: "20th June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Application",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: box3,
+      date: "20th June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Application",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+    {
+      img: box3,
+      date: "20th June 2024",
+      tag: "immigration",
+      heading: "Top 10 Tips for a Successful Visa Application",
+      para:
+        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+    },
+  ],
+};
 
-  // about us
- export const mission = {
+// about us
+export const mission = {
   img: box1,
   title1: "Mission & Vision",
   title2: "Get Updated With Our",
@@ -762,38 +906,40 @@ export let blogData = {
 
 export const whychooseus = {
   title1: "Why Choose Us",
-  img:bene2,
-  points:[
+  img: bene2,
+  points: [
     {
-      icon:<FaGlobeAmericas />
-      ,heading:"Global Expertise",
-      para:"With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs."
+      icon: <FaGlobeAmericas />,
+      heading: "Global Expertise",
+      para:
+        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
     },
-     {
-      icon:<FaGlobeAmericas />
-      ,heading:"Global Expertise",
-      para:"With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs."
+    {
+      icon: <FaGlobeAmericas />,
+      heading: "Global Expertise",
+      para:
+        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
     },
-  {
-      icon:<FaGlobeAmericas />
-      ,heading:"Global Expertise",
-      para:"With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs."
+    {
+      icon: <FaGlobeAmericas />,
+      heading: "Global Expertise",
+      para:
+        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
     },
-  {
-      icon:<FaGlobeAmericas />
-      ,heading:"Global Expertise",
-      para:"With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs."
-    }, 
-  ]
-}
-
-
+    {
+      icon: <FaGlobeAmericas />,
+      heading: "Global Expertise",
+      para:
+        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
+    },
+  ],
+};
 
 // contat Us
 export const contactBanner = {
   title: "Contact Us",
   para:
-    "Connect With Wembley For Reliable Crop Protection & Farming Support. We're Here to Help Your Agriculture Thrive With Expert Solutions.",
+    "Connect With nexus For Reliable Crop Protection & Farming Support. We're Here to Help Your Agriculture Thrive With Expert Solutions.",
   slug: "contact-us",
   img: contactb,
 };

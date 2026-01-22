@@ -32,11 +32,15 @@ function Form({ contactdata }: any) {
                       <h3 className="text-xl font-bold text-brown2 group-hover:text-white duration-300 mb-1">
                         {data?.title}
                       </h3>
-                     
-                        {data?.text.map((wrd :any)=>(
-                          <p className="text-white font-medium  hover:!text-zinc-900" key={wrd?.id}>{wrd.text}</p>
-                        ))}
-                      
+
+                      {data?.text.map((wrd: any) => (
+                        <p
+                          className="text-white font-medium  hover:!text-zinc-900"
+                          key={wrd?.id}
+                        >
+                          {wrd.text}
+                        </p>
+                      ))}
                     </div>
                   </div>
                 ))}
@@ -53,7 +57,8 @@ function Form({ contactdata }: any) {
             Contact Us Today!
           </h2>
           <p className="text-zinc-600 mb-6 text-sm md:text-base">
-          Connect With Wembley For Reliable Crop Protection & Farming Support. We're Here to Help Your Agriculture Thrive With Expert Solutions.
+            Connect With nexus For Reliable Crop Protection & Farming Support.
+            We're Here to Help Your Agriculture Thrive With Expert Solutions.
           </p>
           <form className="flex flex-wrap gap-y-6 py-3 justify-between">
             <input
