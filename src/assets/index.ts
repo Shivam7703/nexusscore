@@ -6,7 +6,7 @@ import box3 from "@/assets/home/box3.jpg";
 import visa1 from "@/assets/home/visa1.jpg";
 import process1 from "@/assets/home/process1.png";
 import footerImage from "@/assets/home/toronto.png";
-import plane from "@/assets/home/plane.gif";
+import plane from "@/assets/home/plane.png";
 
 // flag
 import usflag from "@/assets/flag/us.png";
