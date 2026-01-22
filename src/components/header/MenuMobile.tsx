@@ -5,7 +5,6 @@ import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
 import { navigationMenu } from "@/data/homeData";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 
 interface NavItem {
   id: number | string;

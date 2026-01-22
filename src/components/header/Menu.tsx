@@ -6,8 +6,6 @@ import { IoIosArrowDown } from "react-icons/io";
 import { navigationMenu } from "@/data/homeData";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { usePathname } from "next/navigation";
-import { logoall } from "@/assets";
-import Image from "next/image";
 const Menu = ({ Isprimary, Items }: any) => {
    const [activeItem, setActiveItem] = useState<string | null>(null);
   
