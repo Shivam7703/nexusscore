@@ -40,9 +40,9 @@ export default function Testimonials() {
     },
     modules: [Autoplay, Pagination, Navigation],
   };
-
+// bg-back
   return (
-    <section className=" lg:px-28 md:px-20 sm:p-12 p-6 bg-back text-center relative flex flex-col items-center">
+    <section className=" lg:px-28 md:px-20 sm:p-12 p-6  text-center relative flex flex-col items-center">
       <div className="w-full text-center flex flex-col items-center gap-y-3 mb-8 ">
          {data?.title1 && (
               <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 border-blue-700 w-max border-b px-3 py-2">

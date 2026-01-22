@@ -19,9 +19,9 @@ function Country() {
 
       <div className="flex flex-col gap-6 max-w-7xl mx-auto">
         {data?.cards?.map((cou) => (
+          <div key={cou.id} className="relative group overflow-hidden md:rounded-full shadow-xl border ">
           <div
-            key={cou.id}
-            className="group relative bg-white flex flex-wrap md:items-center md:justify-around lg:gap-2 gap-5 px-9 py-6 overflow-hidden md:rounded-full shadow-xl border"
+            className=" sticky bg-white group-hover:bg-transparent flex flex-wrap md:items-center md:justify-around lg:gap-2 gap-5 px-9 py-6 z-10"
           >
             {/* Flag */}
             <Image
@@ -72,7 +72,9 @@ function Country() {
             </Link>
 
             {/* Hover overlay */}
-            <div className="absolute  group-hover:w-full w-0 h-full top-0 left-0 transition-all bg-gradient-to-t from-blue-800 to-violet-800 duration-500 -z-10"></div>
+          </div>
+                      <div className="absolute  group-hover:w-full w-0 h-full top-0 left-0 transition-all bg-gradient-to-t from-blue-800 to-violet-800 duration-500 -z-[-1]"></div>
+
           </div>
         ))}
       </div>

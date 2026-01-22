@@ -7,6 +7,9 @@ import visa1 from "@/assets/home/visa1.jpg";
 import process1 from "@/assets/home/process1.png";
 import footerImage from "@/assets/home/toronto.png";
 import plane from "@/assets/home/plane.png";
+import patta from "@/assets/home/patta.png";
+import kangaroo from "@/assets/home/kangaroo.png";
+
 
 // flag
 import usflag from "@/assets/flag/us.png";
@@ -65,5 +68,5 @@ import social from "@/assets/about/social.webp";
 
 export {
     logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,usflag, ukflag, bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
- , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, leaf
+ , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, leaf, patta, kangaroo
  }

@@ -16,10 +16,10 @@ function CountDown({ data }: any) {
         src={banner2}
         alt="banner"
         fill
-        className="object-cover -z-20"
+        className="object-cover -z-0"
         priority
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/80 -z-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/80 z-1" />
 
       {/* Play Button */}
       <div
