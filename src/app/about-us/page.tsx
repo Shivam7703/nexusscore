@@ -1,11 +1,7 @@
 import { bann } from "@/assets";
 import Aboutchoose from "@/components/about/aboutchoose";
 import Ourmission from "@/components/about/mission";
-import Commited from "@/components/about/mission";
-import Section1 from "@/components/about/section1";
-import Section2 from "@/components/about/section2";
-import Section3 from "@/components/about/section3";
-import Section4 from "@/components/about/section4";
+
 import Banner from "@/components/global/banner";
 import AboutSection from "@/components/home/AboutSection";
 import CountDown from "@/components/home/Contdown";
@@ -27,6 +23,8 @@ export default function About() {
       <CountDown data={countDown} />
       <Ourmission /> 
       <Aboutchoose/>
+      <Testimonials/>
+      
     </>
   );
 }

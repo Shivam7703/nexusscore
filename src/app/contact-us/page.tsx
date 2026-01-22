@@ -11,7 +11,7 @@ function Contact() {
       para={contactBanner.para}
       slug={contactBanner.slug}/>
 
-<Form contactdata ={contactsec1}/>
+{/* <Form contactdata ={contactsec1}/> */}
     </>  
   )
 }
