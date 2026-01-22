@@ -207,7 +207,7 @@ const Footplane = () => {
        <Image
           src={plane}
           alt="logo"
-          className="md:w-64 w-32 object-contain mx-4 absolute top-0 left-[40vw]"  // Added horizontal margin for spacing
+          className="md:w-56 w-32 object-contain mx-4 rotate-12 absolute top-4 left-[40vw]"  // Added horizontal margin for spacing
         />
     </div>
   );

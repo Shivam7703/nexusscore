@@ -30,8 +30,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${manrope.variable}  relative`}>
-        <Image src={patta} alt="immigration " className="fixed -left-7 animate-y  top-[70vh] sm:w-[30vw] w-44 z-[-1]"/>
-        <Image src={kangaroo} alt="Nexus oversease" className="fixed -right-7 top-4 sm:w-[30vw] w-44 z-[-2]"/>
+        <Image src={patta} alt="immigration " className="fixed -left-7 animate-y opacity-60 -bottom-10 sm:w-[24vw] w-44 z-[-1]"/>
+        {/* <Image src={kangaroo} alt="Nexus oversease" className="fixed -right-7 top-4 sm:w-[30vw] w-44 z-[-2]"/> */}
         <Header />
         {children}
         <Footer footer={footer} />

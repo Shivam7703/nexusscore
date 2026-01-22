@@ -9,12 +9,13 @@ import Link from "next/link";
 
 export default function WhychooseSection() {
   return (
+    <section className="w-full bg-white/80">
     <motion.div
       variants={staggerContainer(0.1, 0)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="xl:px-32 lg:px-28 md:px-20 sm:p-12 px-7 py-16 max-w-[1530px] mx-auto flex flex-wrap items-stretch justify-between gap-y-10 bg-white overflow-hidden relative"
+      className="xl:px-32 lg:px-28 md:p-20 sm:p-12 px-7 py-16 max-w-[1530px] mx-auto flex flex-wrap items-stretch justify-between gap-y-10 overflow-hidden relative"
     >
 
       {/* Left Content Section */}
@@ -168,5 +169,6 @@ export default function WhychooseSection() {
         <div className="absolute -bottom-4 -left-4 w-24 h-24 border-4 border-blue-300 rounded-br-3xl opacity-50" />
       </motion.div>
     </motion.div>
+    </section>
   );
 }

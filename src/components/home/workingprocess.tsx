@@ -65,7 +65,7 @@ export default function WorkProcessSlider() {
       >
         {data?.cards.map((card: any) => (
         <SwiperSlide key={card.id} className="mb-14 relative w-full group ">
-  <div className="w-full overflow-hidden text-center border bg-zinc-200/20 p-5">
+  <div className="w-full overflow-hidden text-center border border-zinc-200 bg-zinc-200/40 backdrop-blur-md p-5">
     
     {/* STEP LABEL */}
     <div className="relative mb-6 flex  justify-center">

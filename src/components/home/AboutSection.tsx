@@ -9,12 +9,14 @@ import Link from "next/link";
 
 export default function AboutSection() {
   return (
+<section className="xl:px-32 lg:px-24 md:p-20 sm:p-12 p-7 max-w-[1730px] mx-auto" >
+
     <motion.div
       variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="xl:px-32 lg:px-28 md:px-20 sm:p-12 px-7 py-11 max-w-[1530px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7  overflow-hidden"
+      className=" lg:px-16 bg-white/60 backdrop-blur-sm shadow-xl rounded-xl sm:p-12 p-6 mx-auto flex flex-wrap items-stretch justify-between gap-y-7  overflow-hidden"
     >
 
       <motion.div
@@ -119,6 +121,8 @@ export default function AboutSection() {
       </motion.div>
 
     </motion.div>
+
+    </section>
   );
 }
 
