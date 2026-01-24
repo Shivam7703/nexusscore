@@ -71,7 +71,7 @@ const Header = ({ header }: any) => {
               {/* Phone Number */}
               <div className="group flex items-center gap-2 max-w-xl transition-all duration-300 hover:scale-105">
                 <div className="relative">
-                  <FaSquarePhone className="text-lg text-yellow-400 group-hover:text-yellow-300 transition-colors duration-300" />
+                  <FaSquarePhone className="text-lg slide-x text-yellow-400 group-hover:text-yellow-300 transition-colors duration-300" />
                   <div className="absolute inset-0 bg-yellow-400 blur-sm opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
                 </div>
                 <a
@@ -86,7 +86,7 @@ const Header = ({ header }: any) => {
               {/* Email */}
               <div className="group flex items-center gap-2 transition-all duration-300 hover:scale-105">
                 <div className="relative">
-                  <MdEmail className="text-lg text-yellow-400 group-hover:text-yellow-300 transition-colors duration-300" />
+                  <MdEmail className="text-lg slide-x text-yellow-400 group-hover:text-yellow-300 transition-colors duration-300" />
                   <div className="absolute inset-0 bg-yellow-400 blur-sm opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
                 </div>
                 <a

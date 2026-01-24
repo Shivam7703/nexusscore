@@ -40,6 +40,19 @@ body {
   background-repeat: no-repeat;
 }
 
+@keyframes slideX {
+  0%, 100% {
+    transform: translateX(-6px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+.slide-x {
+  animation: slideX 1s ease-in-out infinite alternate;
+}
+
 /* animation */
 .hover14 {
   position: relative;

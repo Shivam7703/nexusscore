@@ -1,17 +1,23 @@
 import Banner from '@/components/global/banner'
 import React from 'react'
-import { contactBanner,contactsec1 } from '@/data/homeData'
+import { contactdetail } from '@/data/homeData'
 import Form from '@/components/contact/form'
+import { bann } from '@/assets'
+import ConDetail from '@/components/contact/condetail'
 
 function Contact() {
   return (
     <>
-      <Banner img ={contactBanner?.img}
-      title={contactBanner.title}
-      para={contactBanner.para}
-      slug={contactBanner.slug}/>
-
-{/* <Form contactdata ={contactsec1}/> */}
+      <Banner
+             img={bann}
+             title={"Contact Us"}
+             para={
+               "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+             }
+             slug={"contact-us"}
+           />
+           <Form />
+<ConDetail data={contactdetail}/>
     </>  
   )
 }

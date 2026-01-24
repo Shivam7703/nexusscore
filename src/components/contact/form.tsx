@@ -1,116 +1,141 @@
+"use client";
 import React from "react";
-import { AiFillRightCircle } from "react-icons/ai";
+import { useState } from "react";
 import Image from "next/image";
 import { contat } from "@/assets";
+import { FaLocationArrow, FaRegUserCircle } from "react-icons/fa";
+import { FiMail, FiPhone } from "react-icons/fi";
+import { IoChatboxEllipsesOutline } from "react-icons/io5";
+import { MdOutlineChat } from "react-icons/md";
+import { motion } from "motion/react";
+import { BiRightArrowAlt } from "react-icons/bi";
 
-function Form({ contactdata }: any) {
+function Form() {
+
+
+   const inputFields = [
+    { name: 'name', label: 'Name', type: 'text', icon: FaRegUserCircle, placeholder: 'John Doe' },
+    { name: 'phone', label: 'Phone', type: 'tel', icon: FiPhone, placeholder: '+1 (555) 000-0000' },
+    { name: 'email', label: 'Email', type: 'email', icon: FiMail, placeholder: 'john@example.com' },
+    { name: 'location', label: 'Location', type: 'text', icon: FaLocationArrow, placeholder: 'City, Country' },
+
+    { name: 'subject', label: 'Subject', type: 'text', icon: IoChatboxEllipsesOutline, placeholder: 'How can we help?' }
+  ];
+
   return (
-    <div>
-      <div className="flex lg:p-28 sm:p-12 p-7 relative flex-wrap justify-between min-h-screen mx-auto">
-        {contactdata && (
-          <div className="md:w-[45%] w-full">
-            <Image
-              src={contat}
-              alt="contact"
-              className="w-full md:h-96 h-72 mb-4 md:mb-7 object-cover rounded-xl"
-            />
-            <div className="bg-yellow3 md:p-9 p-4 rounded-xl">
-              <h4 className="mb-3 font-bold text-xl md:text-2xl">
-                {contactdata?.title}
-              </h4>
-              <p>{contactdata?.para}</p>
-              <div className="mt-6 space-y-3">
-                {contactdata?.detail?.map((data: any) => (
-                  <div
-                    key={data.id}
-                    className="flex group duration-300 group-hover:border-green1 gap-5 py-2 md:py-4 border-b border-[#ffcf3eb5]"
-                  >
-                    <div className="text-3xl md:text-4xl mt-2 text-brown2 group-hover:text-green1 duration-300">
-                      {data?.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-brown2 group-hover:text-white duration-300 mb-1">
-                        {data?.title}
-                      </h3>
+      <div className="flex lg:px-24 md:px-20 sm:p-12 py-7 px-3 relative w-full">
+       <div className="max-w-[1200px] mx-auto w-full flex flex-wrap items-stretch shadow-xl"><div className="md:w-[48%] w-full bg-gradient-to-r to-blue-500 from-blue-700 p-6 md:p-10 !pb-0"><h4 className="px-3 w-max py-2 border border-white uppercase text-md font-medium mb-4">Contact Us</h4>
+       <h5 className="md:text-6xl text-3xl font-bold leading-tight mb-6">Reliable visa & immigration experts</h5>
+       <Image src={contat} alt="Contact" className="w-[82%]"/>
+       </div>
+       
+       <div className="md:w-[52%] w-full bg-gradient-to-r to-zinc-100/40 from-zinc-50/40 py-6 px-3 md:p-10"> 
+    <form className="bg-white backdrop-blur-lg rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/20">
+  <div className="sm:space-y-6 space-y-5">
 
-                      {data?.text.map((wrd: any) => (
-                        <p
-                          className="text-white font-medium  hover:!text-zinc-900"
-                          key={wrd?.id}
-                        >
-                          {wrd.text}
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                ))}
+    {/* First 4 inputs in 2-column grid */}
+  <div className="grid md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 grid-cols-2 gap-x-8 gap-y-5">
+      {inputFields.slice(0, 4).map((field) => {
+        const Icon = field.icon;
+        return (
+          <div key={field.name} className="relative">
+            <label className="block text-zinc-700 font-medium mb-2 text-sm sm:text-base">
+              {field.label}
+            </label>
+            <div className="relative">
+              <div className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-zinc-400 z-10">
+                <Icon size={18} className="sm:w-5 sm:h-5" />
               </div>
+              <input
+                type={field.type}
+                name={field.name}
+                placeholder={field.placeholder}
+                className="w-full pl-10 sm:pl-12 pr-4 py-3 sm:py-3.5 bg-zinc-50 rounded-xl sm:rounded-2xl text-zinc-800 placeholder-zinc-400 transition-all duration-300 focus:outline-none focus:bg-white border border-zinc-200 text-sm sm:text-base shadow-inner"
+                required
+              />
             </div>
           </div>
-        )}
+        );
+      })}
+    </div>
 
-        <div className="md:w-1/2 md:sticky left-0 top-20 px-7 h-full py-10 w-full rounded-xl">
-          <h4 className="text-green1 mb-3 font-bold text-sm rounded-lg w-max">
-            Let's Cooperate Together
-          </h4>
-          <h2 className="text-zinc-900 mb-6 text-3xl md:text-5xl font-bold">
-            Contact Us Today!
-          </h2>
-          <p className="text-zinc-600 mb-6 text-sm md:text-base">
-            Connect With nexus For Reliable Crop Protection & Farming Support.
-            We're Here to Help Your Agriculture Thrive With Expert Solutions.
-          </p>
-          <form className="flex flex-wrap gap-y-6 py-3 justify-between">
+    {/* Remaining inputs full width */}
+    {inputFields.slice(4).map((field) => {
+      const Icon = field.icon;
+      return (
+        <div key={field.name} className="relative">
+          <label className="block text-zinc-700 font-medium mb-2 text-sm sm:text-base">
+            {field.label}
+          </label>
+          <div className="relative">
+            <div className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-zinc-400 z-10">
+              <Icon size={18} className="sm:w-5 sm:h-5" />
+            </div>
             <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full py-3 placeholder:text-zinc-500 px-4 bg-[#00000008] backdrop-blur-sm sm:w-[48%] rounded-3xl"
+              type={field.type}
+              name={field.name}
+              placeholder={field.placeholder}
+              className="w-full pl-10 sm:pl-12 pr-4 py-3 sm:py-3.5 bg-zinc-50 rounded-xl sm:rounded-2xl text-zinc-800 placeholder-zinc-400 transition-all duration-300 focus:outline-none focus:bg-white border border-zinc-200 text-sm sm:text-base shadow-inner"
               required
             />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full py-3 placeholder:text-zinc-500 px-4 bg-[#00000008] backdrop-blur-sm sm:w-[48%] rounded-3xl"
-              required
-            />
-            <input
-              type="phone"
-              placeholder="Your Contact No."
-              className="w-full placeholder:text-zinc-500 py-3 px-4 bg-[#00000008] backdrop-blur-sm sm:w-[48%] rounded-3xl"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Subject"
-              className="w-full py-3 placeholder:text-zinc-500 px-4 bg-[#00000008] backdrop-blur-sm sm:w-[48%] rounded-3xl"
-              required
-            />
-            <textarea
-              placeholder="Your Message"
-              className="w-full py-3 placeholder:text-zinc-500 px-4 bg-[#00000008] backdrop-blur-sm rounded-3xl h-28 md:h-32"
-              required
-            ></textarea>
-            <button
-              type="submit"
-              className="flex shadow gap-2 p-2 mt-4 text-white font-bold rounded-[29px] group relative bg-green1 overflow-hidden items-center flex-row h-full"
-            >
-              <p className="ml-6 mr-4 z-20">Submit Now</p>
-              <AiFillRightCircle className="text-yellow3 text-4xl bg-white group-hover:text-black duration-200 rounded-full z-20" />
-              <div className="group-hover:w-full duration-300 h-full bg-yellow3 absolute z-10 w-0 top-0 right-0"></div>
-            </button>
-          </form>
+          </div>
         </div>
-      </div>
+      );
+    })}
 
-      <div className="w-full md:h-[550px] h-80">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63381.1314401823!2d39.15392064863281!3d-6.852106299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c49f3b724a469%3A0x2aad3ba80fb6153d!2sElegant%20House!5e0!3m2!1sen!2sin!4v1745916166334!5m2!1sen!2sin"
-          width="100%"
-          height="100%"
-          loading="lazy"
-          allowFullScreen
-        ></iframe>
+    {/* Message */}
+    <div className="relative">
+      <label className="block text-zinc-700 font-medium mb-2 text-sm sm:text-base">
+        Message
+      </label>
+      <div className="relative">
+        <div className="absolute left-3 sm:left-4 top-4 text-zinc-400 z-10">
+          <MdOutlineChat size={18} className="sm:w-5 sm:h-5" />
+        </div>
+        <textarea
+          name="message"
+          rows={4}
+          placeholder="Tell us more about your inquiry..."
+          className="w-full pl-10 sm:pl-12 pr-4 py-3 sm:py-4 bg-zinc-50 rounded-xl sm:rounded-2xl text-zinc-800 placeholder-zinc-400 transition-all duration-300 focus:outline-none focus:bg-white border border-zinc-200 resize-none text-sm sm:text-base shadow-inner"
+          required
+        />
       </div>
+    </div>
+
+    {/* Button */}
+    <button
+      type="submit"
+      className="group relative w-full sm:w-auto inline-flex items-center justify-center gap-2 sm:gap-3 overflow-hidden rounded-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 px-6 sm:px-8 py-3.5 sm:py-4 text-sm sm:text-base font-bold text-white shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50"
+    >
+      {/* Animated gradient background */}
+      <motion.span
+        animate={{
+          backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
+        }}
+        transition={{
+          duration: 3,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+        className="absolute inset-0 bg-gradient-to-r from-blue-600 via-pink-600 to-blue-600 bg-[length:200%_100%]"
+      />
+
+      {/* Glow effect */}
+      <span className="absolute inset-0 rounded-full bg-white/30 opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100" />
+
+      <span className="relative z-10 flex items-center gap-2 sm:gap-3">
+        Submit Now
+        <BiRightArrowAlt
+          size={20}
+          className="sm:w-6 sm:h-6 transition-transform duration-500 group-hover:translate-x-2"
+        />
+      </span>
+    </button>
+
+  </div>
+</form>
+
+        </div></div>
     </div>
   );
 }

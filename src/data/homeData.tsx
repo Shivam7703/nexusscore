@@ -944,58 +944,23 @@ export const contactBanner = {
   img: contactb,
 };
 
-export const contactsec1 = {
-  title: "Contact Details",
-  para:
-    "Please contact us, We are sure that you can receive our reply as soon as possible.",
-  detail: [
+
+ export const contactdetail = [
     {
-      id: 1,
       icon: <MdWifiCalling3 />,
       title: "Call Us",
-      text: [
-        { id: 1, text: "Head Office: - 0676200772" },
-        { id: 2, text: "Masasi - 0659965129" },
-        { id: 3, text: "Mbeya - 0677048455" },
-        { id: 4, text: "Njombe - 0677025245" },
-        { id: 5, text: "Kigoma - 0679513203" },
-        { id: 6, text: "Head Sales - 0679513203, 0677066361" },
-        { id: 7, text: "Moshi - 0677141102, 0677047881" },
-      ],
-      slug: "tel: 0676200772",
+      text: "+919311936564",
+      slug: "tel:+919311936564",
     },
     {
-      id: 2,
       icon: <MdAttachEmail />,
       title: "Email Us",
-      text: [{ id: 1, text: "info@nexuscoreoverseas.com" }],
+      text: "info@nexuscoreoverseas.com",
       slug: "mailto:info@nexuscoreoverseas.com",
     },
     {
-      id: 3,
       icon: <FaMapLocationDot />,
-      title: "Address1",
-      text: [
-        {
-          id: 1,
-          text:
-            "302-A, Elegant House, 28A Kipawa Industrial Area, Nyerere Road, Dar Es Salaam, Tanzania, P.O. Box 75641",
-        },
-      ],
+      title: "Location",
+      text: "lorem ipsum dolor sit amet, consectetur adipiscing elit",
       slug: "#",
-    },
-    {
-      id: 3,
-      icon: <MdLocationCity />,
-      title: "Address2",
-      text: [
-        {
-          id: 1,
-          text:
-            "22, Plot No. 2360/75 E Vingunguti, Pugu Road, Dar Es Salaam, Tanzania, P.O. Box 75641",
-        },
-      ],
-      slug: "#",
-    },
-  ],
-};
+    },]
