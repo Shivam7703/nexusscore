@@ -45,7 +45,7 @@ export const navigationMenu = {
     {
       id: 3,
       label: "Our Services",
-      href: "#",
+      href: "/services",
       subNav: [
         { id: 1, label: "IELTS", href: "/services/ielts" },
         { id: 2, label: "PTE Exam", href: "/services/pte-exam" },
@@ -841,7 +841,7 @@ export let blogData = {
   blog: [
     {
       img: box3,
-      date: "20th June 2024",
+      date: "20 June 2024",
       tag: "immigration",
       heading: "Top 10 Tips for a Successful Visa Application",
       para:
@@ -849,7 +849,7 @@ export let blogData = {
     },
     {
       img: box3,
-      date: "20th June 2024",
+      date: "20 June 2024",
       tag: "immigration",
       heading: "Top 10 Tips for a Successful Visa Application",
       para:
@@ -857,7 +857,7 @@ export let blogData = {
     },
     {
       img: box3,
-      date: "20th June 2024",
+      date: "20 June 2024",
       tag: "immigration",
       heading: "Top 10 Tips for a Successful Visa Application",
       para:
@@ -865,7 +865,7 @@ export let blogData = {
     },
     {
       img: box3,
-      date: "20th June 2024",
+      date: "20 June 2024",
       tag: "immigration",
       heading: "Top 10 Tips for a Successful Visa Application",
       para:
@@ -873,7 +873,7 @@ export let blogData = {
     },
     {
       img: box3,
-      date: "20th June 2024",
+      date: "20 June 2024",
       tag: "immigration",
       heading: "Top 10 Tips for a Successful Visa Application",
       para:
@@ -964,3 +964,40 @@ export const contactBanner = {
       text: "lorem ipsum dolor sit amet, consectetur adipiscing elit",
       slug: "#",
     },]
+
+
+    // services
+    export const serviceData = {
+      title1: "OUR PROJECTS",
+      title2: "Mixing Smart Ideas with Creative Designs",
+      para:
+        "Our approach stands on individual and distinct designs to develop functional spaces that meet both aesthetic and operational needs. Our careful planning determines everything to achieve functional and attractive spaces.",
+      services: [
+        {
+          title: "Visa services",
+          text: "All country visa we provide",
+          img: box1,
+        },
+         {
+          title: "Visa services",
+          text: "All country visa we provide",
+          img: box2,
+        }, {
+          title: "Visa services",
+          text: "All country visa we provide",
+          img: box3,
+        }, {
+          title: "Visa services",
+          text: "All country visa we provide",
+          img: box1,
+        }, {
+          title: "Visa services",
+          text: "All country visa we provide",
+          img: box2,
+        }, {
+          title: "Visa services",
+          text: "All country visa we provide",
+          img: box3,
+        },
+      ],
+    };

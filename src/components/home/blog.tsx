@@ -3,33 +3,27 @@ import { blogData as data } from "@/data/homeData";
 import Image from "next/image";
 import {
   FaArrowRight,
-  FaArrowRightLong,
-  FaCheck,
-  FaCircle,
-  FaCircleArrowRight,
-  FaCircleCheck,
   FaUser,
 } from "react-icons/fa6";
 import Link from "next/link";
 
-export default function Blogs() {
+export default function Blogs({ isHome }:any) {
   return (
-    <section className="lg:px-20 md:px-16 sm:p-12 p-6 text-center relative ">
-      {data?.title1 && (
+    <section className={`${isHome ? "lg:px-20 md:px-16 sm:p-12 p-6 " : "px-3 pb-5"} text-center relative w-full`}>
+      {data?.title1 && isHome && (
         <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 border-blue-700 w-max border-b px-3 py-2">
           {data.title1}
         </h4>
       )}
-
-      <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl max-w-2xl mx-auto mb-10">
+{isHome && <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl max-w-2xl mx-auto mb-10">
         {data.title2}
-      </h2>
+      </h2>}
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-  {data?.blog?.slice(0, 3).map((blogs: any, index: number) => (
+      <div className={`grid ${!isHome? "" : "lg:grid-cols-3"}sm:grid-cols-2  gap-8 max-w-7xl mx-auto}`}>
+  {(isHome ? data?.blog?.slice(0, 3) : data?.blog)?.map((blogs: any, index: number) => (
   <div
     key={index}
-    className="group bg-white rounded-xl overflow-hidden
+    className="group blg bg-white rounded-xl overflow-hidden
                shadow-md hover:shadow-xl
                transition-all duration-300"
   >
@@ -47,7 +41,7 @@ export default function Blogs() {
       {/* Date Badge */}
       {blogs?.date && (
         <div className="absolute bottom-4 right-4">
-          <div className="bg-red-500 text-white text-center px-4 py-3 rounded-lg shadow-lg">
+          <div className="bg-red-500  text-white text-center px-4 py-3 date shadow-lg">
             <p className="text-2xl font-bold leading-none">
               {blogs.date.split(" ")[0]}
             </p>
@@ -80,6 +74,10 @@ export default function Blogs() {
       </div>
 
       {/* Title */}
+       <Link
+          href={`/blog/${encodeURIComponent(
+            blogs.heading.toLowerCase().replace(/\s+/g, "-")
+          )}`}>
        <h2
         className="text-lg sm:text-xl font-bold leading-snug text-gray-900
                    group-hover:bg-gradient-to-r
@@ -91,7 +89,7 @@ export default function Blogs() {
       >
         {blogs.heading}
       </h2>
-
+</Link>
       {/* Description */}
       <p className="text-gray-600 text-sm sm:text-base leading-relaxed line-clamp-3">
         {blogs?.para.slice(0, 150)}...
@@ -112,8 +110,6 @@ export default function Blogs() {
     </div>
   </div>
 ))}
-
-
 
       </div>
     </section>

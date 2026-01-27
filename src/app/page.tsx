@@ -27,7 +27,7 @@ export default function Home() {
 <WhychooseSection/>
 <FaqSection/>
 <Testimonials/>
-<Blogs/>
+<Blogs isHome={true} />
 
 
   </div>
