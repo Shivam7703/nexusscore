@@ -68,7 +68,7 @@ Our Services                </h4>
           className="absolute sm:left-1/2 left-2 z-20  -translate-x-1/2 w-1 top-3"
         >
           <div className="w-full h-full bg-gradient-to-b from-red-400 to-red-800 relative" />
-          <FaPlaneUp className="text-blue-900 transition-all duration-300 absolute -bottom-3 -left-[6px] sm:-left-[12.5px] text-xl sm:text-3xl bg-white rotate-180" />
+          <FaPlaneUp className="text-blue-900 transition-all duration-300 absolute -bottom-3 -left-[6px] sm:-left-[12.5px] text-xl sm:text-3xl  rotate-180" />
         </div>
 
         {/* Arrow follows the line smoothly */}
