@@ -77,7 +77,7 @@ Our Services                </h4>
    {serviceData?.services?.map((pro, index: number) => (
   <div
     key={index}
-    className="group relative h-64 sm:h-80 w-full md:w-[45%] overflow-hidden rounded-lg bg-gray-900 shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:shadow-blue-800/20"
+    className="group relative h-64 sm:h-80 w-[85%] md:w-[45%] overflow-hidden rounded-lg bg-gray-900 shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:shadow-blue-800/20"
   >
     {/* Image with enhanced zoom effect */}
     <Image
