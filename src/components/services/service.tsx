@@ -74,49 +74,83 @@ Our Services                </h4>
         {/* Arrow follows the line smoothly */}
 
         {/* Project cards */}
-       {serviceData?.services?.map((pro, index: number) => (
+   {serviceData?.services?.map((pro, index: number) => (
   <div
     key={index}
-    className="lg:h-80 h-56 sm:w-[47%] w-[90%] relative group rounded-3xl overflow-hidden shadow-lg"
+    className="group relative h-64 sm:h-80 w-full md:w-[45%] overflow-hidden rounded-lg bg-gray-900 shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:shadow-blue-800/20"
   >
-    {/* Image */}
+    {/* Image with enhanced zoom effect */}
     <Image
       src={pro.img}
       alt={pro.title}
       fill
-      className="object-cover transition-transform duration-500 group-hover:scale-105"
+      className="object-cover transition-all duration-700 ease-out group-hover:scale-105 group-hover:brightness-[0.65]"
     />
 
-    {/* Dark overlay */}
-    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+    {/* Multi-layer gradient for depth */}
+    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20 opacity-70 transition-opacity duration-500 group-hover:opacity-90" />
+    <div className="absolute inset-0 bg-gradient-to-br from-blue-800/0 via-blue-800/5 to-blue-800/20 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-    {/* Bottom content */}
+    {/* Animated Red Gradient Shape from Bottom */}
+    {/* <div className="absolute -bottom-32 left-1/2 -translate-x-1/2 w-[120%] h-64 transition-all duration-700 ease-out group-hover:bottom-0">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-full rounded-[50%] bg-gradient-to-t from-black/40 via-black/25 to-transparent blur-2xl" />
+      
+      <svg 
+        className="absolute bottom-0 left-0 w-full h-32 opacity-60" 
+        viewBox="0 0 1200 120" 
+        preserveAspectRatio="none"
+      >
+        <defs>
+          <linearGradient id={`redGradient-${index}`} x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="#dc2626" stopOpacity="1" />
+            <stop offset="50%" stopColor="#ef4444" stopOpacity="1" />
+            <stop offset="100%" stopColor="#f87171" stopOpacity="0.7" />
+          </linearGradient>
+        </defs>
+        <path 
+          d="M0,60 C300,100 600,20 900,60 C1050,80 1200,40 1200,60 L1200,120 L0,120 Z" 
+          fill={`url(#redGradient-${index})`}
+        />
+      </svg>
+    </div> */}
+
+    {/* Content Container */}
     <Link
       href={`/projects/${pro.title
         .trim()
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "")}`}
-      className="absolute bottom-0 left-0 right-0 z-20 p-6 flex items-end justify-between gap-4 text-white"
+      className="absolute inset-0 z-20 flex flex-col justify-end p-6 sm:p-8"
     >
-      {/* Left text */}
-      <div className="max-w-[75%]">
-        <h2 className="text-2xl sm:text-4xl font-semibold leading-snug">
-          {pro.title}
-        </h2>
-        <p className="mt-1 text-sm text-gray-200 line-clamp-2">
-          {pro.text}
-        </p>
-      </div>
+      <div className="flex items-end justify-between gap-4">
+        {/* Text Section with staggered animation */}
+        <div className="flex-1 space-y-3 transform transition-all duration-500 group-hover:-translate-y-3">
+          {/* Small decorative line */}
+          <div className="h-0.5 w-12 bg-blue-800 transition-all duration-500 group-hover:w-20 group-hover:bg-yellow-500" />
+          
+          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl transition-all duration-300 ">
+            {pro.title}
+          </h2>
+          
+          <p className="mt-2 line-clamp-2 max-w-sm text-sm leading-relaxed text-gray-300/90 transition-all duration-300 group-hover:text-white">
+            {pro.text}
+          </p>
+        </div>
 
-      {/* Right arrow */}
-      <div className="flex-shrink-0 group/link">
-        <BsArrowUpRightCircleFill className="text-4xl sm:text-5xl bg-white text-brown2 rounded-full p-1 transition-transform duration-300 group-hover/link:rotate-45" />
+        {/* Enhanced Action Button */}
+        <div className="flex-shrink-0">
+          <div className="relative flex h-14 w-14 items-center justify-center rounded-full bg-white/95 backdrop-blur-sm text-black shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-45 group-hover:bg-gradient-to-br group-hover:from-red-500 group-hover:to-red-600 group-hover:text-white group-hover:shadow-red-500/50">
+            <BsArrowUpRightCircleFill className="text-3xl transition-transform duration-500" />
+            
+            {/* Pulse effect on hover */}
+            <div className="absolute inset-0 rounded-full bg-red-500/30 opacity-0 transition-opacity duration-500 group-hover:opacity-100 group-hover:animate-ping" />
+          </div>
+        </div>
       </div>
     </Link>
 
-    {/* Subtle border hover */}
-    <div className="absolute inset-0 rounded-3xl border border-white/10 group-hover:border-white/30 transition-colors duration-300 pointer-events-none" />
+    
   </div>
 ))}
 
