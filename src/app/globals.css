@@ -24,6 +24,7 @@ body {
   font-family: var(--font-manrope);
   color: rgb(var(--foreground-rgb));
   overflow-x: hidden;
+  scroll-behavior: smooth!important;
 }
 
 .bg-back {

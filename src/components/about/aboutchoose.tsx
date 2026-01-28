@@ -12,7 +12,7 @@ export default function Aboutchoose() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className="xl:px-32 lg:px-28 md:p-20 sm:p-12 p-7 overflow-hidden relative min-h-screen flex flex-wrap justify-between  gap-y-6 pb-24"
+      className="xl:px-32 lg:px-28 md:px-20 sm:p-12 p-7 overflow-hidden relative min-h-screen flex flex-wrap justify-between gap-y-6 pb-24 md:pb-32"
     >
       {/* Background Image with Overlay */}
       {data?.img && (
@@ -21,7 +21,7 @@ export default function Aboutchoose() {
             title="Best immigration consultants in Delhi"
             src={data?.img}
             alt="Best immigration consultants in Delhi"
-            className="absolute top-0 left-0 h-full w-full -z-10 object-center object-cover"
+            className="absolute top-0 left-0 h-full w-full -z-0 object-center object-cover"
             fill
           />
                   <div className="absolute inset-0 bg-gradient-to-b from-blue-900/50 via-indigo-900/65 to-white/5 -z-10" />
@@ -33,19 +33,31 @@ export default function Aboutchoose() {
         </>
       )}
 
+       <div className=" w-full text-center z-10 ">          
+          {/* Title */}
+          <h2 className=" lg:text-7xl sm:text-5xl text-4xl font-extrabold  text-white leading-tight py-4">
+            {data?.title1}
+          </h2>
+          
+          {/* Decorative underline */}
+          <div className="mt-4 mx-auto w-32 h-1.5 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-full" />
+          <div className="mt-2 mx-auto w-20 h-1 bg-gradient-to-r from-blue-300 to-purple-400 rounded-full opacity-60" />
+        </div>
+
+
       {/* Left Column */}
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="md:w-[35%] w-full sm:order-1 order-2 space-y-6"
+        className="md:w-[40%] w-full sm:order-1 order-2 space-y-6"
       >
         {data?.points?.slice(0, 2).map((item: any, index: number) => (
           <motion.div
             key={index}
             variants={fadeIn("right", "tween", 0.3 + index * 0.1, 1)}
-            className="group relative bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/20"
+            className="group relative bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/20"
           >
             {/* Gradient accent line */}
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             
             {/* Icon with glow */}
             <div className="flex gap-5 items-start">
@@ -73,42 +85,21 @@ export default function Aboutchoose() {
         ))}
       </motion.div>
 
-      {/* Center Title */}
-      <motion.div
-        variants={fadeIn("up", "tween", 0.4, 1)}
-        className="md:w-[25%] w-full sm:order-2 order-1 text-center relative"
-      >
-        <div className="relative inline-block">
-        
-          
-          {/* Title */}
-          <h2 className="relative lg:text-7xl sm:text-5xl text-4xl font-extrabold  text-white leading-tight py-4">
-            {data?.title1}
-          </h2>
-          
-          {/* Decorative underline */}
-          <div className="mt-4 mx-auto w-32 h-1.5 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-full" />
-          <div className="mt-2 mx-auto w-20 h-1 bg-gradient-to-r from-blue-300 to-purple-400 rounded-full opacity-60" />
-        </div>
-
-        {/* Floating decoration */}
-        <div className="absolute -top-10 -left-10 w-20 h-20 border-4 border-blue-400/30 rounded-full animate-pulse" />
-        <div className="absolute -bottom-10 -right-10 w-16 h-16 border-4 border-purple-400/30 rounded-full animate-pulse delay-700" />
-      </motion.div>
+     
 
       {/* Right Column */}
       <motion.div
         variants={fadeIn("left", "tween", 0.2, 1)}
-        className="md:w-[35%] w-full order-3 space-y-6"
+        className="md:w-[40%] w-full order-3 space-y-6"
       >
         {data?.points?.slice(2, 4).map((item: any, index: number) => (
           <motion.div
             key={index}
             variants={fadeIn("left", "tween", 0.3 + index * 0.1, 1)}
-            className="group relative bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/20"
+            className="group relative bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/20"
           >
             {/* Gradient accent line */}
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             
             {/* Icon with glow */}
             <div className="flex gap-5 items-start">
@@ -136,8 +127,6 @@ export default function Aboutchoose() {
         ))}
       </motion.div>
 
-      {/* Bottom decorative line */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-30" />
     </motion.div>
   );
 }

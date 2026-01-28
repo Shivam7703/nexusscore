@@ -6,8 +6,6 @@ import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import { FaPlaneUp } from "react-icons/fa6";
 import { serviceData } from "@/data/homeData";
 
-
-
 export default function ServiceSection() {
   const lineRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -44,7 +42,7 @@ export default function ServiceSection() {
   }, []);
 
   return (
-    <section className="p-6 sm:p-16 lg:px-24 md:px-20 max-w-[1450px] mx-auto">
+    <section className="p-6 sm:p-16 lg:px-24 md:px-20 max-w-[1450px] mx-auto !scroll-smooth">
       {/* Section header */}
       <div className="w-full text-center flex flex-col items-center gap-y-4 mb-11 md:mb-16">
             <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 text-center border-blue-700 w-max border-b px-3 py-2">
@@ -56,19 +54,19 @@ Our Services                </h4>
 
       {/* Project grid */}
       <div
-        className="relative gap-y-5 md:gap-y-12 py-7 md:pb-12 flex flex-wrap max-sm:justify-end justify-between overflow-y-hidden"
+        className="relative gap-y-5 md:gap-y-12 py-7 md:pb-12 flex flex-wrap max-md:justify-end justify-between overflow-y-hidden"
         ref={sectionRef}
       >
         {/* Background static line */}
-        <div className="absolute sm:left-1/2 left-2 z-10 -translate-x-1/2 bg-zinc-600 h-[94%] w-1 top-3" />
+        <div className="absolute md:left-1/2 left-2 z-10 -translate-x-1/2 bg-zinc-500 h-[94%] w-1 top-3" />
 
         {/* Scroll progress line */}
         <div
           ref={lineRef}
-          className="absolute sm:left-1/2 left-2 z-20  -translate-x-1/2 w-1 top-3"
+          className="absolute md:left-1/2 left-2 z-20  -translate-x-1/2 w-1 top-3"
         >
-          <div className="w-full h-full bg-gradient-to-b from-red-400 to-red-800 relative" />
-          <FaPlaneUp className="text-blue-900 transition-all duration-300 absolute -bottom-3 -left-[6px] sm:-left-[12.5px] text-xl sm:text-3xl  rotate-180" />
+          <div className="w-full h-full bg-gradient-to-b from-blue-500 to-blue-900 relative" />
+          <FaPlaneUp className="text-yellow-600 transition-all duration-300 absolute -bottom-3 -left-[8px] md:-left-[12.5px] text-xl sm:text-3xl  rotate-180" />
         </div>
 
         {/* Arrow follows the line smoothly */}
@@ -77,14 +75,14 @@ Our Services                </h4>
    {serviceData?.services?.map((pro, index: number) => (
   <div
     key={index}
-    className="group relative h-64 sm:h-80 w-[85%] md:w-[45%] overflow-hidden rounded-lg bg-gray-900 shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:shadow-blue-800/20"
+    className="group relative h-64 sm:h-80 w-[89%] md:w-[45%] overflow-hidden rounded-lg  shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:shadow-blue-800/20"
   >
     {/* Image with enhanced zoom effect */}
     <Image
       src={pro.img}
       alt={pro.title}
       fill
-      className="object-cover transition-all duration-700 ease-out group-hover:scale-105 group-hover:brightness-[0.65]"
+      className="object-cover transition-all duration-700 ease-out group-hover:scale-105 group-hover:brightness-[0.75]"
     />
 
     {/* Multi-layer gradient for depth */}

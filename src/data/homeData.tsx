@@ -1001,3 +1001,31 @@ export const contactBanner = {
         },
       ],
     };
+
+    export const servicechoose = {
+  img: box1,
+  title1: "Why choose Us",
+  title2: "Choose Your Best Choose",
+  title3: "Nexus Core",
+  para:"lorem ipsum To be the leading provider of innovative and sustainable crop protection solutions, empowering farmers worldwide to achieve optimal yields and contribute to global food security.",
+  vision: [
+    {
+      icon: HiOutlineLightBulb,
+      heading: "Immigration",
+      para:
+        "To be the leading provider of innovative and sustainable.",
+    },
+    {
+      icon: HiOutlineFlag,
+      heading: "Immigration",
+      para:
+        "To be the leading provider of innovative and sustainable.",
+    },
+     {
+      icon: HiOutlineFlag,
+      heading: "Immigration",
+      para:
+        "To be the leading provider of innovative and sustainable.",
+    },
+  ],
+};

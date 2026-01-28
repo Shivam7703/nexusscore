@@ -1,6 +1,9 @@
 import { bann } from '@/assets'
 import Banner from '@/components/global/banner'
+import CountDown from '@/components/home/Contdown'
 import ServiceSection from '@/components/services/service'
+import Serviceschoose from '@/components/services/whyChoose'
+import { countDown } from '@/data/homeData'
 import React from 'react'
 
 function Services() {
@@ -15,8 +18,9 @@ function Services() {
              slug={"services"}
            />
 
-                        <ServiceSection/>
-
+                  <ServiceSection/>  
+                  <CountDown data={countDown} />
+                      <Serviceschoose/>
     </>
   )
 }
