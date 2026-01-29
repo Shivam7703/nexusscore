@@ -55,7 +55,7 @@ const data = [
     { name: 'subject', label: 'Subject', type: 'text', icon: IoChatboxEllipsesOutline, placeholder: 'How can we help?' }
   ];
 
-async function BlogAside() {
+ function BlogAside() {
 //   const blogsData = await getBlogs();
 //   const latestBlogs = blogsData.slice(0, 3);
 

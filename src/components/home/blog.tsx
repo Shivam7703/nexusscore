@@ -19,7 +19,7 @@ export default function Blogs({ isHome }:any) {
         {data.title2}
       </h2>}
 
-      <div className={`grid ${!isHome? "" : "lg:grid-cols-3"}sm:grid-cols-2  gap-8 max-w-7xl mx-auto}`}>
+      <div className={`grid ${!isHome? "" : "lg:grid-cols-3"} sm:grid-cols-2  gap-8 max-w-7xl mx-auto}`}>
   {(isHome ? data?.blog?.slice(0, 3) : data?.blog)?.map((blogs: any, index: number) => (
   <div
     key={index}
@@ -75,7 +75,7 @@ export default function Blogs({ isHome }:any) {
 
       {/* Title */}
        <Link
-          href={`/blog/${encodeURIComponent(
+          href={`/blogs/${encodeURIComponent(
             blogs.heading.toLowerCase().replace(/\s+/g, "-")
           )}`}>
        <h2
@@ -97,7 +97,7 @@ export default function Blogs({ isHome }:any) {
 
       {/* Read More */}
        <Link
-          href={`/blog/${encodeURIComponent(
+          href={`/blogs/${encodeURIComponent(
             blogs.heading.toLowerCase().replace(/\s+/g, "-")
           )}`}
           className="flex items-center gap-2 text-sm font-semibold
