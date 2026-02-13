@@ -463,68 +463,95 @@ export const sliderContent = [
 
 export const aboutdata = {
   img1: about2,
-  title1: "About our company",
-  title2: "Thrusted visa & immig ration solutions",
-  title3: " in Delhi",
+  title1: "ABOUT US",
+  title2: "Trusted & Expert Immigration ",
+  title3: "Consultant",
   para:
-    "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of.",
+    "We deliver reliable, results-oriented immigration solutions backed by expert guidance, ethical practices, and structured processes. Recognized for offering the best immigration consultants in Noida, we support individuals and families from visa planning to final submission, ensuring clarity, confidence, and complete professional assistance throughout the process.",
   pointer: [
     {
       id: 1,
-      heading: "Best consultancy agency",
+      heading: "Transparency",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Clear processes, honest advice, and no hidden commitments.",
       icon: <GiCompass />,
     },
     {
       id: 2,
-      heading: "Best consultancy agency",
+      heading: "Client Satisfaction",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Focused on results, trust, and long-term client success.",
+      icon: <GiCompass />,
+    },
+  ],
+};
+
+
+export const aboutdata2 = {
+  img1: about2,
+  title1: "ABOUT US",
+  title2: "Leading Immigration ",
+  title3: "Consultancy",
+  para:
+    "Focused on clarity and compliance, we are the best immigration consultants in Noida, delivering profile-based immigration guidance and end-to-end visa support. Our expert team follows ethical practices and structured processes to help individuals and families achieve global opportunities with confidence.",
+
+  pointer: [
+    {
+      id: 1,
+      heading: "Leading Immigration Consultancy",
+      text:
+        "Delivering ethical guidance, expert support, and reliable solutions for global immigration success.",
+      icon: <GiCompass />,
+    },
+    {
+      id: 2,
+      heading: "Immigration Solutions That Work",
+      text:
+        "Structured processes and expert guidance to help you move abroad with confidence.",
       icon: <GiCompass />,
     },
   ],
 };
 
 export const visaSliderdata = {
-  title1: "Varieties of visa",
-  title2: "Immigration Systems Are Dream Of Citizenship.",
+  title1: "Wide Range of Visa Options",
+  title2: "Structured Immigration Services for PR and Citizenship",
 
   cards: [
     {
       id: 1,
       img: visa1,
-      heading: "Tourist Visa",
+      heading: "Work Visa",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Support for work visa applications with proper documents and employer-compliant immigration procedures.",
     },
     {
       id: 2,
       img: visa1,
-      heading: "Tourist Visa",
+      heading: "Permanent Residency Visa",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Guidance to apply for permanent residency through structured programs and accurate profile submission.",
     },
     {
       id: 3,
       img: visa1,
-      heading: "Tourist Visa",
+      heading: "Family Sponsorship Visa",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Help families reunite abroad through legal sponsorship filing and complete documentation support.",
     },
     {
       id: 4,
       img: visa1,
-      heading: "Tourist Visa",
+      heading: "Business & Investor Visa",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Assistance for investors and entrepreneurs applying through approved business and investment immigration routes.",
     },
     {
       id: 5,
       img: visa1,
-      heading: "Tourist Visa",
+      heading: "Tourist / Visitor Visa",
       text:
-        "Almost do am or limits hearts. Resolve parties but why she shewing.",
+        "Simple assistance for visitor visa applications with clear guidance and timely submission.",
     },
   ],
 };
@@ -581,9 +608,9 @@ export const countrytomigrate = {
 };
 
 export const countDown = [
-  { id: 1, icon: "+", title: " Worked With Clients", Value: "2000" },
-  { id: 2, icon: "%", title: "Succesfull Process Rate", Value: "96" },
-  { id: 3, icon: "hrs", title: "Application Approval Time", Value: "42" },
+  { id: 1, icon: "+", title: " Clients Served", Value: "2000" },
+  { id: 2, icon: "%", title: "Success Rate", Value: "96" },
+  { id: 3, icon: "hrs", title: "Average Approval Time", Value: "42" },
   {
     id: 4,
     icon: "+",
@@ -600,147 +627,144 @@ export const workingprocess = {
     {
       id: 1,
       img: process1,
-      heading: "Fill Application Form",
+      heading: "Initial Consultation",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Discuss your goals and assess eligibility for the best visa option.",
     },
     {
       id: 2,
       img: process1,
-      heading: "Fill Application Form",
+      heading: "Document Preparation",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Gather and organize all required documents for a smooth application.",
     },
     {
       id: 3,
       img: process1,
-      heading: "Fill Application Form",
+      heading: "Application Submission",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Submit your visa application accurately with expert guidance and follow-up.",
     },
     {
       id: 4,
       img: process1,
-      heading: "Fill Application Form",
+      heading: "Approval & Support",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
-    },
-    {
-      id: 5,
-      img: process1,
-      heading: "Fill Application Form",
-      text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Receive visa approval and get assistance with post-landing formalities.",
     },
   ],
 };
 
 export const canadapnp = {
   title1: "Canada PNP Programs",
-  title2: "Get Your Visa Approved in 4 Easy Steps.",
+  title2: "Offering skilled workers and entrepreneurs a route to Canadian residency.",
 
   cards: [
     {
       id: 1,
       img: box1,
       flag: usflag,
-      heading: "Canada PNP Programs",
+      heading: "Ontario Immigrant Nominee Program (OINP) ",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Provincial nomination for skilled workers to live and work in Ontario.",
       link: "/canada-pnp",
     },
     {
       id: 2,
       img: box2,
       flag: usflag,
-      heading: "Canada PNP Programs",
+      heading: "British Columbia PNP (BC PNP)",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Nominations for skilled workers and entrepreneurs targeting opportunities in British Columbia.",
       link: "/canada-pnp",
     },
     {
       id: 3,
       img: box3,
       flag: usflag,
-      heading: "Canada PNP Programs",
+      heading: "Alberta Immigrant Nominee Program (AINP)",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Streamlined immigration for workers with skills needed in Alberta’s labor market.",
       link: "/canada-pnp",
     },
     {
       id: 4,
       img: box1,
       flag: ukflag,
-      heading: "Canada PNP Programs",
+      heading: "Saskatchewan Immigrant Nominee Program (SINP)",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Offers pathways for workers, entrepreneurs, and farmers to settle in Saskatchewan.",
       link: "/canada-pnp",
     },
     {
       id: 5,
       img: box2,
       flag: usflag,
-      heading: "Canada PNP Programs",
+      heading: "Manitoba Provincial Nominee Program (MPNP)",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Supports skilled workers and international graduates aiming to live in Manitoba.",
       link: "/canada-pnp",
     },
     {
       id: 6,
       img: box3,
       flag: usflag,
-      heading: "Canada PNP Programs",
+      heading: "Nova Scotia Nominee Program (NSNP)",
       text:
-        "Immigration visa design support this services of business agency elit, sed to eiusmod majority have humour visa solution.",
+        "Nomination stream focused on attracting workers and graduates to Nova Scotia.",
       link: "/canada-pnp",
     },
   ],
 };
 
+
 export const Whychoose = {
   img: box1,
 
   title1: "Why Choose Us",
-  title2: "Best immigration consultants",
-  title3: " in Delhi",
+  title2: "India’s Best immigration consultants ",
+  title3: "",
   para:
-    "Nexusscore oversease is here to help you make your dream of living or working abroad come true. With years of experience and a deep understanding of immigration rules and processes, we offer personalized support to match your specific needs. As the process can be overwhelming, we work closely with you to simplify every step, from visa paperwork to preparing for your move. Recognized as one of the best immigration consultants in Delhi, our goal is to guide you smoothly and confidently through your immigration journey, ensuring you always feel supported and informed along the way.",
+    "Nexuscore Overseas, the immigration consultants in Noida, offers reliable and result-driven immigration solutions backed by experienced professionals and transparent processes. We focus on profile-based guidance, accurate documentation, and legal compliance to ensure smooth visa applications. With a client-first approach, ethical practices, and personalized support, we help individuals and families in Noida achieve their global immigration goals with confidence and clarity.",
+
   success: [
-    { id: 1, value: "99%", text: "Visa Success Rate" },
-    { id: 2, value: "100%", text: "Service Satisfaction" },
+    { id: 1, value: "100%", text: "Visa Success Rate" },
+    { id: 2, value: "100%", text: "Clients Satisfaction" },
     { id: 3, value: "100%", text: "Transparency" },
   ],
 };
+
 
 export const testimonialData = {
   title1: "Testimonial",
   title2: "What Our Client Says",
   testimonials: [
-    {
-      title: "Rajiv Dixit",
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      img: cl1,
-    },
-    {
-      title: "Rajiv Dixit",
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      img: cl1,
-    },
-    {
-      title: "Rajiv Dixit",
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      img: cl1,
-    },
-    {
-      title: "Rajiv Dixit",
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      img: cl1,
-    },
-  ],
+  {
+    title: "Suresh Dixit",
+    text:
+      "Nexuscore guided my Canada PR smoothly with honest advice, clear timelines, and perfect documentation. Truly the best immigration consultants in Noida for anyone seeking transparent, professional, and reliable immigration support.",
+    img: cl1,
+  },
+  {
+    title: "Mohan Rane",
+    text:
+      "Excellent support for my work permit application. The team explained every step, handled documents professionally, and kept me updated. Their guidance reduced stress and helped me make confident decisions abroad.",
+    img: cl1,
+  },
+  {
+    title: "Manoj Saini",
+    text:
+      "Nexuscore helped us reunite through family sponsorship with clear communication and ethical advice. We experienced the best Visa consultants in Noida, with personalized attention and smooth processing throughout the entire journey.",
+    img: cl1,
+  },
+  {
+    title: "Sam Goyal",
+    text:
+      "From IELTS coaching to visa filing, the service was professional and supportive. Trainers and consultants worked together to strengthen my profile and guide me confidently toward my overseas goals successfully.",
+    img: cl1,
+  },
+],
+
 };
 
 export const HomefaqData = {
@@ -749,56 +773,56 @@ export const HomefaqData = {
   title3: " Questions",
 
   para1:
-    "Immigration visa tailored design, management & support services building in some we form, by injected humour solution.",
+    "Our Frequently Asked Questions section answers common concerns about visas, eligibility, timelines, and documentation. ",
   Counts: [
     {
-      value: "70",
-      title: "Immigration",
+      value: "100",
+      title: "Expert Guidance",
     },
     {
-      value: "85",
-      title: "Immigration",
+      value: "96",
+      title: "Personalized Support",
     },
     {
-      value: "90",
-      title: "Immigration",
+      value: "94",
+      title: "Global Expertise",
     },
   ],
   para2:
-    "We strongly support best practice sharing across our A visa is temporary permission to enter a country for a specific purpose operations around the world visa.",
-  faqs: [
-    {
-      que: "Can I Edit Every Section Easily?",
-      ans:
-        "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    },
-    {
-      que: "Can I Edit Every Section Easily?",
-      ans:
-        "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    },
-    {
-      que: "Can I Edit Every Section Easily?",
-      ans:
-        "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    },
-    {
-      que: "Can I Edit Every Section Easily?",
-      ans:
-        "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    },
-    {
-      que: "Can I Edit Every Section Easily?",
-      ans:
-        "Yes, every section in VisaNet HTML files is fully editable, layered, and grouped for easy customization, seamless updates, quick modifications, and complete design flexibility for all developers.",
-    },
-  ],
+    "Designed to offer clarity and transparency, it helps you make informed decisions while choosing the Right immigration consultants in Noida for your global plans.",
+ faqs: [
+  {
+    que: "How do I know which visa is right for me?",
+    ans:
+      "Visa selection depends on your age, education, work experience, language ability, and future goals. Our experts evaluate your complete profile and suggest the most suitable and compliant visa pathway, ensuring you receive the best immigration consultants.",
+  },
+  {
+    que: "Can you guarantee visa approval?",
+    ans:
+      "No legitimate consultant can legally guarantee visa approval. We focus on correct documentation, ethical guidance, and proper program selection to maximize success while strictly following immigration laws and professional standards.",
+  },
+  {
+    que: "Can you help if my application was refused?",
+    ans:
+      "Yes, we review refused applications to identify errors, gaps, or compliance issues. Our consultants suggest corrective strategies, improve documentation, and guide you on reapplication or alternative visa options to strengthen your chances of success.",
+  },
+  {
+    que: "Why should I use a Nexuscore instead of applying on my own?",
+    ans:
+      "Immigration rules are complex and constantly changing. Nexuscore provides expert guidance, accurate documentation, and profile-based strategies to reduce mistakes, avoid refusals, and ensure your application meets legal and procedural requirements confidently.",
+  },
+  {
+    que: "What does a Nexuscore Overseas consultant do?",
+    ans:
+      "A Nexuscore Overseas consultant evaluates your profile, recommends suitable visa pathways, manages documentation, files applications accurately, and provides continuous guidance from initial assessment to final decision, ensuring transparency, compliance, and personalized support throughout your immigration journey.",
+  },
+],
 };
 
 export const footer = {
   logo: logo2,
   text:
-    "nexus delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Tanzanian farmers and boost yields.",
+    "Nexuscore is a trusted consulting firm delivering reliable immigration and visa solutions through expert guidance, transparent processes, and personalized support, helping individuals and families achieve their global aspirations with confidence.",
 
   socials: {
     facebook: "https://www.facebook.com/",
@@ -886,20 +910,20 @@ export let blogData = {
 export const mission = {
   img: box1,
   title1: "Mission & Vision",
-  title2: "Get Updated With Our",
-  title3: "Vision & Mission",
+  title2: "Our Vision and ",
+  title3: "Mission Statement",
   vision: [
     {
       icon: HiOutlineLightBulb,
       heading: "Our Vision",
       para:
-        "To be the leading provider of innovative and sustainable crop protection solutions, empowering farmers worldwide to achieve optimal yields and contribute to global food security.",
+        "Our vision is to become a trusted global name in immigration consulting by guiding people with honesty, clarity, and confidence. We aim to simplify complex immigration processes and help individuals and families build secure futures abroad through ethical practices and informed decision-making.",
     },
     {
       icon: HiOutlineFlag,
       heading: "Our Mission",
       para:
-        "To be the leading provider of innovative and sustainable crop protection solutions, empowering farmers worldwide to achieve optimal yields and contribute to global food security.",
+        "Our mission is to provide transparent, profile-based immigration guidance tailored to every client’s goals. We focus on accuracy, compliance, and continuous support at every stage, ensuring our clients feel informed, supported, and confident as they pursue opportunities across international borders.",
     },
   ],
 };
@@ -910,30 +934,31 @@ export const whychooseus = {
   points: [
     {
       icon: <FaGlobeAmericas />,
-      heading: "Global Expertise",
+      heading: "Transparent & Ethical Guidance",
       para:
-        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
+        "We operate as immigration consultants in Noida, offering honest advice, compliant processes, realistic timelines, and clear communication throughout the application journey.",
     },
     {
       icon: <FaGlobeAmericas />,
-      heading: "Global Expertise",
+      heading: "Profile-Based Strategy",
       para:
-        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
+        "Our team works as visa consultants in Noida, delivering profile-based strategies, accurate documentation, and program selection aligned with immigration regulations.",
     },
     {
       icon: <FaGlobeAmericas />,
-      heading: "Global Expertise",
+      heading: "Experienced Professionals",
       para:
-        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
+        "Experienced immigration consultants in Noida manage applications with regulatory knowledge, structured workflows, attention to detail, and consistent follow-ups for outcomes.",
     },
     {
       icon: <FaGlobeAmericas />,
-      heading: "Global Expertise",
+      heading: "End-to-End Support",
       para:
-        "With a presence in over 50 countries, we bring global expertise to local farming communities, ensuring our solutions are tailored to diverse agricultural needs.",
+        "As visa consultants in Noida, we provide end-to-end support from assessment to post-landing assistance, ensuring clients are informed, supported, and confident.",
     },
   ],
 };
+
 
 // contat Us
 export const contactBanner = {
@@ -965,67 +990,72 @@ export const contactBanner = {
       slug: "#",
     },]
 
-
     // services
     export const serviceData = {
-      title1: "OUR PROJECTS",
-      title2: "Mixing Smart Ideas with Creative Designs",
-      para:
-        "Our approach stands on individual and distinct designs to develop functional spaces that meet both aesthetic and operational needs. Our careful planning determines everything to achieve functional and attractive spaces.",
+      title1: "Our Services",
+      title2: "Smart solutions for global immigration",
+     
       services: [
-        {
-          title: "Visa services",
-          text: "All country visa we provide",
-          img: box1,
-        },
-         {
-          title: "Visa services",
-          text: "All country visa we provide",
-          img: box2,
-        }, {
-          title: "Visa services",
-          text: "All country visa we provide",
-          img: box3,
-        }, {
-          title: "Visa services",
-          text: "All country visa we provide",
-          img: box1,
-        }, {
-          title: "Visa services",
-          text: "All country visa we provide",
-          img: box2,
-        }, {
-          title: "Visa services",
-          text: "All country visa we provide",
-          img: box3,
-        },
-      ],
+  {
+    title: "Profile Evaluation",
+    text: "Eligibility assessment and guidance",
+    img: box1,
+  },
+  {
+    title: "Career Counselling",
+    text: "Career planning and advice",
+    img: box2,
+  },
+  {
+    title: "Immigration Solutions",
+    text: "Structured migration pathways",
+    img: box3,
+  },
+  {
+    title: "Visa Documentation Support",
+    text: "Accurate document preparation",
+    img: box1,
+  },
+  {
+    title: "Job Search Assistance",
+    text: "International employment guidance",
+    img: box2,
+  },
+  {
+    title: "Post-Landing Support",
+    text: "Settlement and integration assistance",
+    img: box3,
+  },
+],
+
     };
 
-    export const servicechoose = {
+  export const servicechoose = {
   img: box1,
-  title1: "Why choose Us",
-  title2: "Choose Your Best Choose",
-  title3: "Nexus Core",
-  para:"lorem ipsum To be the leading provider of innovative and sustainable crop protection solutions, empowering farmers worldwide to achieve optimal yields and contribute to global food security.",
+  title1: "Why Choose Us",
+  title2: "Why Choose Nexuscore Overseas For Your ",
+  title3: "Immigration Pathway?",
+  para:
+    "We provide structured, transparent immigration solutions designed to help individuals and families move abroad confidently through expert guidance, ethical practices, and end-to-end professional support.",
+
   vision: [
     {
       icon: HiOutlineLightBulb,
-      heading: "Immigration",
+      heading: "Professional Immigration Expertise",
       para:
-        "To be the leading provider of innovative and sustainable.",
+        "Customized guidance based on your profile and current international regulations.",
     },
     {
       icon: HiOutlineFlag,
-      heading: "Immigration",
+      heading: "Clear & Honest Procedures",
       para:
-        "To be the leading provider of innovative and sustainable.",
+        "Well-defined steps, realistic timelines, and fully compliant documentation.",
     },
-     {
+    {
       icon: HiOutlineFlag,
-      heading: "Immigration",
+      heading: "Complete Application Assistance",
       para:
-        "To be the leading provider of innovative and sustainable.",
+        "Support provided from initial assessment to final visa approval.",
     },
   ],
 };

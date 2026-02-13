@@ -84,7 +84,7 @@ export default function Blogdetails({ data }: any) {
   return (
     <div className="lg:px-28 xl:px-32 md:p-20 sm:p-12 p-7 bg-gradient-to-b from-zinc-50 relative to-white">
       <div className="flex flex-wrap justify-between gap-y-7 relative w-full">
-        <div className="md:w-[60%] w-full ">
+        <div className="md:w-[60%] w-full">
           {/* Hero Image Container */}
           <div className="relative overflow-hidden rounded-2xl shadow-2xl mb-12 group">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -100,7 +100,6 @@ export default function Blogdetails({ data }: any) {
             {/* Decorative Corner Element */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/20 transform rotate-45 translate-x-16 -translate-y-16" />
           </div>
-
           {/* Article Header */}
           <header className="mb-16 relative">
             {/* Meta Information */}

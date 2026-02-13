@@ -3,11 +3,11 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
-import { aboutdata as data } from "@/data/homeData";
+
 import { BiRightArrowAlt } from "react-icons/bi";
 import Link from "next/link";
 
-export default function AboutSection() {
+export default function AboutSection({data}:any) {
   return (
 <section className="xl:px-32 lg:px-24 md:p-20 sm:p-12 p-7 max-w-[1730px] mx-auto" >
 

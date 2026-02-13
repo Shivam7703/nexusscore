@@ -13,7 +13,7 @@ function Services() {
              img={bann}
              title={"Our Services"}
              para={
-               "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+               "Our immigration services offer clear guidance, accurate documentation, and end-to-end support for global visa applications."
              }
              slug={"services"}
            />

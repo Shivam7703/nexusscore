@@ -5,7 +5,7 @@ import CountDown from "@/components/home/Contdown";
 import Greenbox from "@/components/home/greenbox";
 import BannerSlider from "@/components/home/HomeBanner";
 import Testimonials from "@/components/home/testimonial";
-import { countDown } from "@/data/homeData";
+import { aboutdata, countDown } from "@/data/homeData";
 import FaqSection from "@/components/home/faq";
 import VisaSlider from "@/components/home/visaslider";
 import Country from "@/components/home/country";
@@ -18,7 +18,7 @@ export default function Home() {
     <div className="">
 <BannerSlider/>
 <Greenbox/>
-<AboutSection/>
+<AboutSection  data ={aboutdata} />
 <VisaSlider/>
 <Country/>
 <CountDown data={countDown}/>

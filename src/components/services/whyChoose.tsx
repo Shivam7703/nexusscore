@@ -4,8 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
 import { servicechoose as data } from "@/data/homeData";
-import { BiRightArrowAlt } from "react-icons/bi";
-import Link from "next/link";
+
 
 export default function Serviceschoose() {
    

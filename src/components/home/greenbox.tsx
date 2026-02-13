@@ -13,27 +13,27 @@ export default function Greenbox() {
     {
       id: 1,
       img:box1,
-      heading: "Quality ",
+      heading: "Passport Services",
       para:
-        "We provide high-quality products to protect crops & help them grow better.",
+        "Complete assistance for passport applications, renewals, and related documentation.",
       icon: <MdOutlineEnergySavingsLeaf />
       ,
     },
     {
       id: 2,
             img:box2,
-      heading: "Affordability",
+      heading: "Fast-Track Visa Processing",
       para:
-        "Affordable solutions that make farming easier & more productive for all farmers.",
+        "Efficient visa handling with accurate documentation and timely submissions.",
       icon: <FaMoneyBillAlt />
       ,
     },
     {
       id: 3,
             img:box3,
-      heading: "Availability",
+      heading: "Dedicated Client Support",
       para:
-        "Widely available products to meet the needs of all farmers anywhere.",
+        "Expert assistance and guidance at every step of your immigration process.",
       icon:<FaWineBottle />
       ,
     },

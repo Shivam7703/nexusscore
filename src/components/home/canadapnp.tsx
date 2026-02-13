@@ -1,8 +1,7 @@
 import React from "react";
 import { canadapnp as data } from "@/data/homeData";
 import Image from "next/image";
-import { FaArrowRightLong, FaCircleArrowRight, FaCircleCheck } from "react-icons/fa6";
-import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Canadapnp() {
   return (

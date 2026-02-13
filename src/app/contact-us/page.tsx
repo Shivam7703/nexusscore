@@ -12,7 +12,7 @@ function Contact() {
              img={bann}
              title={"Contact Us"}
              para={
-               "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+               "Connect with experienced immigration consultants in Noida for clear guidance, support, and confident visa decisions."
              }
              slug={"contact-us"}
            />
