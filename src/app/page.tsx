@@ -20,8 +20,8 @@ export default function Home() {
 <Greenbox/>
 <AboutSection  data ={aboutdata} />
 <VisaSlider/>
-<Country/>
-<CountDown data={countDown}/>
+<Country/> 
+ <CountDown data={countDown}/>
 <WorkProcessSlider/>
 <Canadapnp/>
 <WhychooseSection/>

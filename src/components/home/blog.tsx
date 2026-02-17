@@ -11,9 +11,9 @@ export default function Blogs({ isHome }:any) {
   return (
     <section className={`${isHome ? "lg:px-20 md:px-16 sm:p-12 p-6 " : "px-3 pb-5"} text-center relative w-full`}>
       {data?.title1 && isHome && (
-        <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 border-blue-700 w-max border-b px-3 py-2">
-          {data.title1}
-        </h4>
+       <h4 className="text-zinc-700  mx-auto mb-3 sm:mb-5 font-semibold uppercase text-sm border-2 border-blue-400 bg-gradient-to-r from-blue-50 via-violet-50 to-red-50 w-max px-4 py-2 rounded-full shadow-sm">
+                      {data?.title1}
+                    </h4>
       )}
 {isHome && <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl max-w-2xl mx-auto mb-10">
         {data.title2}

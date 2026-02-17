@@ -9,31 +9,31 @@ import Link from "next/link";
 
 export default function AboutSection({data}:any) {
   return (
-<section className="xl:px-32 lg:px-24 md:p-20 sm:p-12 p-7 max-w-[1730px] mx-auto" >
+<section className="xl:px-32 lg:px-24 md:p-20 sm:p-12 py-6 p-2 max-w-[1730px] mx-auto" >
 
     <motion.div
       variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.2 }}
-      className=" lg:px-16 bg-white/60 backdrop-blur-sm shadow-xl rounded-xl sm:p-12 p-6 mx-auto flex flex-wrap items-stretch justify-between gap-y-7  overflow-hidden"
+      className="lg:px-16 bg-white/60 backdrop-blur-sm shadow-xl rounded-xl sm:p-12 p-6 mx-auto flex flex-wrap items-stretch justify-between gap-y-7  overflow-hidden"
     >
 
       <motion.div
         variants={fadeIn("right", "tween", 0.3, 1)}
-        className="sm:w-[47%] w-full sm:space-y-8 space-y-6"
+        className="sm:w-[50%] w-full sm:space-y-8 space-y-6"
       >
         {data?.title1 && (
          <motion.h4
                     whileHover={{ scale: 1.05 }}
-                    className="text-zinc-700 font-semibold sm:text-base text-sm border-2 border-blue-200 bg-gradient-to-r from-blue-50 to-purple-50 w-max px-4 py-2 rounded-full shadow-sm"
+                    className="text-zinc-700 mb-3 sm:mb-5 font-semibold uppercase text-sm border-2 border-blue-400 bg-gradient-to-r from-blue-50 via-violet-50 to-red-50 w-max px-4 py-2 rounded-full shadow-sm"
                   >
                     {data?.title1}
-                  </motion.h4>
+                  </motion.h4> 
         )}
-         <h2 className="text-zinc-900 font-extrabold text-3xl md:text-5xl leading-tight">
+         <h2 className="text-zinc-900 font-extrabold text-3xl md:text-5xl !leading-snug">
                   {data?.title2}
-                  <span className="block mt-2 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  <span className="  bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                   {data?.title3}
                   </span>
                 </h2>
@@ -45,7 +45,7 @@ export default function AboutSection({data}:any) {
 <div className="grid sm:grid-cols-2 gap-4">
         {data?.pointer?.map((item: any) => (
          <div key={item?.id} className="flex gap-4">
-<div className="w-1/5 text-5xl text-blue-950">{item?.icon}</div>
+<div className="w-1/5 text-4xl text-blue-950">{item?.icon}</div>
 <div className="space-y-2 w-full"><h3 className="text-blue-800 text-lg sm:text-xl  font-bold">{item?.heading}</h3>
 <p className="text-zinc-600">{item?.text}</p></div>
          </div>
@@ -82,10 +82,9 @@ export default function AboutSection({data}:any) {
         </Link>
       </motion.div>
 
-
       <motion.div
         variants={fadeIn("left", "tween", 0.3, 1)}
-        className="sm:w-[46%] w-full min-h-[450px] relative  group"
+        className="sm:w-[48%] w-full min-h-[450px] relative  group"
       >
         <div className="space-y-7 overflow-hidden hover14 relative h-full ">
       l    {data?.img1 && (

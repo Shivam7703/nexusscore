@@ -26,7 +26,7 @@ export default function WhychooseSection() {
         {data?.title1 && (
           <motion.h4
             whileHover={{ scale: 1.05 }}
-            className="text-zinc-700 font-semibold sm:text-base text-sm border-2 border-blue-200 bg-gradient-to-r from-blue-50 to-purple-50 w-max px-4 py-2 rounded-full shadow-sm"
+            className="text-zinc-700  mb-3 sm:mb-5 font-semibold uppercase text-sm border-2 border-blue-400 bg-gradient-to-r from-blue-50 via-violet-50 to-red-50 w-max px-4 py-2 rounded-full shadow-sm"
           >
             {data?.title1}
           </motion.h4>

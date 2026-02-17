@@ -5,76 +5,133 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Canadapnp() {
   return (
-    <section className="lg:px-20 md:px-16 sm:p-12 p-6 text-center relative bg-zinc-100">
+    <section className="lg:px-20 md:px-16 sm:p-12 p-6 text-center relative bg-zinc-800/10">
       {data?.title1 && (
-        <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 border-blue-700 w-max border-b px-3 py-2">
-          {data.title1}
-        </h4>
+         <h4 className="text-zinc-700  mx-auto mb-3 sm:mb-5 font-semibold uppercase text-sm border-2 border-blue-400 bg-gradient-to-r from-blue-50 via-violet-50 to-red-50 w-max px-4 py-2 rounded-full shadow-sm">
+                        {data?.title1}
+                      </h4>
       )}
 
-      <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl max-w-2xl mx-auto mb-10">
+      <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl max-w-4xl mx-auto mb-10">
         {data.title2}
       </h2>
 
-     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-3 md:gap-8 max-w-7xl mx-auto">
         {data?.cards?.map((cou) => (
-          <div
-            key={cou.id}
-            className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
-          >
-            {/* Image Container with Overlay */}
-            <div className="relative h-56 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <Image
-                src={cou.img}
-                alt={cou.heading}
-                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-              />
-                            
-            </div>
+       <div
+  key={cou.id}
+  className="group relative rounded-[30px] overflow-hidden
+             bg-white 
+             border border-white
+             shadow-[0_25px_60px_-20px_rgba(0,0,0,0.25)]
+             transition-all duration-500
+             hover:-translate-y-3 hover:shadow-[0_45px_90px_-25px_rgba(0,0,0,0.4)]"
+>
+  {/* IMAGE */}
+  <div className="relative md:h-60 h-48 overflow-hidden">
+    <Image
+      src={cou.img}
+      alt="Canada PNP"
+      fill
+      className="object-cover transition-transform rounded-t-3xl duration-700
+                 group-hover:scale-110"
+    />
 
-            {/* Content */}
-            <div className=" relative pt-10 pb-8 px-6 text-center space-y-4">
-              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 !z-20">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
-                  <Image
-                    src={cou.flag}
-                    alt={cou.heading}
-                    className="relative h-16 w-16 rounded-full border-4 border-white object-cover shadow-xl ring-4 ring-blue-100 group-hover:ring-blue-200 transition-all duration-300"
-                  />
-                </div>
-              </div>
-              <h2 className="text-2xl font-bold text-gray-800 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
-                {cou.heading}
-              </h2>
-              
-              <p className="text-gray-600 leading-relaxed min-h-[3rem]">
-                {cou?.text}
-              </p>
+    {/* Overlay */}
+    <div className="absolute inset-0 bg-gradient-to-t
+                    from-black/75 via-black/30 to-transparent" />
 
-              {/* Enhanced Button */}
-              <div className="pt-4">
-                <button className="group/btn relative inline-flex items-center gap-3 px-8 py-3 overflow-hidden rounded-full border-2 border-gray-800 bg-white font-semibold text-gray-800 transition-all duration-300 hover:text-white hover:border-transparent">
-                  <span className="relative z-20 text-sm tracking-wide">Learn more</span>
-                  
-                  <div className="relative z-20 flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg group-hover/btn:shadow-xl group-hover/btn:scale-110 transition-all duration-300">
-                    <FaArrowRightLong className="w-4 h-4 text-white" />
-                  </div>
-                  
-                  {/* Animated Background */}
-                  <div className="absolute inset-0 w-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 group-hover/btn:w-full transition-all duration-500 ease-out"></div>
-                  
-                  {/* Shine Effect */}
-                  <div className="absolute inset-0 -translate-x-full group-hover/btn:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
-                </button>
-              </div>
-            </div>
+    {/* Title on Image */}
+    <div className="absolute bottom-5 left-6 z-20 text-left">
+      <h3 className="text-white text-xl font-semibold tracking-tight">
+        Canada PNP
+      </h3>
+      <p className="text-white/80 text-sm">
+        Provincial Nominee Program
+      </p>
+    </div>
+  </div>
 
-            {/* Decorative Elements */}
-            <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
-            <div className="absolute bottom-4 left-4 w-16 h-16 bg-gradient-to-tr from-pink-400/20 to-yellow-400/20 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
-          </div>
+  {/* CONTENT */}
+  <div className="relative px-7 py-10">
+
+    {/* FLOATING FLAG */}
+    <div className="absolute -top-9 right-6 z-30">
+      <div className="relative">
+      
+        <Image
+          src={cou.flag}
+          alt="Canada"
+          className="relative h-16 w-16 rounded-full
+                     border-4 border-white shadow-xl"
+        />
+      </div>
+    </div>
+
+    {/* DESCRIPTION */}
+    <p className="text-gray-600 text-sm leading-relaxed mb-6">
+      Canada PNP allows skilled workers, graduates, and professionals
+      to obtain permanent residency by being nominated by a Canadian
+      province based on local labour market needs.
+    </p>
+
+    {/* KEY DETAILS */}
+    <div className="grid grid-cols-2 gap-4 mb-8">
+      {[
+        { label: "Processing Time", value: "6–9 Months" },
+        { label: "Job Offer", value: "Optional" },
+       
+      ].map((item, i) => (
+        <div
+          key={i}
+          className="group/detail relative rounded-xl p-4
+                     bg-white/80 backdrop-blur
+                     border border-gray-200
+                     transition-all duration-300
+                     hover:-translate-y-1 shadow-lg"
+        >
+          <p className="text-xs text-gray-500 mb-1">{item.label}</p>
+          <p className="font-semibold text-gray-900">
+            {item.value}
+          </p>
+
+          <div className="absolute inset-0 rounded-xl opacity-0
+                          group-hover/detail:opacity-20
+                          bg-gradient-to-br from-indigo-400 to-purple-400
+                          transition" />
+        </div>
+      ))}
+    </div>
+
+    {/* CTA */}
+    <div className="flex justify-between items-center">
+      <span className="inline-flex items-center gap-2 text-xs font-medium
+                       px-4 py-2 rounded-full
+                       bg-blue-100 text-blue-700">
+        ✔ PR Pathway
+      </span>
+
+      <button
+        className="relative inline-flex items-center gap-3 px-7 py-3
+                   rounded-full text-sm font-medium text-white
+                   bg-gradient-to-r from-red-600 via-rose-600 to-pink-600
+                   shadow-lg hover:shadow-xl
+                   transition-all duration-300 overflow-hidden"
+      >
+        <span className="relative z-10">Check Eligibility</span>
+        <FaArrowRightLong className="relative z-10 text-sm" />
+
+        {/* shine */}
+        <span className="absolute inset-0 -translate-x-full
+                         bg-gradient-to-r from-transparent
+                         via-white/30 to-transparent
+                         transition-transform duration-700
+                         group-hover:translate-x-full" />
+      </button>
+    </div>
+  </div>
+</div>
+
         ))}
       </div>
     </section>

@@ -45,7 +45,7 @@ export default function Testimonials() {
     <section className=" lg:px-28 md:px-20 sm:p-12 p-6  text-center relative flex flex-col items-center">
       <div className="w-full text-center flex flex-col items-center gap-y-3 mb-8 ">
          {data?.title1 && (
-              <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 border-blue-700 w-max border-b px-3 py-2">
+              <h4 className="text-zinc-700  mx-auto mb-3 sm:mb-5 font-semibold uppercase text-sm border-2 border-blue-400 bg-gradient-to-r from-blue-50 via-violet-50 to-blue-50 w-max px-4 py-2 rounded-full shadow-sm">
                 {data.title1}
               </h4>
             )}
@@ -66,12 +66,12 @@ export default function Testimonials() {
     className="mb-12 sm:pl-16 w-full sm:text-left text-center"
   >
     
-    <div className="relative flex max-sm:flex-wrap  max-sm:flex-col gap-4 items-center p-6 sm:p-8 w-full h-full bg-white shadow-xl overflow-visible group">
+    <div className="relative flex max-sm:flex-wrap  max-sm:flex-col gap-4 items-center p-6 sm:p-8 w-full h-full bg-zinc-50 shadow-xl overflow-visible group">
    {/* Profile Image Circle - Positioned at top */}
 
         <div className="relative z-30 min-w-36 min-h-36 sm:-ml-24">
           {/* Outer decorative ring */}
-          <div className="w-full h-full rounded-full bg-gradient-to-br from-red-500 via-red-600 to-slate-800 p-2">
+          <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-slate-800 p-2">
             <div className="w-full h-full rounded-full bg-white p-2">
               <div className="overflow-hidden w-full h-full rounded-full">
                 <Image
@@ -85,8 +85,8 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-      {/* Vertical colored bar on left side */}
-      <div className="absolute left-0 top-0 bottom-0 w-3 bg-gradient-to-b from-red-500 via-red-600 to-red-900 " />
+      {/* Vertical coloblue bar on left side */}
+      <div className="absolute left-0 top-0 bottom-0 w-3 bg-gradient-to-b from-blue-500 via-blue-600 to-blue-900 " />
 
       {/* Content Area */}
       <div className="">
@@ -94,7 +94,7 @@ export default function Testimonials() {
           {[...Array(5)].map((_, i) => (
             <svg
               key={i}
-              className="w-5 h-5 fill-red-500"
+              className="w-5 h-5 fill-yellow-500"
               viewBox="0 0 20 20"
             >
               <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
@@ -109,17 +109,17 @@ export default function Testimonials() {
 
         {/* Author Info */}
         <div className="space-y-1">
-          <h3 className="text-xl font-bold text-slate-900">
+          <h3 className="text-xl font-bold text-red-600">
             {cards.title}
           </h3>
-          <p className="text-red-500 font-medium text-sm">
+          <p className="text-blue-500 font-medium text-sm">
             Customers
           </p>
         </div>
       </div>
 </div>
       {/* Large Quote Mark */}
-      <div className="absolute bottom-6 right-8 text-red-200 opacity-40">
+      <div className="absolute bottom-6 right-8 text-blue-200 opacity-40">
         <svg
           className="w-20 h-20"
           viewBox="0 0 100 100"

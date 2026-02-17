@@ -30,11 +30,13 @@ import {
   visa1,
 } from "@/assets";
 import { title } from "process";
-import { FaGlobeAmericas } from "react-icons/fa";
+import { FaGlobeAmericas, FaHourglassStart, FaPlaneDeparture, FaSearch } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { GiCompass } from "react-icons/gi";
 import { HiOutlineFlag, HiOutlineLightBulb } from "react-icons/hi";
+import { IoSearch, IoSettingsOutline } from "react-icons/io5";
 import { MdAttachEmail, MdLocationCity, MdWifiCalling3 } from "react-icons/md";
+import { RiUserFollowLine } from "react-icons/ri";
 
 // homepage
 export const navigationMenu = {
@@ -474,14 +476,15 @@ export const aboutdata = {
       heading: "Transparency",
       text:
         "Clear processes, honest advice, and no hidden commitments.",
-      icon: <GiCompass />,
+      icon: <IoSearch />
+,
     },
     {
       id: 2,
       heading: "Client Satisfaction",
       text:
         "Focused on results, trust, and long-term client success.",
-      icon: <GiCompass />,
+      icon: <RiUserFollowLine />,
     },
   ],
 };
@@ -501,14 +504,15 @@ export const aboutdata2 = {
       heading: "Leading Immigration Consultancy",
       text:
         "Delivering ethical guidance, expert support, and reliable solutions for global immigration success.",
-      icon: <GiCompass />,
+      icon: <FaPlaneDeparture />,
     },
     {
       id: 2,
       heading: "Immigration Solutions That Work",
       text:
         "Structured processes and expert guidance to help you move abroad with confidence.",
-      icon: <GiCompass />,
+      icon: <IoSettingsOutline />
+,
     },
   ],
 };
@@ -652,6 +656,7 @@ export const workingprocess = {
       text:
         "Receive visa approval and get assistance with post-landing formalities.",
     },
+    
   ],
 };
 
@@ -776,15 +781,15 @@ export const HomefaqData = {
     "Our Frequently Asked Questions section answers common concerns about visas, eligibility, timelines, and documentation. ",
   Counts: [
     {
-      value: "100",
+      value: 100,
       title: "Expert Guidance",
     },
     {
-      value: "96",
+      value: 96,
       title: "Personalized Support",
     },
     {
-      value: "94",
+      value: 94,
       title: "Global Expertise",
     },
   ],
