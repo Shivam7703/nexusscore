@@ -70,7 +70,7 @@ const data = [
     <div className="space-y-6">
 
 {/* form  sec1 */}
-    <form className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border">
+    <form className="bg-white rounded-2xl p-6  shadow-lg border">
   <div className=" space-y-3">
 
     {/* First 4 inputs in 2-column grid */}

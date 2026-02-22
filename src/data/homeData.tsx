@@ -103,36 +103,36 @@ export const navigationMenu = {
             },
             {
               id: 2,
-              label: "Federal Skilled Worker Program (FSWP)",
-              href: "/visa/fswp",
+              label: "Federal Skilled Worker Program",
+              href: "/visa/federal-skilled-worker-program",
             },
             {
               id: 3,
               label: "Federal Skilled Trades Program (FSTP)",
-              href: "/visa/fstp",
+              href: "/visa/federal-skilled-trades-program",
             },
             {
               id: 4,
               label: "Canadian Experience Class (CEC)",
-              href: "/visa/cec",
+              href: "/visa/canadian-experience-class",
             },
             {
               id: 5,
               label: "Global Talent Stream (GTS)",
               href: "/visa/global-talent-stream",
             },
-            { id: 6, label: "Canada Super Visa", href: "/visa/super-visa" },
+            { id: 6, label: "Canada Super Visa", href: "/visa/canada-super-visa" },
             {
               id: 7,
               label: "Canada Family Sponsorship Visa",
-              href: "/visa/canada-family-sponsorship",
+              href: "/visa/canada-family-sponsorship-visa",
             },
             {
               id: 8,
               label: "Atlantic Immigration Pilot",
               href: "/visa/atlantic-immigration-pilot",
             },
-            { id: 9, label: "Canada Spouse Visa", href: "/visa/spouse-visa" },
+            { id: 9, label: "Canada Spouse Visa", href: "/visa/canada-spouse-visa" },
             {
               id: 10,
               label: "Rural Community Immigration Pilot",

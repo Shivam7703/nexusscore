@@ -108,7 +108,7 @@ const CircularProgress = ({
   return (
     <div
       ref={ref}
-      className="flex flex-col items-center gap-4 select-none"
+      className="flex flex-col items-center gap-4 select-none "
     >
       {/* MOBILE */}
       <div className="relative sm:hidden w-[120px] h-[120px]">
@@ -167,7 +167,7 @@ const CircularProgress = ({
       </div>
 
       {/* DESKTOP */}
-      <div className="relative hidden sm:block w-[150px] h-[150px]">
+      <div className="relative hidden sm:block w-[150px] h-[150px] ">
         <svg
           viewBox={`0 0 ${sizeDesktop} ${sizeDesktop}`}
           className="-rotate-90"
@@ -210,7 +210,7 @@ const CircularProgress = ({
           />
         </svg>
 
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center hover:scale-90 duration-300">
           <div className="w-24 h-24 bg-gradient-to-r from-blue-50 to-purple-50 shadow-xl rounded-full flex items-center justify-center">
             <span className="text-3xl font-semibold text-gray-900">
               {value}%

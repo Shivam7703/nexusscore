@@ -10,7 +10,7 @@ function CountDown({ data }: any) {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden ">
       {/* Background */}
       <Image
         src={banner2}

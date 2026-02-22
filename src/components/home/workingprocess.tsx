@@ -22,11 +22,11 @@ export default function WorkProcessSlider() {
       </h2>
 
       <div
-        className={`grid grid-cols-2 md:grid-cols-4 md:mt-16 gap-y-7 mt-9 w-full `}
+        className={`grid grid-cols-2 md:grid-cols-4 md:mt-16 gap-y-5 mt-3 w-full `}
       >
         {data?.cards.map((card: any) => (
-     <div key={card.id} className=" relative w-full group">
-  <div className="w-full overflow-hidden text-center sm:p-5 p-3">
+     <div key={card.id} className=" relative w-full group ">
+  <div className="w-full overflow-hidden text-center sm:p-5 p-2">
 
     {/* STEP LABEL */}
     <div className="relative mb-6 flex justify-center">
@@ -49,7 +49,7 @@ export default function WorkProcessSlider() {
     <div className="relative mx-auto w-44 h-44 sm:w-60 sm:h-60 z-40">
 
       {/* Rotating gradient ring */}
-      <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo-400 via-sky-400 to-emerald-400 group-hover:from-amber-400 group-hover:via-rose-400 group-hover:to-indigo-500 transition-all duration-700 animate-spin-slow overflow-hidden"  style={{
+      <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo-400 via-sky-400 to-emerald-400 group-hover:from-amber-400 group-hover:via-rose-400 group-hover:to-indigo-500 transition-all duration-700  overflow-hidden"  style={{
           clipPath: "polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%)",
         }}/>
 
@@ -86,7 +86,7 @@ export default function WorkProcessSlider() {
     </div>
 
     {/* CONTENT CARD */}
-    <div className="relative overflow-hidden pt-14 md:pt-20 pb-7 sm:px-6 px-3 -mt-10 md:-mt-16 rounded-2xl shadow-lg border border-slate-100 bg-white group-hover:border-indigo-100 transition-all duration-500">
+    <div className="relative overflow-hidden pt-14 md:pt-20 pb-7 sm:px-6 px-3 -mt-12 md:-mt-16 sm:rounded-2xl rounded-lg shadow-lg border border-slate-100 bg-white group-hover:border-indigo-100 transition-all duration-500">
 
       {/* Animated gradient background fill */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 via-blue-700 to-slate-900 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0" />
