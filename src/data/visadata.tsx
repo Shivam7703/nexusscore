@@ -244,7 +244,7 @@ export const visaData = [
               "Since 2023, processing times have improved, though they vary by pathway",
           },
           {
-            table: [
+            table: 
               {
                 theading: ["Pathway", "Average PR Processing Time"],
                 rows: [
@@ -254,7 +254,7 @@ export const visaData = [
                   { colum: ["AIP", "6–12 months"] },
                 ],
               },
-            ],
+          
           },
           {
             para:
@@ -476,7 +476,7 @@ export const visaData = [
               "Before entering the Express Entry pool, applicants must score at least 67 points out of 100 under the FSW selection grid.",
           },
           {
-            table: [
+            table: 
               {
                 theading: ["Selection Factor", "Maximum Points"],
                 rows: [
@@ -489,7 +489,7 @@ export const visaData = [
                   { colum: ["Total Required", "67/100"] },
                 ],
               },
-            ],
+            
           },
           {
             para:
@@ -902,7 +902,7 @@ export const visaData = [
           },
           {
             para: "Here is a general overview of required settlement funds:",
-            table: [
+            table: 
               {
                 theading: ["Family Members", "Minimum Funds (Approx.)"],
                 rows: [
@@ -912,7 +912,6 @@ export const visaData = [
                   { colum: ["4", "CAD 24,000+"] },
                 ],
               },
-            ],
           },
           {
             para: "Amounts may change annually based on government updates.",
@@ -1188,7 +1187,7 @@ export const visaData = [
             para: "Language benchmarks depend on the type of job:",
           },
           {
-            table: [
+            table: 
               {
                 theading: ["Job Category", "Minimum Language Level"],
                 rows: [
@@ -1196,7 +1195,6 @@ export const visaData = [
                   { colum: ["TEER 2 or 3", "CLB 5"] },
                 ],
               },
-            ],
           },
           {
             para:
@@ -1441,7 +1439,7 @@ export const visaData = [
           "<h5>Comparing This Pathway With Other Express Entry Streams</h5>",
         subcontent: [
           {
-            table: [
+            table: 
               {
                 theading: [
                   "Feature",
@@ -1463,7 +1461,6 @@ export const visaData = [
                   { colum: ["Language Level", "Moderate", "Higher", "Lower"] },
                 ],
               },
-            ],
           },
           {
             para:
@@ -1653,7 +1650,7 @@ export const visaData = [
               "One of the most attractive features of the Global Talent Stream is its processing speed.",
           },
           {
-            table: [
+            table: 
               {
                 theading: ["Stage", "Approximate Timeline"],
                 rows: [
@@ -1662,7 +1659,6 @@ export const visaData = [
                   { colum: ["Total Estimated Time", "2–4 weeks"] },
                 ],
               },
-            ],
           },
           {
             para:
@@ -1864,7 +1860,7 @@ export const visaData = [
             subheading: "Comparison with Standard Work Permit",
           },
           {
-            table: [
+            table: 
               {
                 theading: [
                   "Feature",
@@ -1887,7 +1883,6 @@ export const visaData = [
                   { colum: ["PR Pathway", "Indirect but strong", "Indirect"] },
                 ],
               },
-            ],
           },
           {
             para:
@@ -2054,7 +2049,7 @@ export const visaData = [
               "Here is a general overview of how income requirements are structured:",
           },
           {
-            table: [
+            table: 
               {
                 theading: [
                   "Family Size",
@@ -2067,7 +2062,7 @@ export const visaData = [
                   { colum: ["5 persons", "CAD 54,000+"] },
                 ],
               },
-            ],
+            
           },
           {
             para:
@@ -3580,7 +3575,7 @@ export const visaData = [
         heading: "<h4>Eligibility Requirements</h4>",
         subcontent: [
           {
-            table: [
+            table: 
               {
                 theading: ["Requirement", "General Criteria"],
                 rows: [
@@ -3612,7 +3607,7 @@ export const visaData = [
                   { colum: ["Community Recommendation", "Mandatory"] },
                 ],
               },
-            ],
+           
           },
           {
             para:

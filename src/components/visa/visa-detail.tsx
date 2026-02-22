@@ -83,15 +83,14 @@ export default function Visadetails({ data }: any) {
 
             {/* Table */}
             {item?.table ? (
-              item.table.map((tbl: any, tIndex: number) => (
+              
                 <div
-                  key={tIndex}
                   className="overflow-x-auto rounded-xl border text-zinc-700 border-zinc-200 shadow-sm"
                 >
                   <table className="min-w-full text-sm sm:text-base">
                     <thead className="bg-amber-500 text-white">
                       <tr>
-                        {tbl?.theading?.map((th: string, thIndex: number) => (
+                        {item?.table.theading?.map((th: string, thIndex: number) => (
                           <th
                             key={thIndex}
                             className="px-4 py-3 text-left font-semibold whitespace-nowrap"
@@ -102,7 +101,7 @@ export default function Visadetails({ data }: any) {
                       </tr>
                     </thead>
                     <tbody>
-                      {tbl?.rows?.map((row: any, rIndex: number) => (
+                      {item?.table.rows?.map((row: any, rIndex: number) => (
                         <tr
                           key={rIndex}
                           className="even:bg-zinc-50 hover:bg-amber-50 transition"
@@ -122,7 +121,7 @@ export default function Visadetails({ data }: any) {
                     </tbody>
                   </table>
                 </div>
-              ))
+             
             ) : null}
 
           </div>
