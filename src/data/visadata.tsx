@@ -666,7 +666,7 @@ export const visaData = [
         ],
       },
     ],
-    Faq: [
+    faq: [
       {
         que: "1. What is the minimum CRS score required for FSWP in 2026?",
         ans:
@@ -1065,7 +1065,7 @@ export const visaData = [
         ],
       },
     ],
-    Faq: [
+    faq: [
       {
         que: "1. Who is eligible for FSTP in Canada?",
         ans:
