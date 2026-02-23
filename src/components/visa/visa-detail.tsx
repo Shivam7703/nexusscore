@@ -1,17 +1,14 @@
-"use client"
+"use client";
 
-import React, { useState } from "react"
-import BlogAside from "../blog/side"
-import Image from "next/image"
+import React, { useState } from "react";
+import BlogAside from "../blog/side";
+import Image from "next/image";
 
-import { bann } from "@/assets"
-import { FaCheckCircle } from "react-icons/fa"
-import Faqs from "../global/faqs"
+import { bann } from "@/assets";
+import { FaCheckCircle } from "react-icons/fa";
+import Faqs from "../global/faqs";
 
 export default function Visadetails({ data }: any) {
- 
-
-
   return (
     <div className="lg:px-28 xl:px-32 md:p-20 sm:p-12 p-7 bg-gradient-to-b from-zinc-50 relative to-white">
       <div className="flex flex-wrap justify-between gap-y-7 relative w-full">
@@ -28,111 +25,107 @@ export default function Visadetails({ data }: any) {
               />
             </div>
           </div>
-        
 
-<article className="relative mb-16">
+          <article className="relative mb-16">
+            <div className="space-y-12">
+              {data?.content?.map((section: any, secIndex: number) => (
+                <div key={secIndex} className="space-y-6">
+                  {/* Section Heading */}
+                  {section?.heading ? (
+                    <div
+                      className="text-2xl sm:text-3xl md:text-4xl font-bold text-zinc-800 leading-snug border-l-4 border-amber-500 pl-4"
+                      dangerouslySetInnerHTML={{ __html: section.heading }}
+                    />
+                  ) : null}
 
-  <div className="space-y-12">
+                  {/* Subcontent */}
+                  {section?.subcontent?.map((item: any, index: number) => (
+                    <div key={index} className="space-y-4">
+                      {/* Subheading */}
+                      {item?.subheading ? (
+                        <p
+                          className="text-xl sm:text-2xl font-semibold text-zinc-800 mt-6"
+                          dangerouslySetInnerHTML={{ __html: item.subheading }}
+                        />
+                      ) : null}
 
-    {data?.content?.map((section: any, secIndex: number) => (
-      <div key={secIndex} className="space-y-6">
+                      {/* Paragraph */}
+                      {item?.para ? (
+                        <p
+                          className="text-zinc-700 leading-relaxed text-base sm:text-lg"
+                          dangerouslySetInnerHTML={{ __html: item.para }}
+                        />
+                      ) : null}
 
-        {/* Section Heading */}
-        {section?.heading ? (
-          <div
-            className="text-2xl sm:text-3xl md:text-4xl font-bold text-zinc-800 leading-snug border-l-4 border-amber-500 pl-4"
-            dangerouslySetInnerHTML={{ __html: section.heading }}
-          />
-        ) : null}
+                      {/* List with Icon */}
+                      {item?.list ? (
+                        <ul className="space-y-3 mt-3">
+                          {Array.isArray(item.list)
+                            ? item.list.map((li: string, i: number) => (
+                                <li
+                                  key={i}
+                                  className="flex items-start gap-3 text-zinc-700 text-base sm:text-lg bg-amber-50 hover:bg-amber-100 transition-all duration-300 p-3 rounded-lg shadow-sm"
+                                >
+                                  <FaCheckCircle className="text-amber-500 mt-1 shrink-0" />
+                                  <span
+                                    dangerouslySetInnerHTML={{ __html: li }}
+                                  />
+                                </li>
+                              ))
+                            : null}
+                        </ul>
+                      ) : null}
 
-        {/* Subcontent */}
-        {section?.subcontent?.map((item: any, index: number) => (
-          <div key={index} className="space-y-4">
-
-            {/* Subheading */}
-            {item?.subheading ? (
-              <h4 
-                className="text-xl sm:text-2xl font-semibold text-zinc-800 mt-6"
-                dangerouslySetInnerHTML={{ __html: item.subheading }}
-              />
-            ) : null}
-
-            {/* Paragraph */}
-            {item?.para ? (
-              <p className="text-zinc-700 leading-relaxed text-base sm:text-lg"                  dangerouslySetInnerHTML={{ __html: item.para }}
-/>
-            
-            ) : null}
-
-            {/* List with Icon */}
-            {item?.list ? (
-              <ul className="space-y-3 mt-3">
-                {Array.isArray(item.list)
-                  ? item.list.map((li: string, i: number) => (
-                      <li
-                        key={i}
-                        className="flex items-start gap-3 text-zinc-700 text-base sm:text-lg bg-amber-50 hover:bg-amber-100 transition-all duration-300 p-3 rounded-lg shadow-sm"
-                      >
-                        <FaCheckCircle className="text-amber-500 mt-1 shrink-0" />
-                        <span dangerouslySetInnerHTML={{ __html: li }} />
-                      </li>
-                    ))
-                  : null}
-              </ul>
-            ) : null}
-
-            {/* Table */}
-            {item?.table ? (
-              
-                <div
-                  className="overflow-x-auto rounded-xl border text-zinc-700 border-zinc-200 shadow-sm"
-                >
-                  <table className="min-w-full text-sm sm:text-base">
-                    <thead className="bg-amber-500 text-white">
-                      <tr>
-                        {item?.table.theading?.map((th: string, thIndex: number) => (
-                          <th
-                            key={thIndex}
-                            className="px-4 py-3 text-left font-semibold whitespace-nowrap"
-                          >
-                            {th}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {item?.table.rows?.map((row: any, rIndex: number) => (
-                        <tr
-                          key={rIndex}
-                          className="even:bg-zinc-50 hover:bg-amber-50 transition"
-                        >
-                          {row?.colum?.map(
-                            (col: string, cIndex: number) => (
-                              <td
-                                key={cIndex}
-                                className="px-4 py-3 border-t border-zinc-200 whitespace-nowrap"
-                              >
-                                {col}
-                              </td>
-                            )
-                          )}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      {/* Table */}
+                      {item?.table ? (
+                        <div className="overflow-x-auto rounded-xl border text-zinc-700 border-zinc-200 shadow-sm">
+                          <table className="min-w-full text-sm sm:text-base">
+                            <thead className="bg-amber-500 text-white">
+                              <tr>
+                                {item?.table.theading?.map(
+                                  (th: string, thIndex: number) => (
+                                    <th
+                                      key={thIndex}
+                                      className="px-4 py-3 text-left font-semibold whitespace-nowrap"
+                                    >
+                                      {th}
+                                    </th>
+                                  )
+                                )}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {item?.table.rows?.map(
+                                (row: any, rIndex: number) => (
+                                  <tr
+                                    key={rIndex}
+                                    className="even:bg-zinc-50 hover:bg-amber-50 transition"
+                                  >
+                                    {row?.colum?.map(
+                                      (col: string, cIndex: number) => (
+                                        <td
+                                          key={cIndex}
+                                          className="px-4 py-3 border-t border-zinc-200 whitespace-nowrap"
+                                        >
+                                          {col}
+                                        </td>
+                                      )
+                                    )}
+                                  </tr>
+                                )
+                              )}
+                            </tbody>
+                          </table>
+                        </div>
+                      ) : null}
+                    </div>
+                  ))}
                 </div>
-             
-            ) : null}
+              ))}
+                          <Faqs data={data.faq} />
+            </div>
 
-          </div>
-        ))}
-
-      </div>
-    ))}
-<Faqs data={data?.faq}/>
-  </div>
-</article>
-       
+          </article>
         </div>
 
         {/* Sidebar */}
@@ -140,8 +133,6 @@ export default function Visadetails({ data }: any) {
           <BlogAside />
         </div>
       </div>
-
-    
     </div>
-  )
+  );
 }
