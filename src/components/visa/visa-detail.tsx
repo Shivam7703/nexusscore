@@ -10,7 +10,7 @@ import Faqs from "../global/faqs";
 
 export default function Visadetails({ data }: any) {
   return (
-    <div className="lg:px-28 xl:px-32 md:p-20 sm:p-12 p-7 bg-gradient-to-b from-zinc-50/20 relative to-white/10">
+    <div className="lg:px-28 xl:px-32 md:p-20 sm:p-12 p-7 bg-gradient-to-b from-zinc-50/70 relative to-white/60">
       <div className="flex flex-wrap justify-between gap-y-7 relative w-full">
         <div className="md:w-[60%] w-full">
           {/* Hero Image Container */}
