@@ -18,7 +18,7 @@ export default function Visadetails({ data }: any) {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative aspect-[16/9] overflow-hidden">
               <Image
-                src={bann}
+                src={data?.img}
                 alt={data?.title}
                 fill
                 className="object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
