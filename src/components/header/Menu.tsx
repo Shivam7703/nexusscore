@@ -42,7 +42,7 @@ let path = lastSegment || "home";
         <Link title={item?.label}
   href={item?.href || "#"}
   className={`px-4 py-3 flex justify-center items-center gap-1 text-sm font-bold cursor-pointer 
-    ${activeItem === (item?.href?.split("/").filter(Boolean).pop() || "home") && Isprimary ? "!text-yellow-200" : Isprimary ? "text-white" : "text-zinc-800"}`}
+    ${activeItem === (FormatHref(item.href) || "home") && Isprimary ? "!text-yellow-200" : Isprimary ? "text-white" : "text-zinc-800"}`}
 >
             <span className="transition-all hover:scale-105 duration-300">
               {item?.label}
@@ -60,7 +60,7 @@ let path = lastSegment || "home";
                   <Link title={nav?.label}
                     href={FormatHref(nav.href)}
 
-                    className={`hover:bg-blue-800 relative w-full flex gap-4 justify-between hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (nav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
+                    className={`hover:bg-blue-800 relative w-full flex gap-4 justify-between hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (FormatHref(nav.href) || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
                     
                   >
                     <span className="whitespace-nowrap pl-3">{nav.label}</span>
@@ -77,7 +77,7 @@ let path = lastSegment || "home";
                           <Link title={subNav?.label}
                             href={FormatHref(subNav.href)}
 
-                            className={`hover:bg-blue-800 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
+                            className={`hover:bg-blue-800 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (FormatHref(subNav.href) || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
                           >
                             <span className="whitespace-nowrap pl-3">{subNav.label}</span>
                             {subNav?.subNavv && subNav.subNavv.length !== 0 && (
@@ -94,7 +94,7 @@ let path = lastSegment || "home";
                               <Link title={subSubNav?.label}
                                 key={subSubNav.id}
                                 href={FormatHref(subSubNav.href)}
-                                className={`hover:bg-blue-800 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subSubNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
+                                className={`hover:bg-blue-800 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (FormatHref(subSubNav.href) || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
                               >
                                 <span className="whitespace-nowrap pl-3">{subSubNav.label}</span>
                               
