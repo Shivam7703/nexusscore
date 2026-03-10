@@ -66,7 +66,112 @@ import env from "@/assets/about/env.webp";
 import social from "@/assets/about/social.webp";
 
 
+// visas
+import atlanticImmigration from "@/assets/visa/Atlantic Immigration Program.webp";
+import albertaPointsCalculator from "@/assets/visa/Alberta Points Calculator.webp";
+import alberta from "@/assets/visa/alberta.webp";
+import atlanticImmi from "@/assets/visa/atlanticimmi.webp";
+import australiaPR from "@/assets/visa/auspr.webp";
+import australiaSpouseVisa from "@/assets/visa/Australia Spouse Visa.webp";
+import australiaPointSystem from "@/assets/visa/Australia Point System.jpg";
+import australiaSubclass491 from "@/assets/visa/Australia Subclass 491 Visa.jpg";
+import australiaSubclass600 from "@/assets/visa/Australia Subclass 600.jpg";
+import bcPnpProgram from "@/assets/visa/BC PNP Program.jpg";
+import bcPointsCalculator from "@/assets/visa/BC Points Calculator.jpg";
+import canadaFamilyVisa from "@/assets/visa/canadafam.png";
+import canadaPR from "@/assets/visa/canadapr.webp";
+import canadaSpouseVisa from "@/assets/visa/Canadaspouse.jpg";
+import canadaSuperVisa from "@/assets/visa/Canadasuper.jpg";
+import canadianExperienceClass from "@/assets/visa/cec.jpg";
+import crsPointsCalculator from "@/assets/visa/CRS Points Calculator.webp";
+import employerNomination186 from "@/assets/visa/Employer Nomination Subclass 186.webp";
+import federalSkilledWorker from "@/assets/visa/federalskilled.jpg";
+import federalRel from "@/assets/visa/fedrel.webp";
+import globalTalentStream from "@/assets/visa/gts.jpg";
+import germanyJobSeekerVisa from "@/assets/visa/Germany Job Seeker Visa.webp";
+import irelandWorkPermit from "@/assets/visa/Ireland Work Permit.webp";
+import manitoba from "@/assets/visa/manitoba.webp";
+import maltaWorkPermit from "@/assets/visa/Malta Work Permit.jpg";
+import manitobaPointsCalculator from "@/assets/visa/Manitoba Points Calculator.jpg";
+import nlPnp from "@/assets/visa/nlpnp.webp";
+import novaScotia from "@/assets/visa/nova.webp";
+import newBrunswickPnp from "@/assets/visa/New Brunswick PNP Program.webp";
+import norwayWorkPermit from "@/assets/visa/Norway Work Permit.jpg";
+import novaScotiaPointsCalculator from "@/assets/visa/Nova Scotia Points Calculator.webp";
+import ontario from "@/assets/visa/ontario.webp";
+import omanWorkVisa from "@/assets/visa/Oman Work Visa.webp";
+import ontarioPointsCalculator from "@/assets/visa/Ontario Points Calculator.webp";
+import peiPnpProgram from "@/assets/visa/PEI PNP Program.jpeg";
+import polandWorkPermit from "@/assets/visa/Poland Work Permit.jpg";
+import qatarWorkVisa from "@/assets/visa/Qatar Work Visa.webp";
+import quebecPointsCalculator from "@/assets/visa/Quebec Points Calculator.webp";
+import quebecSkilledWorker from "@/assets/visa/Quebec Skilled Worker Program.jpg";
+import ruralProgram from "@/assets/visa/rular.jpg";
+import serbiaWorkPermit from "@/assets/visa/serbia.webp";
+import skillIndependent from "@/assets/visa/skillindependent.webp";
+import skillNominated from "@/assets/visa/skillnominated.webp";
+import sinpPointsCalculator from "@/assets/visa/SINP Points Calculator.webp";
+import saskatchewanPnp from "@/assets/visa/Saskatchewan PNP.jpg";
+import saudiArabiaWorkVisa from "@/assets/visa/Saudi Arabia Work Visa.jpg";
+import skillOccupationList from "@/assets/visa/Skill Occupation List.webp";
+import swedenWorkPermit from "@/assets/visa/Sweden Work Permit Visa.jpeg";
+import ukWorkVisa from "@/assets/visa/uk work.webp";
+import uaeWorkVisa from "@/assets/visa/UAE Work Visa.jpg";
+import yukonPnp from "@/assets/visa/yukon.webp";
+
+
+
 export {
     logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,usflag, ukflag, bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
- , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, leaf, patta, kangaroo
+ , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, leaf, patta, kangaroo, atlanticImmigration,
+  albertaPointsCalculator,
+  alberta,
+  atlanticImmi,
+  australiaPR,
+  australiaSpouseVisa,
+  australiaPointSystem,
+  australiaSubclass491,
+  australiaSubclass600,
+  bcPnpProgram,
+  bcPointsCalculator,
+  canadaFamilyVisa,
+  canadaPR,
+  canadaSpouseVisa,
+  canadaSuperVisa,
+  canadianExperienceClass,
+  crsPointsCalculator,
+  employerNomination186,
+  federalSkilledWorker,
+  federalRel,
+  globalTalentStream,
+  germanyJobSeekerVisa,
+  irelandWorkPermit,
+  manitoba,
+  maltaWorkPermit,
+  manitobaPointsCalculator,
+  nlPnp,
+  novaScotia,
+  newBrunswickPnp,
+  norwayWorkPermit,
+  novaScotiaPointsCalculator,
+  ontario,
+  omanWorkVisa,
+  ontarioPointsCalculator,
+  peiPnpProgram,
+  polandWorkPermit,
+  qatarWorkVisa,
+  quebecPointsCalculator,
+  quebecSkilledWorker,
+  ruralProgram,
+  serbiaWorkPermit,
+  skillIndependent,
+  skillNominated,
+  sinpPointsCalculator,
+  saskatchewanPnp,
+  saudiArabiaWorkVisa,
+  skillOccupationList,
+  swedenWorkPermit,
+  ukWorkVisa,
+  uaeWorkVisa,
+  yukonPnp
  }

@@ -1,5 +1,59 @@
+import { atlanticImmigration,
+  albertaPointsCalculator,
+  alberta,
+  atlanticImmi,
+  australiaPR,
+  australiaSpouseVisa,
+  australiaPointSystem,
+  australiaSubclass491,
+  australiaSubclass600,
+  bcPnpProgram,
+  bcPointsCalculator,
+  canadaFamilyVisa,
+  canadaPR,
+  canadaSpouseVisa,
+  canadaSuperVisa,
+  canadianExperienceClass,
+  crsPointsCalculator,
+  employerNomination186,
+  federalSkilledWorker,
+  federalRel,
+  globalTalentStream,
+  germanyJobSeekerVisa,
+  irelandWorkPermit,
+  manitoba,
+  maltaWorkPermit,
+  manitobaPointsCalculator,
+  nlPnp,
+  novaScotia,
+  newBrunswickPnp,
+  norwayWorkPermit,
+  novaScotiaPointsCalculator,
+  ontario,
+  omanWorkVisa,
+  ontarioPointsCalculator,
+  peiPnpProgram,
+  polandWorkPermit,
+  qatarWorkVisa,
+  quebecPointsCalculator,
+  quebecSkilledWorker,
+  ruralProgram,
+  serbiaWorkPermit,
+  skillIndependent,
+  skillNominated,
+  sinpPointsCalculator,
+  saskatchewanPnp,
+  saudiArabiaWorkVisa,
+  skillOccupationList,
+  swedenWorkPermit,
+  ukWorkVisa,
+  uaeWorkVisa,
+  yukonPnp, 
+  bann} from "@/assets";
+
 export const visaData = [
   {
+    img:canadaPR,
     title: "Canada PR Visa",
     metatitle: "Canada PR Visa from India – Complete Guide 2026",
     metakey: "",
@@ -356,7 +410,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:federalSkilledWorker,
     title: "Federal Skilled Worker Program",
     metatitle: "",
     metakey: "",
@@ -685,7 +739,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:federalRel,
     title: "Federal Skilled Trades Program",
     metatitle: "",
     metakey: "",
@@ -1084,7 +1138,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:canadianExperienceClass,
     title: "Canadian Experience Class",
     metatitle: "",
     metakey: "",
@@ -1532,7 +1586,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:globalTalentStream,
     title: "Global Talent Stream",
     metatitle: "",
     metakey: "",
@@ -1955,7 +2009,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:canadaSuperVisa,
     title: "Canada Super Visa",
     metatitle: "",
     metakey: "",
@@ -2316,7 +2370,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:canadaFamilyVisa,
     title: "Canada Family Sponsorship Visa",
     metatitle: "",
     metakey: "",
@@ -2772,7 +2826,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:atlanticImmigration,
     title: "Atlantic Immigration Pilot",
     metatitle: "",
     metakey: "",
@@ -3146,7 +3200,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:canadaSpouseVisa,
     title: "Canada Spouse Visa",
     metatitle: "",
     metakey: "",
@@ -3476,7 +3530,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:ruralProgram,
     title: "Rural Community Immigration Pilot",
     metatitle: "",
     metakey: "",
@@ -3762,7 +3816,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:australiaPR,
     title: "Australia Permanent Residency Visa",
     metatitle: "",
     metakey: "",
@@ -4055,7 +4109,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:skillIndependent,
     title: "Skilled Independent Visa Subclass 189",
     metatitle: "",
     metakey: "",
@@ -4312,7 +4366,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:skillNominated,
     title: "Skilled Nominated Visa Subclass 190",
     metatitle: "",
     metakey: "",
@@ -4553,7 +4607,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:australiaSubclass491,
     title: "Australia Subclass 491 Visa",
     metatitle: "",
     metakey: "",
@@ -4869,7 +4923,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:australiaSubclass600,
     title: "Australia Subclass 600",
     metatitle: "",
     metakey: "",
@@ -5183,7 +5237,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:employerNomination186,
     title: "Employer Nomination Subclass 186",
     metatitle: "",
     metakey: "",
@@ -5449,7 +5503,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:australiaSpouseVisa,
     title: "Australia Spouse Visa",
     metatitle: "",
     metakey: "",
@@ -5674,7 +5728,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:skillOccupationList,
     title: "Skill Occupation List",
     metatitle: "",
     metakey: "",
@@ -5988,7 +6042,7 @@ export const visaData = [
     ],
   },
   
-  {
+  {img:australiaPointSystem,
     title: "Australia Point System",
     metatitle: "",
     metakey: "",
@@ -6261,7 +6315,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:germanyJobSeekerVisa,
     title: "Germany Job Seeker Visa",
     metatitle: "",
     metakey: "",
@@ -6595,7 +6649,7 @@ export const visaData = [
     ],
   },
 
-  {
+  {img:ukWorkVisa,
     title: "UK Work Permit",
     metatitle: "",
     metakey: "",
@@ -6927,7 +6981,7 @@ export const visaData = [
     ],
   },
 
-   {
+   {img:irelandWorkPermit,
     title: "Ireland Work Permit",
     metatitle: "",
     metakey: "",
@@ -7246,7 +7300,7 @@ export const visaData = [
 ]
   },
 
-  {
+  {img:serbiaWorkPermit,
     title: "Serbia Work Permit",
     metatitle: "",
     metakey: "",
@@ -7607,7 +7661,7 @@ export const visaData = [
 
   },
 
-   {
+   {img:polandWorkPermit,
     title: "Poland Work Permit",
     metatitle: "",
     metakey: "",
@@ -7981,7 +8035,7 @@ export const visaData = [
 ]
   },
 
-   {
+   {img:swedenWorkPermit,
     title: "Sweden Work Permit Visa",
     metatitle: "",
     metakey: "",
@@ -8288,7 +8342,7 @@ export const visaData = [
 ]
   },
 
-  {
+  {img:norwayWorkPermit,
     title: "Norway Work Permit",
     metatitle: "",
     metakey: "",
@@ -8610,7 +8664,7 @@ content: [
 ]
   },
 
-{
+{img:maltaWorkPermit,
     title: "Malta Work Permit",
     metatitle: "",
     metakey: "",
@@ -8940,7 +8994,7 @@ faq:
 ]
 },
 
-{
+{img:qatarWorkVisa,
     title: "Qatar Work Visa",
     metatitle: "",
     metakey: "",
@@ -9186,7 +9240,7 @@ para: "For trusted guidance and professional support, consult the <a href='https
 ]
 },
 
-{
+{img:saudiArabiaWorkVisa,
     title: "Saudi Arabia Work Visa",
     metatitle: "",
     metakey: "",
@@ -9552,7 +9606,7 @@ para: "For trusted guidance and professional support, consult the <a href='https
     }
 ]},
 
-{
+{img:omanWorkVisa,
     title: "Oman Work Visa",
     metatitle: "",
     metakey: "",
@@ -9928,7 +9982,7 @@ faq:
 ]
 },
 
-{
+{img:uaeWorkVisa,
     title: "UAE Work Visa",
     metatitle: "",
     metakey: "",
@@ -10334,7 +10388,7 @@ faq:
     }
 ]},
 
-{
+{img:ontario,
     title: "Ontario PNP Program",
     metatitle: "",
     metakey: "",
@@ -10663,7 +10717,7 @@ content: [
 ]
   },
 
-  {
+  {img:yukonPnp,
     title: "Yukon Nominee Program",
     metatitle: "",
     metakey: "",
@@ -11024,7 +11078,7 @@ faq:
 ]
   },
 
-  {
+  {img:nlPnp,
     title: "Newfoundland and Labrador PNP Program",
     metatitle: "",
     metakey: "",
@@ -11373,7 +11427,7 @@ faq:
 ]
   },
  
-  {
+  {img:novaScotia,
     title: "Nova Scotia PNP",
     metatitle: "",
     metakey: "",
@@ -11632,7 +11686,7 @@ content: [
 ]
   },
 
-  {
+  {img:alberta,
     title: "Alberta PNP",
     metatitle: "",
     metakey: "",
@@ -11948,7 +12002,7 @@ faq:
 ],
   },
 
-   {
+   {img:saskatchewanPnp,
     title: "Saskatchewan PNP",
     metatitle: "",
     metakey: "",
@@ -12278,7 +12332,7 @@ faq:
 ]
    },
 
-   { 
+   { img:quebecSkilledWorker,
     title: "Quebec Skilled Worker Program",
     metatitle: "",
     metakey: "",
@@ -12595,7 +12649,7 @@ faq:
     ]
 },
 
-{
+{img:manitoba,
     title: "Manitoba PNP Draw",
     metatitle: "",
     metakey: "",
@@ -12901,7 +12955,7 @@ faq:
     ]
 },
 
-{
+{img:newBrunswickPnp,
     title: "New Brunswick PNP Program",
     metatitle: "",
     metakey: "",
@@ -13215,7 +13269,7 @@ faq:
     ]
 },
 
-{
+{img:atlanticImmi,
     title: "Atlantic Immigration Program",
     metatitle: "",
     metakey: "",
@@ -13537,7 +13591,7 @@ faq:
     ]
 },
 
-{
+{img:peiPnpProgram,
     title: "PEI PNP Program",
     metatitle: "",
     metakey: "",
@@ -13828,7 +13882,7 @@ faq:
     ]
 },
 
-{
+{img:bcPnpProgram,
     title: "BC PNP Program",
     metatitle: "",
     metakey: "",
@@ -14146,7 +14200,7 @@ faq:
     ]
 },
 
-{
+{img:crsPointsCalculator,
     title: "CRS Points Calculator",
     metatitle: "",
     metakey: "",
@@ -14496,7 +14550,7 @@ faq:
             ]
 },
 
-{
+{img:quebecPointsCalculator,
     title: "Quebec Points Calculator",
     metatitle: "",
     metakey: "",
@@ -14794,7 +14848,7 @@ faq:
     ]
 },
 
-{
+{img:novaScotiaPointsCalculator,
     title: "Nova Scotia Points Calculator",
     metatitle: "",
     metakey: "",
@@ -15137,7 +15191,7 @@ faq:
     ]
 },
 
-{
+{img:manitobaPointsCalculator,
     title: "Manitoba Points Calculator",
     metatitle: "",
     metakey: "",
@@ -15447,7 +15501,7 @@ faq:
     ]
 },
 
-{
+{img:sinpPointsCalculator,
     title: "SINP Points Calculator",
     metatitle: "",
     metakey: "",
@@ -15775,7 +15829,7 @@ faq:
     ]
 },
 
-{
+{img:albertaPointsCalculator,
     title: "Alberta Points Calculator",
     metatitle: "",
     metakey: "",
@@ -16123,7 +16177,7 @@ faq:
     ]
 },
 
-{
+{img:ontarioPointsCalculator,
     title: "Ontario Points Calculator",
     metatitle: "",
     metakey: "",
@@ -16458,7 +16512,7 @@ faq:
     ]
 },
 
-{
+{img:bcPointsCalculator,
     title: "BC Points Calculator",
     metatitle: "",
     metakey: "",
@@ -16766,7 +16820,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Canada Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -17113,7 +17167,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Australia Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -17404,7 +17458,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Germany Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -17739,7 +17793,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Dubai tourist visa",
     metatitle: "",
     metakey: "",
@@ -18047,7 +18101,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Singapore tourist visa",
     metatitle: "",
     metakey: "",
@@ -18372,7 +18426,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "UK Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -18706,7 +18760,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Study In UK",
     metatitle: "",
     metakey: "",
@@ -19043,7 +19097,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Study In Canada",
     metatitle: "",
     metakey: "",
@@ -19342,7 +19396,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Study In Australia",
     metatitle: "",
     metakey: "",
@@ -19672,7 +19726,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Study In Germany",
     metatitle: "",
     metakey: "",
@@ -20097,7 +20151,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Study In Ireland",
     metatitle: "",
     metakey: "",
@@ -20514,7 +20568,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "France Study Visa",
     metatitle: "",
     metakey: "",
@@ -20920,7 +20974,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Study In Dubai",
     metatitle: "",
     metakey: "",
@@ -21275,7 +21329,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Finland Study Visa",
     metatitle: "",
     metakey: "",
@@ -21715,7 +21769,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Germany Opportunity Card",
     metatitle: "",
     metakey: "",
@@ -22106,7 +22160,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Hong Kong Work Permit",
     metatitle: "",
     metakey: "",
@@ -22483,7 +22537,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Singapore Work Permit",
     metatitle: "",
     metakey: "",
@@ -22867,7 +22921,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Russia Work Permit",
     metatitle: "",
     metakey: "",
@@ -23226,7 +23280,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Macau Work Permit",
     metatitle: "",
     metakey: "",
@@ -23588,7 +23642,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Taiwan Work Permit",
     metatitle: "",
     metakey: "",
@@ -23955,7 +24009,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Austria Work Permit",
     metatitle: "",
     metakey: "",
@@ -24313,7 +24367,7 @@ faq:
     ]
 },
 
-{
+{img:bann,
     title: "Portugal Work Permit",
     metatitle: "",
     metakey: "",
