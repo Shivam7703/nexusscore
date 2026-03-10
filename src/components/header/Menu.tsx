@@ -6,6 +6,21 @@ import { IoIosArrowDown } from "react-icons/io";
 import { navigationMenu } from "@/data/homeData";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { usePathname } from "next/navigation";
+
+export function FormatHref(url:any) {
+  if (!url) return "#";
+
+  const parts = url.split("/");
+  if (parts[2]) {
+    parts[2] = parts[2]
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  }
+
+  return parts.join("/");
+};
+
 const Menu = ({ Isprimary, Items }: any) => {
    const [activeItem, setActiveItem] = useState<string | null>(null);
   
@@ -17,6 +32,9 @@ let path = lastSegment || "home";
 
       setActiveItem(path);
     }, [pathname]);
+
+
+
   return (
     <ul className={`hidden items-center lg:gap-x-0 md:gap-x-0 font-medium w-max ${Isprimary ? "mx-auto" : "ml-28"} md:flex`}>
       {Items.map((item: any) => (
@@ -40,7 +58,8 @@ let path = lastSegment || "home";
               {item.subNav.map((nav: any) => (
                 <div key={nav.id} className="group/subnav relative">
                   <Link title={nav?.label}
-                    href={nav.href || "#"}
+                    href={FormatHref(nav.href)}
+
                     className={`hover:bg-blue-800 relative w-full flex gap-4 justify-between hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (nav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
                     
                   >
@@ -56,7 +75,8 @@ let path = lastSegment || "home";
                       {nav.subNav.map((subNav: any) => (
                         <div key={subNav.id} className="group/subsubnav relative">
                           <Link title={subNav?.label}
-                            href={subNav.href || "#"}
+                            href={FormatHref(subNav.href)}
+
                             className={`hover:bg-blue-800 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
                           >
                             <span className="whitespace-nowrap pl-3">{subNav.label}</span>
@@ -73,7 +93,7 @@ let path = lastSegment || "home";
                             subNav.subNavv.map((subSubNav: any) => (
                               <Link title={subSubNav?.label}
                                 key={subSubNav.id}
-                                href={subSubNav.href || "#"}
+                                href={FormatHref(subSubNav.href)}
                                 className={`hover:bg-blue-800 w-full gap-4 justify-between flex hover:text-white cursor-pointer items-center py-1 pl-2 pr-8 ${activeItem === (subSubNav?.href?.split("/").filter(Boolean).pop() || "home") ? "bg-blue-800 text-white" : "bg-transparent"}`}
                               >
                                 <span className="whitespace-nowrap pl-3">{subSubNav.label}</span>

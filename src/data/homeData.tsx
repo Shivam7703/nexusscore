@@ -1,17 +1,12 @@
 import {
-  about,
   about2,
-  aboutb,
   banner,
   banner2,
   banner3,
   bene2,
-  blog3,
   box1,
   box2,
   box3,
-  careerb,
-  choose1,
   cl1,
   cl2,
   cl3,
@@ -23,19 +18,16 @@ import {
   cl9,
   contactb,
   logo2,
-  prob,
   process1,
   ukflag,
   usflag,
   visa1,
 } from "@/assets";
-import { title } from "process";
-import { FaGlobeAmericas, FaHourglassStart, FaPlaneDeparture, FaSearch } from "react-icons/fa";
+import { FaGlobeAmericas, FaPlaneDeparture, } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
-import { GiCompass } from "react-icons/gi";
 import { HiOutlineFlag, HiOutlineLightBulb } from "react-icons/hi";
 import { IoSearch, IoSettingsOutline } from "react-icons/io5";
-import { MdAttachEmail, MdLocationCity, MdWifiCalling3 } from "react-icons/md";
+import { MdAttachEmail,  MdWifiCalling3 } from "react-icons/md";
 import { RiUserFollowLine } from "react-icons/ri";
 
 // homepage
@@ -149,32 +141,32 @@ export const navigationMenu = {
             {
               id: 1,
               label: "Australia Permanent Residency Visa",
-              href: "/visa/australia-pr-visa",
+              href: "/visa/Australia Permanent Residency Visa",
             },
             {
               id: 2,
               label: "Skilled Independent Visa Subclass 189",
-              href: "/visa/subclass-189",
+              href: "/visa/Skilled Independent Visa Subclass 189",
             },
             {
               id: 3,
               label: "Skilled Nominated Visa Subclass 190",
-              href: "/visa/subclass-190",
+              href: "/visa/Skilled Nominated Visa Subclass 190",
             },
             {
               id: 4,
               label: "Australia Subclass 491",
-              href: "/visa/subclass-491",
+              href: "/visa/Australia Subclass 491 Visa",
             },
             {
               id: 7,
               label: "Australia Subclass 600",
-              href: "/visa/subclass-600",
+              href: "/visa/Australia Subclass 600",
             },
             {
               id: 5,
               label: "Employer Nomination Subclass 186",
-              href: "/visa/subclass-186",
+              href: "/visa/Employer Nomination Subclass 186",
             },
             {
               id: 6,
@@ -188,8 +180,8 @@ export const navigationMenu = {
             },
             {
               id: 9,
-              label: "Point System",
-              href: "/visa/point-system",
+              label: "Australia Point System",
+              href: "/visa/Australia Point System",
             },
           ],
         },
@@ -213,22 +205,22 @@ export const navigationMenu = {
             {
               id: 4,
               label: "Serbia Work Permit",
-              href: "/visa/serbia-work-visa",
+              href: "/visa/Serbia Work Permit",
             },
             {
               id: 5,
               label: "Poland Work Permit",
-              href: "/visa/poland-work-visa",
+              href: "/visa/Poland Work Permit",
             },
             {
               id: 6,
               label: "Sweden Work Permit Visa",
-              href: "/visa/sweden-work-visa",
+              href: "/visa/Sweden Work Permit Visa",
             },
             {
               id: 7,
               label: "Norway Work Permit",
-              href: "/visa/norway-work-visa",
+              href: "/visa/Norway Work Permit",
             },
             {
               id: 8,
@@ -261,9 +253,9 @@ export const navigationMenu = {
       label: "PNP Programs",
       href: "#",
       subNav: [
-        { id: 1, label: "Ontario PNP Program", href: "/visa/ontario-pnp" },
-        { id: 2, label: "Yukon Nominee Program", href: "/visa/yukon-pnp" },
-        { id: 3, label: "NL PNP Program", href: "/visa/nl-pnp" },
+        { id: 1, label: "Ontario PNP Program", href: "/visa/Ontario PNP Program" },
+        { id: 2, label: "Yukon Nominee Program", href: "/visa/Yukon Nominee Program" },
+        { id: 3, label: "NL PNP Program", href: "/visa/Newfoundland and Labrador PNP Program" },
         { id: 4, label: "Nova Scotia PNP", href: "/visa/nova-scotia-pnp" },
         { id: 5, label: "Alberta PNP", href: "/visa/alberta-pnp" },
         { id: 6, label: "Saskatchewan PNP", href: "/visa/saskatchewan-pnp" },
@@ -272,19 +264,19 @@ export const navigationMenu = {
           label: "Quebec Skilled Worker Program",
           href: "/visa/quebec-skilled-worker-program",
         },
-        { id: 8, label: "Manitoba PNP", href: "/visa/manitoba-pnp" },
+        { id: 8, label: "Manitoba PNP", href: "/visa/Manitoba PNP Draw" },
         {
           id: 9,
           label: "New Brunswick PNP Program",
-          href: "/visa/new-brunswick-pnp",
+          href: "/visa/New Brunswick PNP Program",
         },
         {
           id: 10,
           label: "Atlantic Immigration Program",
           href: "/visa/atlantic-immigration-program",
         },
-        { id: 11, label: "PEI PNP Program", href: "/visa/pei-pnp" },
-        { id: 12, label: "BC PNP Program", href: "/visa/bc-pnp" },
+        { id: 11, label: "PEI PNP Program", href: "/visa/PEI PNP Program" },
+        { id: 12, label: "BC PNP Program", href: "/visa/BC PNP Program" },
       ],
     },
 
@@ -293,34 +285,34 @@ export const navigationMenu = {
       label: "Points Calculator",
       href: "#",
       subNav: [
-        { id: 1, label: "CRS Points Calculator", href: "/calculator/crs" },
+        { id: 1, label: "CRS Points Calculator", href: "/visa/CRS Points Calculator" },
         {
           id: 2,
           label: "Quebec Points Calculator",
-          href: "/calculator/quebec",
+          href: "/visa/Quebec Points Calculator",
         },
         {
           id: 3,
           label: "Nova Scotia Points Calculator",
-          href: "/calculator/nova-scotia",
+          href: "/visa/Nova Scotia Points Calculator",
         },
         {
           id: 4,
           label: "Manitoba Points Calculator",
-          href: "/calculator/manitoba",
+          href: "/visa/Manitoba Points Calculator",
         },
-        { id: 5, label: "SINP Points Calculator", href: "/calculator/sinp" },
+        { id: 5, label: "SINP Points Calculator", href: "/visa/SINP Points Calculator" },
         {
           id: 6,
           label: "Alberta Points Calculator",
-          href: "/calculator/alberta",
+          href: "/visa/Alberta Points Calculator",
         },
         {
           id: 7,
           label: "Ontario Points Calculator",
-          href: "/calculator/ontario",
+          href: "/visa/Ontario Points Calculator",
         },
-        { id: 8, label: "BC Points Calculator", href: "/calculator/bc" },
+        { id: 8, label: "BC Points Calculator", href: "/visa/BC Points Calculator" },
       ],
     },
 
@@ -330,7 +322,7 @@ export const navigationMenu = {
       href: "#",
       subNav: [
         { id: 1, label: "Canada PR Visa", href: "/visa/canada-pr-visa" },
-        { id: 2, label: "Australia PR Visa", href: "/visa/australia-pr-visa" },
+        { id: 2, label: "Australia PR Visa", href: "/visa/Australia Permanent Residency Visa" },
       ],
     },
 
@@ -350,28 +342,29 @@ export const navigationMenu = {
           label: "Ireland Work Permit",
           href: "/visa/ireland-work-permit",
         },
-        { id: 4, label: "Serbia Work Permit", href: "/visa/serbia-work-visa" },
-        { id: 5, label: "Poland Work Permit", href: "/visa/poland-work-visa" },
+        { id: 4, label: "Serbia Work Permit", href: "/visa/Serbia Work Permit" },
+
+        { id: 5, label: "Poland Work Permit", href: "/visa/Poland Work Permit" },
         {
           id: 6,
           label: "Sweden Work Permit Visa",
-          href: "/visa/sweden-work-visa",
+          href: "/visa/Sweden Work Permit Visa",
         },
-        { id: 7, label: "Norway Work Permit", href: "/visa/norway-work-visa" },
+        { id: 7, label: "Norway Work Permit", href: "/visa/Norway Work Permit" },
         { id: 8, label: "Malta Work Permit", href: "/visa/malta-work-permit" },
         {
           id: 9,
           label: "Germany oportunity card",
-          href: "/visa/malta-work-permit",
+          href: "/visa/Germany Opportunity Card",
         },
-        { id: 10, label: "Hong Kong", href: "/visa/malta-work-permit" },
-        { id: 11, label: "Russia", href: "/visa/malta-work-permit" },
-        { id: 12, label: "Singapore ", href: "/visa/malta-work-permit" },
-        { id: 13, label: "Macau", href: "/visa/malta-work-permit" },
-        { id: 14, label: "Taiwan", href: "/visa/malta-work-permit" },
-        { id: 14, label: "Austria ", href: "/visa/malta-work-permit" },
-        { id: 14, label: "Sweden", href: "/visa/malta-work-permit" },
-        { id: 14, label: "Portugal", href: "/visa/malta-work-permit" },
+        { id: 10, label: "Hong Kong Work Permit", href: "/visa/Hong Kong Work Permit" },
+        { id: 11, label: "Russia Work Permit", href: "/visa/Russia Work Permit" },
+        { id: 12, label: "Singapore Work Permit", href: "/visa/Singapore Work Permit" },
+        { id: 13, label: "Macau Work Permit", href: "/visa/Macau Work Permit" },
+        { id: 14, label: "Taiwan Work Permit", href: "/visa/Taiwan Work Permit" },
+        { id: 14, label: "Austria Work Permit", href: "/visa/Austria Work Permit" },
+        { id: 14, label: "Sweden", href: "/visa/Sweden Work Permit Visa" },
+        { id: 14, label: "Portugal", href: "/visa/Portugal Work Permit" },
       ],
     },
 
@@ -414,14 +407,14 @@ export const navigationMenu = {
       label: "Study Abroad",
       href: "#",
       subNav: [
-        { id: 1, label: "Study In UK", href: "/study/uk" },
-        { id: 2, label: "Study In Canada", href: "/study/canada" },
-        { id: 3, label: "Study In Australia", href: "/study/australia" },
-        { id: 4, label: "Study In Germany", href: "/study/germany" },
-        { id: 5, label: "Study In Ireland", href: "/study/ireland" },
-        { id: 6, label: "Study In France", href: "/study/france" },
-        { id: 7, label: "Study In Dubai", href: "/study/dubai" },
-        { id: 8, label: "Study In Finland", href: "/study/finland" },
+        { id: 1, label: "Study In UK", href: "/visa/Study In UK" },
+        { id: 2, label: "Study In Canada", href: "/visa/Study In Canada" },
+        { id: 3, label: "Study In Australia", href: "/visa/Study In Australia" },
+        { id: 4, label: "Study In Germany", href: "/visa/Study In Germany" },
+        { id: 5, label: "Study In Ireland", href: "/visa/Study In Ireland" },
+        { id: 6, label: "Study In France", href: "/visa/France Study Visa" },
+        { id: 7, label: "Study In Dubai", href: "/visa/Study In Dubai" },
+        { id: 8, label: "Study In Finland", href: "/visa/Finland Study Visa" },
       ],
     },
   ],

@@ -28,8 +28,6 @@ export default function Home() {
 <FaqSection/>
 <Testimonials/>
 <Blogs isHome={true} />
-
-
   </div>
   );
 }

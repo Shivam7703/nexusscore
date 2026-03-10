@@ -9,6 +9,7 @@ import { TbBrandYoutubeFilled } from "react-icons/tb";
 import { navigationMenu } from "@/data/homeData";
 import Marquee from "react-fast-marquee";
 import { footerImage, plane } from "@/assets";
+import { FormatHref } from "./header/Menu";
 
 export default function Footer({ footer }: any) {
   return (
@@ -132,7 +133,7 @@ export default function Footer({ footer }: any) {
                   <Link
                     title={navitem?.label}
                     className="text-zinc-700"
-                    href={navitem?.href}
+                    href={FormatHref(navitem.href)}
                   >
                     {navitem?.label}
                     {"  "}&nbsp; | {"  "}&nbsp;
@@ -143,7 +144,7 @@ export default function Footer({ footer }: any) {
                         title={subNavItem?.label}
                         className="text-zinc-700"
                         key={subNavItem?.id}
-                        href={subNavItem?.href}
+                        href={FormatHref(subNavItem.href)}
                       >
                         {subNavItem?.label}
                         {"  "}&nbsp; | {"  "}&nbsp;
@@ -153,7 +154,7 @@ export default function Footer({ footer }: any) {
                           title={data?.label}
                           className="text-zinc-700"
                           key={data?.id}
-                          href={data?.href}
+                          href={FormatHref(data.href)}
                         >
                           {data?.label}
                           {"  "}&nbsp; | {"  "}&nbsp;

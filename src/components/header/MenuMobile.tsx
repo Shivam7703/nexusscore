@@ -20,6 +20,20 @@ interface MenuMobileProps {
   onTop: boolean;
 }
 
+function formatHref(url:any) {
+  if (!url) return "#";
+
+  const parts = url.split("/");
+  if (parts[2]) {
+    parts[2] = parts[2]
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  }
+
+  return parts.join("/");
+}
+
 const MenuMobile: React.FC<MenuMobileProps> = ({
   setIsMobileMenuOpen,
   onItemClick,
@@ -61,7 +75,11 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
         <div key={`${level}-${id}`}>
           <div className={`flex items-center justify-between ${padding} py-2 ${textColor} ${hoverText}`}>
             <Link title={item.label}
-              href={item.href}
+              href={
+  item.href?.split("/").length > 2
+    ? formatHref(item.href)
+    : item.href || "#"
+}
               className="whitespace-nowrap transition-all duration-300"
               onClick={() => !hasChildren && handleClick(item.href)}
             >
