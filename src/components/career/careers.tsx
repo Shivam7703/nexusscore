@@ -10,31 +10,31 @@ const data = {
   title1: "Join Our Team",
   title2: "Build Your Career ",
   title3: "With Us",
-  para: "At our organization, careers are not just jobs — they are opportunities to learn, lead, and make a meaningful impact. If you are passionate about helping others achieve their global dreams, you are in the right place.",
+  para: "We believe that great results come from great people. If you are passionate about helping others achieve their global dreams and want to grow in a dynamic environment, you are in the right place. At our organization, careers are not just jobs—they are opportunities to learn, lead, and make a meaningful impact.",
   pointer: [
     {
       id: 1,
       icon: <FaRocket />,
       heading: "Growth That Matters",
-      text: "From industry training to skill development, we help you grow professionally and personally.",
+      text: "We focus on continuous learning. From industry training to skill development sessions, we help you grow professionally and personally.",
     },
     {
       id: 2,
       icon: <FaHandshake />,
       heading: "Supportive Culture",
-      text: "We value collaboration over competition. Our team shares knowledge and celebrates success.",
+      text: "We value collaboration over competition. Our team works together, shares knowledge, and celebrates success collectively.",
     },
     {
       id: 3,
       icon: <FaGlobe />,
       heading: "Real Impact",
-      text: "Every application represents someone's dream. Your work builds global futures.",
+      text: "Every application we handle represents someone’s dream. Your work directly contributes to changing lives and building global futures.",
     },
     {
       id: 4,
       icon: <FaEye />,
       heading: "Transparent Environment",
-      text: "Clear communication, ethical practices, and respect at every level.",
+      text: "We believe in clear communication, ethical practices, and respect at every level.",
     },
   ],
 };
