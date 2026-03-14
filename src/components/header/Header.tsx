@@ -200,13 +200,16 @@ const Header = ({ header }: any) => {
           </div>
 
           {/* SECONDARY MENU */}
-          <div className="flex justify-end bg-white w-full py-2 px-5  shadow-lg ">
+          <div className="flex justify-around bg-white w-full py-2 px-5 gap-5 shadow-lg ">
+             <div className="w-[14%] max-xl:hidden">
+            </div>
             <Menu
               navItemsArray={navItems}
               Items={navigationMenu.secondaryMenu}
               Isprimary={false}
               onTop={isAtTop}
-            />
+            /> <div className="w-[5%] max-xl:hidden">
+            </div>
           </div>
         </div>
 

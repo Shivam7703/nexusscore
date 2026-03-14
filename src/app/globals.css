@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -20,12 +22,41 @@ section {
   overflow: hidden;
 }
 
-body {
-  font-family: var(--font-manrope);
-  color: rgb(var(--foreground-rgb));
+body {    
   overflow-x: hidden;
   scroll-behavior: smooth!important;
 }
+
+ 
+  /* ── Section Headings — Cormorant Garamond ── */
+  h3,
+  h4,
+  h5,
+  h6 ,li, 
+  a{
+  font-family: "Ubuntu", sans-serif;
+  }
+ .font2{
+    font-family: "Ubuntu", sans-serif!important;
+ }
+  p
+{  
+  font-family: "Merriweather", serif;
+}  /* ── Body & UI — DM Sans ── */
+
+
+  h1,
+  h2,
+  label,
+  input,
+  textarea,
+  button,
+  select {
+  font-family: "EB Garamond", serif;
+      /* font-family: "Merriweather", serif; */
+
+  }
+ 
 
 .bg-back {
   background: url(../assets/home/background-1.webp);
@@ -34,12 +65,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.bg-all {
-  background: linear-gradient(rgba(255, 255, 255, 0.793), rgba(219, 219, 219, 0.82)), url(../assets/home/leaf.png);
-   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 @keyframes slideX {
   0%, 100% {

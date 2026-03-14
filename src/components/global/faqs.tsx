@@ -18,7 +18,7 @@ export default function Faqs({data}:any) {
             {/* FAQ Question */}
             <div
               onClick={() => toggleFaq(index)}
-              className={`flex justify-between items-center cursor-pointer text-lg md:text-xl  ${expandedFaq === index ? "bg-gradient-to-r from-blue-700 to-blue-900 text-white" : "bg-white text-zinc-700"} py-3 lg:px-6 px-4 font-bold`}
+              className={`flex justify-between  font2 items-center cursor-pointer text-lg md:text-xl  ${expandedFaq === index ? "bg-gradient-to-r from-blue-700 to-blue-900 text-white" : "bg-white text-zinc-700"} py-3 lg:px-6 px-4 font-medium`}
             >
               {faq.que}
                 <IoIosArrowDown className={`text-base duration-300 ${expandedFaq === index ? "rotate-180" : "rotate-0"} font-bold`}/>
@@ -30,7 +30,7 @@ export default function Faqs({data}:any) {
                 expandedFaq === index ? "max-h-48" : "max-h-0"
               }`}
             >
-              <p className="md:text-base bg-gradient-to-tr from-slate-100 via-white to-red-50 shadow-lg p-4 text-sm font-medium text-zinc-700 " dangerouslySetInnerHTML={{ __html: faq.ans }}/>
+              <p className="md:text-lg bg-gradient-to-tr from-slate-100 via-white to-red-50 shadow-lg p-4  font-medium text-zinc-700 " dangerouslySetInnerHTML={{ __html: faq.ans }}/>
             </div>
           </div>
         ))}

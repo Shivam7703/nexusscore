@@ -98,7 +98,7 @@ export default function WorkProcessSlider() {
           {card?.heading}
         </h2>
         <div className="w-8 h-[2px] bg-indigo-400 group-hover:bg-white/50 mx-auto mb-3 group-hover:w-20 transition-all duration-500 rounded-full" />
-        <p className="max-sm:text-sm text-slate-500 group-hover:text-slate-200 transition-colors duration-300 leading-relaxed line-clamp-3">
+        <p className="md:text-lg text-slate-800 group-hover:text-slate-200 transition-colors duration-300 leading-relaxed line-clamp-3">
           {card?.text}
         </p>
       </div>

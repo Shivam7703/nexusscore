@@ -36,7 +36,7 @@ export default function FaqSection() {
         </h2>
 
         {data?.para1 && (
-          <p className="text-zinc-800 text-sm md:text-base">{data?.para1}</p>
+          <p className="text-zinc-800 md:text-lg">{data?.para1}</p>
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:p-5 p-7 gap-5 w-full bg-gradient-to-br from-blue-50 via-white to-red-50 shadow-xl rounded-xl">
@@ -50,7 +50,7 @@ export default function FaqSection() {
         </div>
 
         {data?.para2 && (
-          <p className="text-zinc-800 text-sm md:text-base">{data?.para2}</p>
+          <p className="text-zinc-800 md:text-lg">{data?.para2}</p>
         )}
       </motion.div>
 

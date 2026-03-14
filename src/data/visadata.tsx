@@ -49,7 +49,30 @@ import { atlanticImmigration,
   ukWorkVisa,
   uaeWorkVisa,
   yukonPnp, 
-  bann} from "@/assets";
+   australiaTouristVisa,
+  austriaWorkPermit,
+  canadaTouristVisa,
+  studyInCanada,
+  germanyOpportunityCard,
+  dubaiTouristVisa,
+  finlandStudyVisa,
+  franceStudyVisa,
+  germanyTouristVisa,
+  hongKongWorkPermit,
+  macauWorkPermit,
+  portugalWorkPermit,
+  russiaWorkPermit,
+  studyInGermany,
+  studyInAustralia,
+  studyInUK,
+  singaporeWorkPermit,
+  singaporeTouristVisa,
+  studyInDubai,
+  studyInIreland,
+  swedenWorkPermitVisa,
+  taiwanWorkPermit,
+  ukTouristVisa,
+  } from "@/assets";
 
 export const visaData = [
   {
@@ -16820,7 +16843,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:canadaTouristVisa,
     title: "Canada Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -17167,7 +17190,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:australiaTouristVisa,
     title: "Australia Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -17458,7 +17481,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:germanyTouristVisa,
     title: "Germany Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -17793,7 +17816,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:dubaiTouristVisa,
     title: "Dubai tourist visa",
     metatitle: "",
     metakey: "",
@@ -18101,7 +18124,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:singaporeTouristVisa,
     title: "Singapore tourist visa",
     metatitle: "",
     metakey: "",
@@ -18426,7 +18449,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:ukTouristVisa,
     title: "UK Tourist Visa",
     metatitle: "",
     metakey: "",
@@ -18760,7 +18783,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:studyInUK,
     title: "Study In UK",
     metatitle: "",
     metakey: "",
@@ -19097,7 +19120,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:studyInCanada,
     title: "Study In Canada",
     metatitle: "",
     metakey: "",
@@ -19396,7 +19419,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:studyInAustralia,
     title: "Study In Australia",
     metatitle: "",
     metakey: "",
@@ -19726,7 +19749,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:studyInGermany,
     title: "Study In Germany",
     metatitle: "",
     metakey: "",
@@ -20151,7 +20174,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:studyInIreland,
     title: "Study In Ireland",
     metatitle: "",
     metakey: "",
@@ -20568,7 +20591,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:franceStudyVisa,
     title: "France Study Visa",
     metatitle: "",
     metakey: "",
@@ -20974,7 +20997,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:studyInDubai,
     title: "Study In Dubai",
     metatitle: "",
     metakey: "",
@@ -21329,7 +21352,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:finlandStudyVisa,
     title: "Finland Study Visa",
     metatitle: "",
     metakey: "",
@@ -21769,7 +21792,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:germanyOpportunityCard,
     title: "Germany Opportunity Card",
     metatitle: "",
     metakey: "",
@@ -22160,7 +22183,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:hongKongWorkPermit,
     title: "Hong Kong Work Permit",
     metatitle: "",
     metakey: "",
@@ -22537,7 +22560,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:singaporeWorkPermit,
     title: "Singapore Work Permit",
     metatitle: "",
     metakey: "",
@@ -22921,7 +22944,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:russiaWorkPermit,
     title: "Russia Work Permit",
     metatitle: "",
     metakey: "",
@@ -23280,7 +23303,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:macauWorkPermit,
     title: "Macau Work Permit",
     metatitle: "",
     metakey: "",
@@ -23642,7 +23665,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:taiwanWorkPermit,
     title: "Taiwan Work Permit",
     metatitle: "",
     metakey: "",
@@ -24009,7 +24032,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:austriaWorkPermit,
     title: "Austria Work Permit",
     metatitle: "",
     metakey: "",
@@ -24367,7 +24390,7 @@ faq:
     ]
 },
 
-{img:bann,
+{img:portugalWorkPermit,
     title: "Portugal Work Permit",
     metatitle: "",
     metakey: "",

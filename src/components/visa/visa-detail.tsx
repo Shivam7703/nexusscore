@@ -33,7 +33,7 @@ export default function Visadetails({ data }: any) {
                   {/* Section Heading */}
                   {section?.heading ? (
                     <div
-                      className="text-2xl sm:text-3xl md:text-4xl font-bold text-zinc-800 leading-snug border-l-4 border-amber-500 pl-4"
+                      className="text-2xl font2 sm:text-3xl md:text-4xl font-bold text-zinc-800 leading-snug border-l-4 border-amber-500 pl-4"
                       dangerouslySetInnerHTML={{ __html: section.heading }}
                     />
                   ) : null}
@@ -44,7 +44,7 @@ export default function Visadetails({ data }: any) {
                       {/* Subheading */}
                       {item?.subheading ? (
                         <p
-                          className="text-xl sm:text-2xl font-semibold text-zinc-800 mt-6"
+                          className="text-2xl  sm:text-3xl font-semibold text-zinc-800 mt-6"
                           dangerouslySetInnerHTML={{ __html: item.subheading }}
                         />
                       ) : null}
@@ -64,7 +64,7 @@ export default function Visadetails({ data }: any) {
                             ? item.list.map((li: string, i: number) => (
                                 <li
                                   key={i}
-                                  className="flex items-start gap-3 text-zinc-700 text-base sm:text-lg bg-amber-50 hover:bg-amber-100 transition-all duration-300 p-3 rounded-lg shadow-sm"
+                                  className="flex items-start gap-3 text-zinc-700 text-sm sm:text-base  bg-amber-50 hover:bg-amber-100 transition-all duration-300 p-3 rounded-lg shadow-sm"
                                 >
                                   <FaCheckCircle className="text-amber-500 mt-1 shrink-0" />
                                   <span
@@ -80,13 +80,13 @@ export default function Visadetails({ data }: any) {
                       {item?.table ? (
                         <div className="overflow-x-auto rounded-xl border text-zinc-700 border-zinc-200 shadow-sm">
                           <table className="min-w-full text-sm sm:text-base">
-                            <thead className="bg-amber-500 text-white">
+                            <thead>
                               <tr>
                                 {item?.table.theading?.map(
                                   (th: string, thIndex: number) => (
                                     <th
                                       key={thIndex}
-                                      className="px-4 py-3 text-left font-semibold whitespace-nowrap"
+                                      className="px-4 py-3 text-left bg-gradient-to-r from-amber-500 to-amber-600 text-white first:rounded-tl-2xl last:rounded-tr-2xl font-semibold whitespace-nowrap"
                                     >
                                       {th}
                                     </th>

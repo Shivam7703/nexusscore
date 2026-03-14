@@ -45,8 +45,9 @@ export default function ServiceSection() {
     <section className="p-6 sm:p-16 lg:px-24 md:px-20 max-w-[1450px] mx-auto !scroll-smooth">
       {/* Section header */}
       <div className="w-full text-center flex flex-col items-center gap-y-4 mb-11 md:mb-16">
-            <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 text-center border-blue-700 w-max border-b px-3 py-2">
-{serviceData?.title1}              </h4>
+          <h4 className="text-zinc-700  mx-auto mb-3 sm:mb-5 font-semibold uppercase text-sm border-2 border-blue-400 bg-gradient-to-r from-blue-50 via-violet-50 to-red-50 w-max px-4 py-2 rounded-full shadow-sm">
+                    {serviceData?.title1}
+                  </h4>
       <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl text-center max-w-2xl mx-auto mb-10">
                {serviceData?.title2}
               </h2>
@@ -89,28 +90,7 @@ export default function ServiceSection() {
     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20 opacity-70 transition-opacity duration-500 group-hover:opacity-90" />
     <div className="absolute inset-0 bg-gradient-to-br from-blue-800/0 via-blue-800/5 to-blue-800/20 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
-    {/* Animated Red Gradient Shape from Bottom */}
-    {/* <div className="absolute -bottom-32 left-1/2 -translate-x-1/2 w-[120%] h-64 transition-all duration-700 ease-out group-hover:bottom-0">
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-full rounded-[50%] bg-gradient-to-t from-black/40 via-black/25 to-transparent blur-2xl" />
-      
-      <svg 
-        className="absolute bottom-0 left-0 w-full h-32 opacity-60" 
-        viewBox="0 0 1200 120" 
-        preserveAspectRatio="none"
-      >
-        <defs>
-          <linearGradient id={`redGradient-${index}`} x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#dc2626" stopOpacity="1" />
-            <stop offset="50%" stopColor="#ef4444" stopOpacity="1" />
-            <stop offset="100%" stopColor="#f87171" stopOpacity="0.7" />
-          </linearGradient>
-        </defs>
-        <path 
-          d="M0,60 C300,100 600,20 900,60 C1050,80 1200,40 1200,60 L1200,120 L0,120 Z" 
-          fill={`url(#redGradient-${index})`}
-        />
-      </svg>
-    </div> */}
+   
 
     {/* Content Container */}
     <Link

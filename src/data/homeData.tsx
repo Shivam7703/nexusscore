@@ -15,13 +15,19 @@ import {
   cl6,
   cl7,
   cl8,
-  cl9,
+  cl9,immigration, Career, ielts, jobAssist, PostLanding ,profile, pte ,visaDocument, famvisa, prvisa, business,touristvisa,
   contactb,
   logo2,
   process1,
   ukflag,
-  usflag,
   visa1,
+  canadaflag,
+  ontario,
+  bcPnpProgram,
+  alberta,
+  novaScotia,
+  manitoba,
+  saskatchewanPnp,
 } from "@/assets";
 import { FaGlobeAmericas, FaPlaneDeparture, } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -41,22 +47,22 @@ export const navigationMenu = {
       label: "Our Services",
       href: "/services",
       subNav: [
-        { id: 1, label: "IELTS", href: "/services/ielts" },
-        { id: 2, label: "PTE Exam", href: "/services/pte-exam" },
+        { id: 1, label: "IELTS", href: "/services/IELTS Coaching & Preparation" },
+        { id: 2, label: "PTE Exam", href: "/services/PTE Exam Coaching & Preparation" },
         {
           id: 3,
           label: "Post Landing Assistance",
-          href: "/services/post-landing-assistance",
+          href: "/services/Post-Landing Assistance",
         },
         {
           id: 4,
           label: "Job Assistance",
-          href: "/services/job-assistance",
+          href: "/services/Job Assistance",
         },
         {
           id: 5,
           label: "Immigration Services",
-          href: "/services/immigration-services",
+          href: "/services/Immigration",
         },
       ],
     },
@@ -524,28 +530,28 @@ export const visaSliderdata = {
     },
     {
       id: 2,
-      img: visa1,
+      img: prvisa,
       heading: "Permanent Residency Visa",
       text:
         "Guidance to apply for permanent residency through structured programs and accurate profile submission.",
     },
     {
       id: 3,
-      img: visa1,
+      img: famvisa,
       heading: "Family Sponsorship Visa",
       text:
         "Help families reunite abroad through legal sponsorship filing and complete documentation support.",
     },
     {
       id: 4,
-      img: visa1,
+      img: business,
       heading: "Business & Investor Visa",
       text:
         "Assistance for investors and entrepreneurs applying through approved business and investment immigration routes.",
     },
     {
       id: 5,
-      img: visa1,
+      img:touristvisa,
       heading: "Tourist / Visitor Visa",
       text:
         "Simple assistance for visitor visa applications with clear guidance and timely submission.",
@@ -560,7 +566,7 @@ export const countrytomigrate = {
   cards: [
     {
       id: 1,
-      img: usflag,
+      img: canadaflag,
       heading: "United States",
       link: "country/us",
       points: [
@@ -584,7 +590,7 @@ export const countrytomigrate = {
     },
     {
       id: 3,
-      img: usflag,
+      img: canadaflag,
       heading: "Canada",
       link: "country/canada",
       points: ["PR Pathways", "Express Entry", "Student Visa", "24/7 Support"],
@@ -660,54 +666,69 @@ export const canadapnp = {
   cards: [
     {
       id: 1,
-      img: box1,
-      flag: usflag,
+      img: ontario,
+      flag: canadaflag,
       heading: "Ontario Immigrant Nominee Program (OINP) ",
+      points:[
+       "• Processing: 3–6 Months" , "• High Nomination Quota"
+      ],
       text:
         "Provincial nomination for skilled workers to live and work in Ontario.",
       link: "/canada-pnp",
     },
     {
       id: 2,
-      img: box2,
-      flag: usflag,
+      img: bcPnpProgram,
+      flag: canadaflag,
       heading: "British Columbia PNP (BC PNP)",
+      points:[
+       "• Processing: 2–4 Months" , "• Regular Invitation Rounds"
+      ],
       text:
         "Nominations for skilled workers and entrepreneurs targeting opportunities in British Columbia.",
       link: "/canada-pnp",
     },
     {
       id: 3,
-      img: box3,
-      flag: usflag,
+      img: alberta,
+      flag: canadaflag,
       heading: "Alberta Immigrant Nominee Program (AINP)",
+      points:[
+       "• Processing: 4–6 Months" , "• Lower CRS Possibility"
+      ],
       text:
         "Streamlined immigration for workers with skills needed in Alberta’s labor market.",
       link: "/canada-pnp",
     },
     {
       id: 4,
-      img: box1,
-      flag: ukflag,
-      heading: "Saskatchewan Immigrant Nominee Program (SINP)",
+      img: saskatchewanPnp,
+      flag: canadaflag,
+      heading: "Saskatchewan Immigrant Nominee Program (SINP)",points:[
+       "• Processing: 2–5 Months" , "• In-Demand Occupation Stream"
+      ],
       text:
         "Offers pathways for workers, entrepreneurs, and farmers to settle in Saskatchewan.",
       link: "/canada-pnp",
     },
     {
       id: 5,
-      img: box2,
-      flag: usflag,
-      heading: "Manitoba Provincial Nominee Program (MPNP)",
+      img: manitoba,
+      flag: canadaflag,
+      heading: "Manitoba Provincial Nominee Program (MPNP)",points:[
+       "• Processing: 3–5 Months" , "• Strong Provincial Support"
+      ],
       text:
         "Supports skilled workers and international graduates aiming to live in Manitoba.",
       link: "/canada-pnp",
     },
     {
       id: 6,
-      img: box3,
-      flag: usflag,
-      heading: "Nova Scotia Nominee Program (NSNP)",
+      img: novaScotia,
+      flag: canadaflag,
+      heading: "Nova Scotia Nominee Program (NSNP)",points:[
+       "• Processing: 3–6 Months" , "• Express Entry Priority"
+      ],
       text:
         "Nomination stream focused on attracting workers and graduates to Nova Scotia.",
       link: "/canada-pnp",
@@ -833,11 +854,23 @@ export const footer = {
   list1: {
     title: "Our Services",
     links: [
-      { id: 1, label: "IELTS", href: "about" },
-      { id: 2, label: "PTE Exam", href: "career" },
-      { id: 3, label: "Post Landing Assistance", href: "sustainability" },
-      { id: 4, label: "Job Assistance", href: "blogs" },
-      { id: 5, label: "Immigration Services", href: "contact-us" },
+      { id: 1, label: "IELTS", href: "/services/ielts-coaching-preparation" },
+        { id: 2, label: "PTE Exam", href: "/services/pte-exam-coaching-preparation" },
+        {
+          id: 3,
+          label: "Post Landing Assistance",
+          href: "/services/post-landing-assistance",
+        },
+        {
+          id: 4,
+          label: "Job Assistance",
+          href: "/services/job-assistance",
+        },
+        {
+          id: 5,
+          label: "Immigration Services",
+          href: "/services/immigration",
+        },
     ],
   },
 
@@ -994,35 +1027,45 @@ export const contactBanner = {
       title2: "Smart solutions for global immigration",
      
       services: [
+        {
+    title: "IELTS",
+    text: "Eligibility assessment and guidance",
+    img: ielts,
+  },
+  {
+    title: "PTE Exams",
+    text: "Eligibility assessment and guidance",
+    img: pte,
+  },
   {
     title: "Profile Evaluation",
     text: "Eligibility assessment and guidance",
-    img: box1,
+    img: profile,
   },
   {
     title: "Career Counselling",
     text: "Career planning and advice",
-    img: box2,
+    img: Career,
   },
   {
     title: "Immigration Solutions",
     text: "Structured migration pathways",
-    img: box3,
+    img: immigration,
   },
   {
     title: "Visa Documentation Support",
     text: "Accurate document preparation",
-    img: box1,
+    img: visaDocument,
   },
   {
     title: "Job Search Assistance",
     text: "International employment guidance",
-    img: box2,
+    img: jobAssist,
   },
   {
     title: "Post-Landing Support",
     text: "Settlement and integration assistance",
-    img: box3,
+    img: PostLanding,
   },
 ],
 

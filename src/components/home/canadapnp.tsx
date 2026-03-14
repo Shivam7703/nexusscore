@@ -2,6 +2,7 @@ import React from "react";
 import { canadapnp as data } from "@/data/homeData";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Canadapnp() {
   return (
@@ -44,8 +45,7 @@ export default function Canadapnp() {
     {/* Title on Image */}
     <div className="absolute bottom-5 left-6 z-20 text-left">
       <h3 className="text-white text-xl font-semibold tracking-tight">
-        Canada PNP
-      </h3>
+{cou?.heading}      </h3>
       <p className="text-white/80 text-sm">
         Provincial Nominee Program
       </p>
@@ -70,18 +70,12 @@ export default function Canadapnp() {
 
     {/* DESCRIPTION */}
     <p className="text-gray-600 text-sm leading-relaxed mb-6">
-      Canada PNP allows skilled workers, graduates, and professionals
-      to obtain permanent residency by being nominated by a Canadian
-      province based on local labour market needs.
+    {cou?.text}
     </p>
 
     {/* KEY DETAILS */}
     <div className="grid grid-cols-2 gap-4 mb-8">
-      {[
-        { label: "Processing Time", value: "6–9 Months" },
-        { label: "Job Offer", value: "Optional" },
-       
-      ].map((item, i) => (
+      {cou?.points?.map((item, i) => (
         <div
           key={i}
           className="group/detail relative rounded-xl p-4
@@ -90,9 +84,9 @@ export default function Canadapnp() {
                      transition-all duration-300
                      hover:-translate-y-1 shadow-lg"
         >
-          <p className="text-xs text-gray-500 mb-1">{item.label}</p>
-          <p className="font-semibold text-gray-900">
-            {item.value}
+          
+          <p className="font-semibold text-sm text-gray-900">
+            {item}
           </p>
 
           <div className="absolute inset-0 rounded-xl opacity-0
@@ -111,23 +105,22 @@ export default function Canadapnp() {
         ✔ PR Pathway
       </span>
 
-      <button
+      <Link href={cou?.link}
         className="relative inline-flex items-center gap-3 px-7 py-3
-                   rounded-full text-sm font-medium text-white
+             rounded-full text-sm font-medium text-white
                    bg-gradient-to-r from-red-600 via-rose-600 to-pink-600
                    shadow-lg hover:shadow-xl
                    transition-all duration-300 overflow-hidden"
       >
         <span className="relative z-10">Check Eligibility</span>
         <FaArrowRightLong className="relative z-10 text-sm" />
-
         {/* shine */}
         <span className="absolute inset-0 -translate-x-full
                          bg-gradient-to-r from-transparent
                          via-white/30 to-transparent
                          transition-transform duration-700
                          group-hover:translate-x-full" />
-      </button>
+      </Link>
     </div>
   </div>
 </div>

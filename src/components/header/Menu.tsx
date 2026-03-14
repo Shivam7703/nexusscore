@@ -41,7 +41,7 @@ let path = lastSegment || "home";
         <li key={item?.id} className="group relative transition-all ">
         <Link title={item?.label}
   href={item?.href || "#"}
-  className={`px-4 py-3 flex justify-center items-center gap-1 text-sm font-bold cursor-pointer 
+  className={`px-4 py-3 flex justify-center items-center gap-1 text-sm font-medium cursor-pointer 
     ${activeItem === (FormatHref(item.href).split("/").filter(Boolean).pop() || "home") && Isprimary ? "!text-yellow-200" : Isprimary ? "text-white" : "text-zinc-800"}`}
 >
             <span className="transition-all hover:scale-105 duration-300">
@@ -54,7 +54,7 @@ let path = lastSegment || "home";
           
           {/* First-level dropdown */}
           {item.subNav && (
-            <div className="absolute w-max -left-5 top-[100%] z-30 hidden text-zinc-800  flex-col gap-1 rounded bg-gradient-to-r text-sm font-semibold from-white to-zinc-100 py-3 shadow-lg transition-all group-hover:flex">
+            <div className="absolute w-max -left-5 top-[100%] z-30 hidden text-zinc-800  flex-col gap-1 rounded bg-gradient-to-r text-sm font-medium from-white to-zinc-100 py-3 shadow-lg transition-all group-hover:flex">
               {item.subNav.map((nav: any) => (
                 <div key={nav.id} className="group/subnav relative">
                   <Link title={nav?.label}

@@ -19,11 +19,11 @@ export default function Blogs({ isHome }:any) {
         {data.title2}
       </h2>}
 
-      <div className={`grid ${!isHome? "" : "lg:grid-cols-3"} sm:grid-cols-2  gap-8 max-w-7xl mx-auto}`}>
+      <div className={`grid ${!isHome? "" : "lg:grid-cols-3"} sm:grid-cols-2  gap-8 max-w-6xl !mx-auto}`}>
   {(isHome ? data?.blog?.slice(0, 3) : data?.blog)?.map((blogs: any, index: number) => (
   <div
     key={index}
-    className="group blg bg-white rounded-xl overflow-hidden
+    className="group blg bg-white rounded-xl w-full overflow-hidden
                shadow-md hover:shadow-xl
                transition-all duration-300"
   >

@@ -9,11 +9,17 @@ import footerImage from "@/assets/home/toronto.png";
 import plane from "@/assets/home/plane.png";
 import patta from "@/assets/home/patta.png";
 import kangaroo from "@/assets/home/kangaroo.png";
+// visa
+import famvisa from "@/assets/home/family visa.jpg";
+import prvisa from "@/assets/home/prvisa.jpg";
+import business from "@/assets/home/business.jpeg";
+import touristvisa from "@/assets/home/touristvisa.jpg";
 
 
 // flag
 import usflag from "@/assets/flag/us.png";
 import ukflag from "@/assets/flag/uk.png";
+import canadaflag from "@/assets/flag/canada.jpg";
 
 
 import heade from "@/assets/home/header.webp";
@@ -23,7 +29,6 @@ import sus1 from "@/assets/home/sustain1.jpg";
 import sus3 from "@/assets/home/sustain3.jpg";
 import sus4 from "@/assets/home/sustain4.jpg";
 import choose1 from "@/assets/home/whychoose.jpg";
-import leaf from "@/assets/home/leaf.png";
 
 
 
@@ -64,6 +69,16 @@ import cl9 from "@/assets/home/cl9.jpg";
 import com from "@/assets/about/com.webp";
 import env from "@/assets/about/env.webp";
 import social from "@/assets/about/social.webp";
+
+// services
+import ielts from "@/assets/home/ielts.jpg";
+import immigration from "@/assets/home/immigration.webp";
+import jobAssist from "@/assets/home/job assistance.jpg";
+import PostLanding from "@/assets/home/post-landing.webp";
+import profile from "@/assets/home/profile assistance.webp";
+import pte from "@/assets/home/pte.jpg";
+import visaDocument from "@/assets/home/visa documentation.webp";
+import Career from "@/assets/home/career counselling.webp";
 
 
 // visas
@@ -121,11 +136,40 @@ import yukonPnp from "@/assets/visa/yukon.webp";
 
 
 
+import australiaTouristVisa from "@/assets/visa2/Australia Tourist Visa.webp";
+import austriaWorkPermit from "@/assets/visa2/Austria Work Permit.webp";
+import canadaTouristVisa from "@/assets/visa2/Canada Tourist Visa.webp";
+import studyInCanada from "@/assets/visa2/Study In Canada.webp";
+import germanyOpportunityCard from "@/assets/visa2/Germany Opportunity Card.jpeg";
+import dubaiTouristVisa from "@/assets/visa2/Dubai tourist visa.webp";
+import finlandStudyVisa from "@/assets/visa2/Finland Study Visa.jpg";
+import franceStudyVisa from "@/assets/visa2/France Study Visa.jpg";
+import germanyTouristVisa from "@/assets/visa2/Germany Tourist Visa.webp";
+import hongKongWorkPermit from "@/assets/visa2/Hong Kong Work Permit.webp";
+import macauWorkPermit from "@/assets/visa2/Macau Work Permit.jpg";
+import portugalWorkPermit from "@/assets/visa2/Portugal Work Permit.webp";
+import russiaWorkPermit from "@/assets/visa2/Russia Work Permit.webp";
+
+import studyInGermany from "@/assets/visa2/Study In Germany.jpg";
+import studyInAustralia from "@/assets/visa2/Study In Australia.webp";
+import studyInUK from "@/assets/visa2/study in uk.webp";
+import singaporeWorkPermit from "@/assets/visa2/Singapore Work Permit.webp";
+import singaporeTouristVisa from "@/assets/visa2/Singapore tourist visa.jpg";
+import studyInDubai from "@/assets/visa2/Study In Dubai.webp";
+import studyInIreland from "@/assets/visa2/Study In Ireland.jpg";
+import swedenWorkPermitVisa from "@/assets/visa2/Sweden Work Permit Visa.webp";
+import taiwanWorkPermit from "@/assets/visa2/Taiwan Work Permit.webp";
+import ukTouristVisa from "@/assets/visa2/UK Tourist Visa.jpg";
+
+
+
+
+
 export {
-    logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,usflag, ukflag, bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
- , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, leaf, patta, kangaroo, atlanticImmigration,
+    logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,usflag, ukflag,canadaflag,  bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count, famvisa, prvisa, business,touristvisa
+ , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, patta, kangaroo, atlanticImmigration, 
   albertaPointsCalculator,
-  alberta,
+  alberta, immigration, Career, ielts, jobAssist, PostLanding ,profile, pte ,visaDocument,
   atlanticImmi,
   australiaPR,
   australiaSpouseVisa,
@@ -173,5 +217,28 @@ export {
   swedenWorkPermit,
   ukWorkVisa,
   uaeWorkVisa,
-  yukonPnp
+  yukonPnp,
+   australiaTouristVisa,
+  austriaWorkPermit,
+  canadaTouristVisa,
+  studyInCanada,
+  germanyOpportunityCard,
+  dubaiTouristVisa,
+  finlandStudyVisa,
+  franceStudyVisa,
+  germanyTouristVisa,
+  hongKongWorkPermit,
+  macauWorkPermit,
+  portugalWorkPermit,
+  russiaWorkPermit,
+  studyInGermany,
+  studyInAustralia,
+  studyInUK,
+  singaporeWorkPermit,
+  singaporeTouristVisa,
+  studyInDubai,
+  studyInIreland,
+  swedenWorkPermitVisa,
+  taiwanWorkPermit,
+  ukTouristVisa
  }
