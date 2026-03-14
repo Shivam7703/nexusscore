@@ -34,7 +34,7 @@ export default function RootLayout({
         <Image
           src={patta}
           alt="immigration"
-          className="fixed -left-7 animate-y opacity-60 -bottom-10 sm:w-[24vw] w-44 z-[-1]"
+          className="fixed -left-7 animate-y opacity-40 -bottom-10 sm:w-[24vw] w-44 z-[-1]"
         />
         <Header />
         {children}

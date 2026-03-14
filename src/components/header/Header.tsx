@@ -56,7 +56,7 @@ const Header = ({ header }: any) => {
   return (
     <>
       {/* HEADER SPACER */}
-      <div className="h-24 md:h-[170px]" />
+      <div className="h-20 md:h-[170px]" />
 
       <header
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -201,7 +201,7 @@ const Header = ({ header }: any) => {
 
           {/* SECONDARY MENU */}
           <div className="flex justify-around bg-white w-full py-2 px-5 gap-5 shadow-lg ">
-             <div className="w-[14%] max-xl:hidden">
+             <div className="w-[17%] max-xl:hidden">
             </div>
             <Menu
               navItemsArray={navItems}

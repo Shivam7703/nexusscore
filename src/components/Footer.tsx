@@ -171,7 +171,7 @@ export default function Footer({ footer }: any) {
         {/* footplane */}
         <Footplane/>
         {/* copyright  */}
-        <div className="flex items-center justify-center border-t bg-blue-950 py-5 max-md:flex-col">
+        <div className="flex items-center justify-center border-t text-white bg-blue-950 py-5 max-md:flex-col">
           <p className="text-center text-sm">
             {footer?.copyrightText}{" "}
             <span className="hover:text-main transition-all font-semibold cursor-pointer">

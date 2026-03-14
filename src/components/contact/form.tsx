@@ -24,8 +24,8 @@ function Form() {
 
   return (
       <div className="flex lg:px-24 md:px-20 sm:p-12 py-7 px-3 relative w-full">
-       <div className="max-w-[1200px] mx-auto w-full flex flex-wrap items-stretch shadow-xl"><div className="md:w-[48%] w-full bg-gradient-to-r to-blue-500 from-blue-700 p-6 md:p-10 !pb-0"><h4 className="px-3 w-max py-2 border border-white uppercase text-md font-medium mb-4">Contact Us</h4>
-       <h5 className="md:text-5xl text-3xl font-bold leading-tight mb-6">Making visas simple with expert visa consultants in Delhi
+       <div className="max-w-[1200px] mx-auto w-full flex flex-wrap items-stretch shadow-xl"><div className="md:w-[48%] w-full bg-gradient-to-r to-blue-500 from-blue-700 p-6 md:p-10 !pb-0"><h4 className="px-3 w-max py-2 border border-white text-white uppercase text-md font-medium mb-4">Contact Us</h4>
+       <h5 className="md:text-5xl text-3xl text-white font-bold !leading-snug mb-6">Making visas simple with expert visa consultants in Delhi
 </h5>
        <Image src={contat} alt="Contact" className="w-[82%]"/>
        </div>
