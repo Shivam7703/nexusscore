@@ -139,7 +139,7 @@ export default function WhoWeAreLooking() {
       {/* Top edge line */}
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-indigo-300 to-transparent" />
 
-      <div className="relative z-10 max-w-7xl mx-auto space-y-28">
+      <div className="relative z-10 max-w-7xl mx-auto space-y-9 md:space-y-16">
 
         {/* ══════════════════════════════════════
             BLOCK 1 — Who We Are Looking For
