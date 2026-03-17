@@ -39,7 +39,7 @@ export default function Serviceschoose() {
         )}
          <h2 className="text-zinc-900 font-extrabold text-3xl md:text-5xl leading-tight">
                   {data?.title2}
-                  <span className="block mt-2 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  <span className="  bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                   {data?.title3}
                   </span>
                 </h2>

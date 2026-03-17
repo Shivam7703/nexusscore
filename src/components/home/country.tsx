@@ -21,15 +21,13 @@ function Country() {
         {data?.cards?.map((cou) => (
           <div key={cou.id} className="relative group overflow-hidden md:rounded-full shadow-xl border ">
           <div
-            className=" sticky bg-white group-hover:bg-transparent flex flex-wrap md:items-center md:justify-around lg:gap-2 gap-5 px-9 py-6 z-10"
+            className="sticky bg-white group-hover:bg-transparent flex flex-wrap md:items-center md:justify-around lg:gap-2 gap-5 px-9 py-6 z-10"
           >
             {/* Flag */}
             <Image
               src={cou.img}
               alt={cou.heading}
-              width={56}
-              height={40}
-              className="h-14 w-auto"
+              className="h-20 w-auto"
             />
 
             {/* Immigrate label */}

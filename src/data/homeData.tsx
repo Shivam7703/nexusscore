@@ -13,9 +13,7 @@ import {
   cl4,
   cl5,
   cl6,
-  cl7,
-  cl8,
-  cl9,immigration, Career, ielts, jobAssist, PostLanding ,profile, pte ,visaDocument, famvisa, prvisa, business,touristvisa,
+  immigration, Career, ielts, jobAssist, PostLanding ,profile, pte ,visaDocument, famvisa, prvisa, business,touristvisa,
   contactb,
   logo2,
   process1,
@@ -28,12 +26,28 @@ import {
   novaScotia,
   manitoba,
   saskatchewanPnp,
+  process4,
+  process2,
+  process3,
+  pnp1,
+  pnp2,
+  pnp3,
+  pnp4,
+  pnp5,
+  pnp6,
+  choose1,
+  germanyflag,
+  dubaiflag,
+  australiaflag,
+  missio,
 } from "@/assets";
-import { FaGlobeAmericas, FaPlaneDeparture, } from "react-icons/fa";
-import { FaMapLocationDot } from "react-icons/fa6";
+import { BsFillPersonCheckFill } from "react-icons/bs";
+import { FaEye, FaGlobeAmericas, FaPlaneDeparture, FaUserCheck, } from "react-icons/fa";
+import { FaArrowUpRightDots, FaMapLocationDot } from "react-icons/fa6";
 import { HiOutlineFlag, HiOutlineLightBulb } from "react-icons/hi";
-import { IoSearch, IoSettingsOutline } from "react-icons/io5";
-import { MdAttachEmail,  MdWifiCalling3 } from "react-icons/md";
+import { IoPersonSharp, IoSearch, IoSettingsOutline } from "react-icons/io5";
+import { MdAttachEmail,  MdEventNote,  MdWifiCalling3 } from "react-icons/md";
+import { PiPhoneCallFill } from "react-icons/pi";
 import { RiUserFollowLine } from "react-icons/ri";
 
 // homepage
@@ -63,6 +77,21 @@ export const navigationMenu = {
           id: 5,
           label: "Immigration Services",
           href: "/services/Immigration",
+        },
+         {
+          id: 6,
+          label: "Profile Evaluation",
+          href: "/services/Profile Evaluation",
+        },
+         {
+          id: 7,
+          label: "Career Counselling",
+          href: "/services/Career Counselling",
+        },
+         {
+          id: 8,
+          label: "Visa Documentation",
+          href: "/services/Visa Documentation",
         },
       ],
     },
@@ -566,26 +595,38 @@ export const countrytomigrate = {
   cards: [
     {
       id: 1,
-      img: canadaflag,
-      heading: "United States",
+      img: germanyflag,
+      heading: "Germany",
       link: "country/us",
       points: [
-        "4 Years Business Visa",
-        "Visa Apply Online",
-        "Student Admission Visa",
+        "Job Seeker Visa",
+        "Work Opportunities",
+        "EU Career Access",
         "24/7 Support",
       ],
     },
     {
+      id: 2,
+      img: dubaiflag,
+      heading: "Dubai",
+      link: "country/uk",
+      points: [
+        "4 Years Business Visa",
+        "Simple Online Process",
+        "Student Visa Available",
+        "24/7 Assistance",
+      ],
+    },
+     {
       id: 2,
       img: ukflag,
       heading: "United Kingdom",
       link: "country/uk",
       points: [
         "4 Years Business Visa",
-        "Visa Apply Online",
-        "Student Admission Visa",
-        "24/7 Support",
+        "Simple Online Process",
+        "Student Visa Available",
+        "24/7 Assistance",
       ],
     },
     {
@@ -597,12 +638,12 @@ export const countrytomigrate = {
     },
     {
       id: 4,
-      img: ukflag,
+      img: australiaflag,
       heading: "Australia",
       link: "country/australia",
       points: [
         "Skilled Migration",
-        "Work Visa",
+        "Work Visa Options",
         "Student Visa",
         "24/7 Support",
       ],
@@ -636,21 +677,21 @@ export const workingprocess = {
     },
     {
       id: 2,
-      img: process1,
+      img: process2,
       heading: "Document Preparation",
       text:
         "Gather and organize all required documents for a smooth application.",
     },
     {
       id: 3,
-      img: process1,
+      img: process3,
       heading: "Application Submission",
       text:
         "Submit your visa application accurately with expert guidance and follow-up.",
     },
     {
       id: 4,
-      img: process1,
+      img: process4,
       heading: "Approval & Support",
       text:
         "Receive visa approval and get assistance with post-landing formalities.",
@@ -667,7 +708,7 @@ export const canadapnp = {
     {
       id: 1,
       img: ontario,
-      flag: canadaflag,
+      flag: pnp1,
       heading: "Ontario Immigrant Nominee Program (OINP) ",
       points:[
        "• Processing: 3–6 Months" , "• High Nomination Quota"
@@ -679,7 +720,7 @@ export const canadapnp = {
     {
       id: 2,
       img: bcPnpProgram,
-      flag: canadaflag,
+      flag: pnp2,
       heading: "British Columbia PNP (BC PNP)",
       points:[
        "• Processing: 2–4 Months" , "• Regular Invitation Rounds"
@@ -691,7 +732,7 @@ export const canadapnp = {
     {
       id: 3,
       img: alberta,
-      flag: canadaflag,
+      flag: pnp3,
       heading: "Alberta Immigrant Nominee Program (AINP)",
       points:[
        "• Processing: 4–6 Months" , "• Lower CRS Possibility"
@@ -703,7 +744,7 @@ export const canadapnp = {
     {
       id: 4,
       img: saskatchewanPnp,
-      flag: canadaflag,
+      flag: pnp4,
       heading: "Saskatchewan Immigrant Nominee Program (SINP)",points:[
        "• Processing: 2–5 Months" , "• In-Demand Occupation Stream"
       ],
@@ -714,7 +755,7 @@ export const canadapnp = {
     {
       id: 5,
       img: manitoba,
-      flag: canadaflag,
+      flag: pnp5,
       heading: "Manitoba Provincial Nominee Program (MPNP)",points:[
        "• Processing: 3–5 Months" , "• Strong Provincial Support"
       ],
@@ -725,7 +766,7 @@ export const canadapnp = {
     {
       id: 6,
       img: novaScotia,
-      flag: canadaflag,
+      flag: pnp6,
       heading: "Nova Scotia Nominee Program (NSNP)",points:[
        "• Processing: 3–6 Months" , "• Express Entry Priority"
       ],
@@ -738,7 +779,7 @@ export const canadapnp = {
 
 
 export const Whychoose = {
-  img: box1,
+  img: choose1,
 
   title1: "Why Choose Us",
   title2: "India’s Best immigration consultants ",
@@ -759,7 +800,7 @@ export const testimonialData = {
   title2: "What Our Client Says",
   testimonials: [
   {
-    title: "Suresh Dixit",
+    title: "Rishika Dixit",
     text:
       "Nexuscore guided my Canada PR smoothly with honest advice, clear timelines, and perfect documentation. Truly the best immigration consultants in Noida for anyone seeking transparent, professional, and reliable immigration support.",
     img: cl1,
@@ -768,19 +809,19 @@ export const testimonialData = {
     title: "Mohan Rane",
     text:
       "Excellent support for my work permit application. The team explained every step, handled documents professionally, and kept me updated. Their guidance reduced stress and helped me make confident decisions abroad.",
-    img: cl1,
+    img: cl2,
   },
   {
-    title: "Manoj Saini",
+    title: "Aarti Saini",
     text:
       "Nexuscore helped us reunite through family sponsorship with clear communication and ethical advice. We experienced the best Visa consultants in Noida, with personalized attention and smooth processing throughout the entire journey.",
-    img: cl1,
+    img: cl3,
   },
   {
     title: "Sam Goyal",
     text:
       "From IELTS coaching to visa filing, the service was professional and supportive. Trainers and consultants worked together to strengthen my profile and guide me confidently toward my overseas goals successfully.",
-    img: cl1,
+    img: cl4,
   },
 ],
 
@@ -850,7 +891,7 @@ export const footer = {
     linkedin: "https://www.linkedin.com/school//",
     youtube: "https://www.youtube.com/c/",
   },
-  copyrightText: "Copyrights © 2024 . Designed and Manage by ",
+  copyrightText: "Copyrights © 2026 . Designed and Manage by ",
   list1: {
     title: "Our Services",
     links: [
@@ -871,17 +912,34 @@ export const footer = {
           label: "Immigration Services",
           href: "/services/immigration",
         },
+         {
+          id: 6,
+          label: "Profile Evaluation",
+          href: "/services/profile-evaluation",
+        },
+         {
+          id: 7,
+          label: "Career Counselling",
+          href: "/services/career-counselling",
+        },
+         {
+          id: 8,
+          label: "Visa Documentation",
+          href: "/services/visa-documentation",
+        },
     ],
   },
 
   list2: {
-    title: "Our Services",
+    title: "Useful Links",
     links: [
-      { id: 1, label: "IELTS", href: "about" },
-      { id: 2, label: "PTE Exam", href: "career" },
-      { id: 3, label: "Post Landing Assistance", href: "sustainability" },
-      { id: 4, label: "Job Assistance", href: "blogs" },
-      { id: 5, label: "Immigration Services", href: "contact-us" },
+      { id: 1, label: "About Us", href: "/about-us" },
+      { id: 2, label: "Blogs", href: "/blogs" },
+      { id: 3, label: "Join Us", href: "/career" },
+      { id: 5, label: "Our Services", href: "/services" },
+      { id: 7, label: "Valuable Testimonials", href: "/success-stories" },
+      { id: 4, label: "Privacy & Policy", href: "/privacy-policy" },
+
     ],
   },
 
@@ -939,7 +997,7 @@ export let blogData = {
 
 // about us
 export const mission = {
-  img: box1,
+  img: missio,
   title1: "Mission & Vision",
   title2: "Our Vision and ",
   title3: "Mission Statement",
@@ -964,25 +1022,27 @@ export const whychooseus = {
   img: bene2,
   points: [
     {
-      icon: <FaGlobeAmericas />,
+      icon: <FaEye />
+,
       heading: "Transparent & Ethical Guidance",
       para:
         "We operate as immigration consultants in Noida, offering honest advice, compliant processes, realistic timelines, and clear communication throughout the application journey.",
     },
     {
-      icon: <FaGlobeAmericas />,
+      icon: <IoPersonSharp />,
       heading: "Profile-Based Strategy",
       para:
         "Our team works as visa consultants in Noida, delivering profile-based strategies, accurate documentation, and program selection aligned with immigration regulations.",
     },
     {
-      icon: <FaGlobeAmericas />,
+      icon: <BsFillPersonCheckFill />,
       heading: "Experienced Professionals",
       para:
         "Experienced immigration consultants in Noida manage applications with regulatory knowledge, structured workflows, attention to detail, and consistent follow-ups for outcomes.",
     },
     {
-      icon: <FaGlobeAmericas />,
+      icon: <PiPhoneCallFill />
+,
       heading: "End-to-End Support",
       para:
         "As visa consultants in Noida, we provide end-to-end support from assessment to post-landing assistance, ensuring clients are informed, supported, and confident.",
@@ -1017,7 +1077,7 @@ export const contactBanner = {
     {
       icon: <FaMapLocationDot />,
       title: "Location",
-      text: "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      text: "H-150, H Block, Sector 63, Noida, Uttar Pradesh 210012",
       slug: "#",
     },]
 
@@ -1028,12 +1088,12 @@ export const contactBanner = {
      
       services: [
         {
-    title: "IELTS",
+    title: "IELTS Coaching & Preparation",
     text: "Eligibility assessment and guidance",
     img: ielts,
   },
   {
-    title: "PTE Exams",
+    title: "PTE Exam Coaching & Preparation",
     text: "Eligibility assessment and guidance",
     img: pte,
   },
@@ -1048,22 +1108,22 @@ export const contactBanner = {
     img: Career,
   },
   {
-    title: "Immigration Solutions",
+    title: "Immigration",
     text: "Structured migration pathways",
     img: immigration,
   },
   {
-    title: "Visa Documentation Support",
+    title: "Visa Documentation",
     text: "Accurate document preparation",
     img: visaDocument,
   },
   {
-    title: "Job Search Assistance",
+    title: "Job Assistance",
     text: "International employment guidance",
     img: jobAssist,
   },
   {
-    title: "Post-Landing Support",
+    title: "Post-Landing Assistance",
     text: "Settlement and integration assistance",
     img: PostLanding,
   },
@@ -1072,7 +1132,7 @@ export const contactBanner = {
     };
 
   export const servicechoose = {
-  img: box1,
+  img: choose1,
   title1: "Why Choose Us",
   title2: "Why Choose Nexuscore Overseas For Your ",
   title3: "Immigration Pathway?",
@@ -1081,19 +1141,20 @@ export const contactBanner = {
 
   vision: [
     {
-      icon: HiOutlineLightBulb,
+      icon: FaUserCheck 
+,
       heading: "Professional Immigration Expertise",
       para:
         "Customized guidance based on your profile and current international regulations.",
     },
     {
-      icon: HiOutlineFlag,
+      icon: FaArrowUpRightDots,
       heading: "Clear & Honest Procedures",
       para:
         "Well-defined steps, realistic timelines, and fully compliant documentation.",
     },
     {
-      icon: HiOutlineFlag,
+      icon: MdEventNote,
       heading: "Complete Application Assistance",
       para:
         "Support provided from initial assessment to final visa approval.",

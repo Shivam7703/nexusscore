@@ -22,7 +22,7 @@ export default function WorkProcessSlider() {
       </h2>
 
       <div
-        className={`grid grid-cols-2 md:grid-cols-4 md:mt-16 gap-y-5 mt-3 w-full `}
+        className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:mt-16 gap-y-5 mt-3 w-full `}
       >
         {data?.cards.map((card: any) => (
      <div key={card.id} className=" relative w-full group ">

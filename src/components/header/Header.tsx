@@ -8,7 +8,7 @@ import MenuMobile from "./MenuMobile";
 import Marquee from "react-fast-marquee";
 
 import { VscChromeClose } from "react-icons/vsc";
-import { IoMenu } from "react-icons/io5";
+import { IoCall, IoMenu } from "react-icons/io5";
 import {
   FaCaretRight,
   FaFacebook,
@@ -193,10 +193,10 @@ const Header = ({ header }: any) => {
               />
             </div>
             {/* buttons */}
-
+<div className="flex gap-3">
   <PaymentButton />
                 <ContactButton />
-
+</div>
           </div>
 
           {/* SECONDARY MENU */}
@@ -216,7 +216,7 @@ const Header = ({ header }: any) => {
         {/* ================= MOBILE HEADER ================= */}
         <div
           className={`flex md:hidden items-center justify-between px-4 h-20 transition ${
-            isAtTop ? "bg-yellow-800" : "bg-white shadow-md"
+            isAtTop ? "bg-blue-700" : "bg-white shadow-md"
           }`}
         >
           <Link href={header?.href || "/"}>
@@ -244,7 +244,7 @@ const Header = ({ header }: any) => {
         <div
           className={`fixed top-20 left-0 h-screen w-full md:hidden transition-all duration-300 ${
             isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
-          } ${isAtTop ? "bg-black" : "bg-white"}`}
+          } ${isAtTop ? "bg-blue-500" : "bg-white"}`}
         >
           <MenuMobile
             onTop={isAtTop}
@@ -310,30 +310,30 @@ function Latestupdate() {
   );
 }
 
-
 function PaymentButton() {
   return (
     <Link
       href="/payment"
-      className="group relative inline-flex items-center gap-3 px-6 py-3
-                 rounded-xl font-bold tracking-wide text-white
+      className="group relative inline-flex items-center gap-2 px-5 py-2 hover14
+                 rounded-full font-semibold text-[14px] tracking-wide text-white
                  min-w-max overflow-hidden
-                 bg-gradient-to-r from-blue-500 via-indigo-500 to-violet-500
-                 transition-all duration-300 hover:shadow-[0_0_15px_5px_rgba(167,139,250,0.6)]"
+                 bg-red-500 
+                 transition-all duration-200
+                 hover:-translate-y-px
+                 hover:shadow-lg"
     >
-      {/* Sliding White Hover */}
-      <span className="absolute inset-0 bg-white
-                       -translate-x-full
-                       group-hover:translate-x-0
-                       transition-transform duration-400 ease-in-out"></span>
+    
 
-      
+      <span className="relative z-10 w-[20px] h-[20px] rounded-full flex items-center justify-center text-[12px] font-bold flex-shrink-0
+                       bg-gradient-to-br from-yellow-300 to-orange-400
+                       shadow-[0_2px_6px_rgba(255,180,0,0.45)]">
+        $
+      </span>
 
-      {/* Content */}
-      <span className="relative z-10 flex items-center gap-2
-                       group-hover:text-black transition-colors duration-300">
-        <AiFillDollarCircle className="text-lg text-yellow-400 group-hover:text-yellow-600 transition-colors duration-300" />
-        <span>Pay Now</span>
+      <span className="relative z-10">Pay Now</span>
+
+      <span className="relative z-10  text-lg transition-all duration-200 group-hover:translate-x-[3px] ">
+        →
       </span>
     </Link>
   );
@@ -342,26 +342,23 @@ function PaymentButton() {
 function ContactButton() {
   return (
     <Link
-      href="/contact"
-      className="group relative inline-flex items-center gap-3 px-6 py-3
-                 rounded-xl font-semibold tracking-wide text-white
-                 min-w-max overflow-hidden
-                 bg-gradient-to-r from-green-700 via-green-500 to-green-700
-                 transition-all duration-300 hover:shadow-[0_0_15px_5px_rgba(52,211,153,0.6)]"
+      href="/contact-us"
+      className="group relative inline-flex items-center gap-2 px-5 py-3 hover14 
+                 rounded-full font-semibold text-sm tracking-wide text-white
+                 min-w-max
+                 bg-teal-700 
+                 shadow-sm
+                 transition-all duration-200
+                 hover:-translate-y-px
+                 hover:bg-green-500
+                 hover:shadow-xl"
     >
-      {/* Sliding White Hover */}
-      <span className="absolute inset-0 bg-white
-                       -translate-x-full
-                       group-hover:translate-x-0
-                       transition-transform duration-400 ease-in-out"></span>
+     
+
+    <IoCall className="text-white text-xl"/>
 
 
-      {/* Content */}
-      <span className="relative z-10 flex items-center gap-2
-                       group-hover:text-black transition-colors duration-300">
-        <FaPhone className="text-lg text-green-400  transition-colors duration-300" />
-        <span>Call Support</span>
-      </span>
+      <span className="relative z-10">Call Support</span>
     </Link>
   );
 }

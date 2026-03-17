@@ -40,10 +40,10 @@ const data = {
 };
 
 const stats = [
-  { value: "500+", label: "Visas Processed" },
-  { value: "98%", label: "Success Rate" },
-  { value: "10+", label: "Countries" },
-  { value: "50+", label: "Team Members" },
+  { value: "2,000+", label: "Clients Served" },
+  { value: "96%", label: "Success Rate" },
+  { value: "42hrs", label: "Average Approval Time" },
+  { value: "60+", label: "Countries Operationes" },
 ];
 
 export default function CareerSection() {

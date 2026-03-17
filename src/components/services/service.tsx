@@ -94,7 +94,7 @@ export default function ServiceSection() {
 
     {/* Content Container */}
     <Link
-      href={`/projects/${pro.title
+      href={`/services/${pro.title
         .trim()
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, "-")

@@ -23,7 +23,7 @@ export default function Footer({ footer }: any) {
               alt="logo"
               className="max-w-64 w-[80vw] object-contain"
             />
-            <p className=" w-full text-base mt-3  max-sm:mt-3">
+            <p className="font2 w-full text-base mt-3  max-sm:mt-3">
               {footer?.text}
             </p>
             {/* Socials  */}
@@ -113,21 +113,24 @@ export default function Footer({ footer }: any) {
             <h4 className="my-2  text-xl font-semibold">
               {footer?.newLetter?.title}
             </h4>
-            <p className=" transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
-              <strong>Phone: </strong>&nbsp;0679513203,0677066361
+            <p className="font2 transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
+              <strong>Phone: </strong>&nbsp;+919311936564
+
+
             </p>
-            <p className=" transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
+            <p className="font2 transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
               <strong>E-mail: </strong>&nbsp;info@nexuscoreoverseas.com
             </p>
-            <p className=" transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
-              <strong>Address: </strong>&nbsp;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum voluptate necessitatibus quod beatae.
+            <p className="font2 transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
+              <strong>Address: </strong>&nbsp;H-150, H Block, Sector 63, Noida, Uttar Pradesh 210012
+
             </p>
           </div>
         </div>
          <div className="text-black space-y-7 bg-white py-6 px-6 md:px-24 ">
           {navigationMenu?.secondaryMenu?.map((item: any) => (
             <div key={item.id}>
-              <span className="font-bold">{item?.label}: </span>
+              <span className="font-bold font2">{item?.label}: &nbsp;</span>
               {item?.subNav?.map((navitem: any) => (
                 <React.Fragment key={navitem?.id}>
                   <Link

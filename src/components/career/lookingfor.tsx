@@ -15,7 +15,7 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
-import { bann, touristvisa } from "@/assets";
+import { bann, box3, process4, touristvisa } from "@/assets";
 
 /* ─── Animation helpers ─────────────────────────────────────── */
 const fadeUp = (delay = 0) => ({
@@ -193,7 +193,7 @@ export default function WhoWeAreLooking() {
             {/* Main image */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[16/11]">
               <Image
-                src={bann}
+                src={process4}
                 alt="Professional team collaborating in a modern office"
                 fill
                 className="object-cover"
@@ -204,8 +204,8 @@ export default function WhoWeAreLooking() {
             </div>
 
             {/* Floating stat badges */}
-            <FloatingBadge value="500+" label="Clients Served Globally"  pos="-bottom-5 -left-5" />
-            <FloatingBadge value="98%"  label="Client Satisfaction Rate" pos="-top-5 -right-5" />
+            <FloatingBadge value="2000+" label="Clients Served Globally"  pos="-bottom-5 -left-5" />
+            <FloatingBadge value="96%"  label="Client Satisfaction Rate" pos="-top-5 -right-5" />
 
             {/* Decorative rings */}
             <div className="pointer-events-none absolute -z-10 -bottom-10 -right-10 w-80 h-80 rounded-full border-2 border-dashed border-indigo-200" />
@@ -234,7 +234,7 @@ export default function WhoWeAreLooking() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
               <Image
-                src={touristvisa}
+                src={box3}
                 alt="Happy diverse team working together"
                 fill
                 className="object-cover"

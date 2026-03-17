@@ -142,7 +142,7 @@ export default function WhychooseSection() {
               title="Best immigration consultants in Delhi"
               src={data?.img}
               alt="Best immigration consultants in Delhi"
-              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+              className="h-full w-full object-cover object-right transition-transform duration-700 group-hover:scale-110"
               width={800}
               height={600}
             />

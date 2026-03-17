@@ -102,7 +102,7 @@ export default function AboutSection({data}:any) {
     
     {/* Circle Progress */}
     <div className="relative flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-tr from-purple-500 to-indigo-500">
-      <span className="text-lg font-bold text-white">98%</span>
+      <span className="text-lg font-bold text-white">96%</span>
     </div>
     
     {/* Text */}

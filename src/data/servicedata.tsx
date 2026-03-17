@@ -1859,5 +1859,470 @@ export const servicedata = [
             ]
         }
     ], 
+},
+
+{
+    img: profile,
+    title: "Profile Evaluation",
+    metatitle: "",
+    metakey: "",
+    metadesc: "",
+    content: [
+        {
+            heading: "<h1>Profile Evaluation</h1>",
+            subcontent: [
+                {
+                    para: "Profile Evaluation is the first and most important step in any study abroad or immigration journey. Before applying to any country, visa program, or university, it is essential to understand your profile strength and eligibility. Many applicants directly apply without proper analysis, which often leads to rejection or delays."
+                },
+                {
+                    para: "A well-planned Profile Evaluation helps you understand where you stand and what opportunities are realistically available. It creates a clear direction instead of confusion and guesswork. Whether your goal is permanent residency, a work visa, or higher education, Profile Evaluation ensures that your approach is correct from the beginning."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Understanding Profile Evaluation",
+                    para: "Profile Evaluation is a detailed assessment of your academic background, work experience, language proficiency, age, and financial status. It helps in identifying suitable countries, visa options, and success chances."
+                },
+                {
+                    para: "It answers key questions:",
+                    list: [
+                        "Which country fits your profile best",
+                        "What visa pathways are available",
+                        "Whether your profile meets the eligibility criteria",
+                        "What improvements are required"
+                    ]
+                },
+                {
+                    para: "This step is not just about checking eligibility. It is about building a strategy."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Key Factors in Profile Evaluation",
+                    para: "A proper Profile Evaluation considers multiple elements together instead of focusing on just one factor."
+                },
+                {
+                    subheading: "Academic Background",
+                    para: "Your qualifications, field of study, and academic scores play a major role in determining eligibility for study and migration programs."
+                },
+                {
+                    subheading: "Work Experience",
+                    para: "Relevant work experience strengthens your profile, especially for PR and work visa pathways."
+                },
+                {
+                    subheading: "Language Proficiency",
+                    para: "IELTS or other language test scores directly impact your chances and ranking in immigration systems."
+                },
+                {
+                    subheading: "Age",
+                    para: "Many immigration programs follow a points-based system where age can influence your score."
+                },
+                {
+                    subheading: "Financial Capacity",
+                    para: "Proof of funds is essential for study visas and some immigration programs."
+                },
+                {
+                    subheading: "Career Goals",
+                    para: "Your long-term plan helps in selecting the right country and pathway instead of random applications."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Importance of Profile Evaluation",
+                    para: "Profile Evaluation is not just an initial step. It is the foundation of your entire journey."
+                },
+                {
+                    list: [
+                        "Helps in choosing the right country and visa category",
+                        "Reduces chances of rejection",
+                        "Saves time, money, and effort",
+                        "Identifies stronger opportunities",
+                        "Creates a structured plan"
+                    ]
+                },
+                {
+                    para: "Without Profile Evaluation, applicants often make decisions based on incomplete information."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Common Mistakes Without Profile Evaluation",
+                    para: "Skipping Profile Evaluation can lead to avoidable errors:",
+                    list: [
+                        "Applying without meeting eligibility criteria",
+                        "Choosing the wrong visa category",
+                        "Ignoring important documentation requirements",
+                        "Underestimating language score importance",
+                        "Missing better opportunities"
+                    ]
+                },
+                {
+                    para: "These mistakes can delay your plans significantly."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "How Professional Profile Evaluation Helps",
+                    para: "A structured Profile Evaluation provides clarity and direction."
+                },
+                {
+                    subheading: "Accurate Eligibility Check",
+                    para: "You get a realistic understanding of your chances."
+                },
+                {
+                    subheading: "Country and Course Selection",
+                    para: "The most suitable options are shortlisted based on your profile."
+                },
+                {
+                    subheading: "Visa Pathway Guidance",
+                    para: "You are guided toward the right immigration or study route."
+                },
+                {
+                    subheading: "Improvement Plan",
+                    para: "If your profile is weak, guidance is provided to improve it."
+                },
+                {
+                    subheading: "Documentation Planning",
+                    para: "You understand what documents are required and how to prepare them correctly."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Profile Evaluation Approach",
+                    para: "To get the best outcome from Profile Evaluation:",
+                    list: [
+                        "Provide accurate and complete information",
+                        "Share your academic and work details clearly",
+                        "Define your long-term goals",
+                        "Be open to expert suggestions",
+                        "Focus on long-term benefits instead of shortcuts"
+                    ]
+                },
+                {
+                    para: "A strong Profile Evaluation sets the direction for success."
+                }
+            ]
+        }
+    ]
+},
+
+{
+    img: Career,
+    title: "Career Counselling",
+    metatitle: "",
+    metakey: "",
+    metadesc: "",
+    content: [
+        {
+            heading: "<h1>Career Counselling</h1>",
+            subcontent: [
+                {
+                    para: "Career counseling plays a crucial role in helping students and professionals make the right decisions for their future. With multiple countries, courses, and career options available, it is easy to feel confused or overwhelmed."
+                },
+                {
+                    para: "Career counseling provides clarity by aligning your interests, skills, and market demand. Instead of following trends or random advice, you get a structured plan based on your profile and long-term goals."
+                },
+                {
+                    para: "Making the right career decision at the right time can significantly impact your future growth and opportunities."
+                }
+            ]
+        },
+        {               
+                 heading: "<h2>Understanding Career Counselling</h2>",
+
+            subcontent: [
+                {
+                    para: "Career counseling is a guided process where your profile is analyzed to identify the most suitable career path. It focuses on both your strengths and global opportunities."
+                },
+                {
+                    para: "It helps in:",
+                    list: [
+                        "Understanding your interests and abilities",
+                        "Identifying suitable courses or job roles",
+                        "Matching your profile with market demand",
+                        "Creating a clear career direction"
+                    ]
+                },
+                {
+                    para: "Career counseling removes confusion and builds confidence in decision-making."
+                }
+            ]
+        },
+        {
+                heading: "<h3>Key Areas Covered in Career Counselling</h3>",
+
+            subcontent: [
+                {
+                    para: ""
+                },
+                {
+                    subheading: "Course Selection",
+                    para: "Choosing the right course based on your background and future job demand."
+                },
+                {
+                    subheading: "Country Selection",
+                    para: "Selecting countries that offer better growth opportunities in your field."
+                },
+                {
+                    subheading: "Career Opportunities",
+                    para: "Understanding global job trends and in-demand roles."
+                },
+                {
+                    subheading: "Skill Gap Analysis",
+                    para: "Identifying areas where you need improvement for better opportunities."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Importance of Career Counselling",
+                    para: "Career counseling helps in making informed decisions rather than risky choices."
+                },
+                {
+                    list: [
+                        "Reduces confusion and uncertainty",
+                        "Prevents wrong career or course selection",
+                        "Aligns career with global demand",
+                        "Improves long-term success chances"
+                    ]
+                },
+                {
+                    para: "A well-planned career path leads to better outcomes."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Common Career Mistakes",
+                    para: "Without proper Career Counselling, applicants often:",
+                    list: [
+                        "Choose courses based on trends",
+                        "Ignore job opportunities after studying.",
+                        "Select countries without research",
+                        "Overlook long-term career growth"
+                    ]
+                },
+                {
+                    para: "These mistakes can affect future stability and growth."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Career Counselling Approach",
+                    para: "To get the best results:",
+                    list: [
+                        "Be clear about your interests and goals",
+                        "Discuss long-term plans openly",
+                        "Be open to expert advice",
+                        "Focus on growth rather than short-term gains"
+                    ]
+                },
+                {
+                    para: "A structured approach ensures better clarity and direction."
+                }
+            ]
+        }
+    ]
+},
+
+{
+    img: visaDocument,
+    title: "Visa Documentation",
+    metatitle: "",
+    metakey: "",
+    metadesc: "",
+    content: [
+        {
+            heading: "<h1>Visa Documentation</h1>",
+            subcontent: [
+                {
+                    para: "Visa Documentation is one of the most critical parts of any immigration, study, or travel process. No matter how strong your profile is, incorrect or incomplete documentation can lead to delays or even rejection."
+                },
+                {
+                    para: "Many applicants underestimate the importance of proper Visa Documentation and face issues later in the process. A well-prepared documentation file not only strengthens your application but also builds trust with the visa officer."
+                },
+                {
+                    para: "Understanding what documents are required and how to present them correctly is essential for a smooth and successful visa process."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Understanding Visa Documentation",
+                    para: "Visa Documentation refers to the complete set of documents required to support your visa application. These documents help authorities verify your identity, eligibility, financial stability, and purpose of travel."
+                },
+                {
+                    para: "It includes:",
+                    list: [
+                        "Personal identification documents",
+                        "Academic and professional records",
+                        "Financial proof",
+                        "Supporting letters and statements",
+                        "Visa application forms"
+                    ]
+                },
+                {
+                    para: "Each document plays a specific role in proving your case."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Key Documents Required",
+                    para: "Different visa types may require different documents, but some common ones include:"
+                },
+                {
+                    subheading: "Identity Documents",
+                    para: "A passport, photographs, and identification proof are essential for all visa applications."
+                },
+                {
+                    subheading: "Academic Documents",
+                    para: "Mark sheets, certificates, and transcripts are required for study and some work visas."
+                },
+                {
+                    subheading: "Work Experience Documents",
+                    para: "Offer letters, experience letters, and salary slips help in work visa and PR applications."
+                },
+                {
+                    subheading: "Financial Documents",
+                    para: "Bank statements, income proof, and sponsorship details show your financial stability."
+                },
+                {
+                    subheading: "Supporting Documents",
+                    para: "Statement of Purpose (SOP), invitation letters, and travel plans strengthen your application."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Common Visa Documentation Requirements",
+                    para: "Below is a general overview of commonly required documents:",
+                    table: {
+                        theading: ["Document Type", "Purpose", "Required For"],
+                        rows: [
+                            { colum: ["Passport", "Identity verification", "All visa types"] },
+                            { colum: ["Academic Records", "Education proof", "Study / PR / Work visas"] },
+                            { colum: ["Work Experience", "Employment verification", "Work / PR visas"] },
+                            { colum: ["Financial Proof", "Funds and stability", "Study / Visitor / PR"] },
+                            { colum: ["SOP / Cover Letter", "Purpose of application", "Study / Visitor visas"] }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Importance of Visa Documentation",
+                    para: "Proper Visa Documentation is essential for a successful application."
+                },
+                {
+                    list: [
+                        "Ensures smooth processing",
+                        "Reduces chances of rejection",
+                        "Builds credibility with visa officers",
+                        "Avoids delays and additional queries",
+                        "Strengthens overall application quality"
+                    ]
+                },
+                {
+                    para: "Even a small mistake in documentation can create complications."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Common Documentation Mistakes",
+                    para: "Applicants often face issues due to avoidable errors:",
+                    list: [
+                        "Submitting incomplete documents",
+                        "Providing incorrect or outdated information",
+                        "Not following document format guidelines",
+                        "Missing financial proof details",
+                        "Poorly written SOP or cover letter"
+                    ]
+                },
+                {
+                    para: "These mistakes can result in delays or rejection."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Visa Documentation Approach",
+                    para: "A structured approach makes the process easier and more effective.",
+                    list: [
+                        "Prepare a complete checklist before applying",
+                        "Keep all documents updated and verified",
+                        "Organize documents in proper format",
+                        "Double-check all details before submission",
+                        "Seek guidance if unsure about requirements"
+                    ]
+                },
+                {
+                    para: "Proper planning ensures a smooth documentation process."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Role of Professional Guidance",
+                    para: "Professional support can simplify Visa Documentation significantly."
+                },
+                {
+                    list: [
+                        "Helps in preparing accurate document lists",
+                        "Ensures correct formatting and presentation",
+                        "Reviews documents before submission",
+                        "Reduces the chances of errors",
+                        "Provides clarity at every step"
+                    ]
+                },
+                {
+                    para: "With the right guidance, your Visa Documentation becomes strong and reliable."
+                }
+            ]
+        },
+        {
+            subcontent: [
+                {
+                    subheading: "Visa Documentation Strategy",
+                    para: "To strengthen your application:",
+                    list: [
+                        "Keep documents clear, genuine, and consistent",
+                        "Maintain proper financial records",
+                        "Ensure all details match across documents",
+                        "Avoid last-minute preparation",
+                        "Follow country-specific requirements carefully"
+                    ]
+                },
+                {
+                    para: "A well-prepared Visa Documentation file increases your chances of approval and makes the entire process smooth and stress-free."
+                }
+            ]
+        }
+    ]
 }
 ]

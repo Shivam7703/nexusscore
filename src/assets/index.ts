@@ -5,6 +5,11 @@ import box2 from "@/assets/home/box2.jpg";
 import box3 from "@/assets/home/box3.jpg";
 import visa1 from "@/assets/home/visa1.jpg";
 import process1 from "@/assets/home/process1.png";
+import process2 from "@/assets/home/process2.jpg";
+import process3 from "@/assets/home/process3.jpg";
+import process4 from "@/assets/home/process4.jpg";
+import missio from "@/assets/about/mission.jpg";
+
 import footerImage from "@/assets/home/toronto.png";
 import plane from "@/assets/home/plane.png";
 import patta from "@/assets/home/patta.png";
@@ -17,9 +22,19 @@ import touristvisa from "@/assets/home/touristvisa.jpg";
 
 
 // flag
-import usflag from "@/assets/flag/us.png";
 import ukflag from "@/assets/flag/uk.png";
+import germanyflag from "@/assets/flag/germany.png";
+import dubaiflag from "@/assets/flag/dubai.jpg";
 import canadaflag from "@/assets/flag/canada.jpg";
+import australiaflag from "@/assets/flag/australia.jpg";
+
+
+import pnp1 from "@/assets/flag/pnp1.png";
+import pnp2 from "@/assets/flag/pnp2.jpg";
+import pnp3 from "@/assets/flag/pnp3.png";
+import pnp4 from "@/assets/flag/pnp4.jpg";
+import pnp5 from "@/assets/flag/pnp5.png";
+import pnp6 from "@/assets/flag/pnp6.png";
 
 
 import heade from "@/assets/home/header.webp";
@@ -60,9 +75,6 @@ import cl3 from "@/assets/home/cl3.jpg";
 import cl4 from "@/assets/home/cl4.jpg";
 import cl5 from "@/assets/home/cl5.jpg";
 import cl6 from "@/assets/home/cl6.jpg";
-import cl7 from "@/assets/home/cl7.jpg";
-import cl8 from "@/assets/home/cl8.jpg";
-import cl9 from "@/assets/home/cl9.jpg";
 
 
 // about
@@ -166,7 +178,7 @@ import ukTouristVisa from "@/assets/visa2/UK Tourist Visa.jpg";
 
 
 export {
-    logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,usflag, ukflag,canadaflag,  bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count, famvisa, prvisa, business,touristvisa
+    logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,process2,process3,process4,pnp1,pnp2,pnp3,pnp4,pnp5,pnp6, ukflag,canadaflag,germanyflag,dubaiflag,australiaflag, missio, bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6, com,env ,social,heade, count, famvisa, prvisa, business,touristvisa
  , sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3, footerImage, plane, patta, kangaroo, atlanticImmigration, 
   albertaPointsCalculator,
   alberta, immigration, Career, ielts, jobAssist, PostLanding ,profile, pte ,visaDocument,
