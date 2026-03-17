@@ -16,6 +16,7 @@ import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 import { MdArrowRightAlt } from "react-icons/md";
 import { sliderContent } from "@/data/homeData";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function HomeBanner() {
   const uniqueId = "banner12376";
@@ -58,14 +59,15 @@ export default function HomeBanner() {
 
       {/* Navigation buttons */}
       <div
-        className={`${uniqueId}-next absolute z-40 font-bold text-4xl text-green2 right-3 top-[55%] max-md:!hidden`}
+        className={`${uniqueId}-next absolute z-40 font-bold text-3xl bg-blue-600 p-3 rounded-full text-white right-3 top-[55%] max-md:!hidden`}
       >
-        <GrNext />
+        <FaArrowRightLong />
+
       </div>
       <div
-        className={`${uniqueId}-prev absolute z-40 font-bold text-4xl  text-green2 left-3 md:top-[55%] max-md:!hidden`}
+        className={`${uniqueId}-prev absolute z-40 font-bold text-3xl  bg-blue-600 p-3 rounded-full text-white  left-3 md:top-[55%] max-md:!hidden`}
       >
-        <GrPrevious />
+<FaArrowLeftLong />
       </div>
     </section>
   );

@@ -40,6 +40,8 @@ import {
   dubaiflag,
   australiaflag,
   missio,
+  bene3,
+  bene4,
 } from "@/assets";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaEye, FaGlobeAmericas, FaPlaneDeparture, FaUserCheck, } from "react-icons/fa";
@@ -458,36 +460,18 @@ export const navigationMenu = {
 export const sliderContent = [
   {
     id: 1,
-    img: banner,
-    welcome: "Welcome To nexus International",
-    title1: "Better care for crops, stronger yields with our ",
-    title2: "trusted solutions",
-    para:
-      " Our Solutions Provide Everything your Crops Need, From Pest Protection to Essential Nutrients. Ensuring Healthy Growth and Higher Yields. ",
-    btntext: "Explore More",
-    href: "/products/herbicides",
+    img: bene4,
+
   },
   {
     id: 2, // Fix duplicate id issue by using unique ids
-    img: banner2,
-    welcome: "Best Agri-input & Crop Protection Firm ",
-    title1: "Helping farmers grow more with ",
-    title2: "simple and effective products.",
-    para:
-      "Making farming simple and effective. Your crops will be protected while the soil gets nourished for increased production.",
-    btntext: "Contact Us",
-    href: "/contact-us",
+    img: bene3,
+  
   },
   {
     id: 3, // Fix duplicate id issue by using unique ids
     img: banner3,
-    welcome: "Best Agri-input & Crop Protection Firm ",
-    title1: "Leading the Future of Crop ",
-    title2: "Protection & Growth",
-    para:
-      "Empowering farmers with innovative agri-solutions that ensure healthier crops and higher yields. Sustainable, effective, and farmer-focused—we help you grow with confidence.",
-    btntext: "Contact Us",
-    href: "/contact-us",
+   
   },
 ];
 
