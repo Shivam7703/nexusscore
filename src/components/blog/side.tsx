@@ -9,8 +9,7 @@ import {blogData as latestBlogs} from "@/data/homeData";
 import { FaDownload, FaLocationArrow, FaRegUserCircle } from "react-icons/fa";
 import { FiMail, FiPhone } from "react-icons/fi";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
-import { motion } from "motion/react";
-import { BiRightArrowAlt } from "react-icons/bi";
+
 
 const data = [
   {
@@ -21,27 +20,27 @@ const data = [
   {
     id: 2,
     title: "Australia PR Visa",
-    href: "/visa/australia-pr-visa",
+    href: "/visa/australia-permanent-residency-visa",
   },
   {
     id: 3,
-    title: "Dubai Work Visa",
-    href: "/visa/dubai-work-visa",
+    title: "Dubai Tourist Visa",
+    href: "/visa/dubai-tourist-visa",
   },
   {
     id: 4,
-    title: "Qatar Tourist Visa",
-    href: "/visa/qatar-tourist-visa",
+    title: "Qatar Work Visa",
+    href: "/visa/qatar-work-visa",
   },
   {
     id: 5,
-    title: "Croatia Work Visa",
-    href: "/visa/croatia-work-visa",
+    title: "Sweden Work Visa",
+    href: "/visa/sweden-work-permit-visa",
   },
   {
     id: 6,
-    title: "Luxembourg Work Visa",
-    href: "/visa/luxembourg-work-visa",
+    title: "Russia Work Visa",
+    href: "/visa/russia-work-permit",
   },
 ];
 

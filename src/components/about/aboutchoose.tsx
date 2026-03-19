@@ -63,7 +63,7 @@ export default function Aboutchoose() {
             <div className="flex gap-5 items-start">
               <div className="relative flex-shrink-0">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500 rounded-xl" />
-                <div className="relative w-14 h-14 flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-500">
+                <div className="relative w-14 h-14 flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-500 text-white">
                   {item.icon}
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function Aboutchoose() {
             <div className="flex gap-5 items-start">
               <div className="relative flex-shrink-0">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500 rounded-xl" />
-                <div className="relative w-14 h-14 flex items-center justify-center bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-500">
+                <div className="relative w-14 h-14 flex items-center justify-center bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-500 text-white">
                   {item.icon}
                 </div>
               </div>

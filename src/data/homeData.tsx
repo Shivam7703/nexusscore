@@ -480,6 +480,7 @@ export const aboutdata = {
   title1: "ABOUT US",
   title2: "Trusted & Expert Immigration ",
   title3: "Consultant",
+  href:"/about-us",
   para:
     "We deliver reliable, results-oriented immigration solutions backed by expert guidance, ethical practices, and structured processes. Recognized for offering the best immigration consultants in Noida, we support individuals and families from visa planning to final submission, ensuring clarity, confidence, and complete professional assistance throughout the process.",
   pointer: [
@@ -537,27 +538,31 @@ export const visaSliderdata = {
     {
       id: 1,
       img: visa1,
+      href:"/visa/uk-work-permit",
       heading: "Work Visa",
       text:
         "Support for work visa applications with proper documents and employer-compliant immigration procedures.",
     },
     {
       id: 2,
-      img: prvisa,
+      img: prvisa,      href:"/visa/canada-pr-visa",
+
       heading: "Permanent Residency Visa",
       text:
         "Guidance to apply for permanent residency through structured programs and accurate profile submission.",
     },
     {
       id: 3,
-      img: famvisa,
+      img: famvisa,      href:"/visa/canada-family-sponsorship-visa",
+
       heading: "Family Sponsorship Visa",
       text:
         "Help families reunite abroad through legal sponsorship filing and complete documentation support.",
     },
     {
       id: 4,
-      img: business,
+      img: business,      href:"/visa/germany-job-seeker-visa",
+
       heading: "Business & Investor Visa",
       text:
         "Assistance for investors and entrepreneurs applying through approved business and investment immigration routes.",
@@ -565,7 +570,8 @@ export const visaSliderdata = {
     {
       id: 5,
       img:touristvisa,
-      heading: "Tourist / Visitor Visa",
+      heading: "Tourist / Visitor Visa",      href:"/visa/canada-tourist-visa",
+
       text:
         "Simple assistance for visitor visa applications with clear guidance and timely submission.",
     },
@@ -581,7 +587,7 @@ export const countrytomigrate = {
       id: 1,
       img: germanyflag,
       heading: "Germany",
-      link: "country/us",
+      link: "/visa/germany-job-seeker-visa",
       points: [
         "Job Seeker Visa",
         "Work Opportunities",
@@ -593,7 +599,7 @@ export const countrytomigrate = {
       id: 2,
       img: dubaiflag,
       heading: "Dubai",
-      link: "country/uk",
+      link: "/visa/dubai-tourist-visa",
       points: [
         "4 Years Business Visa",
         "Simple Online Process",
@@ -605,7 +611,7 @@ export const countrytomigrate = {
       id: 2,
       img: ukflag,
       heading: "United Kingdom",
-      link: "country/uk",
+      link: "/visa/uk-work-permit",
       points: [
         "4 Years Business Visa",
         "Simple Online Process",
@@ -617,14 +623,14 @@ export const countrytomigrate = {
       id: 3,
       img: canadaflag,
       heading: "Canada",
-      link: "country/canada",
+      link: "/visa/canada-pr-visa",
       points: ["PR Pathways", "Express Entry", "Student Visa", "24/7 Support"],
     },
     {
       id: 4,
       img: australiaflag,
       heading: "Australia",
-      link: "country/australia",
+      link: "/visa/australia-tourist-visa",
       points: [
         "Skilled Migration",
         "Work Visa Options",
@@ -699,7 +705,7 @@ export const canadapnp = {
       ],
       text:
         "Provincial nomination for skilled workers to live and work in Ontario.",
-      link: "/canada-pnp",
+      link: "/visa/ontario-pnp-program",
     },
     {
       id: 2,
@@ -711,7 +717,7 @@ export const canadapnp = {
       ],
       text:
         "Nominations for skilled workers and entrepreneurs targeting opportunities in British Columbia.",
-      link: "/canada-pnp",
+      link: "/visa/bc-pnp-program",
     },
     {
       id: 3,
@@ -723,7 +729,7 @@ export const canadapnp = {
       ],
       text:
         "Streamlined immigration for workers with skills needed in Alberta’s labor market.",
-      link: "/canada-pnp",
+      link: "/visa/alberta-pnp",
     },
     {
       id: 4,
@@ -734,7 +740,7 @@ export const canadapnp = {
       ],
       text:
         "Offers pathways for workers, entrepreneurs, and farmers to settle in Saskatchewan.",
-      link: "/canada-pnp",
+      link: "/visa/saskatchewan-pnp",
     },
     {
       id: 5,
@@ -756,7 +762,7 @@ export const canadapnp = {
       ],
       text:
         "Nomination stream focused on attracting workers and graduates to Nova Scotia.",
-      link: "/canada-pnp",
+      link: "/visa/manitoba-pnp-draw",
     },
   ],
 };

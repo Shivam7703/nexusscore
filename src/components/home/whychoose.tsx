@@ -95,7 +95,7 @@ export default function WhychooseSection() {
 
         {/* Enhanced CTA Button */}
         <Link
-          href="/discover"
+          href="/about-us"
           className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 px-8 py-4 text-base font-bold text-white shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50 mt-8"
         >
           {/* Animated gradient background */}

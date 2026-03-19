@@ -181,7 +181,7 @@ function page() {
 
     <p className="mb-2 font-medium">NEXUSCORE OVERSEAS</p>
     <p>Email: info@nexuscoreoverseas.com</p>
-    <p>Phone: 0679513203, 0677066361</p>
+    <p>Phone: +91 9311936564</p>
     <p className="mb-6">Office Address: [***********]</p>
 
     <p>

@@ -106,7 +106,7 @@ export default function VisaSlider() {
 
     {/* BUTTON SECTION */}
     <Link
-      href="/services"
+      href={card?.href}
       className="relative flex items-center justify-center gap-2 p-4 font-semibold text-sm text-white bg-black overflow-hidden group-hover:bg-black transition-all duration-500"
     >
       <div className="absolute top-0 left-0 h-full rounded-b-lg w-0 bg-gradient-to-r from-red-700  to-red-500 group-hover:w-full group-hover:h-full transition-all duration-500" />
