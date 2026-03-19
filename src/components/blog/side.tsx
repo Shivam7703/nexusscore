@@ -172,7 +172,10 @@ const data = [
     {latestBlogs?.blog.slice(0, 3).map((blog: any, index: number) => (
       <Link
         key={blog?.id || index}
-        href={`/blogs/${blog?.heading}`}
+        href={`/blogs/${blog?.heading.trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")}`}
         title={blog?.heading}
         className="group block"
       >

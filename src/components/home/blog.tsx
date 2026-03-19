@@ -76,7 +76,10 @@ export default function Blogs({ isHome }:any) {
       {/* Title */}
        <Link
           href={`/blogs/${encodeURIComponent(
-            blogs.heading.toLowerCase().replace(/\s+/g, "-")
+            blogs.heading.trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
           )}`}>
        <h2
         className="text-lg sm:text-xl font-bold leading-snug text-gray-900
@@ -98,7 +101,10 @@ export default function Blogs({ isHome }:any) {
       {/* Read More */}
        <Link
           href={`/blogs/${encodeURIComponent(
-            blogs.heading.toLowerCase().replace(/\s+/g, "-")
+            blogs.heading.trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
           )}`}
           className="flex items-center gap-2 text-sm font-semibold
                      text-blue-600 group-hover:text-purple-600

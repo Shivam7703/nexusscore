@@ -7,7 +7,7 @@ export default function BlogPage() {
                 <h4 className="text-blue-800 font-bold sm:text-lg mx-auto text-sm mb-2 text-center border-blue-700 w-max border-b px-3 py-2">
 Latest Update                </h4>
       <h2 className="text-zinc-800 font-extrabold !leading-tight text-2xl md:text-4xl text-center max-w-2xl mx-auto mb-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Get Updated With Our Recent Articles
               </h2>
 
               <div className="flex flex-wrap justify-between gap-y-7 relative min-h-screen w-full">
