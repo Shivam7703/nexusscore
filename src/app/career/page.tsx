@@ -10,7 +10,16 @@ import CountDown from "@/components/home/Contdown";
 import Testimonials from "@/components/home/testimonial";
 import { aboutdata2, countDown } from "@/data/homeData";
 
-export default function About() {
+
+
+// metatitle: About Nexuscore Overseas
+
+// metakey:Immigration Consultants In Noida, Visa Consultants In Delhi
+
+// metadesc:Nexuscore Overseas is a trusted name among Immigration Consultants in Noida and Visa Consultants in Delhi, offering expert guidance for study, work, and PR visas.
+
+// url: https://www.nexuscoreoverseas.com/about-us
+export default function Career() {
   return (
     <>
       <Banner

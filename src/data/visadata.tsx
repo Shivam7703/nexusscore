@@ -78,10 +78,10 @@ export const visaData = [
   {
     img:canadaPR,
     title: "Canada PR Visa",
-    metatitle: "Canada PR Visa from India – Complete Guide 2026",
-    metakey: "",
+    metatitle: "Apply Canada PR Visa - Easiest Way For PR",
+    metakey: "Canada PR Visa from India, Apply for Canada PR Visa, Canadian permanent resident from India, Immigration Consultants In noida",
     metadesc:
-      "Explore the Canada PR Visa from India process, eligibility, pathways, fees & timelines. Step-by-step guide to secure Canadian permanent residency easily.",
+      "Need help applying for a Canada PR visa? Learn about Canada’s Permanent Residence (PR) programs. Nexuscore will help you with your PR visa application.",
     content: [
       // {
       //   heading: "",
@@ -435,9 +435,9 @@ export const visaData = [
 
   {img:federalSkilledWorker,
     title: "Federal Skilled Worker Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Canada Federal Skilled Worker Program (FSWP) ",
+metakey: "Federal Skilled Worker Program, FSWP, Federal Skilled Worker Program, FSWP, best Immigration Consultants",
+metadesc: "Apply for the Canada Federal Skilled Worker Program (FSWP) with guidance from the best immigration consultants. Get expert help for Canada PR, eligibility assessment, and application support.",
     content: [
       {
         heading: "<h1>Federal Skilled Worker Program (FSWP)</h1>",
@@ -764,9 +764,9 @@ export const visaData = [
 
   {img:federalRel,
     title: "Federal Skilled Trades Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Immigrate to Canada Under the Federal Skilled Trades Program",
+metakey: "Federal Skilled Trades Program, FSTP, Best Immigration Consultants In Noida",
+metadesc: "Explore the Federal Skilled Trades Program (FSTP) with the best immigration consultants in Noida. Get professional guidance for Canada PR and trade worker visas.",
     content: [
       {
         heading: "<h1>Federal Skilled Trades Program (FSTP)</h1>",
@@ -1163,9 +1163,9 @@ export const visaData = [
 
   {img:canadianExperienceClass,
     title: "Canadian Experience Class",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Canadian Experience Class - Pathway to Permanent Residency",
+metakey: "Canadian Experience Class, CEC, Visa Consultants In Noida",
+metadesc: "Discover the Canadian Experience Class, a vital pathway to permanent residency. Learn about eligibility, application processes, and tips for success.",
     content: [
       {
         heading: "<h1>Canadian Experience Class (CEC)</h1>",
@@ -1611,9 +1611,9 @@ export const visaData = [
 
   {img:globalTalentStream,
     title: "Global Talent Stream",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Global Talent Stream (GTS) Program : Nexuscore Overseas",
+metakey: "Global Talent Stream, GTS, Immigration Consultants In Noida",
+metadesc: "Learn about the Global Talent Stream, a program that accelerates the hiring of global talent in Canada, fostering innovation and growth in various industries.",
     content: [
       {
         heading: "<h1>Global Talent Stream (GTS)</h1>",
@@ -2034,9 +2034,9 @@ export const visaData = [
 
   {img:canadaSuperVisa,
     title: "Canada Super Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Apply for Canada Super Visa for Parents & Grandparents",
+metakey: "Canada Super Visa, Canada Super Visa for parents, Apply Super Visa, Canada parent visa",
+metadesc: "Apply for a Canada Super Visa for parents and grandparents with expert guidance from Best Immigration consultants. Get fast and reliable application support.",
     content: [
       {
         heading: "<h1>Canada Super Visa—Solution for Reuniting Families</h1>",
@@ -2395,9 +2395,9 @@ export const visaData = [
 
   {img:canadaFamilyVisa,
     title: "Canada Family Sponsorship Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Successfully Immigrate to Canada from India with Family",
+metakey: "Immigrate to Canada from India with family, Migrate to Canada with your family, Best Immigration Consultants",
+metadesc: "Ready to start a new life in Canada? Learn how to immigrate from India with your family, including essential tips and resources for a successful move.",
 
     content: [
       {
@@ -2851,9 +2851,9 @@ export const visaData = [
 
   {img:atlanticImmigration,
     title: "Atlantic Immigration Pilot",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Apply for the Atlantic Immigration Program With Nexuscore",
+metakey: "atlantic immigration program, aipp",
+metadesc: "Learn how to apply for the Atlantic Immigration Program and access valuable resources to support your application process.",
     content: [
       {
         heading: "<h1>Atlantic Immigration Pilot</h1>",
@@ -3225,9 +3225,9 @@ export const visaData = [
 
   {img:canadaSpouseVisa,
     title: "Canada Spouse Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Canada Spouse Visa | Reunite with Your Partner",
+metakey: "Canada Spouse Visa from India, Canada spouse visa, Apply for Canada spouse visa, best immigration consultants in Noida For Canada Visa",
+metadesc: "how to apply for a Canada Spouse Visa from India. Access valuable resources and support to help you bring your partner to Canada successfully.",
 
     content: [
       {
@@ -3555,9 +3555,9 @@ export const visaData = [
 
   {img:ruralProgram,
     title: "Rural Community Immigration Pilot",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Rural Community Immigration Pilot (RCIP) | Canada",
+metakey: "Rural Community Immigration Pilot, Best Immigration Consultant",
+metadesc: "Rural Community Immigration Pilot, offering skilled workers a chance for permanent residence and a fulfilling life in welcoming rural areas.",
 
     content: [
       {
@@ -3841,9 +3841,9 @@ export const visaData = [
 
   {img:australiaPR,
     title: "Australia Permanent Residency Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+metatitle: "Apply Australia PR Visa | Trusted Consultants",
+metakey: "Australia PR Visa from India, Apply for Australia Visa, Australia permanent resident visa India",
+metadesc: "Start your journey to Australia with our easy PR Visa application guide. Discover eligibility, requirements, and tips for a successful application today!",
     content: [
       {
         heading: "<h1>Australia Permanent Residency Visa</h1>",
@@ -4134,9 +4134,9 @@ export const visaData = [
 
   {img:skillIndependent,
     title: "Skilled Independent Visa Subclass 189",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Skilled Independent Subclass 189 - Australia Immigration",
+metakey: "Australia PR Visa, Skilled Independent Subclass 189 Visa, Subclass 189 Visa, au 189 visa",
+metadesc: "Skilled Independent Visa Guide for Migrating to Australia. Points test, occupation lists, processing times and how to apply without employer sponsorship.",
     content: [
       {
         heading: "<h1>Skilled Independent Subclass 189 Visa</h1>",
@@ -4391,9 +4391,9 @@ export const visaData = [
 
   {img:skillNominated,
     title: "Skilled Nominated Visa Subclass 190",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Skilled Nominated visa subclass 190 | Live in Australia",
+metakey: "Skilled Nominated Visa Subclass 190, Subclass 190 Visa, Australia Subclass 190 Visa, Best Immigration Consultants For Australia",
+metadesc: "The Subclass 190 Skilled Nominated Visa is a points-based Australia PR visa for skilled workers nominated by an Australian state or territory.",
     content: [
       {
         heading: "<h1>Skilled Nominated Visa Subclass 190</h1>",
@@ -4632,9 +4632,9 @@ export const visaData = [
 
   {img:australiaSubclass491,
     title: "Australia Subclass 491 Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+  metatitle: "How to Apply 491 visa australia From India",
+metakey: "491 visa australia, australia 491 visa, Australia PR Visa, Appply For Australia Visa, Apply For Australia PR Visa",
+metadesc: "Discover how to apply for the 491 visa in Australia from India. Get expert guidance from top immigration consultants in Noida to simplify your journey.",
     content: [
       {
         heading: "<h1>Australia Subclass 491 Visa</h1>",
@@ -4948,9 +4948,9 @@ export const visaData = [
 
   {img:australiaSubclass600,
     title: "Australia Subclass 600",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Australia Tourist Visa Subclass 600 - Nexuscore Overseas",
+metakey: "australia tourist visa, subclass 600 visitor visa, Apply for Australia subclass 600 visa, Apply subclass 600visa",
+metadesc: "Need help with the Australia Tourist Visa Subclass 600? Our Noida-based immigration consultants offer tailored support to make your travel dreams a reality.",
     content: [
       {
         heading: "<h1>Australia Subclass 600</h1>",
@@ -5262,9 +5262,9 @@ export const visaData = [
 
   {img:employerNomination186,
     title: "Employer Nomination Subclass 186",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+metatitle: "Australia Employer Nomination (Subclass 186) | PR Pathways",
+metakey: "employer nomination scheme subclass 186",
+metadesc: "Unlock your future in Australia with the Employer Nomination (Subclass 186). With the help of Nexuscore overseas, Immigration consultants in Noida are here to help you every step of the way!",
     content: [
       {
         heading: "<h1>Employer Nomination Subclass 186</h1>",
