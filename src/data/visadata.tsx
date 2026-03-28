@@ -5528,9 +5528,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
   {img:australiaSpouseVisa,
     title: "Australia Spouse Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Easily Apply For Australia Spouse Visa - Secure Your Visa",
+metakey: "australia spouse visa, Apply for australia spouse visa",
+metadesc: "Planning to apply for an Australian partner visa from India? Find out the processing time, costs, visa options, and required documents.",
     content: [
       {
         heading: "<h1>Australia Spouse Visa</h1>",
@@ -5753,9 +5753,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
   {img:skillOccupationList,
     title: "Skill Occupation List",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Australia Skilled Occupation List | Demanded Occupations",
+metakey: "australia skilled occupation list, Top Immigration Consultant in Delhi for an Australia PR Visa",
+metadesc: "about the Australia Skilled Occupation List and how it can help you secure a job and visa. Unlock your future in Australia now!",
     content: [
       {
         heading: "<h1>Australia Skilled Occupation List</h1>",
@@ -6067,9 +6067,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
   
   {img:australiaPointSystem,
     title: "Australia Point System",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Australia Point System for PR: Eligibility, Points & Tips",
+metakey: "australia point system",
+metadesc: "Maximize your chances for permanent residency! Learn about the Australia Point System for PR Eligibility, Points & Tips. Score 65+ points and get expert advice today.",
     content: [
       {
         heading: "<h1>Australia Point System</h1>",
@@ -6340,9 +6340,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
   {img:germanyJobSeekerVisa,
     title: "Germany Job Seeker Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Get Germany Job Seeker Visa - Apply & Eligibility",
+metakey: "germany job seeker visa, apply for the Job Seeker Visa, germany work seeker visa",
+metadesc: "Looking for a Germany Job Seeker Visa? Check 2026 requirements: recognized degrees, 5+ years experience, and proof of funds. Get expert tips for a 65+ score.",
     content: [
       {
         heading: "<h1>Germany Job Seeker Visa</h1>",
@@ -6674,9 +6674,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
   {img:ukWorkVisa,
     title: "UK Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Apply For UK Work Permit Visa From India | Process, Cost & Eligibility",
+metakey: "uk work permit, Apply For uk work Visa From india, best uk visa consultants in india",
+metadesc: "This guide outlines the step-by-step process for applying for a UK work visa in 2026, including eligibility criteria, documents, costs, and how long it takes.",
     content: [
       {
         heading: "<h1>UK Work Permit</h1>",
@@ -7006,9 +7006,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
    {img:irelandWorkPermit,
     title: "Ireland Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Ireland Work Permit & Visas: How to Sponsor",
+metakey: "ireland work visa, ireland work permit, Apply For ireland work permit, Immigration Consultans In Noida",
+metadesc: "Our guide on Ireland Work Permits covers essential info, application steps, and tips to help you secure your dream job abroad!",
   content: [
     {
       heading: "<h1>Ireland Work Permit</h1>",
@@ -7325,9 +7325,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
   {img:serbiaWorkPermit,
     title: "Serbia Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Apply For Serbia Work Visa and residency from India",
+metakey: "serbia work permit, serbia work Visa, Apply Serbia Work Permit From India",
+metadesc: "Apply for Serbia Work Permit in 2026 with our guide to the Unified Permit. Learn about the 15-day processing, biometric ID, and online application. Work in Serbia!",
   content: [
     {
       heading: "<h1>Serbia Work Permit</h1>",
@@ -7686,9 +7686,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
    {img:polandWorkPermit,
     title: "Poland Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Now Apply Poland Work Permit | Work Visa 2026",
+metakey: "poland work permit, poland work visa jobs, apply poland work visa, poland visa for work",
+metadesc: "Find Poland work visa jobs and secure your future. Learn how to apply Poland work permit online with our step-by-step guide to top vacancies and requirements.",
   content: [
     {
       heading: "<h1>Poland Work Permit</h1>",
@@ -8060,9 +8060,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
    {img:swedenWorkPermit,
     title: "Sweden Work Permit Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Sweden Work Permit | Work & Relocate to Sweden",
+metakey: "sweden work permit, sweden work visa, sweden job seeker visa, Apply for sweden work permit, sweden work permit from india",
+metadesc: "Looking to Work & Relocate to Sweden? Get expert tips on the Sweden Work Permit process, latest 2026 salary requirements, and top job sectors for expats.",
     content: [
   {
     heading: "<h1>Sweden Work Permit Visa</h1>",
@@ -8367,9 +8367,9 @@ metadesc: "Unlock your future in Australia with the Employer Nomination (Subclas
 
   {img:norwayWorkPermit,
     title: "Norway Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "How Indians Get a Norway Work Visa - Nexuscore",
+metakey: "norway work permit, Apply norway work permit, Best Immigration Consultants",
+metadesc: "Expert tips on how Indians get a Norway work visa. Nexuscore explains the 2026 skilled worker process, document checklists, and application fees for 2026.",
 content: [
   {
     heading: "<h1>Norway Work Permit</h1>",
@@ -8689,9 +8689,9 @@ content: [
 
 {img:maltaWorkPermit,
     title: "Malta Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Malta Work Permit & Visa Processing Time & Fees",
+metakey: "malta work permit, malta work visa fees for indian",
+metadesc: "Secure your Malta work permit & Visa with expert help. Connect with the best immigration consultants in Noida for top-tier visa filing and job assistance.",
     content: [
   {
     heading: "<h1>Malta Work Permit</h1>",
@@ -9019,9 +9019,9 @@ faq:
 
 {img:qatarWorkVisa,
     title: "Qatar Work Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+  metatitle: "Professional Qatar Work Permit For Indians | Fastest Way",
+metakey: "qatar work permit, qatar work permit visa for indian",
+metadesc: "Get your Qatar work permit visa for Indian workers with the best immigration consultants in Noida. Expert guidance for 2026 requirements and fast approvals.",
 content: [
 {
 heading: "<h1>Qatar Work Visa</h1>",
@@ -9265,9 +9265,9 @@ para: "For trusted guidance and professional support, consult the <a href='https
 
 {img:saudiArabiaWorkVisa,
     title: "Saudi Arabia Work Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Apply For Saudi Arabia Work Permit With Nexuscore",
+metakey: "saudi arabia work permit, saudi work permit visa",
+metadesc: "Trust the best Visa consultants in Noida to help you apply for Saudi Arabia work permit with Nexuscore. Get expert visa guidance and fast approvals.",
   content: [
   {
     heading: "<h1>Saudi Arabia Work Visa</h1>",
@@ -9631,9 +9631,9 @@ para: "For trusted guidance and professional support, consult the <a href='https
 
 {img:omanWorkVisa,
     title: "Oman Work Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+  metatitle: "Oman Work Permit - Apply for Jobs & Residency in Oman",
+metakey: "oman work permit, Apply for oman work permit",
+metadesc: "Secure your future with an Oman work permit - apply for jobs & residency in Oman today. Trust the best immigration consultants for expert guidance.",
 content: [
   {
     heading: "<h1>Oman Work Visa</h1>",
@@ -10007,9 +10007,9 @@ faq:
 
 {img:uaeWorkVisa,
     title: "UAE Work Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+  metatitle: "Steps For The UAE Work Permit | Get Your Visa",
+metakey: "uae visa work permit, job seeker visa uae, UAE Work Visa Consultant",
+metadesc: "Looking for a UAE work permit? Partner with the immigration consultants in Noida to navigate 2026 visa rules, medical tests, and job offers with ease.",
   content: [
   {
     heading: "<h1>UAE Work Visa</h1>",
@@ -10413,9 +10413,9 @@ faq:
 
 {img:ontario,
     title: "Ontario PNP Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "How Ontario Immigrant Nominee Program (OINP) Works?",
+metakey: "immigration consultants In Noida For Ontario, Ontario PNP, Ontario PNP Draw",
+metadesc: "Understand the Ontario PNP requirements and process. Our immigration consultants For Ontario provide OINP updates, eligibility criteria, and PR steps.",
 content: [
   {
     heading: "<h1>Ontario PNP Program</h1>",
@@ -10742,9 +10742,9 @@ content: [
 
   {img:yukonPnp,
     title: "Yukon Nominee Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Immigrate To Yukon With Yukon Nominee Program Easily",
+metakey: "Yukon Nominee Program, Best immigration consultants For Canada",
+metadesc: "Achieve Canada PR! Learn to immigrate to Yukon with Yukon Nominee Program easily. Consult the best immigration consultants for Canada for 2026 OINP updates.",
     content: [
   {
     heading: "<h1>Yukon Nominee Program</h1>",
@@ -11103,9 +11103,9 @@ faq:
 
   {img:nlPnp,
     title: "Newfoundland and Labrador PNP Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Newfoundland and Labrador Program | PNP Draw",
+metakey: "New Foundland PNP Program, New Foundland PNP Draw, immigration consultants In Noida For Canada",
+metadesc: "Explore your path to Canada via the Newfoundland PNP Program. Learn about eligibility, categories like Skilled Worker and Express Entry, and how to apply today.",
     content: [
   {
     heading: "<h1>Newfoundland and Labrador PNP Program</h1>",
@@ -11452,9 +11452,9 @@ faq:
  
   {img:novaScotia,
     title: "Nova Scotia PNP",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Nova Scotia PNP Program : Migrate to Canada",
+metakey: "Nova Scotia PNP, Nova Scotia PNP Draw, Best Immigration Consultants",
+metadesc: "Get your Canadian permanent residency through the Nova Scotia PNP. Explore eligibility for the Express Entry stream, Skilled Worker category, and local job offers.",
 content: [
   {
     heading: "<h1>Nova Scotia PNP</h1>",
@@ -11711,9 +11711,9 @@ content: [
 
   {img:alberta,
     title: "Alberta PNP",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Alberta PNP Program – Latest Updates, NOC Codes & Trends",
+metakey: "Alberta PNP, Alberta PNP Draw, Best Visa consultants In Noida",
+metadesc: "Looking for the Alberta PNP Program? Connect with the best visa consultants in Noida to navigate the 2026 AAIP updates and secure your Canadian PR fast.",
     content: [
   {
     heading: "<h1>Alberta PNP</h1>",
@@ -12027,9 +12027,9 @@ faq:
 
    {img:saskatchewanPnp,
     title: "Saskatchewan PNP",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Saskatchewan PNP Program | Canada PR Pathway",
+metakey: "Saskatchewan PNP, Saskatchewan PNP Draw, Best Immigration Consultants In Noida",
+metadesc: "Get your Canada PR via the Saskatchewan PNP Program. See if your occupation is in-demand for 2026 and navigate the new 3-tier sector system effectively.",
     content: [
   {
     heading: "<h1>Saskatchewan PNP</h1>",
@@ -12357,9 +12357,9 @@ faq:
 
    { img:quebecSkilledWorker,
     title: "Quebec Skilled Worker Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Quebec Skilled Worker Program (QSWP) | Apply Now",
+metakey: "Quebec Draw, Quebec Skilled Worker Program",
+metadesc: "Ready for Quebec PR? Navigate the 2026 Quebec Skilled Worker (PSTQ) rules. Discover priority for local graduates, regional workers, and in-demand tech roles.",
     content: [
         {
             heading: "<h1>Quebec Skilled Worker Program</h1>",
@@ -12674,9 +12674,9 @@ faq:
 
 {img:manitoba,
     title: "Manitoba PNP Draw",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Manitoba PNP Program Eligibility and How to Apply",
+metakey: "Manitoba PNP Draw, Manitoba PNP",
+metadesc: "Moving to Manitoba in 2026? Learn about the latest Manitoba PNP draws, new contact rules, and how strategic recruitment helps you settle in our local communities.",
     content: [
         {
             heading: "<h1>Manitoba PNP Draw</h1>",
@@ -12980,9 +12980,9 @@ faq:
 
 {img:newBrunswickPnp,
     title: "New Brunswick PNP Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "New Brunswick PNP Program Pathway to Live in Canada",
+metakey: "New Brunswick PNP Program",
+metadesc: "Who qualifies for New Brunswick PNP in 2026? Check eligibility for Skilled Workers, Express Entry, and Francophone streams. Find the latest 2026 requirements.",
     content: [
         {
             heading: "<h1>New Brunswick PNP Program</h1>",
@@ -13294,9 +13294,9 @@ faq:
 
 {img:atlanticImmi,
     title: "Atlantic Immigration Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Settle In Canada Via Atlantic Immigration Program (AIPP)",
+metakey: "Atlantic Immigration Program, aipp",
+metadesc: "Learn how the Atlantic Immigration Program works. Get expert help from leading visa consultants in Noida to apply today!",
     content: [
         {
             heading: "<h1>Atlantic Immigration Program</h1>",
@@ -13616,9 +13616,9 @@ faq:
 
 {img:peiPnpProgram,
     title: "PEI PNP Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Prince Edward Island PNP (Provincial Nominee Program)",
+metakey: "Prince Edward Island PNP, Prince Edward Island PNP Draw, Best Visa consultants In Noida",
+metadesc: "Apply for Prince Edward Island PNP with ease! Get expert guidance from the best Immigration Consultants in Noida for Canada to secure your PR. Start today!",
     content: [
         {
             heading: "<h1>PEI PNP Program</h1>",
@@ -13907,9 +13907,9 @@ faq:
 
 {img:bcPnpProgram,
     title: "BC PNP Program",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "How British Columbia PNP Works (Provincial Nominee Program)",
+metakey: "BC PNP Draw, BC PNP",
+metadesc: "Master the British Columbia PNP 2026 process! Learn about latest draws & fees. Consult the best Immigration Consultants in Noida for Canada to secure your PR.",
     content: [
         {
             heading: "<h1>BC PNP Program</h1>",
@@ -14225,9 +14225,9 @@ faq:
 
 {img:crsPointsCalculator,
     title: "CRS Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+metatitle: "CRS Score Calculator | Check Your Canada Visa Eligibility",
+metakey: "crs calculator, crs score calculator",
+metadesc: "Use our free CRS Score Calculator to check your Canada Visa eligibility! Connect with top Immigration Consultants in Noida for Canada to boost your points now.",
     content: [
         {
             heading: "<h1>CRS Points Calculator</h1>",
@@ -14575,9 +14575,9 @@ faq:
 
 {img:quebecPointsCalculator,
     title: "Quebec Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+   metatitle: "Canada Quebec Points Calculator – Check CRS Score Online",
+metakey: "Quebec Points Calculator",
+metadesc: "Calculate your 2026 Quebec Points for PR! Check eligibility for the new PSTQ/Arrima streams with the best Visa Consultants in Noida for Canada. Start now!",
     content: [
         {
             heading: "<h1>Quebec Points Calculator</h1>",
@@ -14873,9 +14873,9 @@ faq:
 
 {img:novaScotiaPointsCalculator,
     title: "Nova Scotia Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+  metatitle: "Nova Scotia PNP Point Calculator : Check your score",
+metakey: "Nova Scotia Points Calculator",
+metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get expert advice from the Immigration Consultants in India for Canada to secure your PR.",
     content: [
         {
             heading: "<h1>Nova Scotia Points Calculator</h1>",
