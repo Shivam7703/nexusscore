@@ -541,7 +541,7 @@ metadesc: "Apply for the Canada Federal Skilled Worker Program (FSWP) with guida
             ],
           },
           {
-            para: `Candidates with higher <a href="https://nexusscore.vercel.app/calculator/crs">CRS scores</a> receive Invitations to Apply (ITAs) during periodic Express Entry draws.`,
+            para: `Candidates with higher <a href="https://www.nexuscoreoverseas.com/visa/crs-points-calculator">CRS scores</a> receive Invitations to Apply (ITAs) during periodic Express Entry draws.`,
           },
           {
             subheading: "The 67-Point Grid Explained",
@@ -645,7 +645,7 @@ metadesc: "Apply for the Canada Federal Skilled Worker Program (FSWP) with guida
           },
           {
             subheading: "Improve Language Scores",
-            para: `Even a small improvement in <a href="https://nexusscore.vercel.app/services/ielts">IELTS</a> or French test results can significantly increase CRS points.`,
+            para: `Even a small improvement in <a href="https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation">IELTS</a> or French test results can significantly increase CRS points.`,
           },
           {
             subheading: "Gain Additional Work Experience",
@@ -890,7 +890,7 @@ metadesc: "Explore the Federal Skilled Trades Program (FSTP) with the best immig
             ],
           },
           {
-            para: `Approved tests include <a href="https://nexusscore.vercel.app/services/ielts">IELTS,</a> CELPIP (English), TEF, or TCF (French).`,
+            para: `Approved tests include <a href="https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation">IELTS,</a> CELPIP (English), TEF, or TCF (French).`,
           },
           {
             subheading: "4. Admissibility Requirements",
@@ -1306,7 +1306,7 @@ metadesc: "Discover the Canadian Experience Class, a vital pathway to permanent 
             list: [
               "Create an Express Entry profile.",
               "Enter details about your work experience, language scores, and personal background.",
-              `Receive a <a href ="https://nexusscore.vercel.app/calculator/crs">Comprehensive Ranking System</a> (CRS) score.`,
+              `Receive a <a href ="https://www.nexuscoreoverseas.com/visa/crs-points-calculator">Comprehensive Ranking System</a> (CRS) score.`,
               "Wait for an Invitation to Apply (ITA).",
               "Submit a complete permanent residency application.",
             ],
@@ -4299,7 +4299,7 @@ metadesc: "Skilled Independent Visa Guide for Migrating to Australia. Points tes
             ],
           },
           {
-            para: `This flexibility makes it one of the most desirable permanent residency visas under the <a href="https://nexusscore.vercel.app/visa/australia-pr-visa">Australia PR Visa</a> framework.`,
+            para: `This flexibility makes it one of the most desirable permanent residency visas under the <a href="https://www.nexuscoreoverseas.com/visa/australia-permanent-residency-visa">Australia PR Visa</a> framework.`,
           },
         ],
       },
@@ -4559,7 +4559,7 @@ metadesc: "The Subclass 190 Skilled Nominated Visa is a points-based Australia P
               "Costs include skill assessment fees, English testing, state nomination charges, visa filing fees, medical examinations, and police clearances.",
           },
           {
-            para: `Financial planning is essential to ensure a smooth migration journey under the <a href="https://nexusscore.vercel.app/visa/australia-pr-visa">Australia PR Visa </a>framework.`,
+            para: `Financial planning is essential to ensure a smooth migration journey under the <a href="https://www.nexuscoreoverseas.com/visa/australia-permanent-residency-visa">Australia PR Visa </a>framework.`,
           },
         ],
       },
@@ -4789,7 +4789,7 @@ metadesc: "Discover how to apply for the 491 visa in Australia from India. Get e
             ],
           },
           {
-            para: `For many skilled professionals, this visa represents a practical balance between immediate migration and long-term stability under an <a href="https://nexusscore.vercel.app/visa/australia-pr-visa">Australia PR Visa </a>framework.`,
+            para: `For many skilled professionals, this visa represents a practical balance between immediate migration and long-term stability under an <a href="https://www.nexuscoreoverseas.com/visa/australia-permanent-residency-visa">Australia PR Visa </a>framework.`,
           },
         ],
       },
@@ -6118,7 +6118,7 @@ metadesc: "Maximize your chances for permanent residency! Learn about the Austra
           },
           {
             subheading: "English Language Proficiency",
-            para: `English is a non-negotiable requirement. Higher <a href="https://nexusscore.vercel.app/services/ielts">IELTS</a>, <a href="https://nexusscore.vercel.app/services/pte-exam">PTE</a>, or TOEFL scores can significantly boost your ranking. Proficient or Superior English levels add valuable points to your profile and often become a deciding factor during competitive rounds.`,
+            para: `English is a non-negotiable requirement. Higher <a href="https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation">IELTS</a>, <a href="https://www.nexuscoreoverseas.com/services/pte-exam-coaching--preparation">PTE</a>, or TOEFL scores can significantly boost your ranking. Proficient or Superior English levels add valuable points to your profile and often become a deciding factor during competitive rounds.`,
           },
           {
             subheading: "Educational Qualifications",
@@ -11532,7 +11532,7 @@ content: [
         }
       },
       {
-        para: "Candidates struggling to cross federal cut-off fluctuations gain significant stability through provincial nomination. However, Nova Scotia does not simply select the <a href='https://nexusscore.vercel.app/calculator/nova-scotia'>lowest CRS scores</a>; it selects profiles aligned with sectoral demand."
+        para: "Candidates struggling to cross federal cut-off fluctuations gain significant stability through provincial nomination. However, Nova Scotia does not simply select the <a href='https://www.nexuscoreoverseas.com/visa/nova-scotia-points-calculator'>lowest CRS scores</a>; it selects profiles aligned with sectoral demand."
       }
     ]
   },
@@ -11741,7 +11741,7 @@ metadesc: "Looking for the Alberta PNP Program? Connect with the best visa consu
         ]
       },
       {
-        para: "This trend explains why certain occupations receive focused invitations even when <a href='https://nexusscore.vercel.app/calculator/alberta'>CRS scores</a> are moderate. The province aims to attract candidates who demonstrate long-term settlement viability rather than short-term job-switching behavior."
+        para: "This trend explains why certain occupations receive focused invitations even when <a href='https://www.nexuscoreoverseas.com/visa/alberta-points-calculator'>CRS scores</a> are moderate. The province aims to attract candidates who demonstrate long-term settlement viability rather than short-term job-switching behavior."
       },
       {
         para: "The Alberta PNP has increasingly favored candidates already contributing to provincial employment markets or demonstrating intent through job offers, education, or family connections."
@@ -11872,7 +11872,7 @@ metadesc: "Looking for the Alberta PNP Program? Connect with the best visa consu
     heading: "<h4>What Actually Improves Nomination Chances?</h4>",
     subcontent: [
       {
-        para: "Most applicants focus excessively on <a href='https://nexusscore.vercel.app/services/ielts'>IELTS</a> scores while ignoring economic narrative alignment. Effective profile optimization includes:"
+        para: "Most applicants focus excessively on <a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a> scores while ignoring economic narrative alignment. Effective profile optimization includes:"
       },
       {
         list: [
@@ -12084,7 +12084,7 @@ metadesc: "Get your Canada PR via the Saskatchewan PNP Program. See if your occu
         ]
       },
       {
-        para: "Unlike provinces heavily dependent on high CRS thresholds, Saskatchewan uses its own assessment grid for certain streams. This means candidates with moderate <a href='https://nexusscore.vercel.app/calculator/crs'>CRS scores</a> may still secure nomination if their professional background aligns with current demand."
+        para: "Unlike provinces heavily dependent on high CRS thresholds, Saskatchewan uses its own assessment grid for certain streams. This means candidates with moderate <a href='https://www.nexuscoreoverseas.com/visa/crs-points-calculator'>CRS scores</a> may still secure nomination if their professional background aligns with current demand."
       },
       {
         para: "Selection psychology here is risk-mitigated. Officers prioritize candidates likely to remain in the province and integrate economically."
@@ -13054,7 +13054,7 @@ metadesc: "Who qualifies for New Brunswick PNP in 2026? Check eligibility for Sk
             subcontent: [
                 {            subheading: "CRS Dynamics and Nomination Leverage",
 
-                    para: "For candidates applying through Express Entry-aligned streams, nomination from New Brunswick provides a 600-point <a href='https://nexusscore.vercel.app/calculator/crs'>CRS Score</a> increase. This leverage effectively secures a federal invitation."
+                    para: "For candidates applying through Express Entry-aligned streams, nomination from New Brunswick provides a 600-point <a href='https://www.nexuscoreoverseas.com/visa/crs-points-calculator'>CRS Score</a> increase. This leverage effectively secures a federal invitation."
                 },
                 {
                     para: "Below is a comparative framework:"
@@ -13980,7 +13980,7 @@ metadesc: "Master the British Columbia PNP 2026 process! Learn about latest draw
             heading: "<h3>CRS Behavior and Provincial Nomination Leverage</h3>",
             subcontent: [
                 {
-                    para: "For Express Entry-linked streams, provincial nomination adds 600 <a href='https://nexusscore.vercel.app/calculator/bc'>CRS points.</a> This transforms a mid-range federal profile into an assured invitation in the next federal round."
+                    para: "For Express Entry-linked streams, provincial nomination adds 600 <a href='https://www.nexuscoreoverseas.com/visa/bc-points-calculator'>CRS points.</a> This transforms a mid-range federal profile into an assured invitation in the next federal round."
                 },
                 {
                     para: "However, British Columbia does not simply select the highest CRS candidates."
@@ -14854,7 +14854,7 @@ metadesc: "Calculate your 2026 Quebec Points for PR! Check eligibility for the n
     faq: [
         {
             que: "1. What minimum score do I need with the Quebec points calculator?",
-            ans: "Quebec typically requires a score of at least 50 points for a single applicant and 59 for those with a spouse to be eligible under the <a href='https://nexusscore.vercel.app/visa/federal-skilled-worker-program'>skilled worker program.</a>"
+            ans: "Quebec typically requires a score of at least 50 points for a single applicant and 59 for those with a spouse to be eligible under the <a href='https://www.nexuscoreoverseas.com/visa/federal-skilled-worker-program'>skilled worker program.</a>"
         },
         {
             que: "2. Can I gain more points without French language skills?",
@@ -14952,7 +14952,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
                     para: "Language proficiency is a core component of the Nova Scotia Points Calculator, with a maximum of 24 points available across English and French."
                 },
                 {
-                    para: "Language scores influence other scoring categories too, such as adaptability and education. Even minor improvements in language test results (e.g., <a href='https://nexusscore.vercel.app/services/ielts'>IELTS</a> or <a href='https://www.celpip.ca/'>CELPIP</a>) can trigger notable point increases."
+                    para: "Language scores influence other scoring categories too, such as adaptability and education. Even minor improvements in language test results (e.g., <a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a> or <a href='https://www.celpip.ca/'>CELPIP</a>) can trigger notable point increases."
                 },
                 {
                     para: "For many applicants, language optimization is the single most effective strategy to elevate the overall score — especially when combined with educational and work experience strength."
@@ -15209,7 +15209,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
         },
         {
             que: "4. Does the Nova Scotia Points Calculator value Canadian education more than foreign degrees?",
-            ans: "<a href='https://nexusscore.vercel.app/study/canada'>Canadian education</a> can yield higher points due to integration potential and labour familiarity, but foreign degrees with strong credential evaluations also contribute significantly when aligned with local demand."
+            ans: "<a href='https://www.nexuscoreoverseas.com/visa/study-in-canada'>Canadian education</a> can yield higher points due to integration potential and labour familiarity, but foreign degrees with strong credential evaluations also contribute significantly when aligned with local demand."
         }
     ]
 },
@@ -15442,7 +15442,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
                 },
                 {
                     subheading: "Improve Language Scores",
-                    para: "Retaking <a href='https://nexusscore.vercel.app/services/ielts'>IELTS</a> to move from CLB 6 to CLB 8 can significantly increase points under both grids."
+                    para: "Retaking <a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a> to move from CLB 6 to CLB 8 can significantly increase points under both grids."
                 },
                 {
                     subheading: "Gain Additional Work Experience",
@@ -15873,7 +15873,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
             heading: "<h2>Understanding the Alberta Immigration Scoring System</h2>",
             subcontent: [
                 {
-                    para: "Alberta operates under the Alberta Advantage Immigration Program <a href='https://nexusscore.vercel.app/visa/alberta-pnp'>(AAIP)</a>. Different streams exist, including:"
+                    para: "Alberta operates under the Alberta Advantage Immigration Program <a href='https://www.nexuscoreoverseas.com/visa/alberta-pnp'>(AAIP)</a>. Different streams exist, including:"
                 },
                 {
                     list: [
@@ -16368,7 +16368,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
             subcontent: [
                 {  
                     subheading: "Language Proficiency – A Major Advantage",
-                    para: "Language plays a crucial role in <a href='https://nexusscore.vercel.app/visa/ontario-pnp'>Ontario's immigration</a> strategy."
+                    para: "Language plays a crucial role in <a href='https://www.nexuscoreoverseas.com/visa/ontario-points-calculator'>Ontario's immigration</a> strategy."
                 },
                 {
                     list: [
@@ -16457,7 +16457,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
                 },
                 {
                     subheading: "Improve CRS Score",
-                    para: "Retake <a href='https://nexusscore.vercel.app/services/ielts'>IELTS</a> or CELPIP to increase language scores."
+                    para: "Retake <a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a> or CELPIP to increase language scores."
                 },
                 {
                     subheading: "Target In-Demand Occupations",
@@ -16728,7 +16728,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
                     ]
                 },
                 {
-                    para: "Such a profile would likely score strongly in both economic and human capital categories, making the candidate competitive in targeted <a href='https://nexusscore.vercel.app/visa/bc-pnp'>BC PNP draws</a>."
+                    para: "Such a profile would likely score strongly in both economic and human capital categories, making the candidate competitive in targeted <a href='https://www.nexuscoreoverseas.com/visa/bc-pnp-program'>BC PNP draws</a>."
                 },
                 {
                     para: "Conversely, a lower wage or limited experience can significantly reduce the total ranking."
@@ -18033,7 +18033,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
         subcontent: [
           {
             subheading: "Compliance importance",
-            para: "The <a href='https://nexusscore.vercel.app/visa/uae-work-visa'>UAE immigration</a> system is digitally connected across the emirates. Compliance history directly impacts future visa eligibility."
+            para: "The <a href='https://www.nexuscoreoverseas.com/visa/uae-work-visa'>UAE immigration</a> system is digitally connected across the emirates. Compliance history directly impacts future visa eligibility."
           },
           {
             para: "Key compliance rules:"
@@ -19517,7 +19517,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
         heading: "<h4>English Language and Academic Eligibility</h4>",
         subcontent: [
           {
-            para: "Most institutions require English proficiency through <a href='https://nexusscore.vercel.app/services/ielts'>IELTS</a>, <a href='https://nexusscore.vercel.app/services/pte-exam'>PTE</a>, or equivalent tests. Immigration authorities also recognize minimum language thresholds."
+            para: "Most institutions require English proficiency through <a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a>, <a href='https://www.nexuscoreoverseas.com/services/pte-exam-coaching--preparation'>PTE</a>, or equivalent tests. Immigration authorities also recognize minimum language thresholds."
           },
           {
             para: "However, meeting the minimum score does not guarantee approval. Language results should align with course complexity. For example, postgraduate programs typically require higher proficiency levels."

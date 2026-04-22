@@ -875,11 +875,11 @@ export const footer = {
     "Nexuscore is a trusted consulting firm delivering reliable immigration and visa solutions through expert guidance, transparent processes, and personalized support, helping individuals and families achieve their global aspirations with confidence.",
 
   socials: {
-    facebook: "https://www.facebook.com/",
+    facebook: "https://www.facebook.com/people/Nexuscore-Overseas/61584980835224/",
     twitter: "https://twitter.com/",
-    instagram: "https://www.instagram.com//",
-    linkedin: "https://www.linkedin.com/school//",
-    youtube: "https://www.youtube.com/c/",
+    instagram: "https://www.instagram.com/nexuscoreoverseas/",
+    linkedin: "https://www.linkedin.com/company/nexuscore-overseas/",
+    youtube: "https://www.youtube.com/channel/UCPSj50kebcg2h11n3tnQmrA",
   },
   copyrightText: "Copyrights © 2026 . Designed and Manage by ",
   list1: {

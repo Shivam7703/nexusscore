@@ -107,7 +107,7 @@ const Header = ({ header }: any) => {
                     className="cursor-pointer text-white group-hover:text-blue-700 transition-all duration-300 group-hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(253,224,71,0.8)]"
                     onClick={() =>
                       window.open(
-                        "https://www.facebook.com/globeswayimmigration",
+                        "https://www.facebook.com/people/Nexuscore-Overseas/61584980835224/",
                         "_blank"
                       )
                     }
@@ -122,7 +122,7 @@ const Header = ({ header }: any) => {
                     className="cursor-pointer text-white group-hover:text-pink-600 transition-all duration-300 group-hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(253,224,71,0.8)]"
                     onClick={() =>
                       window.open(
-                        "https://www.instagram.com/globeswayimmigration/",
+                        "https://www.instagram.com/nexuscoreoverseas/",
                         "_blank"
                       )
                     }
@@ -137,7 +137,7 @@ const Header = ({ header }: any) => {
                     className="cursor-pointer text-white group-hover:text-blue-800 transition-all duration-300 group-hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(253,224,71,0.8)]"
                     onClick={() =>
                       window.open(
-                        "https://www.linkedin.com/company/globesway-immigration/",
+                        "https://www.linkedin.com/company/nexuscore-overseas/",
                         "_blank"
                       )
                     }
@@ -152,7 +152,7 @@ const Header = ({ header }: any) => {
                     className="cursor-pointer text-white group-hover:text-red-600 transition-all duration-300 group-hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(253,224,71,0.8)]"
                     onClick={() =>
                       window.open(
-                        "https://www.youtube.com/@GlobeswayImmigration",
+                        "https://www.youtube.com/channel/UCPSj50kebcg2h11n3tnQmrA",
                         "_blank"
                       )
                     }
