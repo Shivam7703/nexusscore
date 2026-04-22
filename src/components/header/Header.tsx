@@ -78,7 +78,7 @@ const Header = ({ header }: any) => {
                   href="tel:+919311936564"
                   className="hover:text-yellow-300 transition-colors duration-300 relative"
                 >
-                  <span className="relative z-10">+91 9311936564</span>
+                  <span className="relative z-10">+919311936564</span>
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-300 group-hover:w-full transition-all duration-300"></span>
                 </a>
               </div>
