@@ -75,10 +75,10 @@ const Header = ({ header }: any) => {
                   <div className="absolute inset-0 bg-yellow-400 blur-sm opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
                 </div>
                 <a
-                  href="https://www.google.com/maps/place/Globesway+Immigration+Pvt.+Ltd/"
+                  href="tel:+919311936564"
                   className="hover:text-yellow-300 transition-colors duration-300 relative"
                 >
-                  <span className="relative z-10">+919311936564</span>
+                  <span className="relative z-10">+91 9311936564</span>
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-300 group-hover:w-full transition-all duration-300"></span>
                 </a>
               </div>
@@ -168,7 +168,7 @@ const Header = ({ header }: any) => {
             <Link href={header?.href || "/"} className="shrink-0">
               <Image
                 src={logo2}
-                alt="Globesway Immigration"
+                alt="NEXUSCORE OVERSEAS"
                 className="h-12 w-auto object-contain"
               />
             </Link>
@@ -177,7 +177,7 @@ const Header = ({ header }: any) => {
    <Link href={header?.href || "/"} className="">
               <Image
                 src={logo}
-                alt="Globesway Immigration"
+                alt="NEXUSCORE OVERSEAS"
                 className="h-14 w-auto object-contain"
               />
             </Link>
@@ -222,7 +222,7 @@ const Header = ({ header }: any) => {
           <Link href={header?.href || "/"}>
             <Image
               src={isAtTop ? logo2 : logo}
-              alt="Globesway Immigration"
+              alt="NEXUSCORE OVERSEAS"
               className="h-12 w-auto object-contain"
             />
           </Link>
