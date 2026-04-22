@@ -1,8 +1,25 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-    images: {
+  // output: 'export',
+  images: {
     unoptimized: true,
   },
-}
+   async headers() {
+    return [
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ];
+  },
+  // trailingSlash: true,
+};
 
-module.exports = nextConfig
+export default nextConfig;
