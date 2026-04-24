@@ -87,7 +87,7 @@ export default function AboutSection({data}:any) {
         className="sm:w-[48%] w-full min-h-[450px] relative  group"
       >
         <div className="space-y-7 overflow-hidden hover14 relative h-full ">
-      l    {data?.img1 && (
+         {data?.img1 && (
             <Image
               title="Best immigration consultants in Delhi"
               src={data?.img1}
