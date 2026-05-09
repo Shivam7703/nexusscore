@@ -16,7 +16,7 @@ export default function Blogs() {
         img={bann}
         title={"Our Blogs"}
         para={
-          "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "Stay Updated with Our Latest News and Blogs"
         }
         slug={"blogs"}
       />

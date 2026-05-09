@@ -10,7 +10,7 @@ import Script from 'next/script'
 export const metadata: Metadata = {
   title: "Contact Nexuscore Overseas | Immigration Consultants in Noida",
   description:
-    "Nexuscore Overseas is a trusted name among Immigration Consultants in Noida and Visa Consultants in Delhi, offering expert guidance for study, work, and PR visas.",
+    "Contact Nexuscore Overseas, reliable Immigration Consultants in Noida and Visa Consultants in Delhi, for expert help with study, work, tourist, and PR visas.",
   keywords: [
     "Immigration Consultants In Noida",
     "Visa Consultants In Delhi",
@@ -27,7 +27,7 @@ const schemaData = {
   name: "Contact Nexuscore Overseas",
   url: "https://www.nexuscoreoverseas.com/contact-us",
   description:
-    "Nexuscore Overseas is a trusted name among Immigration Consultants in Noida and Visa Consultants in Delhi, offering expert guidance for study, work, and PR visas.",
+    "Contact Nexuscore Overseas, reliable Immigration Consultants in Noida and Visa Consultants in Delhi, for expert help with study, work, tourist, and PR visas.",
   publisher: {
     "@type": "Organization",
     name: "Nexuscore Overseas",

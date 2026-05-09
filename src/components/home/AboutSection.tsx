@@ -115,12 +115,9 @@ export default function AboutSection({data}:any) {
       </p>
     </div>
   </div>
-</div> 
-      
+</div>  
       </motion.div>
-
     </motion.div>
-
     </section>
   );
 }

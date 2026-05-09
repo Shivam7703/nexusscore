@@ -15216,9 +15216,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:manitobaPointsCalculator,
     title: "Manitoba Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Manitoba Points Calculator (MPNP) | Manitoba Immigration",
+    metakey: "Manitoba Points Calculator",
+    metadesc: "Calculate your Manitoba PNP points instantly! Check your MPNP eligibility using our accurate EOI ranking tool. Secure your Canada PR nomination today.",
     content: [
         {
             heading: "<h1>Manitoba Points Calculator</h1>",
@@ -15526,9 +15526,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:sinpPointsCalculator,
     title: "SINP Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "SINP Point Calculator - Nexuscore Overseas Immigration Consultants",
+    metakey: "SINP Points Calculator",
+    metadesc: "Saskatchewan Immigrant Nominee Program (SINP) point calculator. Check Saskatchewan Immigration Points, SINP scores here. Know SINP eligibility. Get in touch with us for free advice.",
     content: [
         {
             heading: "<h1>SINP Points Calculator</h1>",
@@ -15854,9 +15854,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:albertaPointsCalculator,
     title: "Alberta Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "calculate your Alberta PNP Immigration Points",
+    metakey: "Alberta Points Calculator",
+    metadesc: "Calculate your score with the Alberta Worker EOI Points Grid! See if you qualify for AAIP draws in Tech, Healthcare, or Trade sectors. Check your PR odds today.",
     content: [
         {
             heading: "<h1>Alberta Points Calculator</h1>",
@@ -16202,9 +16202,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:ontarioPointsCalculator,
     title: "Ontario Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Ontario Points Calculator & PR Eligibility Points Calculator",
+    metakey: "Ontario Points Calculator",
+    metadesc: "Will you get an Ontario PNP invite in 2026? Use our calculator to see how your job offer and education rank against the latest OINP draw scores. Check now!",
     content: [
         {
             heading: "<h1>Ontario Points Calculator</h1>",
@@ -16537,9 +16537,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:bcPointsCalculator,
     title: "BC Points Calculator",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "BC Points Calculator | Fast & Accurate BC Point Tool",
+    metakey: "BC Points Calculator",
+    metadesc: "Calculate your BC score! See how your hourly wage and regional location boost your BC PNP odds in the latest high-impact draws. Free points check here.",
     content: [
         {
             heading: "<h1>BC Points Calculator</h1>",
@@ -16739,7 +16739,7 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
             subcontent: [
                 {       
                    subheading: "Minimum and Competitive Scores",
-                    para: "Unlike fixed-point eligibility systems, BC operates through ranking-based draws. This means there is no universal \"safe score.\""
+                    para: 'Unlike fixed-point eligibility systems, BC operates through ranking-based draws. This means there is no universal \"safe score.\"'
                 },
                 {
                     para: "Cut-off scores vary depending on:"
@@ -16845,9 +16845,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:canadaTouristVisa,
     title: "Canada Tourist Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Apply For Canada Tourist Visa - Plan Your Canada Trip",
+    metakey: "canada tourist visa, canada tourist visa from india, Temporary Resident Visa, Immigration Consultants In Noida",
+    metadesc: "Detailed guide to get a Canada tourist visa With Nexuscore. Learn about eligibility, required documents, fees & how to apply a Canada visa application.",
     content: [
         {
             heading: "<h1>Canada Tourist Visa</h1>",
@@ -17192,9 +17192,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:australiaTouristVisa,
     title: "Australia Tourist Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Australia Tourist Visa - Get Your Tourist Visa Now",
+    metakey: "australia tourist visa, australia visitor visa, australia visitor visa from india      ",
+    metadesc: "Fast 15-day processing! Australia Tourist Visa - Get your tourist visa now. Trusted immigration consultants in Noida for Tourist Visa & 2026 digital filing.",
     content: [
         {
             heading: "<h1>Australia tourist visa</h1>",
@@ -17483,9 +17483,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:germanyTouristVisa,
     title: "Germany Tourist Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Get Your Germany Tourist Visa Fast: Easy Guide & Tips",
+    metakey: "germany tourist visa, germany tourist visa cost, germany tourist visa for indian , Apply For Germany tourist visa",
+    metadesc: "Plan your 2026 Europe trip! 🇩🇪 Apply for a Germany tourist visa with the Nexuscore Overseas. Expert help with Videx forms & VFS appointments.",
     content: [
         {
             heading: "<h1>Germany tourist visa</h1>",
@@ -17818,9 +17818,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:dubaiTouristVisa,
     title: "Dubai tourist visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Dubai Tourist Visa | Apply Online, Price, Requirements",
+    metakey: "immigration consultants in Noida For Dubai Tourist Visa, Dubai Tourist Visa, dubai travel visa",
+    metadesc: "Learn how to apply for a Dubai tourist visa online. Full Dubai visa guide covering documents, visa duration, fees, and approval timeline.",
     content: [
       {
         heading: "<h1>Dubai tourist visa</h1>",
@@ -18126,9 +18126,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:singaporeTouristVisa,
     title: "Singapore tourist visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Singapore Tourist Visa | Process | Cost | Visa Duration",
+    metakey: "Singapore Tourist Visa, singapore visa cost, singapore visa for indians, singapore tourist visa for indians, Best Immigration Consultants For Tourist Visa",
+    metadesc: "Get the complete details about the Singapore Tourist Visa, including visa application steps, types of visas available, and associated fees.",
     content: [
       {
         heading: "<h1>Singapore tourist visa</h1>",
@@ -18451,9 +18451,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:ukTouristVisa,
     title: "UK Tourist Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "How To Apply For a UK Tourist Visa (Visit Visa) - Explore UK",
+    metakey: "uk tourist visa, apply for UK Tourist Visa from India, uk travel visa, immigration consultants In Noida For UK Tourist Visa",
+    metadesc: "Get your 6-month Standard Visitor Visa! Best immigration consultants in Noida to apply for a UK Tourist Visa. 100% documentation & cover letter support.",
     content: [
       {
         heading: "<h1>UK Tourist Visa</h1>",
@@ -18785,9 +18785,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:studyInUK,
     title: "Study In UK",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Study In UK University | Costs, Benefits & Guide",
+    metakey: "uk study visa, uk student visa, apply for UK Study Visa, Best Study Abroad Consultant In Noida",
+    metadesc: "Study in UK with NexusCore Overseas! The leading study visa consultants in Noida for Upcoming intake. Get expert guidance on CAS, scholarships, and visa success.",
     content: [
       {
         heading: "<h1>Study In UK</h1>",
@@ -19122,9 +19122,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:studyInCanada,
     title: "Study In Canada",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Study In Canada - Best Colleges & Environment",
+    metakey: "study in canada, canada student visa, study visa canada, Best Study Abroad Consultant In Noida",
+    metadesc: "Study in Canada with NexusCore Overseas! Your trusted study abroad consultants in Noida for admissions. Expert PAL/TAL guidance & high visa success. Apply now!",
     content: [
       {
         heading: "<h1>Study In Canada</h1>",
@@ -19421,9 +19421,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:studyInAustralia,
     title: "Study In Australia",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Secure Your Australia Study Visa - Quick & Easy Guide",
+    metakey: "australia study visa, Study In Australia, Best Study Abroad Consultant In Noida",
+    metadesc: "Want to study in Australia? Global Degrees guides Indian students on top universities, courses, scholarships, fees, visas, admission process",
     content: [
       {
         heading: "<h1>Study In Australia</h1>",
@@ -19751,9 +19751,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:studyInGermany,
     title: "Study In Germany",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Study in Germany | Study Abroad | Masters in Germany",
+    metakey: "study in germany, germany study visa , Germany Study Visa Consultants",
+    metadesc: "Ready to Study in Germany? Partner with expert Germany study visa consultants in Noida for a smooth application process. guidance & visa success support!",
     content: [
       {
         heading: "<h1>Study In Germany</h1>",
@@ -20176,9 +20176,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:studyInIreland,
     title: "Study In Ireland",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Ireland Study Visa – Apply Easily in 2026",
+    metakey: "ireland study visa, Study Abroad Consulant For Ireland",
+    metadesc: "Dreaming of an Ireland study visa? Connect with the best study abroad consultants for Ireland in Noida. Get end-to-end support for your application and visa!",
     content: [
       {
         heading: "<h1>Study In Ireland</h1>",
@@ -20593,9 +20593,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:franceStudyVisa,
     title: "France Study Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Get France Study Visa | Quick Guide & Requirements",
+    metakey: "france study visa, france study visa for indian, requirements for france student visa",
+    metadesc: "Plan to Study in France! Expert guidance for your France study visa from top study visa consultants in Noida. High success rate & complete documentation support.",
     content: [
       {
         heading: "<h1>France Study Visa</h1>",
@@ -20999,9 +20999,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:studyInDubai,
     title: "Study In Dubai",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Dubai Study Visa 2026 | Benefits for International Students",
+    metakey: "Study In Dubai, dubai study visa, Study Abroad Consultant For Dubai",
+    metadesc: "Apply for a Dubai study visa with ease! Get expert guidance from the top study visa consultants in Noida. Fast processing, 100% support. Start your journey!",
     content: [
       {
         heading: "<h1>Study In Dubai</h1>",
@@ -21354,9 +21354,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:finlandStudyVisa,
     title: "Finland Study Visa",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Study in Finland: Top Universities, Courses, and Admission",
+    metakey: "finland study visa, finland study visa requirements, finland study visa cost                     ",
+    metadesc: "Looking to Study in Finland? Get expert guidance from the best study visa consultants in Noida. We simplify your application and visa process. Start today!",
     content: [
       {
         heading: "<h1>Finland Study Visa</h1>",
@@ -21794,9 +21794,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:germanyOpportunityCard,
     title: "Germany Opportunity Card",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Apply Germany Opportunity Card - Without Any Germany Job Offer",
+    metakey: "germany opportunity card, apply for germany opportunity card",
+    metadesc: "The Germany Opportunity Card is a new residence permit that enables non-EU nationals to enter Germany and search for a job. ",
     content: [
       {
         heading: "<h1>Germany Opportunity Card</h1>",
@@ -22185,9 +22185,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:hongKongWorkPermit,
     title: "Hong Kong Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Get A Hong Kong Work Permit From India | Hong Kong Work Visa",
+    metakey: "hong kong work permit, hong kong work permit for indian",
+    metadesc: "Planning to work in Hong Kong? Explore our ultimate guide to Hong Kong work permit, including eligibility and application tips.",
     content: [
       {
         heading: "<h1>Hong Kong Work Permit</h1>",
@@ -22562,9 +22562,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:singaporeWorkPermit,
     title: "Singapore Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Singapore Work Permit: How to Apply, Documents & Fees",
+    metakey: "singapore work permit visa , singapore employment visa, singapore work permit for indian, Immigration Consultants In Noida For Singapore",
+    metadesc: "Apply for a Singapore Work Permit in 2026. Get expert tips on eligibility, sector-specific quotas (DRC), and levy rates. Your guide to working in Singapore!",
     content: [
       {
         heading: "<h1>Singapore Work Permit</h1>",
@@ -22946,9 +22946,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:russiaWorkPermit,
     title: "Russia Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Apply For Russia Work Visa In 2026 – Complete Guide for Indian Professionals",
+    metakey: "russia work permit, russia work visa for indian, Trusted Immigration Consultants In Noida",
+    metadesc: "Expert immigration consultants in Noida for your Russia work permit for Indians. Fast-track your 2026 residency with our end-to-end visa filing services.",
     content: [
       {
         heading: "<h1>Russia Work Permit</h1>",
@@ -23305,9 +23305,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:macauWorkPermit,
     title: "Macau Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Macau Work Permit Application Procedures & Processing Time",
+    metakey: "macau work permit for indian, macau work permit, trusted Immigration consultants in Noida",
+    metadesc: "Get your Macau Work Permit hassle-free. Our Trusted Immigration consultants in Noida handle everything from quota approval to your Blue Card. Your Macau move made easy!",
     content: [
       {
         heading: "<h1>Macau Work Permit</h1>",
@@ -23667,9 +23667,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:taiwanWorkPermit,
     title: "Taiwan Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Taiwan Work Visa: Application Steps & Key Requirements",
+    metakey: "taiwan work permit for indian, Visa Consultants In Noida",
+    metadesc: "Move to Taiwan in With Work Permit! Fast-track your Taiwan Work Permit and Employment Gold Card with Visa Consultants in Noida. Your gateway to East Asia.",
     content: [
         {
             heading: "<h1>Taiwan Work Permit</h1>",
@@ -24034,9 +24034,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:austriaWorkPermit,
     title: "Austria Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Austria Work Permit - Work and travel in Austria",
+    metakey: "austria work permit, austria job seeker visa              ",
+    metadesc: "Explore everything about obtaining an Austria work permit. Step-by-step process, legal requirements, and practical tips for employers.",
     content: [
         {
             heading: "<h1>Austria Work Permit</h1>",
@@ -24392,9 +24392,9 @@ metadesc: "Check your eligibility with the Nova Scotia PNP Point Calculator! Get
 
 {img:portugalWorkPermit,
     title: "Portugal Work Permit",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "How Can You Get Portugal Job Seeker Visa?",
+    metakey: "portugal job seeker visa, portugal work permit, work permit visa in portugal, Immigration Consultants In Noida",
+    metadesc: "The Portugal Job Seeker Visa allows non-EU nationals (including Indians) to enter Portugal for 6 months with the primary purpose of finding a job.",
     content: [
         {
             heading: "<h1>Portugal Work Permit</h1>",

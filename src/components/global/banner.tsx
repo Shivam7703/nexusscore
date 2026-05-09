@@ -36,9 +36,9 @@ export default function Banner({title, para, img, slug}:any) {
                   >
                   
                   
-                      <motion.h2 className="lg:text-6xl font-bold mb-8 text-4xl">
+                      <motion.p className="lg:text-6xl font-bold mb-8 text-4xl">
                         {title}
-                      </motion.h2>
+                      </motion.p>
                  
                    <motion.p className="md:text-lg text-base max-w-2xl"> {para}
                    </motion.p>
