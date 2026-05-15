@@ -1,10 +1,9 @@
-// app/blogs/[slug]/page.tsx
+// app/services/[slug]/page.tsx
 import { notFound } from "next/navigation";
 import React from "react";
 import { servicedata } from "@/data/servicedata";
 import { bann } from "@/assets";
 import Banner from "@/components/global/banner";
-import Visadetails from "@/components/visa/visa-detail";
 import Servicedetails from "@/components/services/servicedetail";
 
 interface PageProps {
@@ -30,7 +29,7 @@ export function generateStaticParams() {
   }));
 }
 
-export default function BlogPage({ params }: PageProps) {
+export default function ServicePage({ params }: PageProps) {
   const decodedSlug = createSlug(decodeURIComponent(params.slug));
   const singleservice = servicedata.find(
     (service: any) => createSlug(service.title) === decodedSlug
@@ -45,7 +44,7 @@ export default function BlogPage({ params }: PageProps) {
       <Banner
         img={bann}
         title={singleservice.title}
-        para="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        para={singleservice.metadesc}
         slug={`services/${createSlug(singleservice.title)}`}
       />
       <Servicedetails data={singleservice} />

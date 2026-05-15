@@ -31,7 +31,7 @@ export default function Blogs({ isHome }:any) {
     <div className="relative h-56 sm:h-64 overflow-hidden">
       <Image
         src={blogs.img}
-        alt={blogs.heading}
+        alt={blogs.title}
         width={500}
         height={350}
         className="w-full h-full object-cover
@@ -76,7 +76,7 @@ export default function Blogs({ isHome }:any) {
       {/* Title */}
        <Link
           href={`/blogs/${encodeURIComponent(
-            blogs.heading.trim()
+            blogs.title.trim()
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")
@@ -90,18 +90,18 @@ export default function Blogs({ isHome }:any) {
                    group-hover:text-transparent
                    transition-all duration-500 line-clamp-2"
       >
-        {blogs.heading}
+        {blogs.title}
       </h2>
 </Link>
       {/* Description */}
       <p className="text-gray-600 text-sm sm:text-base leading-relaxed line-clamp-3">
-        {blogs?.para.slice(0, 150)}...
+        {blogs?.content[0]?.subcontent[0].para.slice(0, 150)}...
       </p>
 
       {/* Read More */}
        <Link
           href={`/blogs/${encodeURIComponent(
-            blogs.heading.trim()
+            blogs.title.trim()
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")

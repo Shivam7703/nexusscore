@@ -9,6 +9,10 @@ import process2 from "@/assets/home/process2.jpg";
 import process3 from "@/assets/home/process3.jpg";
 import process4 from "@/assets/home/process4.jpg";
 import missio from "@/assets/about/mission.jpg";
+import blog1 from "@/assets/home/blog1.jpg";
+import blog2 from "@/assets/home/blog2.jpg";
+import blog3 from "@/assets/home/blog3.jpg";
+
 
 import footerImage from "@/assets/home/toronto.png";
 import plane from "@/assets/home/plane.png";
@@ -157,8 +161,8 @@ import ukTouristVisa from "@/assets/visa2/UK Tourist Visa.jpg";
 
 
 export {
-    logo , logo2, banner,banner2,banner3 , box1, box2, box3,visa1,process1,process2,process3,process4,pnp1,pnp2,pnp3,pnp4,pnp5,pnp6, ukflag,canadaflag,germanyflag,dubaiflag,australiaflag, missio, bene2,bene3, bene4,contactb, careerb, bann, about2,contat,cl1,cl2,cl3,cl4,cl5,cl6, famvisa, prvisa, business,touristvisa
- , choose1, footerImage, plane, patta, kangaroo, atlanticImmigration, 
+    logo , logo2, banner,banner2,banner3 , box1, box2, box3, blog1,blog2,blog3, visa1,process1,process2,process3,process4,pnp1,pnp2,pnp3,pnp4,pnp5,pnp6, ukflag,canadaflag,germanyflag,dubaiflag,australiaflag, missio, bene2,bene3, bene4,contactb, careerb, bann, about2,contat,cl1,cl2,cl3,cl4,cl5,cl6, famvisa, prvisa, business,touristvisa
+ ,choose1, footerImage, plane, patta, kangaroo, atlanticImmigration, 
   albertaPointsCalculator,
   alberta, immigration, Career, ielts, jobAssist, PostLanding ,profile, pte ,visaDocument,
   atlanticImmi,

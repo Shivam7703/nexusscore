@@ -42,6 +42,9 @@ import {
   missio,
   bene3,
   bene4,
+  blog1,
+  blog2,
+  blog3,
 } from "@/assets";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaEye, FaGlobeAmericas, FaPlaneDeparture, FaUserCheck, } from "react-icons/fa";
@@ -941,48 +944,706 @@ export const footer = {
 export let blogData = {
   title1: "Latest Blogs",
   title2: "Get Updated With Our Recent Articles",
-  blog: [
+  blog : [
+  {
+  "img": blog1,
+  "title": "Canada Tourist Visa Processing Time",
+  tag:"Immigration",
+  date:"20 Jan 2026",
+    "metatitle": "Canada Tourist Visa Processing Time Guide 2026",
+  "metakey": "Canada Tourist Visa Processing Time",
+  "metadesc": "Know Canada tourist visa processing time in 2026, delays, tips, and expert guidance to speed up your visa approval process easily.",
+  "content": [
     {
-      img: box3,
-      date: "20 June 2024",
-      tag: "immigration",
-      heading: "Top 10 Tips for a Successful Visa Name",
-      para:
-        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+      "subcontent": [
+        {
+          "para": "Planning a trip to Canada is exciting, but one of the most common concerns applicants face is understanding the Canada Tourist Visa Processing Time. Whether you are visiting family, exploring scenic landscapes, or attending an event, knowing how long your visa might take is crucial for planning your travel."
+        },
+        {
+          "para": "In this detailed guide, we break down everything you need to know about Canada Tourist Visa Processing Time, including timelines, influencing factors, delays, and expert tips to avoid rejections."
+        }
+      ]
     },
     {
-      img: box3,
-      date: "20 June 2024",
-      tag: "immigration",
-      heading: "Top 10 Tips for a Successful Visa Category",
-      para:
-        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+      "heading": "<h1>What is Canada Tourist Visa Processing Time in 2026?</h1>",
+      "subcontent": [
+        {
+          "para": "The Canada Tourist Visa Processing Time refers to the duration it takes for immigration authorities to review and decide on your visitor visa application after submission. As of 2026, the average Canada Tourist Visa Processing Time for applicants from India typically ranges between:"
+        },
+        {
+          "table": {
+            "theading": ["Application Type", "Processing Time"],
+            "rows": [
+              { "colum": ["Online Application", "20 to 45 days"] },
+              { "colum": ["Paper Application", "30 to 60 days"] },
+              { "colum": ["Biometrics Processing", "1 to 2 weeks"] }
+            ]
+          }
+        },
+        {
+          "para": "These timelines are indicative and may vary depending on multiple factors. Understanding these variations helps you plan your travel without last-minute stress."
+        }
+      ]
     },
     {
-      img: box3,
-      date: "20 June 2024",
-      tag: "immigration",
-      heading: "Top 10 Tips for a Successful Visa Section",
-      para:
-        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+      "heading": "<h2>Why Processing Time Varies So Much</h2>",
+      "subcontent": [
+        {
+          "para": "The Canada Tourist Visa Processing Time is not fixed because each application is unique. Immigration officers evaluate several factors before making a decision. Here are the main reasons why your visa timeline may differ:"
+        },
+        {
+          "list": [
+            "Application Volume – During peak travel seasons like summer and holidays, the number of applications increases significantly, which directly impacts the Canada Tourist Visa Processing Time.",
+            "Applicant Profile – Your travel history, financial stability, and ties to your home country play a big role. Strong profiles are usually processed faster.",
+            "Documentation Accuracy – Incomplete or incorrect documents can delay the Canada Tourist Visa Processing Time, as officers may request additional information.",
+            "Background Verification – Some applications require deeper verification checks, increasing the overall Canada Tourist Visa Processing Time."
+          ]
+        }
+      ]
     },
     {
-      img: box3,
-      date: "20 June 2024",
-      tag: "immigration",
-      heading: "Top 10 Tips for a Successful Visa Application",
-      para:
-        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+      "heading": "<h3>Step-by-Step Breakdown of the Processing Timeline</h3>",
+      "subcontent": [
+        {
+          "para": "Understanding each stage can give you clarity on how the Canada Tourist Visa Processing Time is calculated."
+        },
+        {
+          "subheading": "Step 1: Application Submission",
+          "para": "Once you submit your application online or offline, it enters the processing queue."
+        },
+        {
+          "subheading": "Step 2: Biometrics Collection",
+          "para": "You will be asked to provide fingerprints and a photo. This step directly affects the Canada Tourist Visa Processing Time if delayed."
+        },
+        {
+          "subheading": "Step 3: Document Review",
+          "para": "Immigration officers review your financials, travel purpose, and supporting documents."
+        },
+        {
+          "subheading": "Step 4: Background Check",
+          "para": "Security and eligibility checks are conducted to ensure authenticity."
+        },
+        {
+          "subheading": "Step 5: Final Decision",
+          "para": "You receive approval, rejection, or a request for additional documents, which can extend the Canada Tourist Visa Processing Time."
+        }
+      ]
     },
     {
-      img: box3,
-      date: "20 June 2024",
-      tag: "immigration",
-      heading: "Top 10 Tips for a Successful Visa Country",
-      para:
-        "Navigating the visa application process can be daunting. Here are ten essential tips to help ensure your application is successful.",
+      "heading": "<h4>Latest Trends Affecting Processing Time in 2026</h4>",
+      "subcontent": [
+        {
+          "para": "The Canada Tourist Visa Processing Time has evolved due to changing immigration trends. Here are some key updates:"
+        },
+        {
+          "list": [
+            "Increased digital processing has improved speed for online applications.",
+            "Higher scrutiny for first-time travelers.",
+            "Faster processing for applicants with strong travel history.",
+            "Delays still possible due to global application surges."
+          ]
+        },
+        {
+          "para": "Being aware of these trends can help you better estimate your Canada Tourist Visa Processing Time."
+        }
+      ]
     },
+    {
+      "heading": "<h5>Common Reasons for Delays You Should Avoid</h5>",
+      "subcontent": [
+        {
+          "para": "Many applicants unknowingly increase their Canada Tourist Visa Processing Time due to avoidable mistakes. Here are some common issues:"
+        },
+        {
+          "list": [
+            "Submitting incomplete documents",
+            "Providing an unclear travel purpose",
+            "Weak financial proof",
+            "Lack of strong ties to the home country",
+            "Errors in the application form"
+          ]
+        },
+        {
+          "para": "Avoiding these mistakes ensures your Canada Tourist Visa Processing Time stays within the expected range."
+        }
+      ]
+    },
+    {
+      "heading": "<h6>Expert Tips to Speed Up Your Visa Process</h6>",
+      "subcontent": [
+        {
+          "para": "If you want to reduce your Canada Tourist Visa Processing Time, follow these proven strategies:"
+        },
+        {
+          "list": [
+            "Apply Early – Always apply at least 2–3 months before your travel date to manage unexpected delays in Canada Tourist Visa Processing Time.",
+            "Submit Complete Documentation – Ensure all required documents are accurate and up-to-date.",
+            "Show Strong Financial Stability – Clear proof of funds improves credibility and reduces scrutiny.",
+            "Maintain Travel History – Previous international travel can positively influence your Canada Tourist Visa Processing Time.",
+            "Opt for Online Application – Online applications are generally processed faster compared to paper-based submissions."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "<p>How Long Does It Take After Biometrics?</p>",
+      "subcontent": [
+        {
+          "para": "After biometrics, the Canada Tourist Visa Processing Time usually ranges between 10 to 25 days. However, this depends on your profile and document verification. Applicants often assume biometrics is the final step, but background checks and eligibility assessments still impact the total Canada Tourist Visa Processing Time."
+        }
+      ]
+    },
+    {
+      "heading": "<p>What Happens If Your Visa Gets Delayed?</p>",
+      "subcontent": [
+        {
+          "para": "If your Canada Tourist Visa Processing Time exceeds the expected duration, you can:"
+        },
+        {
+          "list": [
+            "Check your application status online",
+            "Respond quickly to any additional document requests",
+            "Avoid reapplying unless it's necessary"
+          ]
+        },
+        {
+          "para": "Delays do not always mean rejection, but patience and proper follow-up are key."
+        }
+      ]
+    },
+    {
+      "heading": "<h3>Why Choose NexusCore Overseas?</h3>",
+      "subcontent": [
+        {
+          "para": "When it comes to handling visa applications professionally, choosing the right guidance can make a huge difference in your Canada Tourist Visa Processing Time. NexusCore Overseas stands out as one of the most reliable immigration consultants in Noida, offering:"
+        },
+        {
+          "list": [
+            "Personalized visa consultation based on your profile",
+            "Accurate documentation support to avoid delays",
+            "High success rate with strategic application handling",
+            "Transparent process with regular updates",
+            "Expert guidance to minimize risks and refusals"
+          ]
+        },
+        {
+          "para": "Their professional approach ensures your Canada Tourist Visa Processing Time remains smooth and stress-free."
+        }
+      ]
+    },
+    {
+      "subcontent": [
+        {
+          "para": "Canada not only offers beautiful landscapes and vibrant cities but also a welcoming environment for visitors from around the world. Understanding your Canada Tourist Visa Processing Time is the first step toward a successful trip."
+        }
+      ]
+    }
   ],
+  "faq": [
+    {
+      "que": "How long does Canada tourist visa processing take in 2026?",
+      "ans": "The Canada Tourist Visa Processing Time usually ranges between 20 to 45 days for online applications from India. However, delays may occur depending on application volume, documentation accuracy, and background verification requirements."
+    },
+    {
+      "que": "Can I speed up my Canada tourist visa processing?",
+      "ans": "While there is no official fast-track option, submitting complete documents, applying early, and maintaining a strong profile can help reduce your Canada Tourist Visa Processing Time significantly."
+    },
+    {
+      "que": "Does biometrics affect processing time?",
+      "ans": "Yes, biometrics is a mandatory step, and delays in completing it can increase the Canada Tourist Visa Processing Time. Once completed, processing continues with document verification and background checks."
+    },
+    {
+      "que": "Why is my Canada tourist visa taking longer than expected?",
+      "ans": "Your Canada Tourist Visa Processing Time may be longer due to high application volumes, additional document requests, or extended background checks. Each application is reviewed individually, which can affect timelines."
+    }
+  ]
+},
+
+{
+  "img": blog2,
+  "title": "How to Get a Job in Ireland from India",
+   tag:"Job in Ireland",
+  date:"24 Feb 2026",
+  "metatitle": "How to Get Job in Ireland from India: Guide 2026",
+  "metakey": "Job in Ireland from India",
+  "metadesc": "Learn how to get a job in Ireland from India with a step-by-step guide, visa process, tips, and high-demand jobs for Indian professionals in 2026.",
+  "content": [
+    {
+      "subcontent": [
+        {
+          "para": "Ireland is quickly becoming one of the top destinations for skilled professionals. With strong economic growth, global companies, and high-paying roles, many Indians are now exploring how to secure a job in Ireland from India. If you're planning your move, this guide will walk you through everything—from eligibility and job search strategies to visa processes and expert tips."
+        },
+        {
+          "para": "One of the biggest advantages of pursuing a job in Ireland from India is the presence of top multinational companies and a strong demand for skilled talent across sectors like IT, healthcare, finance, and engineering. Ireland's structured hiring system, transparent visa process, and English-speaking environment make it easier for Indian professionals to adapt and succeed without facing major cultural or language barriers."
+        },
+        {
+          "para": "Additionally, Ireland offers long-term career growth and settlement opportunities. With options like the Critical Skills Employment Permit, professionals can eventually apply for permanent residency, making a job in Ireland from India not just a short-term move but a strategic step toward a stable international career with excellent work-life balance."
+        }
+      ]
+    },
+    {
+      "heading": "<h1>Why Ireland is the New Career Hotspot</h1>",
+      "subcontent": [
+        {
+          "para": "Ireland is home to some of the world's biggest companies in tech, finance, and healthcare. This makes finding a job in Ireland from India more achievable than ever before. Here's why professionals are choosing Ireland:"
+        },
+        {
+          "list": [
+            "High demand for skilled workers",
+            "Attractive salary packages",
+            "English-speaking environment",
+            "Strong work-life balance",
+            "Easy access to other European countries"
+          ]
+        },
+        {
+          "para": "All these factors make pursuing a job in Ireland from India a smart career move in 2026."
+        }
+      ]
+    },
+    {
+      "heading": "<h2>Top Industries Hiring Indians in Ireland</h2>",
+      "subcontent": [
+        {
+          "para": "Before applying, it's important to understand where the opportunities lie for a job in Ireland from India."
+        },
+        {
+          "subheading": "Most In-Demand Sectors",
+          "table": {
+            "theading": ["Industry", "Popular Roles"],
+            "rows": [
+              { "colum": ["IT & Tech", "Software Developer, Data Analyst"] },
+              { "colum": ["Healthcare", "Nurses, Care Assistants"] },
+              { "colum": ["Finance", "Accountants, Financial Analysts"] },
+              { "colum": ["Engineering", "Civil and Mechanical Engineers"] },
+              { "colum": ["Pharma", "Lab Technicians, Researchers"] }
+            ]
+          }
+        },
+        {
+          "para": "Targeting the right industry increases your chances of landing a job in Ireland from India faster."
+        }
+      ]
+    },
+    {
+      "heading": "<h3>Step-by-Step Process to Get a Job</h3>",
+      "subcontent": [
+        {
+          "para": "Let's break down the exact steps you need to follow to secure a job in Ireland from India."
+        },
+        {
+          "subheading": "Step 1: Build a Strong Resume",
+          "para": "Your resume should follow international standards. Highlight skills, achievements, and experience relevant to the Irish job market. A strong CV is your first step toward getting a job in Ireland from India."
+        },
+        {
+          "subheading": "Step 2: Apply Through Trusted Job Portals",
+          "para": "Use platforms like LinkedIn, Indeed Ireland, and IrishJobs.ie. Consistent applications improve your chances of getting a job in Ireland from India."
+        },
+        {
+          "subheading": "Step 3: Secure a Job Offer",
+          "para": "To legally work, you must first receive an offer from an Irish employer. This is a critical requirement for a job in Ireland from India."
+        },
+        {
+          "subheading": "Step 4: Apply for Work Permit",
+          "para": "After getting an offer, apply for a work permit. The most common types are Critical Skills Employment Permit and General Employment Permit. Your permit approval is essential for starting your job in Ireland from India."
+        },
+        {
+          "subheading": "Step 5: Apply for a visa",
+          "para": "Once your permit is approved, you can apply for an Ireland work visa and prepare for relocation."
+        }
+      ]
+    },
+    {
+      "heading": "<h4>Types of Work Permits in Ireland</h4>",
+      "subcontent": [
+        {
+          "para": "Choosing the right permit is crucial when planning a job in Ireland from India."
+        },
+        {
+          "subheading": "Critical Skills Employment Permit",
+          "para": "For high-demand roles. Minimum salary requirement applies. Faster PR pathway."
+        },
+        {
+          "subheading": "General Employment Permit",
+          "para": "For broader job categories. Requires employer sponsorship. Renewable and flexible."
+        },
+        {
+          "para": "Selecting the right permit simplifies your journey to a job in Ireland from India."
+        }
+      ]
+    },
+    {
+      "heading": "<p>Documents Required for Job and Visa</p>",
+      "subcontent": [
+        {
+          "para": "Proper documentation is key to avoiding delays while applying for a job in Ireland from India."
+        },
+        {
+          "subheading": "Essential Documents",
+          "list": [
+            "Updated resume",
+            "Valid passport",
+            "Job offer letter",
+            "Educational certificates",
+            "Work experience proof",
+            "Financial documents"
+          ]
+        },
+        {
+          "para": "Having complete documents ensures a smoother process for your job in Ireland from India."
+        }
+      ]
+    },
+    {
+      "heading": "<h5>Latest Trends in Ireland Job Market 2026</h5>",
+      "subcontent": [
+        {
+          "para": "The job market is evolving, and staying updated can improve your chances of securing a job in Ireland from India."
+        },
+        {
+          "subheading": "Key Trends",
+          "list": [
+            "Increased hiring in AI and Data Science",
+            "Demand for healthcare professionals is rising",
+            "Hybrid work opportunities expanding",
+            "Preference for skilled and experienced candidates"
+          ]
+        },
+        {
+          "para": "Understanding these trends helps you plan better for a job in Ireland from India."
+        }
+      ]
+    },
+    {
+      "heading": "<h6>Common Challenges and How to Overcome Them</h6>",
+      "subcontent": [
+        {
+          "para": "While opportunities are high, applicants may face challenges when applying for a job in Ireland from India."
+        },
+        {
+          "subheading": "Common Issues",
+          "list": [
+            "Lack of international experience",
+            "Employer sponsorship difficulty",
+            "Resume mismatch with job roles"
+          ]
+        },
+        {
+          "subheading": "How to Overcome",
+          "list": [
+            "Upskill with certifications",
+            "Tailor your CV for each job",
+            "Apply consistently and strategically"
+          ]
+        },
+        {
+          "para": "These steps can significantly improve your chances of getting a job in Ireland from India."
+        }
+      ]
+    },
+    {
+      "heading": "<p>Expert Tips to Increase Your Chances</p>",
+      "subcontent": [
+        {
+          "para": "Want to stand out in a competitive market? Follow these tips for securing a job in Ireland from India:"
+        },
+        {
+          "list": [
+            "Customize your CV for Irish employers.",
+            "Build a strong LinkedIn profile",
+            "Network with professionals in Ireland",
+            "Apply early and regularly",
+            "Prepare well for interviews"
+          ]
+        },
+        {
+          "para": "Smart planning makes your journey to a job in Ireland from India faster and smoother."
+        }
+      ]
+    },
+    {
+      "heading": "<p>Salary Expectations in Ireland</p>",
+      "subcontent": [
+        {
+          "para": "Understanding salary ranges helps you plan financially when aiming for a job in Ireland from India."
+        },
+        {
+          "table": {
+            "theading": ["Job Role", "Average Salary (Per Year)"],
+            "rows": [
+              { "colum": ["Software Engineer", "€45,000 – €75,000"] },
+              { "colum": ["Nurse", "€30,000 – €50,000"] },
+              { "colum": ["Accountant", "€40,000 – €65,000"] },
+              { "colum": ["Engineer", "€50,000 – €80,000"] }
+            ]
+          }
+        },
+        {
+          "para": "Higher salaries and career growth make securing a job in Ireland from India highly rewarding."
+        }
+      ]
+    },
+    {
+      "heading": "<h3>Why Choose NexusCore Overseas?</h3>",
+      "subcontent": [
+        {
+          "para": "Finding the right guidance can make all the difference in your journey to securing a job in Ireland from India."
+        },
+        {
+          "list": [
+            "Personalized job assistance based on your profile",
+            "End-to-end visa and documentation support",
+            "Strong network with international employers",
+            "High success rate in work permit approvals",
+            "Transparent and professional process"
+          ]
+        },
+        {
+          "para": "With expert support, your path to a job in Ireland from India becomes easier, faster, and more reliable."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "que": "Is it easy to get a job in Ireland from India?",
+      "ans": "Getting a job in Ireland from India is possible with the right skills and approach. High-demand sectors like IT and healthcare offer better chances, especially if you have relevant experience and a strong application profile."
+    },
+    {
+      "que": "Do I need a job offer before applying for a visa?",
+      "ans": "Yes, you must secure a job offer before applying for a work permit and visa. Without an offer, you cannot proceed with your application for a job in Ireland from India legally."
+    },
+    {
+      "que": "Which jobs are in demand in Ireland for Indians?",
+      "ans": "Roles in IT, healthcare, engineering, and finance are highly in demand. These sectors provide better opportunities for candidates seeking a job in Ireland from India with competitive salaries and growth prospects."
+    },
+    {
+      "que": "How long does the process take?",
+      "ans": "The complete process for a job in Ireland from India can take 2 to 6 months, depending on job search time, permit processing, and visa approval timelines."
+    }
+  ]
+},
+
+{
+  "img": blog3,
+  "title": "UK Work Visa Without a Job Offer",
+   tag:"Uk Work Visa",
+  date:"09 Apr 2026",
+  "metatitle": "UK Work Visa Without Job Offer Guide 2026",
+  "metakey": "UK Work Visa",
+  "metadesc": "Get UK work visa without job offer in 2026. Learn eligibility, visa types, process, and expert tips to work in the UK easily.",
+  "content": [
+    {
+      "subcontent": [
+        {
+          "para": "Dreaming of working in the UK but don't have a job offer yet? The good news is that securing a UK Work Visa without employer sponsorship is now possible through pathways like the High Potential Individual, Global Talent, and Graduate visas. These options focus on your skills and qualifications rather than a specific employer, allowing you to enter the UK, explore opportunities, and switch roles once you arrive, especially in high-demand sectors like IT, healthcare, and finance."
+        },
+        {
+          "para": "If you're planning your move, understanding eligibility, visa types, and the application process is essential. Preparing accurate documents, highlighting your skills, and staying updated with immigration rules can improve your chances of success. A well-planned approach ensures your UK Work Visa application is smooth, efficient, and aligned with your long-term career goals in the UK."
+        }
+      ]
+    },
+    {
+      "heading": "<h1>Is It Really Possible Without a Job Offer?</h1>",
+      "subcontent": [
+        {
+          "para": "Yes, it is absolutely possible to apply for a UK Work Visa without having a confirmed job. The UK government has introduced visa routes that focus on skills, qualifications, and potential rather than employer sponsorship. These visa options are ideal for individuals who want to enter the UK job market and search for opportunities after arrival, making the UK Work Visa more accessible than before."
+        }
+      ]
+    },
+    {
+      "heading": "<h2>Top Visa Options You Should Know</h2>",
+      "subcontent": [
+        {
+          "para": "If you're aiming for a UK Work Visa without a job offer, here are the most popular pathways:"
+        },
+        {
+          "subheading": "High Potential Individual (HPI) Visa",
+          "para": "This visa is designed for graduates from top global universities. No job offer required. Valid for 2–3 years. Freedom to work in any sector. This route is one of the easiest ways to obtain a UK Work Visa if you meet the eligibility criteria."
+        },
+        {
+          "subheading": "Global Talent Visa",
+          "para": "Perfect for highly skilled professionals in tech, research, arts, and academia. No job offer needed. Requires endorsement. Fast-track settlement options. This visa is ideal for candidates with exceptional achievements seeking a UK Work Visa."
+        },
+        {
+          "subheading": "Graduate Visa",
+          "para": "If you have completed your studies in the UK, you can stay and work. No sponsorship required. Valid for 2 years (3 for PhD holders). It's a great pathway to transition into a long-term UK Work Visa."
+        },
+        {
+          "subheading": "Youth Mobility Scheme (Limited Countries)",
+          "para": "Available for selected countries. Allows work and travel. No job offer needed. Though limited, it is another route toward a UK Work Visa."
+        }
+      ]
+    },
+    {
+      "heading": "<h3>Eligibility Criteria You Must Meet</h3>",
+      "subcontent": [
+        {
+          "para": "To successfully apply for a UK Work Visa, you need to fulfill certain requirements depending on the visa type."
+        },
+        {
+          "subheading": "General Requirements",
+          "list": [
+            "Valid passport",
+            "Proof of qualifications",
+            "English language proficiency",
+            "Financial stability",
+            "Clean immigration history"
+          ]
+        },
+        {
+          "para": "Meeting these criteria strengthens your chances of getting a UK Work Visa approved."
+        }
+      ]
+    },
+    {
+      "heading": "<h4>Step-by-Step Application Process</h4>",
+      "subcontent": [
+        {
+          "para": "Understanding the process can make your journey to a UK Work Visa much smoother."
+        },
+        {
+          "subheading": "Step 1: Choose the Right Visa Type",
+          "para": "Select the visa that matches your qualifications and career goals."
+        },
+        {
+          "subheading": "Step 2: Prepare Your Documents",
+          "para": "Ensure all documents are accurate and updated to avoid delays in your UK Work Visa application."
+        },
+        {
+          "subheading": "Step 3: Apply Online",
+          "para": "Submit your application through the official UK immigration portal."
+        },
+        {
+          "subheading": "Step 4: Biometrics and Verification",
+          "para": "Complete biometrics and attend any required appointments."
+        },
+        {
+          "subheading": "Step 5: Wait for Decision",
+          "para": "Processing times vary, but staying updated helps you track your UK Work Visa status."
+        }
+      ]
+    },
+    {
+      "heading": "<p>Processing Time and Cost Overview</p>",
+      "subcontent": [
+        {
+          "para": "Here's a quick look at timelines and fees related to a UK Work Visa:"
+        },
+        {
+          "table": {
+            "theading": ["Visa Type", "Processing Time", "Approximate Fee"],
+            "rows": [
+              { "colum": ["HPI Visa", "3–8 weeks", "£715"] },
+              { "colum": ["Global Talent", "3–8 weeks", "£623+"] },
+              { "colum": ["Graduate Visa", "2–6 weeks", "£822"] }
+            ]
+          }
+        },
+        {
+          "para": "These timelines can vary depending on application volume and profile strength."
+        }
+      ]
+    },
+    {
+      "heading": "<h5>Benefits of Applying Without a Job Offer</h5>",
+      "subcontent": [
+        {
+          "para": "Choosing a UK Work Visa without sponsorship comes with several advantages:"
+        },
+        {
+          "list": [
+            "Freedom to explore job opportunities in the UK",
+            "No dependency on employer sponsorship",
+            "Access to diverse industries",
+            "Opportunity to switch roles easily"
+          ]
+        },
+        {
+          "para": "This flexibility makes the UK Work Visa an attractive option for ambitious professionals."
+        }
+      ]
+    },
+    {
+      "heading": "<h6>Common Mistakes to Avoid</h6>",
+      "subcontent": [
+        {
+          "para": "Many applicants face rejection due to avoidable errors in their UK Work Visa process."
+        },
+        {
+          "subheading": "Key Mistakes",
+          "list": [
+            "Choosing the wrong visa category",
+            "Incomplete documentation",
+            "Weak proof of funds",
+            "Not meeting eligibility criteria"
+          ]
+        },
+        {
+          "para": "Avoiding these mistakes can improve your chances of getting a UK Work Visa approved faster."
+        }
+      ]
+    },
+    {
+      "heading": "<p>Expert Tips to Increase Approval Chances</p>",
+      "subcontent": [
+        {
+          "para": "If you want to secure a UK Work Visa smoothly, follow these expert tips:"
+        },
+        {
+          "list": [
+            "Research visa options carefully",
+            "Keep documents error-free",
+            "Highlight your skills and achievements",
+            "Stay updated with immigration rules"
+          ]
+        },
+        {
+          "para": "A well-planned approach can make your UK Work Visa journey successful."
+        }
+      ]
+    },
+    {
+      "heading": "<h3>Why Choose NexusCore Overseas?</h3>",
+      "subcontent": [
+        {
+          "para": "When applying for a visa, expert guidance can make a huge difference in your success rate for a UK Work Visa."
+        },
+        {
+          "list": [
+            "Personalized visa consultation",
+            "End-to-end documentation support",
+            "High success rate with approvals",
+            "Transparent and reliable process",
+            "Expert guidance for complex cases"
+          ]
+        },
+        {
+          "para": "With professional support, your UK Work Visa application becomes simple, accurate, and stress-free."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "que": "Can I really get a UK work visa without a job offer?",
+      "ans": "Yes, certain visa routes like HPI and Global Talent allow you to apply without a job offer. These options focus on your skills, education, and potential rather than employer sponsorship."
+    },
+    {
+      "que": "Which UK visa is easiest without sponsorship?",
+      "ans": "The High Potential Individual visa is considered one of the easiest options, especially if you graduated from a recognized university. It offers flexibility and allows you to work freely in the UK."
+    },
+    {
+      "que": "How long does it take to get a UK work visa?",
+      "ans": "Processing usually takes 3 to 8 weeks, depending on the visa type and your application profile. Delays can occur if additional documents or verification are required."
+    },
+    {
+      "que": "Is IELTS mandatory for a UK work visa?",
+      "ans": "Most visa categories require proof of English proficiency, and IELTS is commonly accepted. However, some applicants may qualify for exemptions based on their education or nationality."
+    }
+  ]
+},
+]
 };
 
 // about us
@@ -1067,7 +1728,7 @@ export const contactBanner = {
     {
       icon: <FaMapLocationDot />,
       title: "Location",
-      text: "H-150, H Block, Sector 63, Noida, Uttar Pradesh 210012",
+      text: "H-150, H Block, Sector 63, Noida, Uttar Pradesh 201301",
       slug: "#",
     },]
 

@@ -10,7 +10,7 @@ function page() {
         img={bann}
         title={"Success Stories"}
         para={
-          "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "Discover inspiring success stories of individuals who have successfully immigrated to their dream destinations. From overcoming challenges to achieving their goals, these stories highlight the transformative power of immigration and the opportunities it can bring."
         }
         slug={"success-stories"}
       />

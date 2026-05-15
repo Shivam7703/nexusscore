@@ -122,7 +122,7 @@ export default function Footer({ footer }: any) {
               <strong>E-mail: </strong>&nbsp;info@nexuscoreoverseas.com
             </p>
             <p className="font2 transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
-              <strong>Address: </strong>&nbsp;H-150, H Block, Sector 63, Noida, Uttar Pradesh 210012
+              <strong>Address: </strong>&nbsp;H-150, H Block, Sector 63, Noida, Uttar Pradesh 201301
 
             </p>
           </div>

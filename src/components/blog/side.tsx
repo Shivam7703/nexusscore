@@ -58,12 +58,12 @@ const data = [
 //   const blogsData = await getBlogs();
 //   const latestBlogs = blogsData.slice(0, 3);
 
-//   const createSlug = (title: string): string =>
-//     title
-//       .trim()
-//       .toLowerCase()
-//       .replace(/[^a-z0-9]+/g, "-")
-//       .replace(/^-+|-+$/g, "");
+  const createSlug = (title: string): string =>
+    title
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
 
   return (
     <div className="space-y-6">
@@ -162,21 +162,19 @@ const data = [
 
    {/* Latest Blogs Section 2 */}
     <div className="bg-gradient-to-br from-white to-zinc-100 p-6  rounded-2xl border border-blue-100 shadow-lg">
-  {/* Heading */}
+  {/* title */}
   <h4 className="mb-5 text-xl md:text-2xl font-bold text-zinc-900 font2">
     Latest Blogs
   </h4>
 
   {/* Blog List */}
   <div className="space-y-3">
-    {latestBlogs?.blog.slice(0, 3).map((blog: any, index: number) => (
+    {latestBlogs?.blog.slice(0, 3).map((blogs: any, index: number) => (
       <Link
-        key={blog?.id || index}
-        href={`/blogs/${blog?.heading.trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "")}`}
-        title={blog?.heading}
+        key={ index}
+        href={`/blogs/${createSlug(blogs?.title || "")}`}
+
+        title={blogs?.title}
         className="group block"
       >
         <div
@@ -188,8 +186,8 @@ const data = [
             {/* Image */}
             <div className="relative w-20 h-20  rounded-xl overflow-hidden flex-shrink-0">
               <Image
-                src={blog?.img}
-                alt={blog?.imgAlt || blog?.heading}
+                src={blogs?.img}
+                alt={blogs?.imgAlt || blogs?.title}
                 width={80}
                 height={80}
                 className="w-full h-full object-cover
@@ -206,7 +204,7 @@ const data = [
                            transition-colors duration-300
                            group-hover:text-blue-600"
               >
-                {blog?.heading}
+                {blogs?.title}
               </h5>
 
               <div className="mt-3 flex items-center gap-2 text-xs font-semibold text-blue-600">
@@ -225,7 +223,7 @@ const data = [
 
       {/* Other Visa Categories Section */}
      <div className="bg-gradient-to-br from-white to-zinc-100 p-6  rounded-2xl border border-zinc-200 shadow-lg">
-  {/* Heading */}
+  {/* title */}
   <h4 className="mb-5 text-xl md:text-2xl font-bold text-zinc-900 font2">
     Visas We Offer
   </h4>
@@ -275,7 +273,7 @@ const data = [
 
      {/* Migrate */}
      <div className="bg-gradient-to-br from-white to-zinc-100 p-6  rounded-2xl border border-zinc-200 shadow-lg">
-  {/* Heading */}
+  {/* title */}
   <h4 className="mb-5 text-xl md:text-2xl font-bold text-zinc-900 font2">
     Migrate
   </h4>
@@ -323,7 +321,7 @@ const data = [
 </div>
 
 <div className="bg-gradient-to-br from-zinc-50 to-zinc-100 p-6 rounded-2xl border border-zinc-200 shadow-md">
-  {/* Heading */}
+  {/* title */}
   <h4 className="mb-5 text-lg md:text-xl font-bold text-zinc-900 font2">
     Popular Tags
   </h4>

@@ -1,288 +1,440 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { useState, useEffect, useRef } from "react"
 import BlogAside from "./side"
 import Image from "next/image"
-import {
-  BsCalendar3,
-  BsClock,
-  BsShareFill
-} from "react-icons/bs"
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaWhatsapp
-} from "react-icons/fa"
+import { BsCalendar3, BsClock, BsShareFill } from "react-icons/bs"
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa"
 import { BiLike } from "react-icons/bi"
 import { HiOutlineBookmark } from "react-icons/hi"
+import Faqs from "../global/faqs"
 
-export default function Blogdetails({ data }: any) {
-  const [likes, setLikes] = useState(data?.initialLikes || 246)
-  const [bookmarked, setBookmarked] = useState(false)
+// ─── Type Definitions ─────────────────────────────────────────────────────────
+interface TableData {
+  theading: string[]
+  rows: { colum: string[] }[]
+}
 
-  // increment like
-  const handleLike = () => {
-    setLikes((prev: number) => prev + 1)
-  }
+interface SubContent {
+  para?: string
+  list?: string[]
+  subheading?: string
+  table?: TableData
+}
 
-  // toggle bookmark
-  const handleBookmark = () => {
-    setBookmarked((prev) => !prev)
-  }
+interface ContentSection {
+  heading?: string
+  subcontent?: SubContent[]
+}
 
-  // share via Web Share API fallback
-  const handleShare = (platform?: string) => {
-    const shareUrl = typeof window !== "undefined" ? window.location.href : ""
-    const shareText = data?.heading
+interface BlogData {
+  img: any
+  heading: string
+  title?: string
+  tag?: string
+  date?: string
+  metatitle?: string
+  metadesc?: string
+  metakey?: string
+  readTime?: string
+  initialLikes?: number
+  content?: ContentSection[]
+  faq?: { que: string; ans: string }[]
+}
 
-    if (navigator.share && !platform) {
-      navigator.share({
-        title: data?.heading,
-        text: data?.summary || data?.heading,
-        url: shareUrl
-      }).catch((err) => {
-        console.error("Share cancelled or failed:", err)
-      })
-      return
+// ─── Helper: strip HTML tags for plain text ───────────────────────────────────
+const stripHtml = (html: string) => html?.replace(/<[^>]*>/g, "").trim() ?? ""
+
+// ─── Table of Contents Builder ────────────────────────────────────────────────
+function buildTOC(content: ContentSection[]) {
+  return content
+    .filter((s) => s.heading)
+    .map((s, i) => ({
+      id: `section-${i}`,
+      label: stripHtml(s.heading!),
+      tag: s.heading?.match(/<(h[1-6])/)?.[1] ?? "p",
+    }))
+}
+
+// ─── Content Renderer ────────────────────────────────────────────────────────
+function RenderContent({ content }: { content: ContentSection[] }) {
+  return (
+    <>
+      {content.map((section, si) => (
+        <div key={si} id={`section-${si}`} className="blog-section scroll-mt-24">
+          {/* Heading */}
+          {section.heading && (() => {
+            const text = stripHtml(section.heading)
+            const tag = section.heading.match(/<(h[1-6])/)?.[1] ?? "p"
+            const styles: Record<string, string> = {
+              h1: "text-3xl md:text-4xl font-black text-zinc-900 mt-14 mb-5 leading-tight tracking-tight border-l-4 border-amber-500 pl-5",
+              h2: "text-2xl md:text-3xl font-extrabold text-zinc-800 mt-12 mb-4 leading-tight",
+              h3: "text-xl md:text-2xl font-bold text-zinc-800 mt-10 mb-4",
+              h4: "text-lg md:text-xl font-bold text-zinc-700 mt-8 mb-3",
+              h5: "text-base md:text-lg font-semibold text-zinc-700 mt-6 mb-3",
+              h6: "text-sm md:text-base font-semibold text-zinc-600 uppercase tracking-widest mt-6 mb-2",
+              p: "text-lg font-bold text-zinc-700 mt-8 mb-3",
+            }
+            return (
+              <div className={styles[tag] ?? styles.p}>
+                {tag === "h1" && (
+                  <span className="block text-xs font-bold text-amber-500 uppercase tracking-[0.2em] mb-2">
+                    Overview
+                  </span>
+                )}
+                {text}
+              </div>
+            )
+          })()}
+
+          {/* SubContents */}
+          {section.subcontent?.map((sub, subi) => (
+            <div key={subi}>
+              {/* Subheading */}
+              {sub.subheading && (
+                <div className="flex items-center gap-3 mt-7 mb-3">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-amber-500 text-white text-xs font-black flex items-center justify-center shadow-md">
+                    {subi + 1}
+                  </span>
+                  <h4 className="text-base md:text-lg font-bold text-zinc-800">
+                    {sub.subheading}
+                  </h4>
+                </div>
+              )}
+
+              {/* Paragraph */}
+              {sub.para && (
+                <p
+                  className={`text-zinc-600 leading-[1.9] text-[15px] md:text-base mb-5 ${
+                    si === 0 && subi === 0
+                      ? "first-letter:text-6xl first-letter:font-black first-letter:text-amber-500 first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:leading-[0.8] first-letter:font-serif"
+                      : ""
+                  }`}
+                >
+                  {sub.para}
+                </p>
+              )}
+
+              {/* Bullet List */}
+              {sub.list && (
+                <ul className="my-5 space-y-3">
+                  {sub.list.map((item, li) => (
+                    <li key={li} className="flex gap-3 items-start">
+                      <span className="flex-shrink-0 mt-[5px] w-5 h-5 rounded-sm bg-amber-500/15 flex items-center justify-center">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+                      </span>
+                      <span className="text-zinc-600 leading-relaxed text-[15px]">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {/* Table */}
+              {sub.table && (
+                <div className="my-7 overflow-x-auto rounded-xl border border-zinc-200 shadow-sm">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="bg-zinc-900 text-white">
+                        {sub.table.theading.map((th, ti) => (
+                          <th
+                            key={ti}
+                            className="px-5 py-3.5 text-left font-semibold tracking-wide text-xs uppercase"
+                          >
+                            {th}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {sub.table.rows.map((row, ri) => (
+                        <tr
+                          key={ri}
+                          className={`border-t border-zinc-100 ${ri % 2 === 0 ? "bg-white" : "bg-amber-50/50"} hover:bg-amber-50 transition-colors`}
+                        >
+                          {row.colum.map((cell, ci) => (
+                            <td key={ci} className="px-5 py-3.5 text-zinc-700 font-medium">
+                              {ci === 1 ? (
+                                <span className="inline-flex items-center gap-1.5">
+                                  <span className="w-2 h-2 rounded-full bg-amber-400" />
+                                  {cell}
+                                </span>
+                              ) : (
+                                cell
+                              )}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      ))}
+    </>
+  )
+}
+
+// ─── Reading Progress Bar ─────────────────────────────────────────────────────
+function ReadingProgress() {
+  const [progress, setProgress] = useState(0)
+  useEffect(() => {
+    const update = () => {
+      const el = document.documentElement
+      const scrolled = el.scrollTop
+      const total = el.scrollHeight - el.clientHeight
+      setProgress(total > 0 ? (scrolled / total) * 100 : 0)
     }
+    window.addEventListener("scroll", update, { passive: true })
+    return () => window.removeEventListener("scroll", update)
+  }, [])
+  return (
+    <div className="fixed top-0 left-0 right-0 h-[3px] z-[9999] bg-zinc-100">
+      <div
+        className="h-full bg-gradient-to-r from-amber-400 to-amber-600 transition-all duration-100 ease-out"
+        style={{ width: `${progress}%` }}
+      />
+    </div>
+  )
+}
 
-    // fallback: open social share urls
-    let url = ""
-    switch (platform) {
-      case "facebook":
-        url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`
-        break
-      case "twitter":
-        url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`
-        break
-      case "linkedin":
-        url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`
-        break
-      case "whatsapp":
-        url = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText + " " + shareUrl)}`
-        break
-    }
-    if (url) window.open(url, "_blank", "noopener,noreferrer")
+// ─── Table of Contents Sidebar Widget ────────────────────────────────────────
+function TableOfContents({ toc }: { toc: ReturnType<typeof buildTOC> }) {
+  const [active, setActive] = useState<string | null>(null)
+
+  useEffect(() => {
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) setActive(e.target.id)
+        })
+      },
+      { rootMargin: "-20% 0px -70% 0px" }
+    )
+    toc.forEach(({ id }) => {
+      const el = document.getElementById(id)
+      if (el) obs.observe(el)
+    })
+    return () => obs.disconnect()
+  }, [toc])
+
+  if (!toc.length) return null
+
+  const indentMap: Record<string, string> = {
+    h1: "pl-0 text-[13px] font-semibold",
+    h2: "pl-3 text-[12.5px] font-medium",
+    h3: "pl-5 text-[12px]",
+    h4: "pl-7 text-[12px]",
+    h5: "pl-9 text-[11.5px]",
+    h6: "pl-11 text-[11px]",
+    p:  "pl-3 text-[12px]",
   }
-
-  // Generate dummy paragraphs
-  const paragraphs = [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt eius beatae repellat cupiditate id autem inventore vel quos veritatis ipsum, sed aut atque commodi impedit quaerat vero, culpa omnis. Distinctio necessitatibus voluptatem quibusdam iusto corporis mollitia exercitationem.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste voluptatum sapiente nostrum! Repudiandae, earum dolores. Repudiandae, quod? Atque sapiente qui unde vel consequatur cupiditate ad quo reiciendis ratione nisi? Quisquam possimus excepturi dignissimos tempora.",
-    "Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veniam necessitatibus modi cum deserunt, voluptates accusamus ducimus soluta quisquam fugiat dolorum numquam voluptas dolor sapiente perspiciatis eius nobis quos inventore!","Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt eius beatae repellat cupiditate id autem inventore vel quos veritatis ipsum, sed aut atque commodi impedit quaerat vero, culpa omnis. Distinctio necessitatibus voluptatem quibusdam iusto corporis mollitia exercitationem.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste voluptatum sapiente nostrum! Repudiandae, earum dolores. Repudiandae, quod? Atque sapiente qui unde vel consequatur cupiditate ad quo reiciendis ratione nisi? Quisquam possimus excepturi dignissimos tempora.",
-    "Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veniam necessitatibus modi cum deserunt, voluptates accusamus ducimus soluta quisquam fugiat dolorum numquam voluptas dolor sapiente perspiciatis eius nobis quos inventore!"
-  ]
 
   return (
-    <div className="lg:px-28 xl:px-32 md:p-20 sm:p-12 p-7 bg-gradient-to-b from-zinc-50 relative to-white">
-      <div className="flex flex-wrap justify-between gap-y-7 relative w-full">
-        <div className="md:w-[60%] w-full">
-          {/* Hero Image Container */}
-          <div className="relative overflow-hidden rounded-2xl shadow-2xl mb-12 group">
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <div className="relative aspect-[16/9] overflow-hidden">
+    <div className="bg-white rounded-2xl border border-zinc-200 shadow-sm overflow-hidden">
+      <div className="bg-zinc-900 px-5 py-4">
+        <p className="text-white font-bold text-xs uppercase tracking-[0.18em]">
+          Table of Contents
+        </p>
+      </div>
+      <nav className="p-4 space-y-1 max-h-[360px] overflow-y-auto custom-scroll">
+        {toc.map(({ id, label, tag }) => (
+          <a
+            key={id}
+            href={`#${id}`}
+            onClick={(e) => {
+              e.preventDefault()
+              document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
+            }}
+            className={`block py-1.5 text-zinc-500 hover:text-amber-600 transition-colors leading-snug truncate
+              ${indentMap[tag] ?? indentMap.p}
+              ${active === id ? "!text-amber-600 font-semibold" : ""}
+            `}
+          >
+            {active === id && (
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-amber-500 mr-2 mb-0.5" />
+            )}
+            {label}
+          </a>
+        ))}
+      </nav>
+    </div>
+  )
+}
+
+// ─── Main Component ───────────────────────────────────────────────────────────
+export default function Blogdetails({ data }: any) {
+  const [likes, setLikes] = useState(data?.initialLikes ?? 246)
+  const [bookmarked, setBookmarked] = useState(false)
+  const toc = data?.content ? buildTOC(data.content) : []
+
+  const handleLike = () => setLikes((p:any) => p + 1)
+  const handleBookmark = () => setBookmarked((p) => !p)
+
+  const handleShare = (platform?: string) => {
+    const shareUrl = typeof window !== "undefined" ? window.location.href : ""
+    const shareText = data?.title || data?.heading || ""
+
+    if (navigator.share && !platform) {
+      navigator.share({ title: shareText, url: shareUrl }).catch(() => {})
+      return
+    }
+    const urls: Record<string, string> = {
+      facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
+      twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`,
+      linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`,
+      whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText + " " + shareUrl)}`,
+    }
+    if (platform && urls[platform])
+      window.open(urls[platform], "_blank", "noopener,noreferrer")
+  }
+
+  return (
+    <>
+      <ReadingProgress />
+
+      <div className="lg:px-28 xl:px-32 md:px-20 sm:px-12 px-5 py-14 bg-[#fafaf9]">
+        <div className="flex flex-wrap justify-between gap-y-10 relative w-full">
+
+          {/* ── Main Column ─────────────────────────────────────────────── */}
+          <div className="md:w-[60%] w-full">
+
+            {/* Hero Image */}
+            <div className="relative overflow-hidden rounded-2xl shadow-xl mb-10 group aspect-[16/9]">
               <Image
                 src={data?.img}
-                alt={data?.heading}
+                alt={data?.heading ?? "Blog image"}
                 fill
-                className="object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
+                className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                priority
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+
+              {/* Tag pill over image */}
+              {data?.tag && (
+                <span className="absolute top-5 left-5 bg-amber-500 text-white text-[11px] font-bold uppercase tracking-widest px-3.5 py-1.5 rounded-full shadow-lg">
+                  {data.tag}
+                </span>
+              )}
             </div>
-            
-            {/* Decorative Corner Element */}
-            <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/20 transform rotate-45 translate-x-16 -translate-y-16" />
-          </div>
-          {/* Article Header */}
-          <header className="mb-16 relative">
-            {/* Meta Information */}
-            <div className="flex items-center gap-4 mb-8 flex-wrap animate-fadeIn">
-              {/* Tag */}
-              <span className="inline-block bg-zinc-900 text-white px-4 py-1.5 text-xs font-bold tracking-widest uppercase hover:bg-amber-600 transition-all duration-300 hover:-translate-y-0.5 shadow-md">
-                {data?.tag}
-              </span>
 
-              {/* Date */}
-              <div className="flex items-center gap-2 text-zinc-600 text-sm font-medium">
-                <BsCalendar3 className="w-4 h-4" />
-                <span className="tracking-wide">{data?.date}</span>
+            {/* Article Meta */}
+            <div className="flex items-center gap-4 mb-6 flex-wrap">
+              <div className="flex items-center gap-2 text-zinc-500 text-sm">
+                <BsCalendar3 className="w-3.5 h-3.5" />
+                <span>{data?.date}</span>
               </div>
-
-              {/* Author */}
-              <div className="flex items-center gap-2.5 ml-auto group/author cursor-pointer">
-                <div className="w-9 h-9 rounded-full bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center text-white font-bold text-sm shadow-lg group-hover/author:shadow-xl transition-shadow">
+              <span className="w-1 h-1 rounded-full bg-zinc-300" />
+              <div className="flex items-center gap-2 text-zinc-500 text-sm">
+                <BsClock className="w-3.5 h-3.5" />
+                <span>{data?.readTime ?? "5 min"} read</span>
+              </div>
+              <div className="ml-auto flex items-center gap-2.5 group cursor-pointer">
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center text-white font-bold text-xs shadow">
                   A
                 </div>
-                <span className="text-sm font-semibold text-zinc-800 group-hover/author:text-amber-600 transition-colors">
+                <span className="text-sm font-semibold text-zinc-700 group-hover:text-amber-600 transition-colors">
                   Admin
                 </span>
               </div>
             </div>
 
-            {/* Heading */}
-            <div className="relative">
-              <h2 className="text-zinc-800 font-extrabold leading-tight text-3xl md:text-5xl lg:text-6xl mb-6 animate-slideUp">
-                {data?.heading}
-              </h2>
-              
-              {/* Decorative underline */}
-              <div className="flex mb-8">
-                <div className="h-1.5 w-24 bg-amber-500 animate-expandWidth" />
+            {/* Title */}
+            <h1 className="text-zinc-900 font-black leading-tight text-3xl md:text-[2.6rem] mb-3 tracking-tight">
+              {data?.heading}
+            </h1>
+            <div className="h-1 w-16 bg-amber-500 rounded-full mb-10" />
+
+            {/* ── Structured Content ─────────────────────────────────────── */}
+            <article className="bg-white rounded-2xl shadow-sm border border-zinc-100 px-7 md:px-10 py-10 mb-10">
+              {data?.content && <RenderContent content={data.content} />}
+            </article>
+
+            {/* FAQs */}
+            {data?.faq && data.faq.length > 0 && (
+              <div className="mb-10">
+                <Faqs data={data.faq} />
               </div>
+            )}
 
-              {/* Decorative Quote Mark */}
-              <div className="absolute -top-6 -left-8 text-amber-500/20 text-9xl font-serif leading-none select-none hidden md:block pointer-events-none">
-                "
-              </div>
-            </div>
-          </header>
-
-          {/* Article Content */}
-          <article className="relative bg-white rounded-xl shadow-lg p-8 md:p-12 mb-16 animate-fadeInUp">
-            {/* Decorative Side Border */}
-            <div className="absolute left-0 top-0 w-1.5 h-full bg-gradient-to-b from-amber-500 via-amber-600 to-transparent rounded-l-xl" />
-
-            {/* Content */}
-            <div className="prose prose-lg max-w-none">
-              {/* First Paragraph with Drop Cap */}
-              <p className="text-zinc-700 leading-relaxed text-lg mb-8 first-letter:text-7xl first-letter:font-bold first-letter:text-amber-600 first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:font-serif first-letter:leading-[0.8]">
-                {paragraphs[0]}
-              </p>
-
-              {/* Remaining Paragraphs */}
-              {paragraphs.slice(1).map((paragraph, index) => (
-                <p key={index} className="text-zinc-700 leading-relaxed text-lg mb-8">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-
-            {/* Decorative Floating Elements */}
-            <div className="absolute -top-8 -right-8 w-20 h-20 bg-amber-100 rounded-full opacity-50 blur-xl animate-pulse" />
-            <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-zinc-100 rounded-full opacity-50 blur-xl animate-pulse" style={{ animationDelay: '1s' }} />
-          </article>
-
-          {/* Share Section */}
-          <div className="bg-gradient-to-r from-zinc-50 to-amber-50 rounded-xl p-8 mb-8 border border-zinc-200 hover:shadow-lg transition-shadow duration-300">
-            <div className="flex items-center justify-between flex-wrap gap-6">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center text-white shadow-md">
-                  <BsShareFill className="w-5 h-5" />
+            {/* Share Section */}
+            <div className="bg-white border border-zinc-100 rounded-2xl p-6 mb-6 shadow-sm">
+              <div className="flex items-center justify-between flex-wrap gap-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 bg-zinc-900 rounded-xl flex items-center justify-center text-white">
+                    <BsShareFill className="w-4 h-4" />
+                  </div>
+                  <span className="font-bold text-zinc-800 text-xs uppercase tracking-widest">
+                    Share Article
+                  </span>
                 </div>
-                <span className="font-bold text-zinc-800 text-sm uppercase tracking-wider">
-                  Share Article
-                </span>
+                <div className="flex items-center gap-2.5">
+                  {[
+                    { platform: "facebook", Icon: FaFacebookF, color: "#1877F2" },
+                    { platform: "twitter", Icon: FaTwitter, color: "#1DA1F2" },
+                    { platform: "linkedin", Icon: FaLinkedinIn, color: "#0A66C2" },
+                    { platform: "whatsapp", Icon: FaWhatsapp, color: "#25D366" },
+                  ].map(({ platform, Icon, color }) => (
+                    <button
+                      key={platform}
+                      onClick={() => handleShare(platform)}
+                      aria-label={`Share on ${platform}`}
+                      style={{ "--sc": color } as React.CSSProperties}
+                      className="w-9 h-9 rounded-full flex items-center justify-center
+                        border border-zinc-200 text-zinc-400
+                        hover:border-transparent hover:text-white hover:scale-110
+                        transition-all duration-200 shadow-sm hover:shadow-md"
+                      onMouseEnter={(e) => {
+                        ;(e.currentTarget as HTMLElement).style.backgroundColor = color
+                        ;(e.currentTarget as HTMLElement).style.borderColor = color
+                      }}
+                      onMouseLeave={(e) => {
+                        ;(e.currentTarget as HTMLElement).style.backgroundColor = ""
+                        ;(e.currentTarget as HTMLElement).style.borderColor = ""
+                        ;(e.currentTarget as HTMLElement).style.color = ""
+                      }}
+                    >
+                      <Icon className="w-3.5 h-3.5" />
+                    </button>
+                  ))}
+                </div>
               </div>
-
-              {/* Social Share Buttons */}
-<div className="flex items-center gap-3">
-  {/* Facebook */}
-  <button
-    onClick={() => handleShare("facebook")}
-    aria-label="Share on Facebook"
-    className="group flex items-center justify-center w-10 h-10
-               rounded-full bg-[#1877F2]/10 text-[#1877F2]
-               hover:bg-[#1877F2] hover:text-white
-               transition-all duration-300
-               shadow-sm hover:shadow-lg hover:scale-110"
-  >
-    <FaFacebookF className="w-4 h-4" />
-  </button>
-
-  {/* Twitter */}
-  <button
-    onClick={() => handleShare("twitter")}
-    aria-label="Share on Twitter"
-    className="group flex items-center justify-center w-10 h-10
-               rounded-full bg-[#1DA1F2]/10 text-[#1DA1F2]
-               hover:bg-[#1DA1F2] hover:text-white
-               transition-all duration-300
-               shadow-sm hover:shadow-lg hover:scale-110"
-  >
-    <FaTwitter className="w-4 h-4" />
-  </button>
-
-  {/* LinkedIn */}
-  <button
-    onClick={() => handleShare("linkedin")}
-    aria-label="Share on LinkedIn"
-    className="group flex items-center justify-center w-10 h-10
-               rounded-full bg-[#0A66C2]/10 text-[#0A66C2]
-               hover:bg-[#0A66C2] hover:text-white
-               transition-all duration-300
-               shadow-sm hover:shadow-lg hover:scale-110"
-  >
-    <FaLinkedinIn className="w-4 h-4" />
-  </button>
-
-  {/* WhatsApp */}
-  <button
-    onClick={() => handleShare("whatsapp")}
-    aria-label="Share on WhatsApp"
-    className="group flex items-center justify-center w-10 h-10
-               rounded-full bg-[#25D366]/10 text-[#25D366]
-               hover:bg-[#25D366] hover:text-white
-               transition-all duration-300
-               shadow-sm hover:shadow-lg hover:scale-110"
-  >
-    <FaWhatsapp className="w-4 h-4" />
-  </button>
-</div>
-
             </div>
-          </div>
 
-          {/* Reading Info & Actions */}
-          <div className="flex items-center justify-between bg-white rounded-xl p-6 shadow-md mb-16 border border-zinc-100 hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center gap-6 flex-wrap">
-              <div className="flex items-center gap-2 text-zinc-600">
-                <BsClock className="w-5 h-5 text-amber-600" />
-                <span className="text-sm font-medium">
-                  {data?.readTime || "5 min"} read
-                </span>
-              </div>
-              
-              <div className="h-6 w-px bg-zinc-300 hidden sm:block" />
-              
+            {/* Like + Bookmark */}
+            <div className="flex items-center justify-between bg-white rounded-2xl px-6 py-4 shadow-sm border border-zinc-100 mb-16">
               <button
                 onClick={handleLike}
-                className="flex items-center gap-2 text-zinc-600 hover:text-amber-600 transition-colors group"
+                className="flex items-center gap-2 text-zinc-500 hover:text-amber-600 transition-colors group"
                 aria-label="Like article"
               >
                 <BiLike className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span className="text-sm font-medium">{likes} Likes</span>
+                <span className="text-sm font-semibold">{likes} Likes</span>
+              </button>
+              <button
+                onClick={handleBookmark}
+                className={`flex items-center gap-2 px-5 py-2 rounded-full border-2 text-sm font-semibold transition-all duration-300 ${
+                  bookmarked
+                    ? "bg-amber-500 border-amber-500 text-white shadow-md"
+                    : "border-zinc-300 text-zinc-600 hover:border-zinc-800 hover:text-zinc-800"
+                }`}
+                aria-label={bookmarked ? "Remove bookmark" : "Bookmark article"}
+              >
+                <HiOutlineBookmark className="w-4 h-4" />
+                {bookmarked ? "Saved" : "Save"}
               </button>
             </div>
+          </div>
 
-            <button
-              onClick={handleBookmark}
-              className={`flex items-center gap-2 px-5 py-2.5 border-2 rounded-full transition-all duration-300 group ${
-                bookmarked
-                  ? "bg-amber-600 text-white border-amber-600 shadow-lg"
-                  : "border-zinc-800 hover:bg-zinc-800 text-zinc-600 hover:text-white"
-              }`}
-              aria-label={bookmarked ? "Remove bookmark" : "Bookmark article"}
-            >
-              <HiOutlineBookmark className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              <span className="text-sm font-semibold">{bookmarked ? "Saved" : "Save"}</span>
-            </button>
+          {/* ── Sidebar Column ──────────────────────────────────────────── */}
+          <div className="md:w-[33%] w-full md:sticky md:top-10 h-full space-y-5">
+            {toc.length > 0 && <TableOfContents toc={toc} />}
+            <BlogAside />
           </div>
         </div>
-
-        {/* Sidebar */}
-        <div className="md:w-[33%] w-full md:sticky md:top-10 h-full space-y-5">
-          <BlogAside />
-        </div>
       </div>
-
-    
-    </div>
+    </>
   )
 }
