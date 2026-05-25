@@ -59,7 +59,7 @@ function Country() {
             </div>
 
             {/* Button */}
-            <Link href={`/${cou.link}`} className="w-max">
+            <Link href={`${cou.link}`} className="w-max">
               <div className="flex gap-2 p-2 text-black hover:text-white border border-black/65 rounded-[29px] group/btn relative bg-white overflow-hidden items-center">
                 <p className="ml-5 mr-3 font-bold text-sm z-20">
                   Learn more

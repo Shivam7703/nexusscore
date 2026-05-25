@@ -5,7 +5,7 @@ import React from "react";
 import Image from "next/image";
 import { MdArrowCircleRight, MdOutlineChat } from "react-icons/md";
 import { FaChevronRight } from "react-icons/fa6";
-import {blogData as latestBlogs} from "@/data/homeData";
+import {blogData} from "@/data/homeData";
 import { FaDownload, FaLocationArrow, FaRegUserCircle } from "react-icons/fa";
 import { FiMail, FiPhone } from "react-icons/fi";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
@@ -55,8 +55,7 @@ const data = [
   ];
 
  function BlogAside() {
-//   const blogsData = await getBlogs();
-//   const latestBlogs = blogsData.slice(0, 3);
+
 
   const createSlug = (title: string): string =>
     title
@@ -169,7 +168,7 @@ const data = [
 
   {/* Blog List */}
   <div className="space-y-3">
-    {latestBlogs?.blog.slice(0, 3).map((blogs: any, index: number) => (
+    {blogData?.blog.slice(0, 3).map((blogs: any, index: number) => (
       <Link
         key={ index}
         href={`/blogs/${createSlug(blogs?.title || "")}`}
@@ -187,7 +186,7 @@ const data = [
             <div className="relative w-20 h-20  rounded-xl overflow-hidden flex-shrink-0">
               <Image
                 src={blogs?.img}
-                alt={blogs?.imgAlt || blogs?.title}
+                alt={blogs?.title}
                 width={80}
                 height={80}
                 className="w-full h-full object-cover

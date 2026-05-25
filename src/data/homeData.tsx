@@ -754,7 +754,7 @@ export const canadapnp = {
       ],
       text:
         "Supports skilled workers and international graduates aiming to live in Manitoba.",
-      link: "/canada-pnp",
+      link: "/visa/manitoba-pnp-draw",
     },
     {
       id: 6,
@@ -765,7 +765,7 @@ export const canadapnp = {
       ],
       text:
         "Nomination stream focused on attracting workers and graduates to Nova Scotia.",
-      link: "/visa/manitoba-pnp-draw",
+      link: "/visa/nova-scotia-pnp",
     },
   ],
 };
