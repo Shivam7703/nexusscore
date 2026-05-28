@@ -50,7 +50,7 @@ export default function HomeBanner() {
             <Image
               title="Best immigration consultants in Delhi"
               src={item.img} // Use the dynamic image passed in
-              className="h-full !w-full max-h-[700px] object-contain md:object-right"
+              className="h-full !w-full max-h-[700px] object-contain xl:object-cover md:object-right"
               alt="Immigration consultants in Delhi NCR"
             />
           </SwiperSlide>
