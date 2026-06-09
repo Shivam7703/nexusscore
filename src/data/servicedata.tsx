@@ -4,9 +4,9 @@ export const servicedata = [
     {
         img:ielts,
     title: "IELTS Coaching & Preparation",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "IELTS Coaching & Preparation Support for Higher Scores",
+    metakey: "ielts exam, ielts test cost, ielts speaking test",
+    metadesc: "Prepare for IELTS with expert guidance, test strategies, and practice support to improve your English skills and achieve your target score.",
     content: [
         {
             heading: "<h1>IELTS Coaching & Preparation Services</h1>",
@@ -15,17 +15,18 @@ export const servicedata = [
                     para: "The International English Language Testing System (IELTS) is more than just a language exam. For thousands of immigration and study aspirants each year, it is a decisive factor that influences visa approvals, permanent residency points, university admissions, and professional licensing."
                 },
                 {
-                    para: "Whether you are applying for Canada PR, Australian Skilled Migration, UK Skilled Worker Visa, or international higher education, IELTS is often a mandatory requirement. A well-planned IELTS strategy can significantly strengthen your immigration profile, while a poor score can delay or even derail your plans."
+                    para: "Whether you are <a href='https://www.nexuscoreoverseas.com/visa/canada-pr-visa'>applying for Canada PR</a>, Australian Skilled Migration, UK Skilled Worker Visa, or international higher education, IELTS is often a mandatory requirement. A well-planned IELTS strategy can significantly strengthen your immigration profile, while a poor score can delay or even derail your plans."
                 },
-                {
+                {  
                     para: "Understanding how IELTS works—and how to prepare strategically—is the first step toward achieving your global ambitions."
                 }
             ]
         },
         {
+            heading: "<h2>Understanding IELTS: Academic vs General</h2>",
             subcontent: [
                 {
-                    subheading: "Understanding IELTS: Academic vs General",
+                    
                     para: "IELTS is offered in two formats:",
                     table: {
                         theading: ["Format", "Who Should Take It", "Purpose"],
@@ -43,10 +44,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h3>How IELTS Impacts Immigration</h3>",
+
             subcontent: [
                 {
-                    subheading: "How IELTS Impacts Immigration",
                     para: "IELTS scores directly influence your eligibility and ranking in many immigration systems."
                 },
                 {
@@ -61,10 +62,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<p>IELTS Exam Structure in Detail</p>",
+
             subcontent: [
                 {
-                    subheading: "IELTS Exam Structure in Detail",
                     para: "IELTS evaluates four core English skills:"
                 },
                 {
@@ -140,10 +141,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h4>Why Professional IELTS Coaching Matters</h4>",
             subcontent: [
                 {
-                    subheading: "Why Professional IELTS Coaching Matters",
                     para: "Self-study works for some candidates. However, many aspirants struggle with:",
                     list: [
                         "Writing structure errors",
@@ -203,10 +203,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                          heading: "<h5>IELTS for Immigration Strategy</h5>",
             subcontent: [
                 {
-                    subheading: "IELTS for Immigration Strategy",
                     list: [
                         "Aim for at least CLB 9 (Canada equivalent)",
                         "Retake the exam if below the competitive range",
@@ -215,7 +214,7 @@ export const servicedata = [
                     ]
                 },
                 {
-                    para: "Language scores often determine whether you receive an Invitation to Apply (ITA) or remain in the pool."
+                    para: "Language scores often determine whether you receive an <a href='https://www.canadim.com/immigrate/express-entry/invitation-to-apply/'>Invitation to Apply (ITA)</a> or remain in the pool."
                 }
             ]
         },
@@ -248,14 +247,32 @@ export const servicedata = [
             ]
         }
     ],
-   
+   faq: [
+  {
+    que: "1. How early should I start preparing for IELTS?",
+    ans: "Most test takers benefit from starting preparation at least 6–8 weeks before their exam date. This provides enough time to improve language skills, understand the test format, and build confidence through regular practice."
+  },
+  {
+    que: "2. Can I take the IELTS more than once?",
+    ans: "Yes, there is no limit on the number of times you can take the IELTS test. Many candidates retake the exam to achieve a higher score that better meets their study, work, or immigration goals."
+  },
+  {
+    que: "3. Is the IELTS Speaking test conducted face-to-face?",
+    ans: "Yes, the Speaking section is usually conducted with a certified examiner. This format allows candidates to demonstrate their communication skills in a natural conversation and receive a fair assessment."
+  },
+  {
+    que: "4. How important is time management in IELTS?",
+    ans: "Time management is essential, especially in the Reading and Writing sections. Practicing under timed conditions helps candidates complete all tasks effectively and avoid losing marks due to unfinished answers."
+  }
+],
 },
 
-{img:pte,
+{
+    img:pte,
     title: "PTE Exam Coaching & Preparation",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "PTE Exam Preparation Services for Study and Migration",
+    metakey: "PTE Exam",
+    metadesc: "Get ready for the PTE exam with professional preparation support, practice resources, and guidance to help achieve your desired score.",
     content: [
         {
             heading: "<h1>PTE Exam Coaching & Preparation Services</h1>",
@@ -288,10 +305,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                   
+            heading: "<h2>Why PTE Is Important for Immigration</h2>",
             subcontent: [
                 {
-                    subheading: "Why PTE Is Important for Immigration",
                     para: "Many immigration programs now accept PTE Academic as proof of English proficiency."
                 },
                 {
@@ -310,10 +327,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {               heading: "<h3>PTE Exam Structure Explained</h3>",
+
             subcontent: [
                 {
-                    subheading: "PTE Exam Structure Explained",
                     para: "The PTE Academic exam is approximately 2 hours long and assesses four communicative skills:",
                     table: {
                         theading: ["Section", "Skills Covered", "Duration"],
@@ -325,7 +342,7 @@ export const servicedata = [
                     }
                 },
                 {
-                    para: "Unlike IELTS, PTE integrates multiple skills into single tasks. For example, reading aloud assesses both reading and speaking simultaneously."
+                    para: "Unlike <a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a>, PTE integrates multiple skills into single tasks. For example, reading aloud assesses both reading and speaking simultaneously."
                 }
             ]
         },
@@ -342,7 +359,7 @@ export const servicedata = [
                         "Repeat Sentence",
                         "Describe Image",
                         "Re-tell Lecture",
-                        "Essay Writing"
+                        "<a href='https://writingcenter.fas.harvard.edu/pages/strategies-essay-writing'>Essay Writing</a>"
                     ]
                 },
                 {
@@ -393,10 +410,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {              heading: "<h4>PTE Scoring System</h4>",
+
             subcontent: [
                 {
-                    subheading: "PTE Scoring System",
                     para: "PTE scores range from 10 to 90.",
                     table: {
                         theading: ["Score Range", "English Proficiency Level"],
@@ -486,10 +503,11 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {            
+                    heading: "<h3>PTE vs IELTS: Strategic Comparison</h3>",
+
             subcontent: [
                 {
-                    subheading: "PTE vs IELTS: Strategic Comparison",
                     table: {
                         theading: ["Factor", "PTE", "IELTS"],
                         rows: [
@@ -521,10 +539,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h5>How Coaching Improves Confidence</h5>",
+
             subcontent: [
                 {
-                    subheading: "How Coaching Improves Confidence",
                     para: "Many candidates struggle not because of weak English but because of unfamiliarity with exam mechanics."
                 },
                 {
@@ -577,14 +595,31 @@ export const servicedata = [
             ]
         }
     ],
-   
+   faq: [
+  {
+    que: "1. What makes PTE different from other English tests?",
+    ans: "PTE uses computer-based testing and AI-assisted scoring. This provides quick results and a standardized evaluation process, making it a popular choice for students and professionals applying abroad."
+  },
+  {
+    que: "2. How quickly are PTE results released?",
+    ans: "PTE results are typically available within a few days after the test. This fast turnaround helps candidates proceed with university applications, visa submissions, and other important processes without long waiting periods."
+  },
+  {
+    que: "3. Can speaking skills affect other PTE sections?",
+    ans: "Yes, some integrated tasks assess multiple skills simultaneously. Strong speaking and pronunciation can contribute positively to performance in sections where communication and language accuracy are evaluated together."
+  },
+  {
+    que: "4. Is PTE accepted by universities worldwide?",
+    ans: "Many universities, colleges, and government authorities recognize PTE scores. Acceptance requirements vary by institution, so candidates should always verify the minimum score requirements before applying."
+  }
+],
 },
 
 {img:PostLanding,
     title: "Post-Landing Assistance",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Post-Landing Assistance for a Smooth New Beginning",
+    metakey: "Post-Landing Assistance, Post-Landing Services",
+    metadesc: "Settle confidently in your new country with post-landing support covering accommodation guidance, local services, and essential assistance.",
     content: [
         {
             heading: "<h1>Post-Landing Assistance Services</h1>",
@@ -607,7 +642,7 @@ export const servicedata = [
                     subheading: "For example:",
                     list: [
                         "Canada requires a Social Insurance Number (SIN) to work legally.",
-                        "Australia requires a Tax File Number (TFN).",
+                        "Australia requires a <a href='https://www.ato.gov.au/individuals-and-families/tax-file-number'>Tax File Number (TFN)</a>.",
                         "The UK uses a National Insurance Number (NIN).",
                         "Healthcare enrollment processes vary significantly across countries."
                     ]
@@ -709,7 +744,7 @@ export const servicedata = [
                     subheading: "5. Healthcare System Guidance",
                     para: "Healthcare systems vary globally:",
                     list: [
-                        "Canada offers provincial healthcare plans.",
+                        "<a href='https://www.nexuscoreoverseas.com/visa/canada-pr-visa'>Canada</a> offers provincial healthcare plans.",
                         "Australia operates under Medicare.",
                         "The UK uses the NHS system."
                     ]
@@ -756,10 +791,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                 heading: "<h4>The Critical First 90 Days</h4>",
+
             subcontent: [
                 {
-                    subheading: "The Critical First 90 Days",
                     para: "Settlement experts often refer to the first 90 days as the \"Adjustment Window.\""
                 },
                 {
@@ -846,10 +881,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {              
+                  heading: "<h3>Why Professional Assistance Is Better Than Self-Research</h3>",
             subcontent: [
                 {
-                    subheading: "Why Professional Assistance Is Better Than Self-Research",
                     para: "While information is available online, it is often:",
                     list: [
                         "Outdated",
@@ -900,10 +935,11 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {         
+                heading: "<h4>Long-Term Settlement Planning</h4>",
+
             subcontent: [
                 {
-                    subheading: "Long-Term Settlement Planning",
                     para: "Good post-landing support does not stop at initial setup. It also considers:",
                     list: [
                         "Permanent residency renewal requirements",
@@ -954,14 +990,31 @@ export const servicedata = [
             ]
         }
     ],
-    
+    faq: [
+  {
+    que: "1. What support is available after arriving in a new country?",
+    ans: "Post-landing assistance may include guidance on accommodation, local transportation, banking procedures, and understanding essential services. This support helps newcomers adjust more comfortably to their new environment."
+  },
+  {
+    que: "2. Why is post-landing support important for newcomers?",
+    ans: "Moving to a new country involves many practical challenges. Post-landing assistance helps individuals navigate unfamiliar systems, reduces confusion, and allows them to focus on settling into their studies or careers."
+  },
+  {
+    que: "3. Can post-landing assistance help with local registrations?",
+    ans: "Yes, newcomers often receive guidance on completing required registrations and accessing important services. Understanding these processes early can make the transition smoother and more organized."
+  },
+  {
+    que: "4. Does post-landing support benefit international students?",
+    ans: "Absolutely. Students often need help understanding transportation, accommodation options, local services, and day-to-day living. Proper guidance helps them adapt faster and start their academic journey with confidence."
+  }
+],
 },
 
 { img:jobAssist,
     title: "Job Assistance",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Job Assistance Services to Support Career Success",
+    metakey: "job search assistance, job assistance",
+    metadesc: "Enhance your job search with resume support, interview preparation, and career guidance designed to improve employment opportunities.",
     content: [
         {
             heading: "<h1>Job Assistance Services</h1>",
@@ -977,10 +1030,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {     heading: "<h2>Why Job Assistance Is Critical for Migrants</h2>",
             subcontent: [
                 {
-                    subheading: "Why Job Assistance Is Critical for Migrants",
                     para: "Many professionals underestimate the complexity of international job markets. Despite having strong qualifications, they often face challenges such as:",
                     list: [
                         "Lack of local work experience",
@@ -988,7 +1040,7 @@ export const servicedata = [
                         "Unfamiliar interview expectations",
                         "Credential recognition barriers",
                         "Limited professional network",
-                        "Automated resume screening systems (ATS)"
+                        "<a href='https://resumeworded.com/resume-scanner'>Automated resume screening systems (ATS)</a>"
                     ]
                 },
                 {
@@ -1147,10 +1199,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h3>Credential Recognition & Professional Licensing</h3>",
+
             subcontent: [
                 {
-                    subheading: "Credential Recognition & Professional Licensing",
                     para: "Many skilled migrants must validate their qualifications before working."
                 },
                 {
@@ -1198,9 +1250,9 @@ export const servicedata = [
             ]
         },
         {
+            heading: "<h4>Networking Strategy—The Hidden Job Market</h4>",
             subcontent: [
                 {
-                    subheading: "Networking Strategy—The Hidden Job Market",
                     para: "Studies indicate that a significant percentage of jobs are never publicly advertised. These are filled through referrals and internal recommendations."
                 },
                 {
@@ -1260,10 +1312,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {     heading: "<h4>Common Mistakes Migrants Make in Job Searches</h4>",
             subcontent: [
                 {
-                    subheading: "Common Mistakes Migrants Make in Job Searches",
                     list: [
                         "Applying without resume customization",
                         "Ignoring licensing requirements",
@@ -1316,10 +1367,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {              heading: "<h5>Why Professional Job Assistance Matters</h5>",
             subcontent: [
                 {
-                    subheading: "Why Professional Job Assistance Matters",
                     para: "Many migrants assume that a strong educational background alone guarantees employment. In reality, international job markets prioritize:",
                     list: [
                         "Local adaptability",
@@ -1343,7 +1393,7 @@ export const servicedata = [
                     subheading: "End-to-End Career Support",
                     para: "Our Job Assistance service includes:",
                     list: [
-                        "Profile evaluation",
+                        "<a href='https://www.nexuscoreoverseas.com/services/profile-evaluation'>Profile evaluation</a>",
                         "Resume writing",
                         "LinkedIn branding",
                         "Job search strategy",
@@ -1357,10 +1407,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {            
+        heading: "<h6>The Long-Term Career Vision</h6>",
             subcontent: [
                 {
-                    subheading: "The Long-Term Career Vision",
                     para: "Employment is not just about securing the first job. It is about:",
                     list: [
                         "Career growth",
@@ -1389,14 +1439,32 @@ export const servicedata = [
             ]
         }
     ],
-
+    faq: [
+  {
+    que: "1. How can job assistance improve my employment prospects?",
+    ans: "Job assistance helps candidates understand market expectations, improve professional documents, and prepare for interviews. These services can increase confidence and improve the chances of securing suitable opportunities."
+  },
+  {
+    que: "2. Why is a professional resume important?",
+    ans: "A well-structured resume highlights skills, experience, and achievements clearly. It creates a strong first impression and helps employers quickly understand why a candidate may be suitable for a role."
+  },
+  {
+    que: "3. Can interview preparation make a difference?",
+    ans: "Yes, interview preparation helps candidates communicate more effectively, answer questions confidently, and present their strengths professionally. This can significantly improve performance during recruitment processes."
+  },
+  {
+    que: "4. What should job seekers research before applying?",
+    ans: "Understanding the company's culture, industry, and job requirements helps candidates tailor their applications and prepare relevant interview responses, demonstrating genuine interest and professionalism."
+  }
+],
 },
 
-{img:immigration,
-    title: "Immigration",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+{
+    img:immigration,
+    title: "Immigration Services",
+    metatitle: "Immigration Services for Global Mobility and Growth",
+    metakey: "legal immigration, immigration consultant, Immigration Services",
+    metadesc: "Explore immigration pathways with professional support, application guidance, and solutions tailored to your long-term goals.",
     content: [
         {
             heading: "<h1>Immigration Services</h1>",
@@ -1432,10 +1500,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                                heading: "<h2>Core Immigration Pathways We Handle</h2>",
             subcontent: [
                 {
-                    subheading: "Core Immigration Pathways We Handle",
                     para: "Our Immigration Services cover multiple global destinations and categories:"
                 },
                 {
@@ -1452,11 +1519,11 @@ export const servicedata = [
                     ]
                 },
                 {
-                    subheading: "2. Employer-Sponsored Work Visas",
+                    subheading: "2. Employer-Sponsored<a href='https://www.nexuscoreoverseas.com/visa/uk-work-permit'> Work Visas</a>",
                     para: "For candidates who secure job offers from overseas employers."
                 },
                 {
-                    subheading: "Key components:",
+                    para: "Key components:",
                     list: [
                         "Labor market testing",
                         "Employment contracts",
@@ -1504,10 +1571,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {          heading: "<h3>Our Immigration Process Framework</h3>",
             subcontent: [
                 {
-                    subheading: "Our Immigration Process Framework",
                     para: "A structured process reduces errors and increases approval probability."
                 },
                 {
@@ -1590,10 +1656,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h4>Risk Factors in Immigration Applications</h4>",
             subcontent: [
                 {
-                    subheading: "Risk Factors in Immigration Applications",
                     para: "Understanding risks is essential for prevention."
                 },
                 {
@@ -1642,10 +1707,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {        heading: "<h4>Proof of Funds—A Critical Component</h4>",
             subcontent: [
                 {
-                    subheading: "Proof of Funds—A Critical Component",
                     para: "Financial documentation must demonstrate:",
                     list: [
                         "Genuine accessibility",
@@ -1691,10 +1755,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {    heading: "<h5>Immigration Compliance & Ethical Responsibility</h5>",
             subcontent: [
                 {
-                    subheading: "Immigration Compliance & Ethical Responsibility",
                     para: "Accuracy and transparency are essential."
                 },
                 {
@@ -1777,17 +1840,16 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {          heading: "<h4>Why Professional Immigration Services Matter</h4>",
             subcontent: [
                 {
-                    subheading: "Why Professional Immigration Services Matter",
                     para: "Self-filing may seem simple, but often involves:",
                     list: [
                         "Complex legal language",
                         "Policy interpretation challenges",
                         "Frequent document updates",
                         "Unclear eligibility rules",
-                        "Risk of refusal due to technical errors"
+                        "Risk of <a href='https://visa.vfsglobal.com/chn/en/cze/after-your-visa-issued'>refusal </a>due to technical errors"
                     ]
                 },
                 {
@@ -1823,10 +1885,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                       heading: "<h6>Immigration as a Long-Term Investment</h6>",
             subcontent: [
                 {
-                    subheading: "Immigration as a Long-Term Investment",
                     para: "Migration impacts:",
                     list: [
                         "Career trajectory",
@@ -1859,14 +1920,32 @@ export const servicedata = [
             ]
         }
     ], 
+    faq: [
+  {
+    que: "1. Why is professional immigration guidance valuable?",
+    ans: "Immigration processes often involve multiple requirements and deadlines. Professional guidance helps applicants understand procedures, organize documentation correctly, and avoid common mistakes that could affect processing."
+  },
+  {
+    que: "2. What factors can influence immigration eligibility?",
+    ans: "Eligibility may depend on education, work experience, language proficiency, age, and other program-specific requirements. Each immigration pathway has its own criteria that applicants must meet."
+  },
+  {
+    que: "3. How important is accurate documentation in immigration applications?",
+    ans: "Accurate documentation is essential because incomplete or inconsistent information can lead to delays or additional requests. Proper preparation helps ensure a smoother and more efficient application process."
+  },
+  {
+    que: "4. Can immigration options change over time?",
+    ans: "Yes, immigration programs and requirements may be updated periodically. Staying informed about current policies and opportunities helps applicants make well-informed decisions about their future plans."
+  }
+],
 },
 
 {
     img: profile,
     title: "Profile Evaluation",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Profile Evaluation Services for Better Opportunities",
+    metakey: "Profile Evaluation",
+    metadesc: "Assess your education, experience, and goals through a profile evaluation to identify suitable study, work, or immigration options.",
     content: [
         {
             heading: "<h1>Profile Evaluation</h1>",
@@ -1915,7 +1994,7 @@ export const servicedata = [
                 },
                 {
                     subheading: "Language Proficiency",
-                    para: "IELTS or other language test scores directly impact your chances and ranking in immigration systems."
+                    para: "<a href='https://www.nexuscoreoverseas.com/services/ielts-coaching--preparation'>IELTS</a> or other language test scores directly impact your chances and ranking in immigration systems."
                 },
                 {
                     subheading: "Age",
@@ -1923,7 +2002,7 @@ export const servicedata = [
                 },
                 {
                     subheading: "Financial Capacity",
-                    para: "Proof of funds is essential for study visas and some immigration programs."
+                    para: "Proof of funds is essential for study visas and some <a href='https://www.canadavisa.com/canadian-immigration-visas.html'>immigration programs</a>."
                 },
                 {
                     subheading: "Career Goals",
@@ -1931,10 +2010,11 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                 
+        heading: "<h3>Importance of Profile Evaluation</h3>",
+
             subcontent: [
                 {
-                    subheading: "Importance of Profile Evaluation",
                     para: "Profile Evaluation is not just an initial step. It is the foundation of your entire journey."
                 },
                 {
@@ -1969,10 +2049,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h4>How Professional Profile Evaluation Helps</h4>",
             subcontent: [
                 {
-                    subheading: "How Professional Profile Evaluation Helps",
                     para: "A structured Profile Evaluation provides clarity and direction."
                 },
                 {
@@ -1997,10 +2076,11 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                  heading: "<h5>Profile Evaluation Approach</h5>",
+
+
             subcontent: [
                 {
-                    subheading: "Profile Evaluation Approach",
                     para: "To get the best outcome from Profile Evaluation:",
                     list: [
                         "Provide accurate and complete information",
@@ -2015,15 +2095,33 @@ export const servicedata = [
                 }
             ]
         }
-    ]
+    ],
+    faq: [
+ {
+    que: "1. What is the purpose of a profile evaluation?",
+    ans: "A profile evaluation reviews an individual's education, experience, and goals to identify suitable opportunities. It helps create a personalized strategy for study, work, or immigration pathways."
+  },
+  {
+    que: "2. How does profile evaluation help in planning?",
+    ans: "It provides a clearer understanding of strengths and areas for improvement. This information helps applicants make informed decisions and focus on options that align with their qualifications."
+  },
+  {
+    que: "3. Should students and professionals both get profile evaluations?",
+    ans: "Yes, profile evaluations can benefit both groups. Students gain guidance on education pathways, while professionals can identify opportunities that match their experience and long-term objectives."
+  },
+  {
+    que: "4. Can a profile evaluation reveal alternative options?",
+    ans: "Often, yes. A detailed assessment may identify pathways or opportunities that applicants had not previously considered, helping them explore a wider range of possibilities."
+  }
+],
 },
 
 {
     img: Career,
     title: "Career Counselling",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Career Counselling Services for Future Career Planning",
+    metakey: "Career Counselling, career guidance",
+    metadesc: "Receive expert career counselling to explore opportunities, identify strengths, and make informed decisions about your future.",
     content: [
         {
             heading: "<h1>Career Counselling</h1>",
@@ -2040,10 +2138,10 @@ export const servicedata = [
             ]
         },
         {               
-                 heading: "<h2>Understanding Career Counselling</h2>",
 
             subcontent: [
-                {
+                {                 subheading: "Understanding Career Counselling",
+
                     para: "Career counseling is a guided process where your profile is analyzed to identify the most suitable career path. It focuses on both your strengths and global opportunities."
                 },
                 {
@@ -2051,7 +2149,7 @@ export const servicedata = [
                     list: [
                         "Understanding your interests and abilities",
                         "Identifying suitable courses or job roles",
-                        "Matching your profile with market demand",
+                        "Matching your profile with<a href='https://applymarket.com/blog/canada-job-market/'> market demand</a>",
                         "Creating a clear career direction"
                     ]
                 },
@@ -2061,7 +2159,7 @@ export const servicedata = [
             ]
         },
         {
-                heading: "<h3>Key Areas Covered in Career Counselling</h3>",
+                heading: "<h2>Key Areas Covered in Career Counselling</h2>",
 
             subcontent: [
                 {
@@ -2085,10 +2183,10 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                   heading: "<h3>Importance of Career Counselling</h3>",
+
             subcontent: [
                 {
-                    subheading: "Importance of Career Counselling",
                     para: "Career counseling helps in making informed decisions rather than risky choices."
                 },
                 {
@@ -2121,10 +2219,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {             heading: "<h4>Career Counselling Approach</h4>",
             subcontent: [
                 {
-                    subheading: "Career Counselling Approach",
                     para: "To get the best results:",
                     list: [
                         "Be clear about your interests and goals",
@@ -2138,15 +2235,33 @@ export const servicedata = [
                 }
             ]
         }
-    ]
+    ],
+    faq: [
+  {
+    que: "1. Why is career counselling important before making major decisions?",
+    ans: "Career counselling helps individuals understand their strengths, interests, and goals. This guidance supports informed decisions about education, training, and career pathways that align with future aspirations."
+  },
+  {
+    que: "2. Can career counselling help with changing career paths?",
+    ans: "Yes, career counsellors can help identify transferable skills, explore new opportunities, and create a practical plan for transitioning into a different field with greater confidence."
+  },
+  {
+    que: "3. How does career counselling support students?",
+    ans: "It helps students explore academic options, understand industry trends, and select pathways that match their interests, abilities, and long-term career objectives."
+  },
+  {
+    que: "4. What topics are typically discussed during career counselling?",
+    ans: "Discussions may include education choices, career goals, industry opportunities, skill development, and strategies for achieving professional growth in a competitive job market."
+  }
+],
 },
 
 {
     img: visaDocument,
     title: "Visa Documentation",
-    metatitle: "",
-    metakey: "",
-    metadesc: "",
+    metatitle: "Visa Documentation Support for Accurate Applications",
+    metakey: "Visa Documentation",
+    metadesc: "Get assistance with visa documentation, document review, and application preparation to help ensure a smooth submission process.",
     content: [
         {
             heading: "<h1>Visa Documentation</h1>",
@@ -2162,10 +2277,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {                    heading: "<h2>Understanding Visa Documentation</h2>",
             subcontent: [
                 {
-                    subheading: "Understanding Visa Documentation",
                     para: "Visa Documentation refers to the complete set of documents required to support your visa application. These documents help authorities verify your identity, eligibility, financial stability, and purpose of travel."
                 },
                 {
@@ -2184,9 +2298,9 @@ export const servicedata = [
             ]
         },
         {
+            heading: "<h3>Key Documents Required</h3>",
             subcontent: [
                 {
-                    subheading: "Key Documents Required",
                     para: "Different visa types may require different documents, but some common ones include:"
                 },
                 {
@@ -2199,7 +2313,7 @@ export const servicedata = [
                 },
                 {
                     subheading: "Work Experience Documents",
-                    para: "Offer letters, experience letters, and salary slips help in work visa and PR applications."
+                    para: "Offer letters, experience letters, and salary slips help in work visa and <a href='https://www.nexuscoreoverseas.com/visa/australia-permanent-residency-visa'>PR applications.</a>"
                 },
                 {
                     subheading: "Financial Documents",
@@ -2259,7 +2373,7 @@ export const servicedata = [
                         "Providing incorrect or outdated information",
                         "Not following document format guidelines",
                         "Missing financial proof details",
-                        "Poorly written SOP or cover letter"
+                        "Poorly written <a href='https://www.idp.com/india/study-abroad/statement-of-purpose/'>SOP</a> or cover letter"
                     ]
                 },
                 {
@@ -2267,10 +2381,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {          heading: "<h4>Visa Documentation Approach</h4>",
             subcontent: [
                 {
-                    subheading: "Visa Documentation Approach",
                     para: "A structured approach makes the process easier and more effective.",
                     list: [
                         "Prepare a complete checklist before applying",
@@ -2305,10 +2418,9 @@ export const servicedata = [
                 }
             ]
         },
-        {
+        {          heading: "<h4>Visa Documentation Strategy</h4>",
             subcontent: [
                 {
-                    subheading: "Visa Documentation Strategy",
                     para: "To strengthen your application:",
                     list: [
                         "Keep documents clear, genuine, and consistent",
@@ -2323,6 +2435,24 @@ export const servicedata = [
                 }
             ]
         }
-    ]
+    ],
+    faq: [
+  {
+    que: "1. Why is document accuracy important for visa applications?",
+    ans: "Accurate documentation helps authorities verify information efficiently. Errors, inconsistencies, or missing details can lead to delays, additional requests, or complications during the application process."
+  },
+  {
+    que: "2. How can applicants stay organized during document preparation?",
+    ans: "Creating a checklist and gathering documents early helps applicants track requirements and reduce last-minute stress. Organized preparation contributes to a smoother submission process."
+  },
+  {
+    que: "3. Do visa document requirements vary by application type?",
+    ans: "Yes, requirements often differ based on the purpose of travel, destination, and visa category. Applicants should carefully review the specific documentation guidelines applicable to their case."
+  },
+  {
+    que: "4. What are common challenges during visa documentation?",
+    ans: "Applicants may face issues such as incomplete paperwork, outdated documents, or missing supporting evidence. Careful review and preparation can help minimize these challenges before submission."
+  }
+],
 }
 ]

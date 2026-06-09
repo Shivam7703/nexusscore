@@ -81,7 +81,7 @@ export const navigationMenu = {
         {
           id: 5,
           label: "Immigration Services",
-          href: "/services/Immigration",
+          href: "/services/Immigration Services",
         },
          {
           id: 6,
@@ -903,7 +903,7 @@ export const footer = {
         {
           id: 5,
           label: "Immigration Services",
-          href: "/services/immigration",
+          href: "/services/immigration-services",
         },
          {
           id: 6,

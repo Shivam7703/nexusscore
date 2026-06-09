@@ -122,6 +122,8 @@ export default function Visadetails({ data }: any) {
                   ))}
                 </div>
               ))}
+                            <h6 className="text-2xl sm:text-3xl font-semibold">FAQ's</h6>
+
                           <Faqs data={data.faq} />
             </div>
 

@@ -2,6 +2,7 @@
 import React from "react";
 import BlogAside from "../blog/side";
 import Image from "next/image";
+import Faqs from "../global/faqs";
 
 export default function Servicedetails({ data }: any) {
   return (
@@ -83,7 +84,7 @@ export default function Servicedetails({ data }: any) {
                   {/* Section heading */}
                   {section?.heading && (
                     <div className="relative pb-5">
-                      <h2
+                      <div
                         className="text-3xl sm:text-4xl lg:text-[2.6rem] leading-tight font-bold"
                         style={{ color: "#1a1714", fontFamily: "'Georgia', serif", letterSpacing: "-0.02em" }}
                         dangerouslySetInnerHTML={{ __html: section.heading }}
@@ -103,13 +104,13 @@ export default function Servicedetails({ data }: any) {
 
                       {/* Subheading */}
                       {item?.subheading && (
-                        <h3
+                        <p
                           className="text-xl sm:text-2xl font-semibold flex items-center gap-3"
                           style={{ color: "#2d2a24" }}
                         >
                           <span className="w-1.5 h-6 rounded-full shrink-0" style={{ background: "linear-gradient(to bottom, #c9a84c, #e8c96a)" }} />
                           <span dangerouslySetInnerHTML={{ __html: item.subheading }} />
-                        </h3>
+                        </p>
                       )}
 
                       {/* Paragraph */}
@@ -207,6 +208,9 @@ export default function Servicedetails({ data }: any) {
                   ))}
                 </section>
               ))}
+              <h6 className="text-2xl sm:text-3xl font-semibold">FAQ's</h6>
+                                        <Faqs data={data.faq} />
+              
             </article>
 
             {/* Footer ornament */}
